@@ -1,0 +1,30 @@
+  1.	 Tech 
+	2.	Cooking & Baking
+	3.	Sports
+	4.	Music
+	5.	Finance
+	6.	Photography 
+	7.	Fashion
+	8.	Blogging
+	9.	Video games
+	10.	Cars
+	11.	Travel
+	12.	Writing 
+	13.	Books & Reading
+	14.	Movies & TV shows
+	15.	Sleeping
+	16.	Food 
+	17.	Pets & Animals
+	18.	Nature
+	19.	Arts & crafts
+	20.	Anime
+	21.	Board games
+	22.	Health & Fitness 
+	23.	Politics 
+	24.	Entrepreneurship 
+	25.	Marketing
+	26.	Humour 
+	27.	Religion
+	28.	Lifestyle
+	29.	Dance
+	30.	Beauty & Skincare
