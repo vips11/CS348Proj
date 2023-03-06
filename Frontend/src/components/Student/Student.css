@@ -1,0 +1,21 @@
+.studentDetails {
+  display: flex;
+  background-color: #242528;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  width: 52em;
+  border-radius: 2px;
+  border-color: rgb(149, 147, 147);
+  border-style: solid;
+  transition: 1;
+}
+
+.student:hover {
+  transform: scale(1.05);
+  transition: transform 0.2s ease-in-out;
+}
+
+a {
+  color: rgb(24, 197, 232);
+}
