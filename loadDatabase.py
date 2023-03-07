@@ -13,7 +13,6 @@ dataFileMapping = {
     "interests.json": "INTERESTS",
     "job.json": "JOB",
     "section.json": "SECTION",
-    "social.json": "SOCIAL",
     "takes.json": "TAKES",
     "works.json": "WORKS"
 }
@@ -34,16 +33,6 @@ def createTables():
         )
     """)
 
-    # Social Table
-    tableQueries.append("""
-        CREATE TABLE IF NOT EXISTS SOCIAL (
-            id INTEGER,
-            platform varchar(255),
-            link varchar(255),
-            PRIMARY KEY (id, platform, link),
-            FOREIGN KEY (id) REFERENCES STUDENT(ID)
-        )
-    """)
 
     # Interests table
     tableQueries.append("""
@@ -297,22 +286,6 @@ def loadSectionData():
         print("Error while adding data to section table: ", e)
 
 
-def loadSocialData():
-    try:
-        with open("Social.json", "r") as f:
-            tableData = json.loads(f.read())
-
-        for data in tableData:
-            query = f"""
-                    INSERT INTO SOCIAL VALUES 
-                    ({data["id"]}, "{data["platform"]}", "{data["link"]}")
-                """
-            con.execute(query)
-
-        print("Added data to social table")
-    except Exception as e:
-        print("Error while adding data to social table: ", e)
-
 
 def loadTakesData():
     try:
@@ -322,7 +295,7 @@ def loadTakesData():
         for data in tableData:
             query = f"""
                     INSERT INTO TAKES VALUES 
-                    ({data["ID"]}, {data["student_ID"]}, {data["course_ID"]}, {data["section_ID"]}, "{data["semester"]}", {data["year"]}, "{data["term"]}")
+                    ({data["ID"]}, {data["course_ID"]}, {data["section_ID"]}, "{data["semester"]}", {data["year"]}, "{data["term"]}")
                 """
             con.execute(query)
 
@@ -356,7 +329,6 @@ def loadData():
     loadCompanyData()
     loadCourseData()
     loadInterestsData()
-    loadSocialData()
     loadFacilityData()
     loadJobData()
     loadWorksData()
