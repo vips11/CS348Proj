@@ -11,6 +11,7 @@ Users will be able to make profiles and include details such as their program, a
 </ol>
 
 ## How to load the sample database
+Note: `my-test.db` has all the creating table queries. <br>
 <ol>
  <li>Make sure you have all the sample data json files.</li>
  <li>Run the loadDatabase.py file.</li>
