@@ -5,6 +5,11 @@ This is a web driven application exclusively for UWaterloo students to connect w
 Users will be able to make profiles and include details such as their program, academic term, courses (per term), co-op journey info, and social media links such as LinkedIn, email, discord, personal website.
  
 ## How to create the sample database
+<ol>
+ <li>Make sure you have all the sample data json files.</li>
+ <li>Run the loadDatabase.py file.</li>
+ <li>A sql database should be created in your project root folder containing all the tables and the sample database.</li>
+</ol>
 
 ## How to load the sample database
 
