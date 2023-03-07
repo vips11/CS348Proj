@@ -56,7 +56,7 @@ def createTables():
     # Course Table
     tableQueries.append("""
         CREATE TABLE IF NOT EXISTS COURSE (
-            course_id INTEGER PRIMARY KEY,
+            course_id varchar(6) PRIMARY KEY,
             course_name varchar(255),
             course_description varchar(255)
         )
@@ -66,14 +66,12 @@ def createTables():
     # Takes Table
     tableQueries.append("""
         CREATE TABLE IF NOT EXISTS SECTION (
-            course_id INTEGER,
+            course_id varchar(10),
             section_id INTEGER,
             semester varchar(255),
             year varchar(255),
-            time_slot_id varchar(255),
             PRIMARY KEY (course_id, section_id, semester, year),
-            FOREIGN KEY (course_id) REFERENCES COURSE(course_id),
-            FOREIGN KEY (time_slot_id) REFERENCES TIME_SLOT(time_slot_id)
+            FOREIGN KEY (course_id) REFERENCES COURSE(course_id)
         )
     """)
 
@@ -81,7 +79,7 @@ def createTables():
     tableQueries.append("""
         CREATE TABLE IF NOT EXISTS TAKES (
             student_id INTEGER,
-            course_id INTEGER,
+            course_id varchar(10),
             section_id INTEGER,
             semester varchar(255),
             year INTEGER,
@@ -123,7 +121,7 @@ def createTables():
             is_full_time varchar(255),
             facility_id INTEGER,
             company_id INTEGER,
-            PRIMARY KEY (job_id),
+            PRIMARY KEY (job_id, company_id),
             FOREIGN KEY (company_id) REFERENCES COMPANY(company_id),
             FOREIGN KEY (facility_id) REFERENCES FACILITY(facility_id)
         )
@@ -137,6 +135,8 @@ def createTables():
             end_date date,
             student_id INTEGER,
             job_id INTEGER,
+            company_id INTEGER,
+            facility_id INTEGER,
             PRIMARY KEY (student_id, job_id),
             FOREIGN KEY (student_id) REFERENCES STUDENT(id),
             FOREIGN KEY (job_id) REFERENCES JOB(job_id)
@@ -190,7 +190,7 @@ def loadCourseData():
         for data in tableData:
             query = f"""
                     INSERT INTO COURSE VALUES 
-                    ({data["course_ID"]}, "{data["course_name"]}", "{data["course_description"]}")
+                    ("{data["course_ID"]}", "{data["course_name"]}", "{data["course_description"]}")
                 """
             con.execute(query)
 
@@ -277,7 +277,7 @@ def loadSectionData():
         for data in tableData:
             query = f"""
                     INSERT INTO SECTION VALUES 
-                    ({data["course_ID"]}, {data["section_ID"]}, "{data["semester"]}", "{data["year"]}")
+                    ("{data["course_ID"]}", {data["section_ID"]}, "{data["semester"]}", "{data["year"]}")
                 """
             con.execute(query)
 
@@ -295,7 +295,7 @@ def loadTakesData():
         for data in tableData:
             query = f"""
                     INSERT INTO TAKES VALUES 
-                    ({data["ID"]}, {data["course_ID"]}, {data["section_ID"]}, "{data["semester"]}", {data["year"]}, "{data["term"]}")
+                    ({data["ID"]}, "{data["course_ID"]}", {data["section_ID"]}, "{data["semester"]}", {data["year"]}, "{data["term"]}")
                 """
             con.execute(query)
 

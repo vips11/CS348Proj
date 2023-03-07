@@ -1,131 +1,158 @@
 [
  {
-  "Student.ID": 96667175,
-  "Interest.ID": 101
+  "student_id": 96667175,
+  "interest_id": 101
  },
  {
-  "Interest.ID": 111
+  "student_id": 96667175,
+  "interest_id": 111
  },
  {
-  "Interest.ID": 126
+  "student_id": 96667175,
+  "interest_id": 126
  },
  {
-  "Student.ID": 73564630,
-  "Interest.ID": 125
+  "student_id": 73564630,
+  "interest_id": 125
  },
  {
-  "Interest.ID": 124
+  "student_id": 73564630,
+  "interest_id": 124
  },
  {
-  "Interest.ID": 123
+  "student_id": 73564630,
+  "interest_id": 123
  },
  {
-  "Interest.ID": 122
+  "student_id": 73564630,
+  "interest_id": 122
  },
  {
-  "Student.ID": 51458338,
-  "Interest.ID": 111
+  "student_id": 51458338,
+  "interest_id": 111
  },
  {
-  "Student.ID": 45453885,
-  "Interest.ID": 112
+  "student_id": 45453885,
+  "interest_id": 112
  },
  {
-  "Interest.ID": 113
+  "student_id": 45453885,
+  "interest_id": 113
  },
  {
-  "Interest.ID": 114
+  "student_id": 45453885,
+  "interest_id": 114
  },
  {
-  "Interest.ID": 115
+  "student_id": 45453885,
+  "interest_id": 115
  },
  {
-  "Student.ID": 79689206,
-  "Interest.ID": 116
+  "student_id": 79689206,
+  "interest_id": 116
  },
  {
-  "Interest.ID": 117
+  "student_id": 79689206,
+  "interest_id": 117
  },
  {
-  "Interest.ID": 118
+  "student_id": 79689206,
+  "interest_id": 118
  },
  {
-  "Student.ID": 67496942,
-  "Interest.ID": 119
+  "student_id": 67496942,
+  "interest_id": 119
  },
  {
-  "Interest.ID": 128
+  "student_id": 67496942,
+  "interest_id": 128
  },
  {
-  "Interest.ID": 129
+  "student_id": 67496942,
+  "interest_id": 129
  },
  {
-  "Interest.ID": 130
+  "student_id": 67496942,
+  "interest_id": 130
  },
  {
-  "Student.ID": 40128931,
-  "Interest.ID": 131
+  "student_id": 40128931,
+  "interest_id": 131
  },
  {
-  "Interest.ID": 132
+  "student_id": 40128931,
+  "interest_id": 132
  },
  {
-  "Interest.ID": 133
+  "student_id": 40128931,
+  "interest_id": 133
  },
  {
-  "Student.ID": 19767510,
-  "Interest.ID": 134
+  "student_id": 19767510,
+  "interest_id": 134
  },
  {
-  "Interest.ID": 135
+  "student_id": 19767510,
+  "interest_id": 135
  },
  {
-  "Student.ID": 83950021,
-  "Interest.ID": 113
+  "student_id": 83950021,
+  "interest_id": 113
  },
  {
-  "Interest.ID": 131
+  "student_id": 83950021,
+  "interest_id": 131
  },
  {
-  "Interest.ID": 132
+  "student_id": 83950021,
+  "interest_id": 132
  },
  {
-  "Interest.ID": 133
+  "student_id": 83950021,
+  "interest_id": 133
  },
  {
-  "Interest.ID": 101
+  "student_id": 83950021,
+  "interest_id": 101
  },
  {
-  "Interest.ID": 128
+  "student_id": 83950021,
+  "interest_id": 128
  },
  {
-  "Student.ID": 91260560,
-  "Interest.ID": 112
+  "student_id": 91260560,
+  "interest_id": 112
  },
  {
-  "Interest.ID": 119
+  "student_id": 91260560,
+  "interest_id": 119
  },
  {
-  "Interest.ID": 114
+  "student_id": 91260560,
+  "interest_id": 114
  },
  {
-  "Student.ID": 60653931,
-  "Interest.ID": 135
+  "student_id": 60653931,
+  "interest_id": 135
  },
  {
-  "Interest.ID": 129
+  "student_id": 60653931,
+  "interest_id": 129
  },
  {
-  "Interest.ID": 101
+  "student_id": 60653931,
+  "interest_id": 101
  },
  {
-  "Interest.ID": 116
+  "student_id": 60653931,
+  "interest_id": 116
  },
  {
-  "Interest.ID": 112
+  "student_id": 60653931,
+  "interest_id": 112
  },
  {
-  "Student.ID": 22779613,
-  "Interest.ID": 111
+  "student_id": 22779613,
+  "interest_id": 111
  }
 ]
