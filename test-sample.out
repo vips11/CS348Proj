@@ -1,0 +1,68 @@
+/* Sample output for query 1 */
+  {
+  "ID": 51458338,
+  "uw_email": "jeawilli@uwaterloo.ca",
+  "first_name": "Jessica",
+  "last_name": "Williams",
+  "current_program": "Biology",
+  "current_term": "1A",
+  "description": "Todo"
+ },
+ {
+  "ID": 91260560,
+  "uw_email": "dadwilli@uwaterloo.ca",
+  "first_name": "David",
+  "last_name": "Williams",
+  "current_program": "Biology",
+  "current_term": "2A",
+  "description": "Todo"
+ },
+
+ /* Sample output for query 2 */
+  {
+  "ID": 45453885,
+  "uw_email": "mawjones@uwaterloo.ca",
+  "first_name": "Matthew",
+  "last_name": "Jones",
+  "current_program": "Chemistry",
+  "current_term": "2A",
+  "description": "Todo"
+ },
+  {
+  "ID": 91260560,
+  "uw_email": "dadwilli@uwaterloo.ca",
+  "first_name": "David",
+  "last_name": "Williams",
+  "current_program": "Biology",
+  "current_term": "2A",
+  "description": "Todo"
+ },
+
+/* Sample output for query 2 */
+
+
+/* Sample output for query 3 */
+
+/* Sample output for query 4 */
+
+/* Sample output for query 5 */
+
+/* Sample output for query 6 */
+ {
+  "ID": 51458338,
+  "uw_email": "jeawilli@uwaterloo.ca",
+  "first_name": "Jessica",
+  "last_name": "Williams",
+  "current_program": "Biology",
+  "current_term": "1A",
+  "description": "Todo"
+ },
+  {
+  "ID": 45453885,
+  "uw_email": "mawjones@uwaterloo.ca",
+  "first_name": "Matthew",
+  "last_name": "Jones",
+  "current_program": "Chemistry",
+  "current_term": "2A",
+  "description": "Todo"
+ },
