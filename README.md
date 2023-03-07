@@ -66,44 +66,5 @@ Database Support Technologies: MySQL
 
 
 ## ER diagram
-<img width="600" height="700" alt="Screenshot 2023-02-25 at 6 27 28 PM" src="https://user-images.githubusercontent.com/66628544/223244623-422c6ab2-3320-49d3-b656-4a78c0bf9d3d.png">
 
-
-## Relational Model
-
-Student(ID, first_name, last_name, uw_email, program, description)
-
-
-Social(ID, platform, link)
-FK: Social.ID references Student.ID
-
-Interested(student_ID, interest_ID) <br>
-FK: Interested.student_ID references Student 
-       Interested.interest_ID references Interests 
-
-Interests(ID, name)
-
-Course(course_ID, course_name, course_description)
-
-Takes(student_ID, course_ID, section_ID, semester, year, term) <br>
-FK: Takes.student_ID references Student<br>
-       &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Takes.{course_ID, section_ID, semester, year} references Section
-
-Section(course_ID, section_ID, semester, year, time_slot_ID)<br>
-FK: Section.course_ID references Course<br>
-       &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Section.time_slot_ID references Time_slot
-
-Time_slot(time_slot_ID, day_of_week, start_time, end_time)
-
-Works(term, start_date, end_date, student_ID, job_ID)<br>
-FK: Works.student_ID references Student<br>
-     &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Works.job_IDreferences Position
-
-Job(job_ID, position_name, is_full_time, facility_ID, company_ID)<br>
-FK: Job.facility_ID references Facility
-
-Facility(facility_ID, company_ID, street, city, country, building_name)<br>
-FK: Facility.company_ID references Company
-
-Company(company_ID, name)
-
+![ER diagram](https://user-images.githubusercontent.com/66628544/223319617-085f6498-9bb6-4be0-a8eb-3a5f380fe6e7.png)
