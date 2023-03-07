@@ -1,0 +1,191 @@
+[
+ {
+  "company_ID": 1,
+  "facility_ID": 1,
+  "job_ID": 1,
+  "position_name": "Data Scientist",
+  "is_full_time?": true
+ },
+ {
+  "company_ID": 1,
+  "facility_ID": 2,
+  "job_ID": 2,
+  "position_name": "Machine Learning Intern",
+  "is_full_time?": true
+ },
+ {
+  "company_ID": 1,
+  "facility_ID": 3,
+  "job_ID": 3,
+  "position_name": "Marketing Intern",
+  "is_full_time?": true
+ },
+ {
+  "company_ID": 1,
+  "facility_ID": 4,
+  "job_ID": 4,
+  "position_name": "Software Developer",
+  "is_full_time?": true
+ },
+ {
+  "company_ID": 1,
+  "facility_ID": 1,
+  "job_ID": 5,
+  "position_name": "Data Analyst",
+  "is_full_time?": true
+ },
+ {
+  "company_ID": 2,
+  "facility_ID": 1,
+  "job_ID": 1,
+  "position_name": "Machine Learning Intern",
+  "is_full_time?": true
+ },
+ {
+  "company_ID": 2,
+  "facility_ID": 2,
+  "job_ID": 2,
+  "position_name": "Software Developer",
+  "is_full_time?": true
+ },
+ {
+  "company_ID": 3,
+  "facility_ID": 1,
+  "job_ID": 1,
+  "position_name": "Data Scientist",
+  "is_full_time?": true
+ },
+ {
+  "company_ID": 3,
+  "facility_ID": 2,
+  "job_ID": 2,
+  "position_name": "Software Developer",
+  "is_full_time?": true
+ },
+ {
+  "company_ID": 3,
+  "facility_ID": 3,
+  "job_ID": 3,
+  "position_name": "Data Analyst",
+  "is_full_time?": true
+ },
+ {
+  "company_ID": 4,
+  "facility_ID": 1,
+  "job_ID": 1,
+  "position_name": "Wire Engineering",
+  "is_full_time?": true
+ },
+ {
+  "company_ID": 4,
+  "facility_ID": 2,
+  "job_ID": 2,
+  "position_name": "Software Developer",
+  "is_full_time?": true
+ },
+ {
+  "company_ID": 4,
+  "facility_ID": 1,
+  "job_ID": 3,
+  "position_name": "Sustainability Management Intern",
+  "is_full_time?": true
+ },
+ {
+  "company_ID": 4,
+  "facility_ID": 2,
+  "job_ID": 4,
+  "position_name": "Intern Smart Factory",
+  "is_full_time?": true
+ },
+ {
+  "company_ID": 4,
+  "facility_ID": 1,
+  "job_ID": 5,
+  "position_name": "Hardware Technology Co-op",
+  "is_full_time?": true
+ },
+ {
+  "company_ID": 5,
+  "facility_ID": 1,
+  "job_ID": 1,
+  "position_name": "Machine Learning Intern",
+  "is_full_time?": true
+ },
+ {
+  "company_ID": 6,
+  "facility_ID": 1,
+  "job_ID": 1,
+  "position_name": "Marketing Intern",
+  "is_full_time?": true
+ },
+ {
+  "company_ID": 6,
+  "facility_ID": 4,
+  "job_ID": 2,
+  "position_name": "Pharmacy Assistant",
+  "is_full_time?": true
+ },
+ {
+  "company_ID": 7,
+  "facility_ID": 1,
+  "job_ID": 1,
+  "position_name": "Wire Engineering",
+  "is_full_time?": true
+ },
+ {
+  "company_ID": 7,
+  "facility_ID": 2,
+  "job_ID": 2,
+  "position_name": "Sustainability Management Intern",
+  "is_full_time?": true
+ },
+ {
+  "company_ID": 7,
+  "facility_ID": 2,
+  "job_ID": 3,
+  "position_name": "Intern Smart Factory",
+  "is_full_time?": true
+ },
+ {
+  "company_ID": 8,
+  "facility_ID": 1,
+  "job_ID": 1,
+  "position_name": "Marketing Intern",
+  "is_full_time?": true
+ },
+ {
+  "company_ID": 9,
+  "facility_ID": 3,
+  "job_ID": 1,
+  "position_name": "Data Scientist",
+  "is_full_time?": true
+ },
+ {
+  "company_ID": 9,
+  "facility_ID": 3,
+  "job_ID": 2,
+  "position_name": "Data Analyst",
+  "is_full_time?": true
+ },
+ {
+  "company_ID": 10,
+  "facility_ID": 2,
+  "job_ID": 1,
+  "position_name": "Machine Learning Intern",
+  "is_full_time?": true
+ },
+ {
+  "company_ID": 10,
+  "facility_ID": 1,
+  "job_ID": 2,
+  "position_name": "Software Developer",
+  "is_full_time?": true
+ },
+ {
+  "company_ID": 10,
+  "facility_ID": 2,
+  "job_ID": 3,
+  "position_name": "Sustainability Management Intern",
+  "is_full_time?": true
+ }
+]
