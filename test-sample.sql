@@ -50,6 +50,19 @@ and Takes.year < 2023
 /* Sample query filtering for program 'Bank of America' */
 
 
+/* 
+Updating the name
+*/
 
+/* Query 7 */
+/* Update the first name */
+Update Student
+Set first_name = “Jen”
+Where ID = 67496942
 
+/* Query 8 */
+/* Update the last name */
+Update Student 
+Set last_name = “Smith”
+Where ID = 51458338
 
