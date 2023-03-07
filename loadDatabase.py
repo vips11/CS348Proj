@@ -13,10 +13,8 @@ dataFileMapping = {
     "interests.json": "INTERESTS",
     "job.json": "JOB",
     "section.json": "SECTION",
-    "social.json": "SOCIAL",
     "takes.json": "TAKES",
-    "time_slot.json": "TIME_SLOT",
-    "works.json": "WORKS",
+    "works.json": "WORKS"
 }
 
 
@@ -35,16 +33,6 @@ def createTables():
         )
     """)
 
-    # Social Table
-    tableQueries.append("""
-        CREATE TABLE IF NOT EXISTS SOCIAL (
-            id INTEGER,
-            platform varchar(255),
-            link varchar(255),
-            PRIMARY KEY (id, platform, link),
-            FOREIGN KEY (id) REFERENCES STUDENT(ID)
-        )
-    """)
 
     # Interests table
     tableQueries.append("""
@@ -74,16 +62,6 @@ def createTables():
         )
     """)
 
-    # Time slot
-    tableQueries.append("""
-        CREATE TABLE IF NOT EXISTS TIME_SLOT (
-            time_slot_id INTEGER,
-            day_of_week varchar(255),
-            start_time time,
-            end_time time,
-            PRIMARY KEY (time_slot_id)
-        )
-    """)
 
     # Takes Table
     tableQueries.append("""
@@ -171,7 +149,7 @@ def createTables():
 
 def loadStudentData():
     try:
-        with open("student.json", "r") as f:
+        with open("Student.json", "r") as f:
             tableData = json.loads(f.read())
 
         for data in tableData:
@@ -188,13 +166,13 @@ def loadStudentData():
 
 def loadCompanyData():
     try:
-        with open("company.json", "r") as f:
+        with open("data/JSON Format/entities/Company.json", "r") as f:
             tableData = json.loads(f.read())
 
         for data in tableData:
             query = f"""
                     INSERT INTO COMPANY VALUES 
-                    ({data["company_id"]}, "{data["name"]}")
+                    ({data["Company_ID"]}, "{data["Name"]}")
                 """
             con.execute(query)
 
@@ -206,13 +184,13 @@ def loadCompanyData():
 
 def loadCourseData():
     try:
-        with open("course.json", "r") as f:
+        with open("data/JSON Format/entities/Course.json", "r") as f:
             tableData = json.loads(f.read())
 
         for data in tableData:
             query = f"""
                     INSERT INTO COURSE VALUES 
-                    ({data["course_id"]}, "{data["course_name"]}", "{data["course_description"]}")
+                    ({data["course_ID"]}, "{data["course_name"]}", "{data["course_description"]}")
                 """
             con.execute(query)
 
@@ -224,13 +202,13 @@ def loadCourseData():
 
 def loadFacilityData():
     try:
-        with open("facility.json", "r") as f:
+        with open("data/JSON Format/entities/Facility.json", "r") as f:
             tableData = json.loads(f.read())
 
         for data in tableData:
             query = f"""
                     INSERT INTO FACILITY VALUES 
-                    ({data["facility_id"]}, {data["company_id"]}, "{data["street"]}", "{data["city"]}", "{data["country"]}", "{data["building_name"]}")
+                    ({data["Facility_ID"]}, {data["Company_ID"]}, "{data["street"]}", "{data["city"]}", "{data["unit_number"]}", "{data["building_name"]}")
                 """
             con.execute(query)
 
@@ -241,7 +219,7 @@ def loadFacilityData():
 
 def loadInterestedData():
     try:
-        with open("interested.json", "r") as f:
+        with open("data/JSON Format/relations/Interested.json", "r") as f:
             tableData = json.loads(f.read())
 
         for data in tableData:
@@ -256,15 +234,16 @@ def loadInterestedData():
         print("Error while adding data to interested table: ", e)
 
 
+
 def loadInterestsData():
     try:
-        with open("interests.json", "r") as f:
+        with open("data/JSON Format/entities/Interests.json", "r") as f:
             tableData = json.loads(f.read())
 
         for data in tableData:
             query = f"""
                     INSERT INTO INTERESTS VALUES 
-                    ({data["id"]}, "{data["name"]}")
+                    ({data["ID"]}, "{data["tag"]}")
                 """
             con.execute(query)
 
@@ -275,13 +254,13 @@ def loadInterestsData():
 
 def loadJobData():
     try:
-        with open("job.json", "r") as f:
+        with open("data/JSON Format/entities/Job.json", "r") as f:
             tableData = json.loads(f.read())
 
         for data in tableData:
             query = f"""
                     INSERT INTO JOB VALUES 
-                    ({data["job_id"]}, "{data["position_name"]}", "{data["is_full_time"]}", {data["facility_id"]}, {data["company_id"]})
+                    ({data["job_ID"]}, "{data["position_name"]}", "{data["is_full_time?"]}", {data["facility_ID"]}, {data["company_ID"]})
                 """
             con.execute(query)
 
@@ -292,13 +271,13 @@ def loadJobData():
 
 def loadSectionData():
     try:
-        with open("facility.json", "r") as f:
+        with open("data/JSON Format/entities/Section.json", "r") as f:
             tableData = json.loads(f.read())
 
         for data in tableData:
             query = f"""
                     INSERT INTO SECTION VALUES 
-                    ({data["course_id"]}, {data["section_id"]}, "{data["semester"]}", "{data["year"]}", {data["time_slot_id"]})
+                    ({data["course_ID"]}, {data["section_ID"]}, "{data["semester"]}", "{data["year"]}")
                 """
             con.execute(query)
 
@@ -307,32 +286,16 @@ def loadSectionData():
         print("Error while adding data to section table: ", e)
 
 
-def loadSocialData():
-    try:
-        with open("social.json", "r") as f:
-            tableData = json.loads(f.read())
-
-        for data in tableData:
-            query = f"""
-                    INSERT INTO SOCIAL VALUES 
-                    ({data["id"]}, "{data["platform"]}", "{data["link"]}")
-                """
-            con.execute(query)
-
-        print("Added data to social table")
-    except Exception as e:
-        print("Error while adding data to social table: ", e)
-
 
 def loadTakesData():
     try:
-        with open("takes.json", "r") as f:
+        with open("data/JSON Format/relations/Takes.json", "r") as f:
             tableData = json.loads(f.read())
 
         for data in tableData:
             query = f"""
                     INSERT INTO TAKES VALUES 
-                    ({data["student_id"]}, {data["course_id"]}, {data["section_id"]}, "{data["semester"]}", {data["year"]}, "{data["term"]}")
+                    ({data["ID"]}, {data["course_ID"]}, {data["section_ID"]}, "{data["semester"]}", {data["year"]}, "{data["term"]}")
                 """
             con.execute(query)
 
@@ -341,32 +304,18 @@ def loadTakesData():
         print("Error while adding data to takes table: ", e)
 
 
-def loadTime_slotData():
-    try:
-        with open("time_slot.json", "r") as f:
-            tableData = json.loads(f.read())
-
-        for data in tableData:
-            query = f"""
-                    INSERT INTO TIME_SLOT VALUES 
-                    ({data["time_slot_id"]}, "{data["day_of_week"]}", "{data["start_time"]}", "{data["end_time"]}")
-                """
-            con.execute(query)
-
-        print("Added data to time_slot table")
-    except Exception as e:
-        print("Error while adding data to time_slot table: ", e)
 
 
 def loadWorksData():
     try:
-        with open("works.json", "r") as f:
+        with open("data/JSON Format/relations/Works.json", "r") as f:
             tableData = json.loads(f.read())
 
         for data in tableData:
             query = f"""
                     INSERT INTO WORKS VALUES 
-                    ("{data["term"]}", "{data["start_date"]}", "{data["end_date"]}", {data["student_id"]}, {data["job_id"]})
+                    ("{data["term"]}", "{data["start_date"]}", "{data["end_date"]}", {data["student_ID"]},
+                    {data["job_ID"]}, {data["company_ID"]}, {data["facility_ID"]})
                 """
             con.execute(query)
 
@@ -380,12 +329,10 @@ def loadData():
     loadCompanyData()
     loadCourseData()
     loadInterestsData()
-    loadSocialData()
     loadFacilityData()
     loadJobData()
     loadWorksData()
     loadInterestedData()
-    loadTime_slotData()
     loadSectionData()
     loadTakesData()
 
