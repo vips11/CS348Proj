@@ -1,0 +1,31 @@
+[
+  {
+    "type": "study",
+    "term": "1A",
+    "courses": ["Course 1", "Course 2", "Course 3"],
+    "startDate": "Sept 2020",
+    "endDate": "Dec 2020"
+  },
+  {
+    "type": "study",
+    "term": "1B",
+    "courses": ["Course 4", "Course 5", "Cource 6"],
+    "startDate": "Jan 2021",
+    "endDate": "Apr 2021"
+  },
+  {
+    "type": "work",
+    "term": "Coop 1",
+    "positionTitle": "Software Developer",
+    "employerName": "ABC Inc.",
+    "startDate": "May 2021",
+    "endDate": "Aug 2021"
+  },
+  {
+    "type": "study",
+    "term": "2A",
+    "courses": ["Course 7", "Course 8", "Cource 9"],
+    "startDate": "Sep 2021",
+    "endDate": "Dec 2021"
+  }
+]
