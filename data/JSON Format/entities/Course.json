@@ -1,0 +1,147 @@
+[
+ {
+  "course_ID": "CS 135",
+  "course_name": "Designing Functional Programs",
+  "course_description": "Todo"
+ },
+ {
+  "course_ID": "CS 136",
+  "course_name": "Elementary Algorithm Design and Data Abstraction",
+  "course_description": "Todo"
+ },
+ {
+  "course_ID": "CS 241",
+  "course_name": "Foundations of Sequential Programming",
+  "course_description": "Todo"
+ },
+ {
+  "course_ID": "CS 246",
+  "course_name": "Object Oriented Software Development",
+  "course_description": "Todo"
+ },
+ {
+  "course_ID": "CS 251",
+  "course_name": "Computer Organization and Design",
+  "course_description": "Todo"
+ },
+ {
+  "course_ID": "CS 341",
+  "course_name": "Algorithms",
+  "course_description": "Todo"
+ },
+ {
+  "course_ID": "CS 346",
+  "course_name": "Application Development",
+  "course_description": "Todo"
+ },
+ {
+  "course_ID": "CS 348",
+  "course_name": "Introduction to Database Management",
+  "course_description": "Todo"
+ },
+ {
+  "course_ID": "CS 350",
+  "course_name": "Operating Systems",
+  "course_description": "Todo"
+ },
+ {
+  "course_ID": "CS 444",
+  "course_name": "Compiler Construction",
+  "course_description": "Todo"
+ },
+ {
+  "course_ID": "CS 489",
+  "course_name": "Advanced Topics in Computer Science",
+  "course_description": "Todo"
+ },
+ {
+  "course_ID": "MATH 135",
+  "course_name": "Algebra for Honours Mathematics",
+  "course_description": "Todo"
+ },
+ {
+  "course_ID": "MATH 137",
+  "course_name": "Calculus 1 for Honours Mathematics",
+  "course_description": "Todo"
+ },
+ {
+  "course_ID": "MATH 138",
+  "course_name": "Calculus 2 for Honours Mathematics",
+  "course_description": "Todo"
+ },
+ {
+  "course_ID": "MATH 239",
+  "course_name": "Introduction to Combinatorics",
+  "course_description": "Todo"
+ },
+ {
+  "course_ID": "MATH 235",
+  "course_name": "Linear Algebra 2 for Honours Mathematics",
+  "course_description": "Todo"
+ },
+ {
+  "course_ID": "STAT 230",
+  "course_name": "Probability",
+  "course_description": "Todo"
+ },
+ {
+  "course_ID": "STAT 231",
+  "course_name": "Statistics",
+  "course_description": "Todo"
+ },
+ {
+  "course_ID": "STAT 330",
+  "course_name": "Mathematical Statistics",
+  "course_description": "Todo"
+ },
+ {
+  "course_ID": "ECE 208",
+  "course_name": "Discrete Mathematics and Logic 2",
+  "course_description": "Todo"
+ },
+ {
+  "course_ID": "ECON 101",
+  "course_name": "Introduction to Microeconomics",
+  "course_description": "Todo"
+ },
+ {
+  "course_ID": "ECON 201",
+  "course_name": "Microeconomic Theory for Business and Policy",
+  "course_description": "Todo"
+ },
+ {
+  "course_ID": "ECON 211",
+  "course_name": "Introduction to Mathematical Economics",
+  "course_description": "Todo"
+ },
+ {
+  "course_ID": "PHYS 121",
+  "course_name": "Mechanics",
+  "course_description": "Todo"
+ },
+ {
+  "course_ID": "PHYS 122",
+  "course_name": "Waves, Electricity and Magnetism",
+  "course_description": "Todo"
+ },
+ {
+  "course_ID": "AFM 101",
+  "course_name": "Introduction to Financial Accounting",
+  "course_description": "Todo"
+ },
+ {
+  "course_ID": "AFM 202",
+  "course_name": "Introduction to Public Practice",
+  "course_description": "Todo"
+ },
+ {
+  "course_ID": "AFM 341",
+  "course_name": "Accounting Information Systems",
+  "course_description": "Todo"
+ },
+ {
+  "course_ID": "AFM 481",
+  "course_name": "Cost Management Systems",
+  "course_description": "Todo"
+ }
+]

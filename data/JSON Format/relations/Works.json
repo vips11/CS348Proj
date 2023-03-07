@@ -1,0 +1,20 @@
+[
+ {
+  "student_ID": 19767510,
+  "company_ID": 1,
+  "facility_ID": 1,
+  "job_ID": 1,
+  "term": "2B",
+  "start_date": "01\/01\/1990",
+  "end_date": "01\/01\/1991"
+ },
+ {
+  "student_ID": 83950021,
+  "company_ID": 4,
+  "facility_ID": 2,
+  "job_ID": 2,
+  "term": "3A",
+  "start_date": "01\/01\/1992",
+  "end_date": "01\/01\/1993"
+ }
+]
