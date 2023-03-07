@@ -92,4 +92,221 @@
 /* Sample output for query 6 */
 
 /* Sample output for query 7 */
+ {
+  "ID": 96667175,
+  "uw_email": "milsmith@uwaterloo.ca",
+  "first_name": "Michael",
+  "last_name": "Smith",
+  "current_program": "Math",
+  "current_term": "1A",
+  "description": "Todo"
+ },
+ {
+  "ID": 73564630,
+  "uw_email": "chrjohns@uwaterloo.ca",
+  "first_name": "Christopher",
+  "last_name": "Johnson",
+  "current_program": "Math",
+  "current_term": "1A",
+  "description": "Todo"
+ },
+ {
+  "ID": 51458338,
+  "uw_email": "jeawilli@uwaterloo.ca",
+  "first_name": "Jessica",
+  "last_name": "Williams",
+  "current_program": "Biology",
+  "current_term": "1A",
+  "description": "Todo"
+ },
+ {
+  "ID": 45453885,
+  "uw_email": "mawjones@uwaterloo.ca",
+  "first_name": "Matthew",
+  "last_name": "Jones",
+  "current_program": "Chemistry",
+  "current_term": "2A",
+  "description": "Todo"
+ },
+ {
+  "ID": 79689206,
+  "uw_email": "asybrown@uwaterloo.ca",
+  "first_name": "Ashley",
+  "last_name": "Brown",
+  "current_program": "Art",
+  "current_term": "2B",
+  "description": "Todo"
+ },
+ {
+  "ID": 67496942,
+  "uw_email": "jerdavis@uwaterloo.ca",
+  "first_name": "Jen",
+  "last_name": "Davis",
+  "current_program": "Math",
+  "current_term": "3A",
+  "description": "Todo"
+ },
+ {
+  "ID": 40128931,
+  "uw_email": "jasmille@uwaterloo.ca",
+  "first_name": "James",
+  "last_name": "Miller",
+  "current_program": "Physics",
+  "current_term": "3B",
+  "description": "Todo"
+ },
+ {
+  "ID": 19767510,
+  "uw_email": "amawilso@uwaterloo.ca",
+  "first_name": "Amanda",
+  "last_name": "Wilson",
+  "current_program": "Engineering",
+  "current_term": "4A",
+  "description": "Todo"
+ },
+ {
+  "ID": 83950021,
+  "uw_email": "dalrobin@uwaterloo.ca",
+  "first_name": "Daniel",
+  "last_name": "Robinson",
+  "current_program": "Engineering",
+  "current_term": "4B",
+  "description": "Todo"
+ },
+ {
+  "ID": 91260560,
+  "uw_email": "dadwilli@uwaterloo.ca",
+  "first_name": "David",
+  "last_name": "Williams",
+  "current_program": "Biology",
+  "current_term": "2A",
+  "description": "Todo"
+ },
+ {
+  "ID": 60653931,
+  "uw_email": "maysmith@uwaterloo.ca",
+  "first_name": "Mary",
+  "last_name": "Smith",
+  "current_program": "Physics",
+  "current_term": "1A",
+  "description": "Todo"
+ },
+ {
+  "ID": 22779613,
+  "uw_email": "alxsmith@uwaterloo.ca",
+  "first_name": "Alex",
+  "last_name": "Smith",
+  "current_program": "Physics",
+  "current_term": "1B",
+  "description": "Todo"
+ }
 
+/* Sample output for query 8 */
+ {
+  "ID": 96667175,
+  "uw_email": "milsmith@uwaterloo.ca",
+  "first_name": "Michael",
+  "last_name": "Smith",
+  "current_program": "Math",
+  "current_term": "1A",
+  "description": "Todo"
+ },
+ {
+  "ID": 73564630,
+  "uw_email": "chrjohns@uwaterloo.ca",
+  "first_name": "Christopher",
+  "last_name": "Johnson",
+  "current_program": "Math",
+  "current_term": "1A",
+  "description": "Todo"
+ },
+ {
+  "ID": 51458338,
+  "uw_email": "jeawilli@uwaterloo.ca",
+  "first_name": "Jessica",
+  "last_name": "Smith",
+  "current_program": "Biology",
+  "current_term": "1A",
+  "description": "Todo"
+ },
+ {
+  "ID": 45453885,
+  "uw_email": "mawjones@uwaterloo.ca",
+  "first_name": "Matthew",
+  "last_name": "Jones",
+  "current_program": "Chemistry",
+  "current_term": "2A",
+  "description": "Todo"
+ },
+ {
+  "ID": 79689206,
+  "uw_email": "asybrown@uwaterloo.ca",
+  "first_name": "Ashley",
+  "last_name": "Brown",
+  "current_program": "Art",
+  "current_term": "2B",
+  "description": "Todo"
+ },
+ {
+  "ID": 67496942,
+  "uw_email": "jerdavis@uwaterloo.ca",
+  "first_name": "Jen",
+  "last_name": "Davis",
+  "current_program": "Math",
+  "current_term": "3A",
+  "description": "Todo"
+ },
+ {
+  "ID": 40128931,
+  "uw_email": "jasmille@uwaterloo.ca",
+  "first_name": "James",
+  "last_name": "Miller",
+  "current_program": "Physics",
+  "current_term": "3B",
+  "description": "Todo"
+ },
+ {
+  "ID": 19767510,
+  "uw_email": "amawilso@uwaterloo.ca",
+  "first_name": "Amanda",
+  "last_name": "Wilson",
+  "current_program": "Engineering",
+  "current_term": "4A",
+  "description": "Todo"
+ },
+ {
+  "ID": 83950021,
+  "uw_email": "dalrobin@uwaterloo.ca",
+  "first_name": "Daniel",
+  "last_name": "Robinson",
+  "current_program": "Engineering",
+  "current_term": "4B",
+  "description": "Todo"
+ },
+ {
+  "ID": 91260560,
+  "uw_email": "dadwilli@uwaterloo.ca",
+  "first_name": "David",
+  "last_name": "Williams",
+  "current_program": "Biology",
+  "current_term": "2A",
+  "description": "Todo"
+ },
+ {
+  "ID": 60653931,
+  "uw_email": "maysmith@uwaterloo.ca",
+  "first_name": "Mary",
+  "last_name": "Smith",
+  "current_program": "Physics",
+  "current_term": "1A",
+  "description": "Todo"
+ },
+ {
+  "ID": 22779613,
+  "uw_email": "alxsmith@uwaterloo.ca",
+  "first_name": "Alex",
+  "last_name": "Smith",
+  "current_program": "Physics",
+  "current_term": "1B",
+  "description": "Todo"
+ }
