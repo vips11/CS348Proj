@@ -106,3 +106,31 @@ class FindAMentor(Resource):
             print("Error", e)
 
         return make_response(jsonify(response), 200)
+
+class FindAFriend(Resource):
+
+    def get(self):
+
+        response = {
+            "students": []
+        }
+
+        try:
+            con = sl.connect('applicationDb.db')
+            query = f"select distinct first_name, last_name, uw_email from Student s join Interested i1 ON s.id = i1.student_id join Interested i2 ON i1.interest_id = i2.interest_id AND i2.student_id = id WHERE s.id <> id group by s.id having count(DISTINCT i1.interest_id) >= 1"
+
+            print(query)
+
+            cursor = con.cursor()
+            cursor.execute(query)
+            rows = cursor.fetchall()
+
+            response = {
+                "students": rows
+            }
+
+        except Exception as e:
+            print("Error", e)
+
+        return make_response(jsonify(response), 200)
+
