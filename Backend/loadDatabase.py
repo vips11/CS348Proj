@@ -2,7 +2,9 @@ import sqlite3 as sl
 import json
 
 
-con = sl.connect('my-test.db')
+con = sl.connect('applicationDb.db')
+
+BASE_PATH = "../data/JSON Format"
 
 dataFileMapping = {
     "student.json": "STUDENT",
@@ -149,7 +151,7 @@ def createTables():
 
 def loadStudentData():
     try:
-        with open("Student.json", "r") as f:
+        with open(f"{BASE_PATH}/entities/Student.json", "r") as f:
             tableData = json.loads(f.read())
 
         for data in tableData:
@@ -157,7 +159,9 @@ def loadStudentData():
                     INSERT INTO STUDENT VALUES 
                     ({data["id"]}, "{data["first_name"]}", "{data["last_name"]}", "{data["uw_email"]}", "{data["program"]}", "{data["description"]}")
                 """
-            con.execute(query)
+            cursor = con.cursor()
+            cursor.execute(query)
+            # con.execute(query)
 
         print("Added data to student table")
     except Exception as e:
@@ -166,7 +170,7 @@ def loadStudentData():
 
 def loadCompanyData():
     try:
-        with open("data/JSON Format/entities/Company.json", "r") as f:
+        with open(f"{BASE_PATH}/entities/Company.json", "r") as f:
             tableData = json.loads(f.read())
 
         for data in tableData:
@@ -184,7 +188,7 @@ def loadCompanyData():
 
 def loadCourseData():
     try:
-        with open("data/JSON Format/entities/Course.json", "r") as f:
+        with open(f"{BASE_PATH}/entities/Course.json", "r") as f:
             tableData = json.loads(f.read())
 
         for data in tableData:
@@ -202,7 +206,7 @@ def loadCourseData():
 
 def loadFacilityData():
     try:
-        with open("data/JSON Format/entities/Facility.json", "r") as f:
+        with open(f"{BASE_PATH}/entities/Facility.json", "r") as f:
             tableData = json.loads(f.read())
 
         for data in tableData:
@@ -219,7 +223,7 @@ def loadFacilityData():
 
 def loadInterestedData():
     try:
-        with open("data/JSON Format/relations/Interested.json", "r") as f:
+        with open(f"{BASE_PATH}/relations/Interested.json", "r") as f:
             tableData = json.loads(f.read())
 
         for data in tableData:
@@ -237,7 +241,7 @@ def loadInterestedData():
 
 def loadInterestsData():
     try:
-        with open("data/JSON Format/entities/Interests.json", "r") as f:
+        with open(f"{BASE_PATH}/entities/Interests.json", "r") as f:
             tableData = json.loads(f.read())
 
         for data in tableData:
@@ -254,7 +258,7 @@ def loadInterestsData():
 
 def loadJobData():
     try:
-        with open("data/JSON Format/entities/Job.json", "r") as f:
+        with open(f"{BASE_PATH}/entities/Job.json", "r") as f:
             tableData = json.loads(f.read())
 
         for data in tableData:
@@ -271,7 +275,7 @@ def loadJobData():
 
 def loadSectionData():
     try:
-        with open("data/JSON Format/entities/Section.json", "r") as f:
+        with open(f"{BASE_PATH}/entities/Section.json", "r") as f:
             tableData = json.loads(f.read())
 
         for data in tableData:
@@ -289,7 +293,7 @@ def loadSectionData():
 
 def loadTakesData():
     try:
-        with open("data/JSON Format/relations/Takes.json", "r") as f:
+        with open(f"{BASE_PATH}/relations/Takes.json", "r") as f:
             tableData = json.loads(f.read())
 
         for data in tableData:
@@ -308,7 +312,7 @@ def loadTakesData():
 
 def loadWorksData():
     try:
-        with open("data/JSON Format/relations/Works.json", "r") as f:
+        with open(f"{BASE_PATH}/relations/Works.json", "r") as f:
             tableData = json.loads(f.read())
 
         for data in tableData:
@@ -339,4 +343,5 @@ def loadData():
 
 createTables()
 loadData()
+con.commit()
 
