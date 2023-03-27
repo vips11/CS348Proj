@@ -4,27 +4,21 @@ import { StyleSheet, Text, TouchableOpacity, View } from "react-native";
 const SpaceItem = ({ spaceName }) => {
   return (
     <View style={styles.container}>
-      <Text style={styles.titleContainer}>
-        <Text style={styles.nameText}>{spaceName}</Text>
-      </Text>
+      <Text style={styles.nameText}>{spaceName}</Text>
     </View>
   );
 };
 
 const styles = StyleSheet.create({
   container: {
-    alignSelf: "center",
-    flexDirection: "row",
-    backgroundColor: "#262c2c",
-    borderRadius: 10,
-    width: "60%",
-    justifyContent: "center",
-    marginVertical: 10,
-  },
-  titleContainer: {
     width: "100%",
+
     paddingVertical: 20,
-    // backgroundColor: "red",
+    borderRadius: 10,
+    alignItems: "center",
+    justifyContent: "center",
+
+    backgroundColor: "#262c2c",
   },
   nameText: {
     color: "white",

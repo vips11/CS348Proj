@@ -5,6 +5,28 @@ import { useRouter } from "expo-router";
 import Header from "../components/Header";
 import Post from "../components/Post";
 
+const data = {
+  name: "Musical Friday",
+  description: "Every friday, we gather together and do some karoke",
+  posts: [
+    {
+      title: "Post Title 1",
+      description: "This is a post description 1.",
+    },
+    {
+      title: "Post Title 2",
+      description: "This is a post description 2.",
+    },
+    {
+      title: "Post Title 3",
+      description: "This is a post description 3.",
+    },
+    {
+      title: "Post Title 4",
+      description: "This is a post description 4.",
+    },
+  ],
+};
 const ViewSpace = () => {
   const spaces = [
     {
@@ -193,9 +215,9 @@ const ViewSpace = () => {
       </View>
       <View style={styles.body}>
         <View style={styles.contentBody}>
-          <Text style={styles.title}>{spaces[0].name}</Text>
-          <Text style={styles.subtitle}>{spaces[0].description}</Text>
-          {spaces[0].posts.map((post, idx) => (
+          <Text style={styles.title}>{data.name}</Text>
+          <Text style={styles.subtitle}>{data.description}</Text>
+          {data.posts.map((post, idx) => (
             <Post key={idx} title={post.title} description={post.description} />
           ))}
         </View>
