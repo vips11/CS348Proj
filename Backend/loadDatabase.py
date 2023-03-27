@@ -35,7 +35,7 @@ def createTables():
             last_name varchar(255),
             term varchar(2),
             semester varchar(7),
-            year_in INTEGER,
+            year INTEGER,
             uw_email varchar(255) UNIQUE,
             program varchar(255),
             description varchar(255)
@@ -211,7 +211,7 @@ def loadStudentData():
             query = f"""
                     INSERT OR IGNORE INTO STUDENT VALUES 
                     ({data["id"]}, "{data["first_name"]}", "{data["last_name"]}", "{data["uw_email"]}", "{data["program"]}",
-                     "{data["description"]}", "{data["current_term"]}",  "{data["semester"]}",  {data["year_in"]})
+                     "{data["description"]}", "{data["current_term"]}",  "{data["semester"]}",  {data["year"]})
                 """
             cursor = con.cursor()
             cursor.execute(query)
