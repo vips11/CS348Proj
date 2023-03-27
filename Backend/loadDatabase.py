@@ -16,7 +16,11 @@ dataFileMapping = {
     "job.json": "JOB",
     "section.json": "SECTION",
     "takes.json": "TAKES",
-    "works.json": "WORKS"
+    "works.json": "WORKS",
+    "rates.json": "RATES",
+    "spaces.json": "SPACES",
+    "isMember.json": "ISMEMBER",
+    "authorisation.json": "AUTHORISATION"
 }
 
 
@@ -29,6 +33,9 @@ def createTables():
             id INTEGER PRIMARY KEY,
             first_name varchar(255),
             last_name varchar(255),
+            term varchar(2),
+            semester varchar(7),
+            year INTEGER,
             uw_email varchar(255) UNIQUE,
             program varchar(255),
             description varchar(255)
@@ -145,6 +152,52 @@ def createTables():
         )
     """)
 
+    # Rates
+    tableQueries.append("""
+        CREATE TABLE IF NOT EXISTS RATES (
+            student_id INTEGER,
+            course_id varchar(6),
+            liked_rating INTEGER,
+            useful_rating INTEGER,
+            PRIMARY KEY(liked_rating, useful_rating, course_id),
+            FOREIGN KEY (student_id) REFERENCES STUDENT(id),
+            FOREIGN KEY (course_id) REFERENCES COURSE(course_id)
+        )
+    """)
+
+    # Space
+    tableQueries.append("""
+        CREATE TABLE IF NOT EXISTS SPACES (
+            space_id INTEGER,
+            name varchar(255),
+            description varvhar(255),
+            PRIMARY KEY(space_id)
+        )
+    """)
+
+    # IsMember
+    tableQueries.append("""
+        CREATE TABLE IF NOT EXISTS ISMEMBER (
+            space_id INTEGER,
+            student_id INTEGER,
+            PRIMARY KEY (space_id, student_id),
+            FOREIGN KEY (student_id) REFERENCES STUDENT(id),
+            FOREIGN KEY (space_id) REFERENCES SPACE(space_id)
+        )
+    """)
+
+    #Authorisation
+    tableQueries.append("""
+        CREATE TABLE IF NOT EXISTS AUTHORISATION (
+            student_id INTEGER,
+            uw_email varchar(255) UNIQUE,
+            password varchar(255),
+            PRIMARY KEY (uw_email, password),
+            FOREIGN KEY (student_id) REFERENCES STUDENT(id),
+            FOREIGN KEY (uw_email) REFERENCES STUDENT(uw_email)
+        )
+    """)
+
     for tableQuery in tableQueries:
         con.execute(tableQuery)
 
@@ -157,7 +210,8 @@ def loadStudentData():
         for data in tableData:
             query = f"""
                     INSERT INTO STUDENT VALUES 
-                    ({data["id"]}, "{data["first_name"]}", "{data["last_name"]}", "{data["uw_email"]}", "{data["program"]}", "{data["description"]}")
+                    ({data["id"]}, "{data["first_name"]}", "{data["last_name"]}", "{data["uw_email"]}", "{data["program"]}",
+                     "{data["description"]}", "{data["current_term"]}",  "{data["semester"]}",  {data["year"]})
                 """
             cursor = con.cursor()
             cursor.execute(query)
@@ -307,9 +361,6 @@ def loadTakesData():
     except Exception as e:
         print("Error while adding data to takes table: ", e)
 
-
-
-
 def loadWorksData():
     try:
         with open(f"{BASE_PATH}/relations/Works.json", "r") as f:
@@ -327,6 +378,72 @@ def loadWorksData():
     except Exception as e:
         print("Error while adding data to works table: ", e)
 
+def loadRatesData():
+    try:
+        with open(f"{BASE_PATH}/relations/Rates.json", "r") as f:
+            tableData = json.loads(f.read())
+
+        for data in tableData:
+            query = f"""
+                    INSERT INTO RATES VALUES 
+                    ({data["liked_rating"]}, {data["useful_rating"]}, "{data["course_ID"]}", {data["student_ID"]})
+                """
+            con.execute(query)
+
+        print("Added data to rates table")
+    except Exception as e:
+        print("Error while adding data to rates table: ", e)
+
+#Spaces
+def loadSpacesData():
+    try:
+        with open(f"{BASE_PATH}/entities/Spaces.json", "r") as f:
+            tableData = json.loads(f.read())
+
+        for data in tableData:
+            query = f"""
+                    INSERT INTO SPACES VALUES 
+                    ({data["space_ID"]}, "{data["name"]}", "{data["description"]}")
+                """
+            con.execute(query)
+
+        print("Added data to spaces table")
+    except Exception as e:
+        print("Error while adding data to spaces table: ", e)
+
+#IsMember
+def loadIsMemberData():
+    try:
+        with open(f"{BASE_PATH}/relations/IsMember.json", "r") as f:
+            tableData = json.loads(f.read())
+
+        for data in tableData:
+            query = f"""
+                    INSERT INTO ISMEMBER VALUES 
+                    ({data["space_ID"]}, {data["student_ID"]})
+                """
+            con.execute(query)
+
+        print("Added data to isMember table")
+    except Exception as e:
+        print("Error while adding data to isMember table: ", e)
+
+def loadAuthorisationData():
+    try:
+        with open(f"{BASE_PATH}/entities/Authorisation.json", "r") as f:
+            tableData = json.loads(f.read())
+
+        for data in tableData:
+            query = f"""
+                    INSERT INTO AUTHORISATION VALUES 
+                    ({data["student_ID"]}, "{data["uw_email"]}", "{data["password"]}")
+                """
+            con.execute(query)
+
+        print("Added data to Authorisation table")
+    except Exception as e:
+        print("Error while adding data to Authorisation table: ", e)
+
 
 def loadData():
     loadStudentData()
@@ -339,6 +456,10 @@ def loadData():
     loadInterestedData()
     loadSectionData()
     loadTakesData()
+    loadSpacesData()
+    loadRatesData()
+    loadIsMemberData()
+    loadAuthorisationData()
 
 
 createTables()
