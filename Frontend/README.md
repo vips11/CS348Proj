@@ -1,43 +1,15 @@
-Frontend
+# Expo Router Example
 
-Directory:
+Use [`expo-router`](https://expo.github.io/router) to build native navigation using files in the `app/` directory.
 
-Frontend/
-├── node_modules/
-├── public/
-│ └── index.html
-├── src/
-│ ├── components/
-│ │ ├── SearchBar/
-│ │ │ ├── SearchBar.css
-│ │ │ └── SearchBar.jsx
-│ │ ├── Student/
-│ │ │ ├── Student.css
-│ │ │ └── Student.jsx
-│ │ ├── TimeLine/
-│ │ │ ├── TimeLine.css
-│ │ │ └── TimeLine.jsx
-│ │ └── index.js
-│ ├── data/
-│ │ ├── profileData.json
-│ │ └── timeLineData.json
-│ ├── pages/
-│ │ ├── Home/
-│ │ │ ├── Home.css
-│ │ │ └── Home.jsx
-│ │ ├── Layout/
-│ │ │ ├── Layout.css
-│ │ │ └── Layout.jsx
-│ │ ├── NoPage/
-│ │ │ └── NoPage.jsx
-│ │ ├── People/
-│ │ │ ├── People.css
-│ │ │ └── People.jsx
-│ │ ├── Profile/
-│ │ │ ├── Profile.css
-│ │ │ └── Profile.jsx
-│ ├── utils/
-│ └── index.js
-├── .gitignore
-├── package.json
-└── README.md
+## 🚀 How to use
+
+```sh
+npx create-react-native-app -t with-router
+```
+
+## 📝 Notes
+
+- [Expo Router: Docs](https://expo.github.io/router)
+- [Expo Router: Repo](https://github.com/expo/router)
+- [Request for Comments](https://github.com/expo/router/discussions/1)
