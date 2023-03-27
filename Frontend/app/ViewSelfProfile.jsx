@@ -113,19 +113,20 @@ const ViewSelfProfile = () => {
             <TimeLine data={data.timeLine} />
 
             <View style={styles.linksContainer}>
-              {data.links.map((linkInfo) => (
-                <TouchableOpacity
-                  onPress={() => {
-                    Linking.openURL(linkInfo.link);
-                  }}
-                >
-                  <Text style={styles.link}>{linkInfo.title}</Text>
-                </TouchableOpacity>
-              ))}
-              {/* <Text style={styles.link}>LinkedIn</Text>
+              {data.links.map((linkInfo) => {
+                console.log(linkInfo);
+                return (
+                  <TouchableOpacity
+                    onPress={() => Linking.openURL(linkInfo.link)}
+                  >
+                    <Text style={styles.link}>{linkInfo.title}</Text>
+                  </TouchableOpacity>
+                );
+              })}
+              <Text style={styles.link}>LinkedIn</Text>
               <Text style={styles.link}>GitHub</Text>
               <Text style={styles.link}>Discord</Text>
-              <Text style={styles.link}>Email</Text> */}
+              <Text style={styles.link}>Email</Text>
             </View>
           </ScrollView>
         </View>
