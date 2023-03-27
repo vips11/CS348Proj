@@ -1,0 +1,854 @@
+[
+ {
+  "space_ID": 1,
+  "student_ID": 39827615
+ },
+ {
+  "space_ID": 1,
+  "student_ID": 43334990
+ },
+ {
+  "space_ID": 1,
+  "student_ID": 28349567
+ },
+ {
+  "space_ID": 1,
+  "student_ID": 91827364
+ },
+ {
+  "space_ID": 1,
+  "student_ID": 72819365
+ },
+ {
+  "space_ID": 1,
+  "student_ID": 37482931
+ },
+ {
+  "space_ID": 1,
+  "student_ID": 93746281
+ },
+ {
+  "space_ID": 1,
+  "student_ID": 64927183
+ },
+ {
+  "space_ID": 1,
+  "student_ID": 18472039
+ },
+ {
+  "space_ID": 2,
+  "student_ID": 85719236
+ },
+ {
+  "space_ID": 2,
+  "student_ID": 49283617
+ },
+ {
+  "space_ID": 2,
+  "student_ID": 28374610
+ },
+ {
+  "space_ID": 2,
+  "student_ID": 10293847
+ },
+ {
+  "space_ID": 2,
+  "student_ID": 37492816
+ },
+ {
+  "space_ID": 3,
+  "student_ID": 85927361
+ },
+ {
+  "space_ID": 3,
+  "student_ID": 16273849
+ },
+ {
+  "space_ID": 3,
+  "student_ID": 39485671
+ },
+ {
+  "space_ID": 3,
+  "student_ID": 62738495
+ },
+ {
+  "space_ID": 3,
+  "student_ID": 85719263
+ },
+ {
+  "space_ID": 3,
+  "student_ID": 17482936
+ },
+ {
+  "space_ID": 3,
+  "student_ID": 82917364
+ },
+ {
+  "space_ID": 3,
+  "student_ID": 27384916
+ },
+ {
+  "space_ID": 3,
+  "student_ID": 38491725
+ },
+ {
+  "space_ID": 3,
+  "student_ID": 72918346
+ },
+ {
+  "space_ID": 3,
+  "student_ID": 29384617
+ },
+ {
+  "space_ID": 3,
+  "student_ID": 18473920
+ },
+ {
+  "space_ID": 3,
+  "student_ID": 49283651
+ },
+ {
+  "space_ID": 3,
+  "student_ID": 19384762
+ },
+ {
+  "space_ID": 3,
+  "student_ID": 12345678
+ },
+ {
+  "space_ID": 4,
+  "student_ID": 23456789
+ },
+ {
+  "space_ID": 4,
+  "student_ID": 56789012
+ },
+ {
+  "space_ID": 4,
+  "student_ID": 67890123
+ },
+ {
+  "space_ID": 4,
+  "student_ID": 78901234
+ },
+ {
+  "space_ID": 4,
+  "student_ID": 89012345
+ },
+ {
+  "space_ID": 5,
+  "student_ID": 90123456
+ },
+ {
+  "space_ID": 5,
+  "student_ID": 12345677
+ },
+ {
+  "space_ID": 5,
+  "student_ID": 21487654
+ },
+ {
+  "space_ID": 5,
+  "student_ID": 20928175
+ },
+ {
+  "space_ID": 5,
+  "student_ID": 21765423
+ },
+ {
+  "space_ID": 5,
+  "student_ID": 20387129
+ },
+ {
+  "space_ID": 5,
+  "student_ID": 21123456
+ },
+ {
+  "space_ID": 5,
+  "student_ID": 21567890
+ },
+ {
+  "space_ID": 5,
+  "student_ID": 21987654
+ },
+ {
+  "space_ID": 5,
+  "student_ID": 21345678
+ },
+ {
+  "space_ID": 5,
+  "student_ID": 11111222
+ },
+ {
+  "space_ID": 5,
+  "student_ID": 22223333
+ },
+ {
+  "space_ID": 5,
+  "student_ID": 33334444
+ },
+ {
+  "space_ID": 5,
+  "student_ID": 44445555
+ },
+ {
+  "space_ID": 5,
+  "student_ID": 55556666
+ },
+ {
+  "space_ID": 5,
+  "student_ID": 66667777
+ },
+ {
+  "space_ID": 5,
+  "student_ID": 77778888
+ },
+ {
+  "space_ID": 5,
+  "student_ID": 88889999
+ },
+ {
+  "space_ID": 5,
+  "student_ID": 99990000
+ },
+ {
+  "space_ID": 5,
+  "student_ID": 11112222
+ },
+ {
+  "space_ID": 5,
+  "student_ID": 22223333
+ },
+ {
+  "space_ID": 5,
+  "student_ID": 33334444
+ },
+ {
+  "space_ID": 5,
+  "student_ID": 13047963
+ },
+ {
+  "space_ID": 6,
+  "student_ID": 21479513
+ },
+ {
+  "space_ID": 6,
+  "student_ID": 96667175
+ },
+ {
+  "space_ID": 6,
+  "student_ID": 73564630
+ },
+ {
+  "space_ID": 6,
+  "student_ID": 51458338
+ },
+ {
+  "space_ID": 6,
+  "student_ID": 45453885
+ },
+ {
+  "space_ID": 6,
+  "student_ID": 79689206
+ },
+ {
+  "space_ID": 6,
+  "student_ID": 67496942
+ },
+ {
+  "space_ID": 6,
+  "student_ID": 40128931
+ },
+ {
+  "space_ID": 6,
+  "student_ID": 19767510
+ },
+ {
+  "space_ID": 7,
+  "student_ID": 83950021
+ },
+ {
+  "space_ID": 7,
+  "student_ID": 91260560
+ },
+ {
+  "space_ID": 7,
+  "student_ID": 60653931
+ },
+ {
+  "space_ID": 7,
+  "student_ID": 22779613
+ },
+ {
+  "space_ID": 7,
+  "student_ID": 13336678
+ },
+ {
+  "space_ID": 7,
+  "student_ID": 21217676
+ },
+ {
+  "space_ID": 7,
+  "student_ID": 34566543
+ },
+ {
+  "space_ID": 8,
+  "student_ID": 37486905
+ },
+ {
+  "space_ID": 8,
+  "student_ID": 92514073
+ },
+ {
+  "space_ID": 8,
+  "student_ID": 10871349
+ },
+ {
+  "space_ID": 8,
+  "student_ID": 62389417
+ },
+ {
+  "space_ID": 8,
+  "student_ID": 72819365
+ },
+ {
+  "space_ID": 8,
+  "student_ID": 37482931
+ },
+ {
+  "space_ID": 9,
+  "student_ID": 93746281
+ },
+ {
+  "space_ID": 9,
+  "student_ID": 64927183
+ },
+ {
+  "space_ID": 9,
+  "student_ID": 18372940
+ },
+ {
+  "space_ID": 9,
+  "student_ID": 52468719
+ },
+ {
+  "space_ID": 9,
+  "student_ID": 28374910
+ },
+ {
+  "space_ID": 9,
+  "student_ID": 18472039
+ },
+ {
+  "space_ID": 10,
+  "student_ID": 85719236
+ },
+ {
+  "space_ID": 10,
+  "student_ID": 49283617
+ },
+ {
+  "space_ID": 10,
+  "student_ID": 28374610
+ },
+ {
+  "space_ID": 10,
+  "student_ID": 10293847
+ },
+ {
+  "space_ID": 10,
+  "student_ID": 37492816
+ },
+ {
+  "space_ID": 10,
+  "student_ID": 85927361
+ },
+ {
+  "space_ID": 10,
+  "student_ID": 16273849
+ },
+ {
+  "space_ID": 10,
+  "student_ID": 39485671
+ },
+ {
+  "space_ID": 10,
+  "student_ID": 85719263
+ },
+ {
+  "space_ID": 11,
+  "student_ID": 29384756
+ },
+ {
+  "space_ID": 11,
+  "student_ID": 17482936
+ },
+ {
+  "space_ID": 11,
+  "student_ID": 82917364
+ },
+ {
+  "space_ID": 11,
+  "student_ID": 27384916
+ },
+ {
+  "space_ID": 11,
+  "student_ID": 38491725
+ },
+ {
+  "space_ID": 11,
+  "student_ID": 72918346
+ },
+ {
+  "space_ID": 11,
+  "student_ID": 29384617
+ },
+ {
+  "space_ID": 11,
+  "student_ID": 18473920
+ },
+ {
+  "space_ID": 11,
+  "student_ID": 49283651
+ },
+ {
+  "space_ID": 11,
+  "student_ID": 19384762
+ },
+ {
+  "space_ID": 11,
+  "student_ID": 12345678
+ },
+ {
+  "space_ID": 11,
+  "student_ID": 23456789
+ },
+ {
+  "space_ID": 12,
+  "student_ID": 56789012
+ },
+ {
+  "space_ID": 12,
+  "student_ID": 67890123
+ },
+ {
+  "space_ID": 12,
+  "student_ID": 78901234
+ },
+ {
+  "space_ID": 12,
+  "student_ID": 89012345
+ },
+ {
+  "space_ID": 13,
+  "student_ID": 90123456
+ },
+ {
+  "space_ID": 13,
+  "student_ID": 12345677
+ },
+ {
+  "space_ID": 13,
+  "student_ID": 21487654
+ },
+ {
+  "space_ID": 13,
+  "student_ID": 20928175
+ },
+ {
+  "space_ID": 13,
+  "student_ID": 21765423
+ },
+ {
+  "space_ID": 13,
+  "student_ID": 20387129
+ },
+ {
+  "space_ID": 13,
+  "student_ID": 21123456
+ },
+ {
+  "space_ID": 13,
+  "student_ID": 21567890
+ },
+ {
+  "space_ID": 13,
+  "student_ID": 21987654
+ },
+ {
+  "space_ID": 13,
+  "student_ID": 20654321
+ },
+ {
+  "space_ID": 13,
+  "student_ID": 21345678
+ },
+ {
+  "space_ID": 13,
+  "student_ID": 11111222
+ },
+ {
+  "space_ID": 13,
+  "student_ID": 22223333
+ },
+ {
+  "space_ID": 13,
+  "student_ID": 33334444
+ },
+ {
+  "space_ID": 13,
+  "student_ID": 66667777
+ },
+ {
+  "space_ID": 13,
+  "student_ID": 77778888
+ },
+ {
+  "space_ID": 13,
+  "student_ID": 88889999
+ },
+ {
+  "space_ID": 13,
+  "student_ID": 99990000
+ },
+ {
+  "space_ID": 13,
+  "student_ID": 11112222
+ },
+ {
+  "space_ID": 14,
+  "student_ID": 22223333
+ },
+ {
+  "space_ID": 14,
+  "student_ID": 33334444
+ },
+ {
+  "space_ID": 14,
+  "student_ID": 13047963
+ },
+ {
+  "space_ID": 14,
+  "student_ID": 21479513
+ },
+ {
+  "space_ID": 14,
+  "student_ID": 15702380
+ },
+ {
+  "space_ID": 14,
+  "student_ID": 19073284
+ },
+ {
+  "space_ID": 14,
+  "student_ID": 16134702
+ },
+ {
+  "space_ID": 14,
+  "student_ID": 17829051
+ },
+ {
+  "space_ID": 14,
+  "student_ID": 20571439
+ },
+ {
+  "space_ID": 14,
+  "student_ID": 75628493
+ },
+ {
+  "space_ID": 14,
+  "student_ID": 23849065
+ },
+ {
+  "space_ID": 14,
+  "student_ID": 96017348
+ },
+ {
+  "space_ID": 14,
+  "student_ID": 18235964
+ },
+ {
+  "space_ID": 15,
+  "student_ID": 65971234
+ },
+ {
+  "space_ID": 15,
+  "student_ID": 48326591
+ },
+ {
+  "space_ID": 15,
+  "student_ID": 71420935
+ },
+ {
+  "space_ID": 15,
+  "student_ID": 52613498
+ },
+ {
+  "space_ID": 16,
+  "student_ID": 39827615
+ },
+ {
+  "space_ID": 16,
+  "student_ID": 43334990
+ },
+ {
+  "space_ID": 16,
+  "student_ID": 28349567
+ },
+ {
+  "space_ID": 16,
+  "student_ID": 91827364
+ },
+ {
+  "space_ID": 16,
+  "student_ID": 72819365
+ },
+ {
+  "space_ID": 16,
+  "student_ID": 37482931
+ },
+ {
+  "space_ID": 16,
+  "student_ID": 64927183
+ },
+ {
+  "space_ID": 16,
+  "student_ID": 18372940
+ },
+ {
+  "space_ID": 17,
+  "student_ID": 52468719
+ },
+ {
+  "space_ID": 17,
+  "student_ID": 28374910
+ },
+ {
+  "space_ID": 17,
+  "student_ID": 18472039
+ },
+ {
+  "space_ID": 17,
+  "student_ID": 85719236
+ },
+ {
+  "space_ID": 17,
+  "student_ID": 49283617
+ },
+ {
+  "space_ID": 17,
+  "student_ID": 28374610
+ },
+ {
+  "space_ID": 18,
+  "student_ID": 10293847
+ },
+ {
+  "space_ID": 18,
+  "student_ID": 37492816
+ },
+ {
+  "space_ID": 18,
+  "student_ID": 85927361
+ },
+ {
+  "space_ID": 18,
+  "student_ID": 16273849
+ },
+ {
+  "space_ID": 19,
+  "student_ID": 39485671
+ },
+ {
+  "space_ID": 19,
+  "student_ID": 62738495
+ },
+ {
+  "space_ID": 19,
+  "student_ID": 85719263
+ },
+ {
+  "space_ID": 20,
+  "student_ID": 29384756
+ },
+ {
+  "space_ID": 20,
+  "student_ID": 17482936
+ },
+ {
+  "space_ID": 21,
+  "student_ID": 82917364
+ },
+ {
+  "space_ID": 21,
+  "student_ID": 27384916
+ },
+ {
+  "space_ID": 21,
+  "student_ID": 38491725
+ },
+ {
+  "space_ID": 21,
+  "student_ID": 18473920
+ },
+ {
+  "space_ID": 21,
+  "student_ID": 49283651
+ },
+ {
+  "space_ID": 21,
+  "student_ID": 19384762
+ },
+ {
+  "space_ID": 21,
+  "student_ID": 12345678
+ },
+ {
+  "space_ID": 21,
+  "student_ID": 23456789
+ },
+ {
+  "space_ID": 21,
+  "student_ID": 34567890
+ },
+ {
+  "space_ID": 21,
+  "student_ID": 45678901
+ },
+ {
+  "space_ID": 21,
+  "student_ID": 56789012
+ },
+ {
+  "space_ID": 22,
+  "student_ID": 67890123
+ },
+ {
+  "space_ID": 22,
+  "student_ID": 78901234
+ },
+ {
+  "space_ID": 22,
+  "student_ID": 89012345
+ },
+ {
+  "space_ID": 22,
+  "student_ID": 90123456
+ },
+ {
+  "space_ID": 22,
+  "student_ID": 12345677
+ },
+ {
+  "space_ID": 22,
+  "student_ID": 21487654
+ },
+ {
+  "space_ID": 22,
+  "student_ID": 20928175
+ },
+ {
+  "space_ID": 22,
+  "student_ID": 20387129
+ },
+ {
+  "space_ID": 22,
+  "student_ID": 21123456
+ },
+ {
+  "space_ID": 22,
+  "student_ID": 21567890
+ },
+ {
+  "space_ID": 23,
+  "student_ID": 21987654
+ },
+ {
+  "space_ID": 23,
+  "student_ID": 20654321
+ },
+ {
+  "space_ID": 24,
+  "student_ID": 21345678
+ },
+ {
+  "space_ID": 24,
+  "student_ID": 11111222
+ },
+ {
+  "space_ID": 24,
+  "student_ID": 22223333
+ },
+ {
+  "space_ID": 24,
+  "student_ID": 33334444
+ },
+ {
+  "space_ID": 25,
+  "student_ID": 44445555
+ },
+ {
+  "space_ID": 25,
+  "student_ID": 55556666
+ },
+ {
+  "space_ID": 26,
+  "student_ID": 66667777
+ },
+ {
+  "space_ID": 27,
+  "student_ID": 77778888
+ },
+ {
+  "space_ID": 27,
+  "student_ID": 88889999
+ },
+ {
+  "space_ID": 27,
+  "student_ID": 99990000
+ },
+ {
+  "space_ID": 28,
+  "student_ID": 11112222
+ },
+ {
+  "space_ID": 28,
+  "student_ID": 22223333
+ },
+ {
+  "space_ID": 28,
+  "student_ID": 33334444
+ },
+ {
+  "space_ID": 28,
+  "student_ID": 13047963
+ },
+ {
+  "space_ID": 29,
+  "student_ID": 21479513
+ },
+ {
+  "space_ID": 29,
+  "student_ID": 15702380
+ },
+ {
+  "space_ID": 30,
+  "student_ID": 19073284
+ },
+ {
+  "space_ID": 30,
+  "student_ID": 45453885
+ },
+ {
+  "space_ID": 30,
+  "student_ID": 79689206
+ },
+ {
+  "space_ID": 30,
+  "student_ID": 67496942
+ },
+ {
+  "space_ID": 30,
+  "student_ID": 40128931
+ }
+]

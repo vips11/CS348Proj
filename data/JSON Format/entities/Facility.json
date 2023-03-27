@@ -3,192 +3,1056 @@
   "Company_ID": 1,
   "Facility_ID": 1,
   "city": "cambridge",
-  "street": "todo",
-  "unit_number": "todo",
-  "building_name": "todo"
+  "street": "123 Main St",
+  "unit_number": "#4A",
+  "building_name": "Maple Court"
  },
  {
   "Company_ID": 1,
   "Facility_ID": 2,
   "city": "kitchener",
-  "street": "todo",
-  "unit_number": "todo",
-  "building_name": "todo"
+  "street": "456 Oak Ave",
+  "unit_number": "#12B",
+  "building_name": "Pine Grove"
  },
  {
   "Company_ID": 1,
   "Facility_ID": 3,
   "city": "waterloo",
-  "street": "todo",
-  "unit_number": "todo",
-  "building_name": "todo"
+  "street": "789 Elm St",
+  "unit_number": "#3",
+  "building_name": "Cedar Crest"
  },
  {
   "Company_ID": 1,
   "Facility_ID": 4,
   "city": "toronto",
-  "street": "todo",
-  "unit_number": "todo",
-  "building_name": "todo"
+  "street": "234 Maple Ave",
+  "unit_number": "#7F",
+  "building_name": "Birchwood"
  },
  {
   "Company_ID": 2,
   "Facility_ID": 1,
   "city": "cambridge",
-  "street": "todo",
-  "unit_number": "todo",
-  "building_name": "todo"
+  "street": "567 Pine St",
+  "unit_number": "#2",
+  "building_name": "Oakview"
  },
  {
   "Company_ID": 2,
   "Facility_ID": 2,
   "city": "kitchener",
-  "street": "todo",
-  "unit_number": "todo",
-  "building_name": "todo"
+  "street": "890 Cedar Ln",
+  "unit_number": "#14",
+  "building_name": "Elmwood"
  },
  {
   "Company_ID": 3,
   "Facility_ID": 1,
   "city": "waterloo",
-  "street": "todo",
-  "unit_number": "todo",
-  "building_name": "todo"
+  "street": "345 Birch Rd",
+  "unit_number": "#9",
+  "building_name": "Maplewood"
  },
  {
   "Company_ID": 3,
   "Facility_ID": 2,
   "city": "toronto",
-  "street": "todo",
-  "unit_number": "todo",
-  "building_name": "todo"
+  "street": "678 Oak St",
+  "unit_number": "#6C",
+  "building_name": "Pineview"
  },
  {
   "Company_ID": 3,
   "Facility_ID": 3,
   "city": "cambridge",
-  "street": "todo",
-  "unit_number": "todo",
-  "building_name": "todo"
+  "street": "901 Elm Ave",
+  "unit_number": "#11A",
+  "building_name": "Cedar Ridge"
  },
  {
   "Company_ID": 4,
   "Facility_ID": 1,
   "city": "kitchener",
-  "street": "todo",
-  "unit_number": "todo",
-  "building_name": "todo"
+  "street": "1234 Maple Ln",
+  "unit_number": "#5",
+  "building_name": "Birchview"
  },
  {
   "Company_ID": 4,
   "Facility_ID": 2,
   "city": "waterloo",
-  "street": "todo",
-  "unit_number": "todo",
-  "building_name": "todo"
+  "street": "5678 Pine Rd",
+  "unit_number": "#10B",
+  "building_name": "Oakridge"
  },
  {
   "Company_ID": 5,
   "Facility_ID": 1,
   "city": "toronto",
-  "street": "todo",
-  "unit_number": "todo",
-  "building_name": "todo"
+  "street": "9012 Cedar Ave",
+  "unit_number": "#8",
+  "building_name": "Elmridge"
  },
  {
   "Company_ID": 6,
   "Facility_ID": 1,
   "city": "cambridge",
-  "street": "todo",
-  "unit_number": "todo",
-  "building_name": "todo"
+  "street": "3456 Birch St",
+  "unit_number": "#2F",
+  "building_name": "Mapleside"
  },
  {
   "Company_ID": 6,
   "Facility_ID": 2,
   "city": "kitchener",
-  "street": "todo",
-  "unit_number": "todo",
-  "building_name": "todo"
+  "street": "7890 Oak Dr",
+  "unit_number": "#13",
+  "building_name": "Pineside"
  },
  {
   "Company_ID": 6,
   "Facility_ID": 3,
   "city": "waterloo",
-  "street": "todo",
-  "unit_number": "todo",
-  "building_name": "todo"
+  "street": "2345 Elm Rd",
+  "unit_number": "#7C",
+  "building_name": "Cedarside"
  },
  {
   "Company_ID": 6,
   "Facility_ID": 4,
   "city": "toronto",
-  "street": "todo",
-  "unit_number": "todo",
-  "building_name": "todo"
+  "street": "6789 Maple Ln",
+  "unit_number": "#3",
+  "building_name": "Birchside"
  },
  {
   "Company_ID": 7,
   "Facility_ID": 1,
   "city": "cambridge",
-  "street": "todo",
-  "unit_number": "todo",
-  "building_name": "todo"
+  "street": "12345 Pine Ave",
+  "unit_number": "#9",
+  "building_name": "Oaksview"
  },
  {
   "Company_ID": 7,
   "Facility_ID": 2,
   "city": "kitchener",
-  "street": "todo",
-  "unit_number": "todo",
-  "building_name": "todo"
+  "street": "67890 Cedar St",
+  "unit_number": "#6",
+  "building_name": "Elmview"
  },
  {
   "Company_ID": 8,
   "Facility_ID": 1,
   "city": "waterloo",
-  "street": "todo",
-  "unit_number": "todo",
-  "building_name": "todo"
+  "street": "23456 Birch Ave",
+  "unit_number": "#11",
+  "building_name": "Mapletree"
  },
  {
   "Company_ID": 9,
   "Facility_ID": 1,
   "city": "toronto",
-  "street": "todo",
-  "unit_number": "todo",
-  "building_name": "todo"
+  "street": "78901 Oak Ln",
+  "unit_number": "#4A",
+  "building_name": "Pinetree"
  },
  {
   "Company_ID": 9,
   "Facility_ID": 2,
   "city": "cambridge",
-  "street": "todo",
-  "unit_number": "todo",
-  "building_name": "todo"
+  "street": "12345 Pine Ave",
+  "unit_number": "#90",
+  "building_name": "Belview"
  },
  {
   "Company_ID": 9,
   "Facility_ID": 3,
   "city": "kitchener",
-  "street": "todo",
-  "unit_number": "todo",
-  "building_name": "todo"
+  "street": "67890 Cedar St",
+  "unit_number": "#61",
+  "building_name": "Elmview"
  },
  {
   "Company_ID": 10,
   "Facility_ID": 1,
   "city": "waterloo",
-  "street": "todo",
-  "unit_number": "todo",
-  "building_name": "todo"
+  "street": "23456 Birch Ave",
+  "unit_number": "#21",
+  "building_name": "Mapletree"
  },
  {
   "Company_ID": 10,
   "Facility_ID": 2,
   "city": "toronto",
-  "street": "todo",
-  "unit_number": "todo",
-  "building_name": "todo"
+  "street": "78901 Oak Ln",
+  "unit_number": "#4B",
+  "building_name": "Pinetrees"
+ },
+ {
+  "Company_ID": 11,
+  "Facility_ID": 1,
+  "city": "Vancouver",
+  "street": "123 Main St",
+  "unit_number": "#4A",
+  "building_name": "Maple Court"
+ },
+ {
+  "Company_ID": 12,
+  "Facility_ID": 1,
+  "city": "Edmonton",
+  "street": "456 Oak Ave",
+  "unit_number": "#12B",
+  "building_name": "Pine Grove"
+ },
+ {
+  "Company_ID": 13,
+  "Facility_ID": 1,
+  "city": "Toronto",
+  "street": "789 Elm St",
+  "unit_number": "#3",
+  "building_name": "Cedar Crest"
+ },
+ {
+  "Company_ID": 14,
+  "Facility_ID": 1,
+  "city": "Winnipeg",
+  "street": "234 Maple Ave",
+  "unit_number": "#7F",
+  "building_name": "Birchwood"
+ },
+ {
+  "Company_ID": 15,
+  "Facility_ID": 1,
+  "city": "Montreal",
+  "street": "567 Pine St",
+  "unit_number": "#2",
+  "building_name": "Oakview"
+ },
+ {
+  "Company_ID": 16,
+  "Facility_ID": 1,
+  "city": "Ottawa",
+  "street": "890 Cedar Ln",
+  "unit_number": "#14",
+  "building_name": "Elmwood"
+ },
+ {
+  "Company_ID": 17,
+  "Facility_ID": 1,
+  "city": "Halifax",
+  "street": "345 Birch Rd",
+  "unit_number": "#9",
+  "building_name": "Maplewood"
+ },
+ {
+  "Company_ID": 18,
+  "Facility_ID": 1,
+  "city": "Calgary",
+  "street": "678 Oak St",
+  "unit_number": "#6C",
+  "building_name": "Pineview"
+ },
+ {
+  "Company_ID": 18,
+  "Facility_ID": 2,
+  "city": "Victoria",
+  "street": "901 Elm Ave",
+  "unit_number": "#11A",
+  "building_name": "Cedar Ridge"
+ },
+ {
+  "Company_ID": 19,
+  "Facility_ID": 1,
+  "city": "Regina",
+  "street": "1234 Maple Ln",
+  "unit_number": "#5",
+  "building_name": "Birchview"
+ },
+ {
+  "Company_ID": 20,
+  "Facility_ID": 1,
+  "city": "Fredericton",
+  "street": "5678 Pine Rd",
+  "unit_number": "#10B",
+  "building_name": "Oakridge"
+ },
+ {
+  "Company_ID": 20,
+  "Facility_ID": 2,
+  "city": "Yellowknife",
+  "street": "9012 Cedar Ave",
+  "unit_number": "#8",
+  "building_name": "Elmridge"
+ },
+ {
+  "Company_ID": 20,
+  "Facility_ID": 3,
+  "city": "Charlottetown",
+  "street": "3456 Birch St",
+  "unit_number": "#2F",
+  "building_name": "Mapleside"
+ },
+ {
+  "Company_ID": 21,
+  "Facility_ID": 1,
+  "city": "Saskatoon",
+  "street": "7890 Oak Dr",
+  "unit_number": "#13",
+  "building_name": "Pineside"
+ },
+ {
+  "Company_ID": 22,
+  "Facility_ID": 1,
+  "city": "St. John's",
+  "street": "2345 Elm Rd",
+  "unit_number": "#7C",
+  "building_name": "Cedarside"
+ },
+ {
+  "Company_ID": 23,
+  "Facility_ID": 1,
+  "city": "Whitehorse",
+  "street": "6789 Maple Ln",
+  "unit_number": "#3",
+  "building_name": "Birchside"
+ },
+ {
+  "Company_ID": 24,
+  "Facility_ID": 1,
+  "city": "Iqaluit",
+  "street": "12345 Pine Ave",
+  "unit_number": "#9",
+  "building_name": "Oaksview"
+ },
+ {
+  "Company_ID": 25,
+  "Facility_ID": 1,
+  "city": "Quebec City",
+  "street": "67890 Cedar St",
+  "unit_number": "#6",
+  "building_name": "Elmview"
+ },
+ {
+  "Company_ID": 26,
+  "Facility_ID": 1,
+  "city": "Thunder Bay",
+  "street": "23456 Birch Ave",
+  "unit_number": "#11",
+  "building_name": "Mapletree"
+ },
+ {
+  "Company_ID": 27,
+  "Facility_ID": 1,
+  "city": "Charlottetown",
+  "street": "78901 Oak Ln",
+  "unit_number": "#4A",
+  "building_name": "Pinetree"
+ },
+ {
+  "Company_ID": 28,
+  "Facility_ID": 1,
+  "city": "Toronto",
+  "street": "123 Queen St",
+  "unit_number": "#1203",
+  "building_name": "The Regal"
+ },
+ {
+  "Company_ID": 29,
+  "Facility_ID": 1,
+  "city": "Vancouver",
+  "street": "456 Robson St",
+  "unit_number": "#803",
+  "building_name": "The Summit"
+ },
+ {
+  "Company_ID": 30,
+  "Facility_ID": 1,
+  "city": "Montreal",
+  "street": "789 Sainte-Catherine",
+  "unit_number": "#1602",
+  "building_name": "Le Marquis"
+ },
+ {
+  "Company_ID": 31,
+  "Facility_ID": 1,
+  "city": "Calgary",
+  "street": "234 5th Ave SW",
+  "unit_number": "#2205",
+  "building_name": "The Sentinel"
+ },
+ {
+  "Company_ID": 31,
+  "Facility_ID": 2,
+  "city": "Ottawa",
+  "street": "567 Rideau St",
+  "unit_number": "#705",
+  "building_name": "The Royale"
+ },
+ {
+  "Company_ID": 32,
+  "Facility_ID": 1,
+  "city": "Edmonton",
+  "street": "890 Jasper Ave",
+  "unit_number": "#101",
+  "building_name": "The Metropolitan"
+ },
+ {
+  "Company_ID": 33,
+  "Facility_ID": 1,
+  "city": "Halifax",
+  "street": "345 Argyle St",
+  "unit_number": "#1201",
+  "building_name": "The Harborview"
+ },
+ {
+  "Company_ID": 34,
+  "Facility_ID": 1,
+  "city": "Winnipeg",
+  "street": "678 Portage Ave",
+  "unit_number": "#1502",
+  "building_name": "The Paramount"
+ },
+ {
+  "Company_ID": 35,
+  "Facility_ID": 1,
+  "city": "Quebec City",
+  "street": "901 Grande Allée",
+  "unit_number": "#1003",
+  "building_name": "Le Chateau Frontenac"
+ },
+ {
+  "Company_ID": 36,
+  "Facility_ID": 1,
+  "city": "Regina",
+  "street": "1234 Broad St",
+  "unit_number": "#602",
+  "building_name": "The Dominion"
+ },
+ {
+  "Company_ID": 37,
+  "Facility_ID": 1,
+  "city": "Victoria",
+  "street": "567 Yates St",
+  "unit_number": "#1204",
+  "building_name": "The Empress"
+ },
+ {
+  "Company_ID": 38,
+  "Facility_ID": 1,
+  "city": "Saskatoon",
+  "street": "901 8th St E",
+  "unit_number": "#503",
+  "building_name": "The Penthouse"
+ },
+ {
+  "Company_ID": 39,
+  "Facility_ID": 1,
+  "city": "Fredericton",
+  "street": "345 Queen St",
+  "unit_number": "#803",
+  "building_name": "The Governor's House"
+ },
+ {
+  "Company_ID": 40,
+  "Facility_ID": 1,
+  "city": "Charlottetown",
+  "street": "789 Water St",
+  "unit_number": "#1402",
+  "building_name": "The Seaport"
+ },
+ {
+  "Company_ID": 41,
+  "Facility_ID": 1,
+  "city": "Yellowknife",
+  "street": "234 Franklin Ave",
+  "unit_number": "#302",
+  "building_name": "The Aurora"
+ },
+ {
+  "Company_ID": 42,
+  "Facility_ID": 1,
+  "city": "St. John's",
+  "street": "678 Water St",
+  "unit_number": "#1501",
+  "building_name": "The Narrows"
+ },
+ {
+  "Company_ID": 43,
+  "Facility_ID": 1,
+  "city": "Whitehorse",
+  "street": "901 2nd Ave",
+  "unit_number": "#601",
+  "building_name": "The Yukon"
+ },
+ {
+  "Company_ID": 44,
+  "Facility_ID": 1,
+  "city": "Iqaluit",
+  "street": "1234 Niaqunngusiaria",
+  "unit_number": "#902",
+  "building_name": "The Northern Lights"
+ },
+ {
+  "Company_ID": 45,
+  "Facility_ID": 1,
+  "city": "Thunder Bay",
+  "street": "567 Memorial Ave",
+  "unit_number": "#1005",
+  "building_name": "The Lakeview"
+ },
+ {
+  "Company_ID": 45,
+  "Facility_ID": 2,
+  "city": "Prince George",
+  "street": "890 Victoria St",
+  "unit_number": "#802",
+  "building_name": "The Gateway"
+ },
+ {
+  "Company_ID": 46,
+  "Facility_ID": 1,
+  "city": "Vancouver",
+  "street": "123 Main St",
+  "unit_number": "#4B",
+  "building_name": "Brenton"
+ },
+ {
+  "Company_ID": 47,
+  "Facility_ID": 1,
+  "city": "Toronto",
+  "street": "456 Oak Ave",
+  "unit_number": "#12B",
+  "building_name": "Pine Grove"
+ },
+ {
+  "Company_ID": 48,
+  "Facility_ID": 1,
+  "city": "Montreal",
+  "street": "789 Elm St",
+  "unit_number": "#3",
+  "building_name": "Cedar Crest"
+ },
+ {
+  "Company_ID": 49,
+  "Facility_ID": 1,
+  "city": "Calgary",
+  "street": "234 Maple Ave",
+  "unit_number": "#7F",
+  "building_name": "Birchwood"
+ },
+ {
+  "Company_ID": 50,
+  "Facility_ID": 1,
+  "city": "Ottawa",
+  "street": "567 Pine St",
+  "unit_number": "#2",
+  "building_name": "Oakview"
+ },
+ {
+  "Company_ID": 50,
+  "Facility_ID": 2,
+  "city": "Edmonton",
+  "street": "890 Cedar Ln",
+  "unit_number": "#14",
+  "building_name": "Elmwood"
+ },
+ {
+  "Company_ID": 50,
+  "Facility_ID": 3,
+  "city": "Halifax",
+  "street": "345 Birch Rd",
+  "unit_number": "#9",
+  "building_name": "Maplewood"
+ },
+ {
+  "Company_ID": 51,
+  "Facility_ID": 1,
+  "city": "Winnipeg",
+  "street": "678 Oak St",
+  "unit_number": "#6C",
+  "building_name": "Pineview"
+ },
+ {
+  "Company_ID": 52,
+  "Facility_ID": 1,
+  "city": "Quebec City",
+  "street": "901 Elm Ave",
+  "unit_number": "#11A",
+  "building_name": "Cedar Ridge"
+ },
+ {
+  "Company_ID": 52,
+  "Facility_ID": 2,
+  "city": "Hamilton",
+  "street": "1234 Maple Ln",
+  "unit_number": "#5",
+  "building_name": "Birchview"
+ },
+ {
+  "Company_ID": 53,
+  "Facility_ID": 1,
+  "city": "Saskatoon",
+  "street": "5678 Pine Rd",
+  "unit_number": "#10B",
+  "building_name": "Oakridge"
+ },
+ {
+  "Company_ID": 54,
+  "Facility_ID": 1,
+  "city": "Regina",
+  "street": "9012 Cedar Ave",
+  "unit_number": "#8",
+  "building_name": "Elmridge"
+ },
+ {
+  "Company_ID": 55,
+  "Facility_ID": 1,
+  "city": "Victoria",
+  "street": "3456 Birch St",
+  "unit_number": "#2F",
+  "building_name": "Mapleside"
+ },
+ {
+  "Company_ID": 56,
+  "Facility_ID": 1,
+  "city": "St. John's",
+  "street": "7890 Oak Dr",
+  "unit_number": "#13",
+  "building_name": "Pineside"
+ },
+ {
+  "Company_ID": 57,
+  "Facility_ID": 1,
+  "city": "Charlottetown",
+  "street": "2345 Elm Rd",
+  "unit_number": "#7C",
+  "building_name": "Cedarside"
+ },
+ {
+  "Company_ID": 58,
+  "Facility_ID": 1,
+  "city": "Fredericton",
+  "street": "6789 Maple Ln",
+  "unit_number": "#3",
+  "building_name": "Birchside"
+ },
+ {
+  "Company_ID": 59,
+  "Facility_ID": 1,
+  "city": "Yellowknife",
+  "street": "12345 Pine Ave",
+  "unit_number": "#9",
+  "building_name": "Oaksview"
+ },
+ {
+  "Company_ID": 60,
+  "Facility_ID": 1,
+  "city": "Whitehorse",
+  "street": "67890 Cedar St",
+  "unit_number": "#6",
+  "building_name": "Elmview"
+ },
+ {
+  "Company_ID": 61,
+  "Facility_ID": 1,
+  "city": "Iqaluit",
+  "street": "23456 Birch Ave",
+  "unit_number": "#11",
+  "building_name": "Mapletree"
+ },
+ {
+  "Company_ID": 61,
+  "Facility_ID": 2,
+  "city": "Thunder Bay",
+  "street": "78901 Oak Ln",
+  "unit_number": "#4A",
+  "building_name": "Pinetree"
+ },
+ {
+  "Company_ID": 62,
+  "Facility_ID": 1,
+  "city": "Vancouver",
+  "street": "Robson Street",
+  "unit_number": 1202,
+  "building_name": "The Metropolitan"
+ },
+ {
+  "Company_ID": 63,
+  "Facility_ID": 1,
+  "city": "Toronto",
+  "street": "King Street West",
+  "unit_number": 1804,
+  "building_name": "The Cosmopolitan"
+ },
+ {
+  "Company_ID": 64,
+  "Facility_ID": 1,
+  "city": "Montreal",
+  "street": "Rue Sherbrooke",
+  "unit_number": 902,
+  "building_name": "Le Château Frontenac"
+ },
+ {
+  "Company_ID": 65,
+  "Facility_ID": 1,
+  "city": "Calgary",
+  "street": "17th Avenue SW",
+  "unit_number": 602,
+  "building_name": "The Montana"
+ },
+ {
+  "Company_ID": 66,
+  "Facility_ID": 1,
+  "city": "Ottawa",
+  "street": "Bank Street",
+  "unit_number": 1505,
+  "building_name": "The Wellington"
+ },
+ {
+  "Company_ID": 66,
+  "Facility_ID": 2,
+  "city": "Edmonton",
+  "street": "Jasper Avenue",
+  "unit_number": 1001,
+  "building_name": "The Macdonald"
+ },
+ {
+  "Company_ID": 66,
+  "Facility_ID": 3,
+  "city": "Quebec City",
+  "street": "Rue Saint-Jean",
+  "unit_number": 503,
+  "building_name": "Le Saint-Laurent"
+ },
+ {
+  "Company_ID": 67,
+  "Facility_ID": 1,
+  "city": "Halifax",
+  "street": "Spring Garden Road",
+  "unit_number": 1206,
+  "building_name": "The Atlantica"
+ },
+ {
+  "Company_ID": 68,
+  "Facility_ID": 1,
+  "city": "Hamilton",
+  "street": "James Street South",
+  "unit_number": 705,
+  "building_name": "The Durand"
+ },
+ {
+  "Company_ID": 69,
+  "Facility_ID": 1,
+  "city": "Victoria",
+  "street": "Yates Street",
+  "unit_number": 401,
+  "building_name": "The Empress"
+ },
+ {
+  "Company_ID": 70,
+  "Facility_ID": 1,
+  "city": "Windsor",
+  "street": "Ouellette Avenue",
+  "unit_number": 1002,
+  "building_name": "The Ambassador"
+ },
+ {
+  "Company_ID": 71,
+  "Facility_ID": 1,
+  "city": "Regina",
+  "street": "Albert Street",
+  "unit_number": 502,
+  "building_name": "The Saskatchewan"
+ },
+ {
+  "Company_ID": 72,
+  "Facility_ID": 1,
+  "city": "Saskatoon",
+  "street": "Broadway Avenue",
+  "unit_number": 906,
+  "building_name": "The Bessborough"
+ },
+ {
+  "Company_ID": 72,
+  "Facility_ID": 2,
+  "city": "St. John's",
+  "street": "Water Street",
+  "unit_number": 1403,
+  "building_name": "The Murray Premises"
+ },
+ {
+  "Company_ID": 73,
+  "Facility_ID": 1,
+  "city": "London",
+  "street": "Dundas Street",
+  "unit_number": 1701,
+  "building_name": "The Covent Garden"
+ },
+ {
+  "Company_ID": 74,
+  "Facility_ID": 1,
+  "city": "Kitchener",
+  "street": "King Street West",
+  "unit_number": 802,
+  "building_name": "The Kitchener"
+ },
+ {
+  "Company_ID": 75,
+  "Facility_ID": 1,
+  "city": "Sherbrooke",
+  "street": "Rue Wellington Nord",
+  "unit_number": 1404,
+  "building_name": "Le Montagnais"
+ },
+ {
+  "Company_ID": 76,
+  "Facility_ID": 1,
+  "city": "St. Catharines",
+  "street": "Queenston Street",
+  "unit_number": 603,
+  "building_name": "The Port Dalhousie"
+ },
+ {
+  "Company_ID": 77,
+  "Facility_ID": 1,
+  "city": "Barrie",
+  "street": "Dunlop Street West",
+  "unit_number": 1501,
+  "building_name": "The Lakeshore"
+ },
+ {
+  "Company_ID": 77,
+  "Facility_ID": 2,
+  "city": "Kelowna",
+  "street": "Bernard Avenue",
+  "unit_number": 1103,
+  "building_name": "The Sunset Waterfront"
+ },
+ {
+  "Company_ID": 77,
+  "Facility_ID": 3,
+  "city": "Winnipeg",
+  "street": "Portage Avenue",
+  "unit_number": 1202,
+  "building_name": "The Fort Garry"
+ },
+ {
+  "Company_ID": 78,
+  "Facility_ID": 1,
+  "city": "Quebec City",
+  "street": "Rue Saint-Paul",
+  "unit_number": 1804,
+  "building_name": "Le Château de Frontenac"
+ },
+ {
+  "Company_ID": 79,
+  "Facility_ID": 1,
+  "city": "Vancouver",
+  "street": "Burrard Street",
+  "unit_number": 902,
+  "building_name": "The Pacific Palisades"
+ },
+ {
+  "Company_ID": 80,
+  "Facility_ID": 1,
+  "city": "St. John's",
+  "street": "Duckworth Street",
+  "unit_number": 602,
+  "building_name": "The Battery Hotel"
+ },
+ {
+  "Company_ID": 81,
+  "Facility_ID": 1,
+  "city": "Saskatoon",
+  "street": "Spadina Crescent",
+  "unit_number": 1505,
+  "building_name": "The Riverfront"
+ },
+ {
+  "Company_ID": 82,
+  "Facility_ID": 1,
+  "city": "Edmonton",
+  "street": "104 Avenue",
+  "unit_number": 1001,
+  "building_name": "The Icon Tower"
+ },
+ {
+  "Company_ID": 83,
+  "Facility_ID": 1,
+  "city": "Halifax",
+  "street": "South Park Street",
+  "unit_number": 503,
+  "building_name": "The Roy Building"
+ },
+ {
+  "Company_ID": 84,
+  "Facility_ID": 1,
+  "city": "Regina",
+  "street": "Dewdney Avenue",
+  "unit_number": 602,
+  "building_name": "The Hotel Saskatchewan"
+ },
+ {
+  "Company_ID": 85,
+  "Facility_ID": 1,
+  "city": "London",
+  "street": "Wellington Road",
+  "unit_number": 1206,
+  "building_name": "The London Life"
+ },
+ {
+  "Company_ID": 86,
+  "Facility_ID": 1,
+  "city": "Montreal",
+  "street": "Boulevard Saint-Laurent",
+  "unit_number": 401,
+  "building_name": "Le Palace"
+ },
+ {
+  "Company_ID": 87,
+  "Facility_ID": 1,
+  "city": "Victoria",
+  "street": "Government Street",
+  "unit_number": 1002,
+  "building_name": "The Victoria Regent"
+ },
+ {
+  "Company_ID": 88,
+  "Facility_ID": 1,
+  "city": "Thunder Bay",
+  "street": "Cumberland Street",
+  "unit_number": 502,
+  "building_name": "The Prince Arthur Waterfront Hotel"
+ },
+ {
+  "Company_ID": 88,
+  "Facility_ID": 2,
+  "city": "Kelowna",
+  "street": "Ellis Street",
+  "unit_number": 906,
+  "building_name": "The Sunset Towers"
+ },
+ {
+  "Company_ID": 88,
+  "Facility_ID": 3,
+  "city": "Calgary",
+  "street": "4th Street SW",
+  "unit_number": 1403,
+  "building_name": "The Drake"
+ },
+ {
+  "Company_ID": 88,
+  "Facility_ID": 4,
+  "city": "Kitchener",
+  "street": "Victoria Street South",
+  "unit_number": 1701,
+  "building_name": "The Kaufman Lofts"
+ },
+ {
+  "Company_ID": 89,
+  "Facility_ID": 1,
+  "city": "Toronto",
+  "street": "Yorkville Avenue",
+  "unit_number": 802,
+  "building_name": "The Four Seasons"
+ },
+ {
+  "Company_ID": 90,
+  "Facility_ID": 1,
+  "city": "Barrie",
+  "street": "Bayfield Street",
+  "unit_number": 1404,
+  "building_name": "The Lakeshore Suites"
+ },
+ {
+  "Company_ID": 91,
+  "Facility_ID": 1,
+  "city": "Ottawa",
+  "street": "Rideau Street",
+  "unit_number": 603,
+  "building_name": "The Rideau Tower"
+ },
+ {
+  "Company_ID": 92,
+  "Facility_ID": 1,
+  "city": "Moncton",
+  "street": "Main Street",
+  "unit_number": 1501,
+  "building_name": "The Moncton Place"
+ },
+ {
+  "Company_ID": 93,
+  "Facility_ID": 1,
+  "city": "Charlottetown",
+  "street": "Grafton Street",
+  "unit_number": 1103,
+  "building_name": "The Holman Grand"
+ },
+ {
+  "Company_ID": 94,
+  "Facility_ID": 1,
+  "city": "Vancouver",
+  "street": "Granville Street",
+  "unit_number": 1202,
+  "building_name": "The Pacific Residences"
+ },
+ {
+  "Company_ID": 95,
+  "Facility_ID": 1,
+  "city": "Halifax",
+  "street": "Robie Street",
+  "unit_number": 1804,
+  "building_name": "The Carlton"
+ },
+ {
+  "Company_ID": 96,
+  "Facility_ID": 1,
+  "city": "Regina",
+  "street": "Broad Street",
+  "unit_number": 902,
+  "building_name": "The Saskatchewan Club"
+ },
+ {
+  "Company_ID": 97,
+  "Facility_ID": 1,
+  "city": "Quebec City",
+  "street": "Rue Saint-Louis",
+  "unit_number": 602,
+  "building_name": "Le Château de Montebello"
+ },
+ {
+  "Company_ID": 98,
+  "Facility_ID": 1,
+  "city": "Edmonton",
+  "street": "101 Street",
+  "unit_number": 1505,
+  "building_name": "The Icon Tower II"
+ },
+ {
+  "Company_ID": 99,
+  "Facility_ID": 1,
+  "city": "London",
+  "street": "Richmond Street",
+  "unit_number": 1001,
+  "building_name": "The Tricar Thames"
+ },
+ {
+  "Company_ID": 100,
+  "Facility_ID": 1,
+  "city": "St. John's",
+  "street": "LeMarchant Road",
+  "unit_number": 503,
+  "building_name": "The Westmont"
+ },
+ {
+  "Company_ID": 100,
+  "Facility_ID": 2,
+  "city": "St. John's",
+  "street": "LeMarchant Road",
+  "unit_number": 504,
+  "building_name": "The Westmont2"
  }
 ]

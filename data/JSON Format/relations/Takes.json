@@ -48,7 +48,7 @@
   "term": "1A"
  },
  {
-  "ID": 73564631,
+  "ID": 73564630,
   "course_ID": "MATH 137",
   "section_ID": 1,
   "semester": "Spring",
@@ -56,7 +56,7 @@
   "term": "1A"
  },
  {
-  "ID": 73564632,
+  "ID": 73564630,
   "course_ID": "STAT 230",
   "section_ID": 2,
   "semester": "Spring",
@@ -64,7 +64,7 @@
   "term": "1A"
  },
  {
-  "ID": 73564633,
+  "ID": 73564630,
   "course_ID": "PHYS 121",
   "section_ID": 2,
   "semester": "Spring",
@@ -72,7 +72,7 @@
   "term": "1A"
  },
  {
-  "ID": 73564634,
+  "ID": 73564630,
   "course_ID": "CS 136",
   "section_ID": 1,
   "semester": "Spring",
@@ -88,7 +88,7 @@
   "term": "1A"
  },
  {
-  "ID": 51458339,
+  "ID": 51458338,
   "course_ID": "CS 135",
   "section_ID": 3,
   "semester": "Fall",
@@ -96,7 +96,7 @@
   "term": "1A"
  },
  {
-  "ID": 51458340,
+  "ID": 51458338,
   "course_ID": "STAT 230",
   "section_ID": 3,
   "semester": "Fall",
@@ -104,7 +104,7 @@
   "term": "1A"
  },
  {
-  "ID": 51458341,
+  "ID": 51458338,
   "course_ID": "CS 136",
   "section_ID": 2,
   "semester": "Winter",
@@ -112,7 +112,7 @@
   "term": "1B"
  },
  {
-  "ID": 51458342,
+  "ID": 51458338,
   "course_ID": "STAT 231",
   "section_ID": 1,
   "semester": "Winter",
@@ -120,7 +120,7 @@
   "term": "1B"
  },
  {
-  "ID": 51458343,
+  "ID": 51458338,
   "course_ID": "ECON 101",
   "section_ID": 1,
   "semester": "Spring",
@@ -128,7 +128,7 @@
   "term": "2A"
  },
  {
-  "ID": 51458344,
+  "ID": 51458338,
   "course_ID": "ECON 201",
   "section_ID": 1,
   "semester": "Spring",
@@ -136,7 +136,7 @@
   "term": "2A"
  },
  {
-  "ID": 51458345,
+  "ID": 51458338,
   "course_ID": "MATH 239",
   "section_ID": 1,
   "semester": "Spring",
@@ -208,7 +208,7 @@
   "term": "1A"
  },
  {
-  "ID": 60653932,
+  "ID": 60653931,
   "course_ID": "MATH 137",
   "section_ID": 2,
   "semester": "Spring",
@@ -216,7 +216,7 @@
   "term": "1A"
  },
  {
-  "ID": 60653933,
+  "ID": 60653931,
   "course_ID": "STAT 230",
   "section_ID": 3,
   "semester": "Spring",
@@ -224,7 +224,7 @@
   "term": "1A"
  },
  {
-  "ID": 60653934,
+  "ID": 60653931,
   "course_ID": "PHYS 121",
   "section_ID": 3,
   "semester": "Spring",
@@ -232,7 +232,7 @@
   "term": "1A"
  },
  {
-  "ID": 60653935,
+  "ID": 60653931,
   "course_ID": "CS 136",
   "section_ID": 2,
   "semester": "Spring",
@@ -256,7 +256,7 @@
   "term": "1A"
  },
  {
-  "ID": 22779615,
+  "ID": 22779614,
   "course_ID": "STAT 230",
   "section_ID": 3,
   "semester": "Winter",
@@ -264,7 +264,7 @@
   "term": "1A"
  },
  {
-  "ID": 22779616,
+  "ID": 22779614,
   "course_ID": "PHYS 121",
   "section_ID": 3,
   "semester": "Winter",
@@ -272,7 +272,7 @@
   "term": "1A"
  },
  {
-  "ID": 22779617,
+  "ID": 22779614,
   "course_ID": "CS 136",
   "section_ID": 2,
   "semester": "Winter",
@@ -280,7 +280,7 @@
   "term": "1A"
  },
  {
-  "ID": 22779618,
+  "ID": 22779614,
   "course_ID": "MATH 138",
   "section_ID": 1,
   "semester": "Spring",
@@ -288,7 +288,7 @@
   "term": "2B"
  },
  {
-  "ID": 22779619,
+  "ID": 22779614,
   "course_ID": "STAT 231",
   "section_ID": 1,
   "semester": "Spring",
@@ -296,11 +296,3427 @@
   "term": "2B"
  },
  {
-  "ID": 22779620,
+  "ID": 22779614,
   "course_ID": "PHYS 122",
   "section_ID": 1,
   "semester": "Spring",
   "year": 2023,
   "term": "2B"
+ },
+ {
+  "ID": 13336678,
+  "course_ID": "MATH 137",
+  "section_ID": 1,
+  "semester": "Fall",
+  "year": 2020,
+  "term": "1A"
+ },
+ {
+  "ID": 21217676,
+  "course_ID": "MATH 137",
+  "section_ID": 1,
+  "semester": "Fall",
+  "year": 2020,
+  "term": "1A"
+ },
+ {
+  "ID": 34566543,
+  "course_ID": "MATH 137",
+  "section_ID": 1,
+  "semester": "Fall",
+  "year": 2020,
+  "term": "1A"
+ },
+ {
+  "ID": 37486905,
+  "course_ID": "MATH 137",
+  "section_ID": 1,
+  "semester": "Fall",
+  "year": 2020,
+  "term": "1A"
+ },
+ {
+  "ID": 92514073,
+  "course_ID": "MATH 137",
+  "section_ID": 1,
+  "semester": "Fall",
+  "year": 2020,
+  "term": "1A"
+ },
+ {
+  "ID": 10871349,
+  "course_ID": "MATH 137",
+  "section_ID": 1,
+  "semester": "Fall",
+  "year": 2020,
+  "term": "1A"
+ },
+ {
+  "ID": 62389417,
+  "course_ID": "MATH 137",
+  "section_ID": 1,
+  "semester": "Fall",
+  "year": 2020,
+  "term": "1A"
+ },
+ {
+  "ID": 29586401,
+  "course_ID": "MATH 137",
+  "section_ID": 1,
+  "semester": "Fall",
+  "year": 2020,
+  "term": "1A"
+ },
+ {
+  "ID": 54173986,
+  "course_ID": "MATH 137",
+  "section_ID": 1,
+  "semester": "Fall",
+  "year": 2020,
+  "term": "1A"
+ },
+ {
+  "ID": 13336678,
+  "course_ID": "CS 136",
+  "section_ID": 1,
+  "semester": "Fall",
+  "year": 2020,
+  "term": "1A"
+ },
+ {
+  "ID": 21217676,
+  "course_ID": "CS 136",
+  "section_ID": 1,
+  "semester": "Fall",
+  "year": 2020,
+  "term": "1A"
+ },
+ {
+  "ID": 34566543,
+  "course_ID": "CS 136",
+  "section_ID": 1,
+  "semester": "Fall",
+  "year": 2020,
+  "term": "1A"
+ },
+ {
+  "ID": 37486905,
+  "course_ID": "CS 136",
+  "section_ID": 1,
+  "semester": "Fall",
+  "year": 2020,
+  "term": "1A"
+ },
+ {
+  "ID": 92514073,
+  "course_ID": "CS 136",
+  "section_ID": 2,
+  "semester": "Fall",
+  "year": 2020,
+  "term": "1A"
+ },
+ {
+  "ID": 10871349,
+  "course_ID": "CS 136",
+  "section_ID": 2,
+  "semester": "Fall",
+  "year": 2020,
+  "term": "1A"
+ },
+ {
+  "ID": 62389417,
+  "course_ID": "CS 136",
+  "section_ID": 2,
+  "semester": "Fall",
+  "year": 2020,
+  "term": "1A"
+ },
+ {
+  "ID": 29586401,
+  "course_ID": "CS 136",
+  "section_ID": 2,
+  "semester": "Fall",
+  "year": 2020,
+  "term": "1A"
+ },
+ {
+  "ID": 54173986,
+  "course_ID": "CS 136",
+  "section_ID": 2,
+  "semester": "Fall",
+  "year": 2020,
+  "term": "1A"
+ },
+ {
+  "ID": 13336678,
+  "course_ID": "EARTH 122",
+  "section_ID": 1,
+  "semester": "Fall",
+  "year": 2020,
+  "term": "1A"
+ },
+ {
+  "ID": 21217676,
+  "course_ID": "ECON 221",
+  "section_ID": 1,
+  "semester": "Fall",
+  "year": 2020,
+  "term": "1A"
+ },
+ {
+  "ID": 34566543,
+  "course_ID": "CS 343",
+  "section_ID": 1,
+  "semester": "Fall",
+  "year": 2020,
+  "term": "1A"
+ },
+ {
+  "ID": 37486905,
+  "course_ID": "ACTSC 372",
+  "section_ID": 1,
+  "semester": "Fall",
+  "year": 2020,
+  "term": "1A"
+ },
+ {
+  "ID": 92514073,
+  "course_ID": "SPAN 202",
+  "section_ID": 1,
+  "semester": "Fall",
+  "year": 2020,
+  "term": "1A"
+ },
+ {
+  "ID": 10871349,
+  "course_ID": "BIOL 373",
+  "section_ID": 1,
+  "semester": "Fall",
+  "year": 2020,
+  "term": "1A"
+ },
+ {
+  "ID": 62389417,
+  "course_ID": "CHE 220",
+  "section_ID": 1,
+  "semester": "Fall",
+  "year": 2020,
+  "term": "1A"
+ },
+ {
+  "ID": 29586401,
+  "course_ID": "EARTH 122",
+  "section_ID": 1,
+  "semester": "Fall",
+  "year": 2020,
+  "term": "1A"
+ },
+ {
+  "ID": 54173986,
+  "course_ID": "ECON 221",
+  "section_ID": 1,
+  "semester": "Fall",
+  "year": 2020,
+  "term": "1A"
+ },
+ {
+  "ID": 13336678,
+  "course_ID": "HIST 208",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022,
+  "term": "1B"
+ },
+ {
+  "ID": 21217676,
+  "course_ID": "KIN 140",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022,
+  "term": "1B"
+ },
+ {
+  "ID": 34566543,
+  "course_ID": "MSCI 311",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022,
+  "term": "1B"
+ },
+ {
+  "ID": 37486905,
+  "course_ID": "MUSIC 246",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022,
+  "term": "1B"
+ },
+ {
+  "ID": 92514073,
+  "course_ID": "NE 111",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022,
+  "term": "1B"
+ },
+ {
+  "ID": 10871349,
+  "course_ID": "ARBUS 201",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022,
+  "term": "1B"
+ },
+ {
+  "ID": 62389417,
+  "course_ID": "BIOL 240",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022,
+  "term": "1B"
+ },
+ {
+  "ID": 29586401,
+  "course_ID": "ARBUS 201",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022,
+  "term": "1B"
+ },
+ {
+  "ID": 54173986,
+  "course_ID": "BIOL 240",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022,
+  "term": "1B"
+ },
+ {
+  "ID": 75628493,
+  "course_ID": "AFM 202",
+  "section_ID": 1,
+  "semester": "Fall",
+  "year": 2021,
+  "term": "2A"
+ },
+ {
+  "ID": 23849065,
+  "course_ID": "AFM 202",
+  "section_ID": 1,
+  "semester": "Fall",
+  "year": 2021,
+  "term": "2A"
+ },
+ {
+  "ID": 96017348,
+  "course_ID": "AFM 202",
+  "section_ID": 1,
+  "semester": "Fall",
+  "year": 2021,
+  "term": "2A"
+ },
+ {
+  "ID": 18235964,
+  "course_ID": "AFM 202",
+  "section_ID": 1,
+  "semester": "Fall",
+  "year": 2021,
+  "term": "2A"
+ },
+ {
+  "ID": 65971234,
+  "course_ID": "AFM 202",
+  "section_ID": 1,
+  "semester": "Fall",
+  "year": 2021,
+  "term": "2A"
+ },
+ {
+  "ID": 48326591,
+  "course_ID": "AFM 202",
+  "section_ID": 1,
+  "semester": "Fall",
+  "year": 2021,
+  "term": "2A"
+ },
+ {
+  "ID": 71420935,
+  "course_ID": "AFM 202",
+  "section_ID": 1,
+  "semester": "Fall",
+  "year": 2021,
+  "term": "2A"
+ },
+ {
+  "ID": 52613498,
+  "course_ID": "AFM 202",
+  "section_ID": 1,
+  "semester": "Fall",
+  "year": 2021,
+  "term": "2A"
+ },
+ {
+  "ID": 39827615,
+  "course_ID": "AFM 202",
+  "section_ID": 1,
+  "semester": "Fall",
+  "year": 2021,
+  "term": "2A"
+ },
+ {
+  "ID": 43334990,
+  "course_ID": "AFM 202",
+  "section_ID": 1,
+  "semester": "Fall",
+  "year": 2021,
+  "term": "2A"
+ },
+ {
+  "ID": 28349567,
+  "course_ID": "AFM 202",
+  "section_ID": 1,
+  "semester": "Fall",
+  "year": 2021,
+  "term": "2A"
+ },
+ {
+  "ID": 91827364,
+  "course_ID": "AFM 202",
+  "section_ID": 1,
+  "semester": "Fall",
+  "year": 2021,
+  "term": "2A"
+ },
+ {
+  "ID": 75628493,
+  "course_ID": "PHYS 122",
+  "section_ID": 1,
+  "semester": "Fall",
+  "year": 2021,
+  "term": "2A"
+ },
+ {
+  "ID": 23849065,
+  "course_ID": "PHYS 122",
+  "section_ID": 1,
+  "semester": "Fall",
+  "year": 2021,
+  "term": "2A"
+ },
+ {
+  "ID": 96017348,
+  "course_ID": "PHYS 122",
+  "section_ID": 1,
+  "semester": "Fall",
+  "year": 2021,
+  "term": "2A"
+ },
+ {
+  "ID": 18235964,
+  "course_ID": "PHYS 122",
+  "section_ID": 1,
+  "semester": "Fall",
+  "year": 2021,
+  "term": "2A"
+ },
+ {
+  "ID": 65971234,
+  "course_ID": "PHYS 122",
+  "section_ID": 1,
+  "semester": "Fall",
+  "year": 2021,
+  "term": "2A"
+ },
+ {
+  "ID": 48326591,
+  "course_ID": "PHYS 122",
+  "section_ID": 2,
+  "semester": "Fall",
+  "year": 2021,
+  "term": "2A"
+ },
+ {
+  "ID": 71420935,
+  "course_ID": "PHYS 122",
+  "section_ID": 2,
+  "semester": "Fall",
+  "year": 2021,
+  "term": "2A"
+ },
+ {
+  "ID": 52613498,
+  "course_ID": "PHYS 122",
+  "section_ID": 2,
+  "semester": "Fall",
+  "year": 2021,
+  "term": "2A"
+ },
+ {
+  "ID": 39827615,
+  "course_ID": "PHYS 122",
+  "section_ID": 2,
+  "semester": "Fall",
+  "year": 2021,
+  "term": "2A"
+ },
+ {
+  "ID": 43334990,
+  "course_ID": "PHYS 122",
+  "section_ID": 2,
+  "semester": "Fall",
+  "year": 2021,
+  "term": "2A"
+ },
+ {
+  "ID": 28349567,
+  "course_ID": "PHYS 122",
+  "section_ID": 2,
+  "semester": "Fall",
+  "year": 2021,
+  "term": "2A"
+ },
+ {
+  "ID": 91827364,
+  "course_ID": "PHYS 122",
+  "section_ID": 2,
+  "semester": "Fall",
+  "year": 2021,
+  "term": "2A"
+ },
+ {
+  "ID": 72819365,
+  "course_ID": "MATH 239",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022,
+  "term": "1B"
+ },
+ {
+  "ID": 37482931,
+  "course_ID": "MATH 239",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022,
+  "term": "1B"
+ },
+ {
+  "ID": 93746281,
+  "course_ID": "MATH 239",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022,
+  "term": "1B"
+ },
+ {
+  "ID": 64927183,
+  "course_ID": "MATH 239",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022,
+  "term": "1B"
+ },
+ {
+  "ID": 18372940,
+  "course_ID": "MATH 239",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022,
+  "term": "1B"
+ },
+ {
+  "ID": 52468719,
+  "course_ID": "MATH 239",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022,
+  "term": "1B"
+ },
+ {
+  "ID": 28374910,
+  "course_ID": "MATH 239",
+  "section_ID": 2,
+  "semester": "Winter",
+  "year": 2022,
+  "term": "1B"
+ },
+ {
+  "ID": 18472039,
+  "course_ID": "MATH 239",
+  "section_ID": 2,
+  "semester": "Winter",
+  "year": 2022,
+  "term": "1B"
+ },
+ {
+  "ID": 85719236,
+  "course_ID": "MATH 239",
+  "section_ID": 2,
+  "semester": "Winter",
+  "year": 2022,
+  "term": "1B"
+ },
+ {
+  "ID": 72819365,
+  "course_ID": "MATH 145",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022,
+  "term": "1B"
+ },
+ {
+  "ID": 37482931,
+  "course_ID": "ENGL 108",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022,
+  "term": "1B"
+ },
+ {
+  "ID": 93746281,
+  "course_ID": "PSYCH 101",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022,
+  "term": "1B"
+ },
+ {
+  "ID": 64927183,
+  "course_ID": "PHYS 121",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022,
+  "term": "1B"
+ },
+ {
+  "ID": 18372940,
+  "course_ID": "BIOL 130",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022,
+  "term": "1B"
+ },
+ {
+  "ID": 52468719,
+  "course_ID": "ECE 105",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022,
+  "term": "1B"
+ },
+ {
+  "ID": 28374910,
+  "course_ID": "MSCI 261",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022,
+  "term": "1B"
+ },
+ {
+  "ID": 18472039,
+  "course_ID": "ECE 106",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022,
+  "term": "1B"
+ },
+ {
+  "ID": 85719236,
+  "course_ID": "MSCI 262",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022,
+  "term": "1B"
+ },
+ {
+  "ID": 72819365,
+  "course_ID": "CS 136",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022,
+  "term": "1B"
+ },
+ {
+  "ID": 37482931,
+  "course_ID": "CS 136",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022,
+  "term": "1B"
+ },
+ {
+  "ID": 93746281,
+  "course_ID": "CS 136",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022,
+  "term": "1B"
+ },
+ {
+  "ID": 64927183,
+  "course_ID": "CS 136",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022,
+  "term": "1B"
+ },
+ {
+  "ID": 18372940,
+  "course_ID": "CS 136",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022,
+  "term": "1B"
+ },
+ {
+  "ID": 52468719,
+  "course_ID": "CS 136",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022,
+  "term": "1B"
+ },
+ {
+  "ID": 28374910,
+  "course_ID": "CS 136",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022,
+  "term": "1B"
+ },
+ {
+  "ID": 18472039,
+  "course_ID": "CS 136",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022,
+  "term": "1B"
+ },
+ {
+  "ID": 85719236,
+  "course_ID": "CS 136",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022,
+  "term": "1B"
+ },
+ {
+  "ID": 49283617,
+  "course_ID": "CS 136",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022,
+  "term": "1A"
+ },
+ {
+  "ID": 28374610,
+  "course_ID": "CS 136",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022,
+  "term": "1A"
+ },
+ {
+  "ID": 10293847,
+  "course_ID": "CS 136",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022,
+  "term": "1A"
+ },
+ {
+  "ID": 37492816,
+  "course_ID": "CS 136",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022,
+  "term": "1A"
+ },
+ {
+  "ID": 85927361,
+  "course_ID": "CS 136",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022,
+  "term": "1A"
+ },
+ {
+  "ID": 16273849,
+  "course_ID": "CS 136",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022,
+  "term": "1A"
+ },
+ {
+  "ID": 39485671,
+  "course_ID": "CS 136",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022,
+  "term": "1A"
+ },
+ {
+  "ID": 49283617,
+  "course_ID": "ARCH 282",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022,
+  "term": "1A"
+ },
+ {
+  "ID": 28374610,
+  "course_ID": "ARCH 282",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022,
+  "term": "1A"
+ },
+ {
+  "ID": 10293847,
+  "course_ID": "ARCH 282",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022,
+  "term": "1A"
+ },
+ {
+  "ID": 37492816,
+  "course_ID": "ARCH 282",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022,
+  "term": "1A"
+ },
+ {
+  "ID": 85927361,
+  "course_ID": "ARCH 282",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022,
+  "term": "1A"
+ },
+ {
+  "ID": 16273849,
+  "course_ID": "ARCH 282",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022,
+  "term": "1A"
+ },
+ {
+  "ID": 39485671,
+  "course_ID": "ARCH 282",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022,
+  "term": "1A"
+ },
+ {
+  "ID": 49283617,
+  "course_ID": "ARCH 282",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022,
+  "term": "1A"
+ },
+ {
+  "ID": 37492816,
+  "course_ID": "BME 101",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022,
+  "term": "1B"
+ },
+ {
+  "ID": 62738495,
+  "course_ID": "BME 101",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022,
+  "term": "1B"
+ },
+ {
+  "ID": 85719263,
+  "course_ID": "BME 101",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022,
+  "term": "1B"
+ },
+ {
+  "ID": 29384756,
+  "course_ID": "BME 101",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022,
+  "term": "1B"
+ },
+ {
+  "ID": 17482936,
+  "course_ID": "BME 101",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022,
+  "term": "1B"
+ },
+ {
+  "ID": 82917364,
+  "course_ID": "BME 101",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022,
+  "term": "1B"
+ },
+ {
+  "ID": 27384916,
+  "course_ID": "BME 101",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022,
+  "term": "1B"
+ },
+ {
+  "ID": 38491725,
+  "course_ID": "BME 101",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022,
+  "term": "1B"
+ },
+ {
+  "ID": 72918346,
+  "course_ID": "BME 101",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022,
+  "term": "1B"
+ },
+ {
+  "ID": 29384617,
+  "course_ID": "BME 101",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022,
+  "term": "1B"
+ },
+ {
+  "ID": 18473920,
+  "course_ID": "BME 101",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022,
+  "term": "1B"
+ },
+ {
+  "ID": 49283651,
+  "course_ID": "BME 101",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022,
+  "term": "1B"
+ },
+ {
+  "ID": 85719263,
+  "course_ID": "CHE 101",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022,
+  "term": "1B"
+ },
+ {
+  "ID": 29384756,
+  "course_ID": "CHE 101",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022,
+  "term": "1B"
+ },
+ {
+  "ID": 17482936,
+  "course_ID": "CHE 101",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022,
+  "term": "1B"
+ },
+ {
+  "ID": 82917364,
+  "course_ID": "CHE 101",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022,
+  "term": "1B"
+ },
+ {
+  "ID": 27384916,
+  "course_ID": "CHE 101",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022,
+  "term": "1B"
+ },
+ {
+  "ID": 38491725,
+  "course_ID": "CHE 101",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022,
+  "term": "1B"
+ },
+ {
+  "ID": 72918346,
+  "course_ID": "CHE 101",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022,
+  "term": "1B"
+ },
+ {
+  "ID": 29384617,
+  "course_ID": "CHE 101",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022,
+  "term": "1B"
+ },
+ {
+  "ID": 18473920,
+  "course_ID": "CHE 101",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022,
+  "term": "1B"
+ },
+ {
+  "ID": 49283651,
+  "course_ID": "CHE 101",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022,
+  "term": "1B"
+ },
+ {
+  "ID": 85719263,
+  "course_ID": "GENE 123",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022,
+  "term": "1B"
+ },
+ {
+  "ID": 29384756,
+  "course_ID": "HIST 231",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022,
+  "term": "1B"
+ },
+ {
+  "ID": 17482936,
+  "course_ID": "GENE 123",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022,
+  "term": "1B"
+ },
+ {
+  "ID": 82917364,
+  "course_ID": "HIST 231",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022,
+  "term": "1B"
+ },
+ {
+  "ID": 27384916,
+  "course_ID": "GENE 123",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022,
+  "term": "1B"
+ },
+ {
+  "ID": 38491725,
+  "course_ID": "HIST 231",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022,
+  "term": "1B"
+ },
+ {
+  "ID": 72918346,
+  "course_ID": "GENE 123",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022,
+  "term": "1B"
+ },
+ {
+  "ID": 29384617,
+  "course_ID": "HIST 231",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022,
+  "term": "1B"
+ },
+ {
+  "ID": 18473920,
+  "course_ID": "GENE 123",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022,
+  "term": "1B"
+ },
+ {
+  "ID": 49283651,
+  "course_ID": "HIST 231",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022,
+  "term": "1B"
+ },
+ {
+  "ID": 85719263,
+  "course_ID": "MATH 237",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022,
+  "term": "1B"
+ },
+ {
+  "ID": 29384756,
+  "course_ID": "MATH 237",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022,
+  "term": "1B"
+ },
+ {
+  "ID": 17482936,
+  "course_ID": "MATH 237",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022,
+  "term": "1B"
+ },
+ {
+  "ID": 82917364,
+  "course_ID": "MATH 237",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022,
+  "term": "1B"
+ },
+ {
+  "ID": 27384916,
+  "course_ID": "MATH 237",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022,
+  "term": "1B"
+ },
+ {
+  "ID": 38491725,
+  "course_ID": "ME 100",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022,
+  "term": "1B"
+ },
+ {
+  "ID": 72918346,
+  "course_ID": "ME 100",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022,
+  "term": "1B"
+ },
+ {
+  "ID": 29384617,
+  "course_ID": "ME 100",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022,
+  "term": "1B"
+ },
+ {
+  "ID": 18473920,
+  "course_ID": "ME 100",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022,
+  "term": "1B"
+ },
+ {
+  "ID": 49283651,
+  "course_ID": "ME 100",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022,
+  "term": "1B"
+ },
+ {
+  "ID": 82917364,
+  "course_ID": "PHIL 145",
+  "section_ID": 1,
+  "semester": "Spring",
+  "year": 2022,
+  "term": "2A"
+ },
+ {
+  "ID": 27384916,
+  "course_ID": "PHIL 145",
+  "section_ID": 1,
+  "semester": "Spring",
+  "year": 2022,
+  "term": "2A"
+ },
+ {
+  "ID": 38491725,
+  "course_ID": "PHIL 145",
+  "section_ID": 1,
+  "semester": "Spring",
+  "year": 2022,
+  "term": "2A"
+ },
+ {
+  "ID": 72918346,
+  "course_ID": "ECON 251",
+  "section_ID": 1,
+  "semester": "Spring",
+  "year": 2022,
+  "term": "2A"
+ },
+ {
+  "ID": 29384617,
+  "course_ID": "ECON 251",
+  "section_ID": 1,
+  "semester": "Spring",
+  "year": 2022,
+  "term": "2A"
+ },
+ {
+  "ID": 18473920,
+  "course_ID": "ECON 251",
+  "section_ID": 1,
+  "semester": "Spring",
+  "year": 2022,
+  "term": "2A"
+ },
+ {
+  "ID": 49283651,
+  "course_ID": "MATH 145",
+  "section_ID": 1,
+  "semester": "Spring",
+  "year": 2022,
+  "term": "2A"
+ },
+ {
+  "ID": 82917364,
+  "course_ID": "MATH 145",
+  "section_ID": 1,
+  "semester": "Spring",
+  "year": 2022,
+  "term": "2A"
+ },
+ {
+  "ID": 27384916,
+  "course_ID": "MATH 145",
+  "section_ID": 1,
+  "semester": "Spring",
+  "year": 2022,
+  "term": "2A"
+ },
+ {
+  "ID": 38491725,
+  "course_ID": "MATH 145",
+  "section_ID": 1,
+  "semester": "Spring",
+  "year": 2022,
+  "term": "2A"
+ },
+ {
+  "ID": 72918346,
+  "course_ID": "MATH 145",
+  "section_ID": 1,
+  "semester": "Spring",
+  "year": 2022,
+  "term": "2A"
+ },
+ {
+  "ID": 29384617,
+  "course_ID": "MATH 145",
+  "section_ID": 1,
+  "semester": "Spring",
+  "year": 2022,
+  "term": "2A"
+ },
+ {
+  "ID": 18473920,
+  "course_ID": "MATH 145",
+  "section_ID": 1,
+  "semester": "Spring",
+  "year": 2022,
+  "term": "2A"
+ },
+ {
+  "ID": 49283651,
+  "course_ID": "CS 348",
+  "section_ID": 1,
+  "semester": "Fall",
+  "year": 2022,
+  "term": "2B"
+ },
+ {
+  "ID": 82917364,
+  "course_ID": "CS 348",
+  "section_ID": 2,
+  "semester": "Fall",
+  "year": 2022,
+  "term": "2B"
+ },
+ {
+  "ID": 27384916,
+  "course_ID": "CS 348",
+  "section_ID": 1,
+  "semester": "Fall",
+  "year": 2022,
+  "term": "2B"
+ },
+ {
+  "ID": 38491725,
+  "course_ID": "CS 348",
+  "section_ID": 1,
+  "semester": "Fall",
+  "year": 2022,
+  "term": "2B"
+ },
+ {
+  "ID": 72918346,
+  "course_ID": "CS 348",
+  "section_ID": 2,
+  "semester": "Fall",
+  "year": 2022,
+  "term": "2B"
+ },
+ {
+  "ID": 29384617,
+  "course_ID": "CS 348",
+  "section_ID": 1,
+  "semester": "Fall",
+  "year": 2022,
+  "term": "2B"
+ },
+ {
+  "ID": 18473920,
+  "course_ID": "CS 348",
+  "section_ID": 2,
+  "semester": "Fall",
+  "year": 2022,
+  "term": "2B"
+ },
+ {
+  "ID": 49283651,
+  "course_ID": "FINE 100",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2023,
+  "term": "3A"
+ },
+ {
+  "ID": 82917364,
+  "course_ID": "FINE 100",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2023,
+  "term": "3A"
+ },
+ {
+  "ID": 27384916,
+  "course_ID": "FINE 100",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2023,
+  "term": "3A"
+ },
+ {
+  "ID": 38491725,
+  "course_ID": "FINE 100",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2023,
+  "term": "3A"
+ },
+ {
+  "ID": 72918346,
+  "course_ID": "FINE 100",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2023,
+  "term": "3A"
+ },
+ {
+  "ID": 29384617,
+  "course_ID": "FINE 100",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2023,
+  "term": "3A"
+ },
+ {
+  "ID": 18473920,
+  "course_ID": "FINE 100",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2023,
+  "term": "3A"
+ },
+ {
+  "ID": 49283651,
+  "course_ID": "AFM 291",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2023,
+  "term": "3A"
+ },
+ {
+  "ID": 82917364,
+  "course_ID": "AFM 291",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2023,
+  "term": "3A"
+ },
+ {
+  "ID": 27384916,
+  "course_ID": "AFM 291",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2023,
+  "term": "3A"
+ },
+ {
+  "ID": 38491725,
+  "course_ID": "AFM 291",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2023,
+  "term": "3A"
+ },
+ {
+  "ID": 72918346,
+  "course_ID": "AFM 291",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2023,
+  "term": "3A"
+ },
+ {
+  "ID": 29384617,
+  "course_ID": "AFM 291",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2023,
+  "term": "3A"
+ },
+ {
+  "ID": 18473920,
+  "course_ID": "AFM 291",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2023,
+  "term": "3A"
+ },
+ {
+  "ID": 49283651,
+  "course_ID": "NE 111",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2023,
+  "term": "1A"
+ },
+ {
+  "ID": 19384762,
+  "course_ID": "CS 246",
+  "section_ID": 1,
+  "semester": "Fall",
+  "year": 2020,
+  "term": "1A"
+ },
+ {
+  "ID": 12345678,
+  "course_ID": "CS 246",
+  "section_ID": 2,
+  "semester": "Fall",
+  "year": 2020,
+  "term": "1A"
+ },
+ {
+  "ID": 23456789,
+  "course_ID": "CS 246",
+  "section_ID": 3,
+  "semester": "Fall",
+  "year": 2020,
+  "term": "1A"
+ },
+ {
+  "ID": 34567890,
+  "course_ID": "CS 246",
+  "section_ID": 1,
+  "semester": "Fall",
+  "year": 2020,
+  "term": "1A"
+ },
+ {
+  "ID": 45678901,
+  "course_ID": "CS 246",
+  "section_ID": 2,
+  "semester": "Fall",
+  "year": 2020,
+  "term": "1A"
+ },
+ {
+  "ID": 56789012,
+  "course_ID": "CS 246",
+  "section_ID": 3,
+  "semester": "Fall",
+  "year": 2020,
+  "term": "1A"
+ },
+ {
+  "ID": 67890123,
+  "course_ID": "CS 246",
+  "section_ID": 1,
+  "semester": "Fall",
+  "year": 2020,
+  "term": "1A"
+ },
+ {
+  "ID": 78901234,
+  "course_ID": "CS 246",
+  "section_ID": 2,
+  "semester": "Fall",
+  "year": 2020,
+  "term": "1A"
+ },
+ {
+  "ID": 89012345,
+  "course_ID": "CS 246",
+  "section_ID": 3,
+  "semester": "Fall",
+  "year": 2020,
+  "term": "1A"
+ },
+ {
+  "ID": 49283651,
+  "course_ID": "CHE 220",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2023,
+  "term": "1A"
+ },
+ {
+  "ID": 19384762,
+  "course_ID": "MATH 135",
+  "section_ID": 1,
+  "semester": "Fall",
+  "year": 2020,
+  "term": "1A"
+ },
+ {
+  "ID": 12345678,
+  "course_ID": "MATH 135",
+  "section_ID": 2,
+  "semester": "Fall",
+  "year": 2020,
+  "term": "1A"
+ },
+ {
+  "ID": 23456789,
+  "course_ID": "MATH 135",
+  "section_ID": 3,
+  "semester": "Fall",
+  "year": 2020,
+  "term": "1A"
+ },
+ {
+  "ID": 34567890,
+  "course_ID": "MATH 135",
+  "section_ID": 1,
+  "semester": "Fall",
+  "year": 2020,
+  "term": "1A"
+ },
+ {
+  "ID": 45678901,
+  "course_ID": "MATH 135",
+  "section_ID": 2,
+  "semester": "Fall",
+  "year": 2020,
+  "term": "1A"
+ },
+ {
+  "ID": 56789012,
+  "course_ID": "MATH 135",
+  "section_ID": 3,
+  "semester": "Fall",
+  "year": 2020,
+  "term": "1A"
+ },
+ {
+  "ID": 67890123,
+  "course_ID": "MATH 135",
+  "section_ID": 1,
+  "semester": "Fall",
+  "year": 2020,
+  "term": "1A"
+ },
+ {
+  "ID": 78901234,
+  "course_ID": "MATH 135",
+  "section_ID": 2,
+  "semester": "Fall",
+  "year": 2020,
+  "term": "1A"
+ },
+ {
+  "ID": 89012345,
+  "course_ID": "MATH 135",
+  "section_ID": 3,
+  "semester": "Fall",
+  "year": 2020,
+  "term": "1A"
+ },
+ {
+  "ID": 49283651,
+  "course_ID": "ENGL 108",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2023,
+  "term": "1A"
+ },
+ {
+  "ID": 19384762,
+  "course_ID": "MATH 137",
+  "section_ID": 1,
+  "semester": "Fall",
+  "year": 2020,
+  "term": "1A"
+ },
+ {
+  "ID": 12345678,
+  "course_ID": "MATH 137",
+  "section_ID": 2,
+  "semester": "Fall",
+  "year": 2020,
+  "term": "1A"
+ },
+ {
+  "ID": 23456789,
+  "course_ID": "MATH 137",
+  "section_ID": 3,
+  "semester": "Fall",
+  "year": 2020,
+  "term": "1A"
+ },
+ {
+  "ID": 34567890,
+  "course_ID": "MATH 137",
+  "section_ID": 1,
+  "semester": "Fall",
+  "year": 2020,
+  "term": "1A"
+ },
+ {
+  "ID": 45678901,
+  "course_ID": "MATH 137",
+  "section_ID": 2,
+  "semester": "Fall",
+  "year": 2020,
+  "term": "1A"
+ },
+ {
+  "ID": 56789012,
+  "course_ID": "MATH 137",
+  "section_ID": 3,
+  "semester": "Fall",
+  "year": 2020,
+  "term": "1A"
+ },
+ {
+  "ID": 67890123,
+  "course_ID": "MATH 137",
+  "section_ID": 1,
+  "semester": "Fall",
+  "year": 2020,
+  "term": "1A"
+ },
+ {
+  "ID": 78901234,
+  "course_ID": "MATH 137",
+  "section_ID": 2,
+  "semester": "Fall",
+  "year": 2020,
+  "term": "1A"
+ },
+ {
+  "ID": 89012345,
+  "course_ID": "MATH 137",
+  "section_ID": 3,
+  "semester": "Fall",
+  "year": 2020,
+  "term": "1A"
+ },
+ {
+  "ID": 19384762,
+  "course_ID": "CS 135",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2020,
+  "term": "1B"
+ },
+ {
+  "ID": 12345678,
+  "course_ID": "CS 135",
+  "section_ID": 2,
+  "semester": "Winter",
+  "year": 2020,
+  "term": "1B"
+ },
+ {
+  "ID": 23456789,
+  "course_ID": "CS 135",
+  "section_ID": 3,
+  "semester": "Winter",
+  "year": 2020,
+  "term": "1B"
+ },
+ {
+  "ID": 34567890,
+  "course_ID": "CS 135",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2020,
+  "term": "1B"
+ },
+ {
+  "ID": 45678901,
+  "course_ID": "CS 135",
+  "section_ID": 2,
+  "semester": "Winter",
+  "year": 2020,
+  "term": "1B"
+ },
+ {
+  "ID": 56789012,
+  "course_ID": "CS 135",
+  "section_ID": 3,
+  "semester": "Winter",
+  "year": 2020,
+  "term": "1B"
+ },
+ {
+  "ID": 67890123,
+  "course_ID": "CS 135",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2020,
+  "term": "1B"
+ },
+ {
+  "ID": 78901234,
+  "course_ID": "CS 135",
+  "section_ID": 2,
+  "semester": "Winter",
+  "year": 2020,
+  "term": "1B"
+ },
+ {
+  "ID": 89012345,
+  "course_ID": "CS 135",
+  "section_ID": 3,
+  "semester": "Winter",
+  "year": 2020,
+  "term": "1B"
+ },
+ {
+  "ID": 19384762,
+  "course_ID": "MATH 138",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2020,
+  "term": "1B"
+ },
+ {
+  "ID": 12345678,
+  "course_ID": "MATH 138",
+  "section_ID": 2,
+  "semester": "Winter",
+  "year": 2020,
+  "term": "1B"
+ },
+ {
+  "ID": 23456789,
+  "course_ID": "MATH 138",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2020,
+  "term": "1B"
+ },
+ {
+  "ID": 34567890,
+  "course_ID": "MATH 138",
+  "section_ID": 2,
+  "semester": "Winter",
+  "year": 2020,
+  "term": "1B"
+ },
+ {
+  "ID": 45678901,
+  "course_ID": "MATH 138",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2020,
+  "term": "1B"
+ },
+ {
+  "ID": 56789012,
+  "course_ID": "MATH 138",
+  "section_ID": 2,
+  "semester": "Winter",
+  "year": 2020,
+  "term": "1B"
+ },
+ {
+  "ID": 67890123,
+  "course_ID": "MATH 138",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2020,
+  "term": "1B"
+ },
+ {
+  "ID": 78901234,
+  "course_ID": "MATH 138",
+  "section_ID": 2,
+  "semester": "Winter",
+  "year": 2020,
+  "term": "1B"
+ },
+ {
+  "ID": 89012345,
+  "course_ID": "MATH 138",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2020,
+  "term": "1B"
+ },
+ {
+  "ID": 19384762,
+  "course_ID": "CS 246",
+  "section_ID": 1,
+  "semester": "Spring",
+  "year": 2021,
+  "term": "2A"
+ },
+ {
+  "ID": 12345678,
+  "course_ID": "CS 246",
+  "section_ID": 2,
+  "semester": "Spring",
+  "year": 2021,
+  "term": "2A"
+ },
+ {
+  "ID": 23456789,
+  "course_ID": "CS 246",
+  "section_ID": 3,
+  "semester": "Spring",
+  "year": 2021,
+  "term": "2A"
+ },
+ {
+  "ID": 34567890,
+  "course_ID": "CS 246",
+  "section_ID": 4,
+  "semester": "Spring",
+  "year": 2021,
+  "term": "2A"
+ },
+ {
+  "ID": 45678901,
+  "course_ID": "CS 246",
+  "section_ID": 1,
+  "semester": "Spring",
+  "year": 2021,
+  "term": "2A"
+ },
+ {
+  "ID": 56789012,
+  "course_ID": "CS 246",
+  "section_ID": 2,
+  "semester": "Spring",
+  "year": 2021,
+  "term": "2A"
+ },
+ {
+  "ID": 67890123,
+  "course_ID": "CS 246",
+  "section_ID": 3,
+  "semester": "Spring",
+  "year": 2021,
+  "term": "2A"
+ },
+ {
+  "ID": 78901234,
+  "course_ID": "CS 246",
+  "section_ID": 4,
+  "semester": "Spring",
+  "year": 2021,
+  "term": "2A"
+ },
+ {
+  "ID": 89012345,
+  "course_ID": "CS 246",
+  "section_ID": 4,
+  "semester": "Spring",
+  "year": 2021,
+  "term": "2A"
+ },
+ {
+  "ID": 19384762,
+  "course_ID": "STAT 230",
+  "section_ID": 1,
+  "semester": "Spring",
+  "year": 2021,
+  "term": "2A"
+ },
+ {
+  "ID": 12345678,
+  "course_ID": "STAT 230",
+  "section_ID": 2,
+  "semester": "Spring",
+  "year": 2021,
+  "term": "2A"
+ },
+ {
+  "ID": 23456789,
+  "course_ID": "STAT 230",
+  "section_ID": 3,
+  "semester": "Spring",
+  "year": 2021,
+  "term": "2A"
+ },
+ {
+  "ID": 34567890,
+  "course_ID": "STAT 230",
+  "section_ID": 4,
+  "semester": "Spring",
+  "year": 2021,
+  "term": "2A"
+ },
+ {
+  "ID": 45678901,
+  "course_ID": "STAT 230",
+  "section_ID": 1,
+  "semester": "Spring",
+  "year": 2021,
+  "term": "2A"
+ },
+ {
+  "ID": 56789012,
+  "course_ID": "STAT 230",
+  "section_ID": 2,
+  "semester": "Spring",
+  "year": 2021,
+  "term": "2A"
+ },
+ {
+  "ID": 67890123,
+  "course_ID": "STAT 230",
+  "section_ID": 3,
+  "semester": "Spring",
+  "year": 2021,
+  "term": "2A"
+ },
+ {
+  "ID": 78901234,
+  "course_ID": "STAT 230",
+  "section_ID": 4,
+  "semester": "Spring",
+  "year": 2021,
+  "term": "2A"
+ },
+ {
+  "ID": 89012345,
+  "course_ID": "STAT 230",
+  "section_ID": 3,
+  "semester": "Spring",
+  "year": 2021,
+  "term": "2A"
+ },
+ {
+  "ID": 19384762,
+  "course_ID": "CS 348",
+  "section_ID": 1,
+  "semester": "Fall",
+  "year": 2021,
+  "term": "2B"
+ },
+ {
+  "ID": 12345678,
+  "course_ID": "CS 348",
+  "section_ID": 2,
+  "semester": "Fall",
+  "year": 2021,
+  "term": "2B"
+ },
+ {
+  "ID": 23456789,
+  "course_ID": "CS 348",
+  "section_ID": 3,
+  "semester": "Fall",
+  "year": 2021,
+  "term": "2B"
+ },
+ {
+  "ID": 34567890,
+  "course_ID": "CS 348",
+  "section_ID": 1,
+  "semester": "Fall",
+  "year": 2021,
+  "term": "2B"
+ },
+ {
+  "ID": 45678901,
+  "course_ID": "CS 348",
+  "section_ID": 2,
+  "semester": "Fall",
+  "year": 2021,
+  "term": "2B"
+ },
+ {
+  "ID": 56789012,
+  "course_ID": "CS 348",
+  "section_ID": 3,
+  "semester": "Fall",
+  "year": 2021,
+  "term": "2B"
+ },
+ {
+  "ID": 67890123,
+  "course_ID": "CS 348",
+  "section_ID": 1,
+  "semester": "Fall",
+  "year": 2021,
+  "term": "2B"
+ },
+ {
+  "ID": 78901234,
+  "course_ID": "CS 348",
+  "section_ID": 2,
+  "semester": "Fall",
+  "year": 2021,
+  "term": "2B"
+ },
+ {
+  "ID": 89012345,
+  "course_ID": "CS 348",
+  "section_ID": 3,
+  "semester": "Fall",
+  "year": 2021,
+  "term": "2B"
+ },
+ {
+  "ID": 19384762,
+  "course_ID": "STAT 231",
+  "section_ID": 1,
+  "semester": "Fall",
+  "year": 2021,
+  "term": "2B"
+ },
+ {
+  "ID": 12345678,
+  "course_ID": "STAT 231",
+  "section_ID": 2,
+  "semester": "Fall",
+  "year": 2021,
+  "term": "2B"
+ },
+ {
+  "ID": 23456789,
+  "course_ID": "STAT 231",
+  "section_ID": 3,
+  "semester": "Fall",
+  "year": 2021,
+  "term": "2B"
+ },
+ {
+  "ID": 34567890,
+  "course_ID": "STAT 231",
+  "section_ID": 1,
+  "semester": "Fall",
+  "year": 2021,
+  "term": "2B"
+ },
+ {
+  "ID": 45678901,
+  "course_ID": "STAT 231",
+  "section_ID": 2,
+  "semester": "Fall",
+  "year": 2021,
+  "term": "2B"
+ },
+ {
+  "ID": 56789012,
+  "course_ID": "STAT 231",
+  "section_ID": 3,
+  "semester": "Fall",
+  "year": 2021,
+  "term": "2B"
+ },
+ {
+  "ID": 67890123,
+  "course_ID": "STAT 231",
+  "section_ID": 1,
+  "semester": "Fall",
+  "year": 2021,
+  "term": "2B"
+ },
+ {
+  "ID": 78901234,
+  "course_ID": "STAT 231",
+  "section_ID": 2,
+  "semester": "Fall",
+  "year": 2021,
+  "term": "2B"
+ },
+ {
+  "ID": 89012345,
+  "course_ID": "STAT 231",
+  "section_ID": 3,
+  "semester": "Fall",
+  "year": 2021,
+  "term": "2B"
+ },
+ {
+  "ID": 19384762,
+  "course_ID": "ECON 101",
+  "section_ID": 1,
+  "semester": "Spring",
+  "year": 2022,
+  "term": "3A"
+ },
+ {
+  "ID": 12345678,
+  "course_ID": "ECON 101",
+  "section_ID": 1,
+  "semester": "Spring",
+  "year": 2022,
+  "term": "3A"
+ },
+ {
+  "ID": 23456789,
+  "course_ID": "ECON 101",
+  "section_ID": 1,
+  "semester": "Spring",
+  "year": 2022,
+  "term": "3A"
+ },
+ {
+  "ID": 34567890,
+  "course_ID": "ECON 101",
+  "section_ID": 1,
+  "semester": "Spring",
+  "year": 2022,
+  "term": "3A"
+ },
+ {
+  "ID": 45678901,
+  "course_ID": "ECON 101",
+  "section_ID": 1,
+  "semester": "Spring",
+  "year": 2022,
+  "term": "3A"
+ },
+ {
+  "ID": 56789012,
+  "course_ID": "ECON 101",
+  "section_ID": 1,
+  "semester": "Spring",
+  "year": 2022,
+  "term": "3A"
+ },
+ {
+  "ID": 67890123,
+  "course_ID": "ECON 101",
+  "section_ID": 1,
+  "semester": "Spring",
+  "year": 2022,
+  "term": "3A"
+ },
+ {
+  "ID": 78901234,
+  "course_ID": "ECON 101",
+  "section_ID": 1,
+  "semester": "Spring",
+  "year": 2022,
+  "term": "3A"
+ },
+ {
+  "ID": 89012345,
+  "course_ID": "ECON 101",
+  "section_ID": 1,
+  "semester": "Spring",
+  "year": 2022,
+  "term": "3A"
+ },
+ {
+  "ID": 19384762,
+  "course_ID": "PHYS 122",
+  "section_ID": 1,
+  "semester": "Spring",
+  "year": 2022,
+  "term": "3A"
+ },
+ {
+  "ID": 12345678,
+  "course_ID": "PHYS 122",
+  "section_ID": 2,
+  "semester": "Spring",
+  "year": 2022,
+  "term": "3A"
+ },
+ {
+  "ID": 23456789,
+  "course_ID": "PHYS 122",
+  "section_ID": 3,
+  "semester": "Spring",
+  "year": 2022,
+  "term": "3A"
+ },
+ {
+  "ID": 34567890,
+  "course_ID": "PHYS 122",
+  "section_ID": 1,
+  "semester": "Spring",
+  "year": 2022,
+  "term": "3A"
+ },
+ {
+  "ID": 45678901,
+  "course_ID": "PHYS 122",
+  "section_ID": 2,
+  "semester": "Spring",
+  "year": 2022,
+  "term": "3A"
+ },
+ {
+  "ID": 56789012,
+  "course_ID": "PHYS 122",
+  "section_ID": 3,
+  "semester": "Spring",
+  "year": 2022,
+  "term": "3A"
+ },
+ {
+  "ID": 67890123,
+  "course_ID": "PHYS 122",
+  "section_ID": 1,
+  "semester": "Spring",
+  "year": 2022,
+  "term": "3A"
+ },
+ {
+  "ID": 78901234,
+  "course_ID": "PHYS 122",
+  "section_ID": 2,
+  "semester": "Spring",
+  "year": 2022,
+  "term": "3A"
+ },
+ {
+  "ID": 89012345,
+  "course_ID": "PHYS 122",
+  "section_ID": 3,
+  "semester": "Spring",
+  "year": 2022,
+  "term": "3A"
+ },
+ {
+  "ID": 19384762,
+  "course_ID": "STAT 330",
+  "section_ID": 1,
+  "semester": "Fall",
+  "year": 2022,
+  "term": "3B"
+ },
+ {
+  "ID": 12345678,
+  "course_ID": "STAT 330",
+  "section_ID": 2,
+  "semester": "Fall",
+  "year": 2022,
+  "term": "3B"
+ },
+ {
+  "ID": 23456789,
+  "course_ID": "STAT 330",
+  "section_ID": 3,
+  "semester": "Fall",
+  "year": 2022,
+  "term": "3B"
+ },
+ {
+  "ID": 34567890,
+  "course_ID": "STAT 330",
+  "section_ID": 1,
+  "semester": "Fall",
+  "year": 2022,
+  "term": "3B"
+ },
+ {
+  "ID": 45678901,
+  "course_ID": "STAT 330",
+  "section_ID": 2,
+  "semester": "Fall",
+  "year": 2022,
+  "term": "3B"
+ },
+ {
+  "ID": 56789012,
+  "course_ID": "STAT 330",
+  "section_ID": 3,
+  "semester": "Fall",
+  "year": 2022,
+  "term": "3B"
+ },
+ {
+  "ID": 67890123,
+  "course_ID": "STAT 330",
+  "section_ID": 1,
+  "semester": "Fall",
+  "year": 2022,
+  "term": "3B"
+ },
+ {
+  "ID": 78901234,
+  "course_ID": "STAT 330",
+  "section_ID": 2,
+  "semester": "Fall",
+  "year": 2022,
+  "term": "3B"
+ },
+ {
+  "ID": 89012345,
+  "course_ID": "STAT 330",
+  "section_ID": 3,
+  "semester": "Fall",
+  "year": 2022,
+  "term": "3B"
+ },
+ {
+  "ID": 19384762,
+  "course_ID": "ECON 211",
+  "section_ID": 1,
+  "semester": "Fall",
+  "year": 2022,
+  "term": "3B"
+ },
+ {
+  "ID": 12345678,
+  "course_ID": "ECON 211",
+  "section_ID": 1,
+  "semester": "Fall",
+  "year": 2022,
+  "term": "3B"
+ },
+ {
+  "ID": 23456789,
+  "course_ID": "ECON 211",
+  "section_ID": 1,
+  "semester": "Fall",
+  "year": 2022,
+  "term": "3B"
+ },
+ {
+  "ID": 34567890,
+  "course_ID": "ECON 211",
+  "section_ID": 1,
+  "semester": "Fall",
+  "year": 2022,
+  "term": "3B"
+ },
+ {
+  "ID": 45678901,
+  "course_ID": "ECON 211",
+  "section_ID": 1,
+  "semester": "Fall",
+  "year": 2022,
+  "term": "3B"
+ },
+ {
+  "ID": 56789012,
+  "course_ID": "ECON 211",
+  "section_ID": 1,
+  "semester": "Fall",
+  "year": 2022,
+  "term": "3B"
+ },
+ {
+  "ID": 67890123,
+  "course_ID": "ECON 211",
+  "section_ID": 1,
+  "semester": "Fall",
+  "year": 2022,
+  "term": "3B"
+ },
+ {
+  "ID": 78901234,
+  "course_ID": "ECON 211",
+  "section_ID": 1,
+  "semester": "Fall",
+  "year": 2022,
+  "term": "3B"
+ },
+ {
+  "ID": 89012345,
+  "course_ID": "ECON 211",
+  "section_ID": 1,
+  "semester": "Fall",
+  "year": 2022,
+  "term": "3B"
+ },
+ {
+  "ID": 90123456,
+  "course_ID": "PHYS 121",
+  "section_ID": 1,
+  "semester": "Fall",
+  "year": 2021,
+  "term": "1A"
+ },
+ {
+  "ID": 12345677,
+  "course_ID": "PHYS 121",
+  "section_ID": 2,
+  "semester": "Fall",
+  "year": 2021,
+  "term": "1A"
+ },
+ {
+  "ID": 21487654,
+  "course_ID": "PHYS 121",
+  "section_ID": 3,
+  "semester": "Fall",
+  "year": 2021,
+  "term": "1A"
+ },
+ {
+  "ID": 20928175,
+  "course_ID": "PHYS 122",
+  "section_ID": 1,
+  "semester": "Fall",
+  "year": 2021,
+  "term": "1A"
+ },
+ {
+  "ID": 21765423,
+  "course_ID": "PHYS 122",
+  "section_ID": 2,
+  "semester": "Fall",
+  "year": 2021,
+  "term": "1A"
+ },
+ {
+  "ID": 20387129,
+  "course_ID": "PHYS 122",
+  "section_ID": 3,
+  "semester": "Fall",
+  "year": 2021,
+  "term": "1A"
+ },
+ {
+  "ID": 21123456,
+  "course_ID": "PHYS 122",
+  "section_ID": 1,
+  "semester": "Fall",
+  "year": 2021,
+  "term": "1A"
+ },
+ {
+  "ID": 21567890,
+  "course_ID": "PHYS 122",
+  "section_ID": 2,
+  "semester": "Fall",
+  "year": 2021,
+  "term": "1A"
+ },
+ {
+  "ID": 21987654,
+  "course_ID": "PHYS 122",
+  "section_ID": 3,
+  "semester": "Fall",
+  "year": 2021,
+  "term": "1A"
+ },
+ {
+  "ID": 20654321,
+  "course_ID": "PHYS 122",
+  "section_ID": 3,
+  "semester": "Fall",
+  "year": 2021,
+  "term": "1A"
+ },
+ {
+  "ID": 90123456,
+  "course_ID": "CS 136",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2021,
+  "term": "1B"
+ },
+ {
+  "ID": 12345677,
+  "course_ID": "CS 136",
+  "section_ID": 2,
+  "semester": "Winter",
+  "year": 2021,
+  "term": "1B"
+ },
+ {
+  "ID": 21487654,
+  "course_ID": "CS 241",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2021,
+  "term": "1B"
+ },
+ {
+  "ID": 20928175,
+  "course_ID": "CS 136",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2021,
+  "term": "1B"
+ },
+ {
+  "ID": 21765423,
+  "course_ID": "CS 136",
+  "section_ID": 2,
+  "semester": "Winter",
+  "year": 2021,
+  "term": "1B"
+ },
+ {
+  "ID": 20387129,
+  "course_ID": "CS 241",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2021,
+  "term": "1B"
+ },
+ {
+  "ID": 21123456,
+  "course_ID": "CS 136",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2021,
+  "term": "1B"
+ },
+ {
+  "ID": 21567890,
+  "course_ID": "CS 136",
+  "section_ID": 2,
+  "semester": "Winter",
+  "year": 2021,
+  "term": "1B"
+ },
+ {
+  "ID": 21987654,
+  "course_ID": "CS 241",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2021,
+  "term": "1B"
+ },
+ {
+  "ID": 20654321,
+  "course_ID": "CS 241",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2021,
+  "term": "1B"
+ },
+ {
+  "ID": 90123456,
+  "course_ID": "ECON 101",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2021,
+  "term": "1B"
+ },
+ {
+  "ID": 12345677,
+  "course_ID": "ECON 201",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2021,
+  "term": "1B"
+ },
+ {
+  "ID": 21487654,
+  "course_ID": "ECON 211",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2021,
+  "term": "1B"
+ },
+ {
+  "ID": 20928175,
+  "course_ID": "PHYS 121",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2021,
+  "term": "1B"
+ },
+ {
+  "ID": 21765423,
+  "course_ID": "PHYS 121",
+  "section_ID": 2,
+  "semester": "Winter",
+  "year": 2021,
+  "term": "1B"
+ },
+ {
+  "ID": 20387129,
+  "course_ID": "PHYS 121",
+  "section_ID": 3,
+  "semester": "Winter",
+  "year": 2021,
+  "term": "1B"
+ },
+ {
+  "ID": 21123456,
+  "course_ID": "PHYS 122",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2021,
+  "term": "1B"
+ },
+ {
+  "ID": 21567890,
+  "course_ID": "PHYS 121",
+  "section_ID": 2,
+  "semester": "Winter",
+  "year": 2021,
+  "term": "1B"
+ },
+ {
+  "ID": 21987654,
+  "course_ID": "PHYS 121",
+  "section_ID": 3,
+  "semester": "Winter",
+  "year": 2021,
+  "term": "1B"
+ },
+ {
+  "ID": 20654321,
+  "course_ID": "PHYS 122",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2021,
+  "term": "1B"
+ },
+ {
+  "ID": 90123456,
+  "course_ID": "ECON 101",
+  "section_ID": 1,
+  "semester": "Spring",
+  "year": 2022,
+  "term": "2A"
+ },
+ {
+  "ID": 12345677,
+  "course_ID": "ECON 201",
+  "section_ID": 1,
+  "semester": "Spring",
+  "year": 2022,
+  "term": "2A"
+ },
+ {
+  "ID": 21487654,
+  "course_ID": "ECON 211",
+  "section_ID": 1,
+  "semester": "Spring",
+  "year": 2022,
+  "term": "2A"
+ },
+ {
+  "ID": 20928175,
+  "course_ID": "PHYS 121",
+  "section_ID": 1,
+  "semester": "Spring",
+  "year": 2022,
+  "term": "2A"
+ },
+ {
+  "ID": 21765423,
+  "course_ID": "PHYS 121",
+  "section_ID": 2,
+  "semester": "Spring",
+  "year": 2022,
+  "term": "2A"
+ },
+ {
+  "ID": 20387129,
+  "course_ID": "PHYS 121",
+  "section_ID": 3,
+  "semester": "Spring",
+  "year": 2022,
+  "term": "2A"
+ },
+ {
+  "ID": 21123456,
+  "course_ID": "PHYS 122",
+  "section_ID": 1,
+  "semester": "Spring",
+  "year": 2022,
+  "term": "2A"
+ },
+ {
+  "ID": 21567890,
+  "course_ID": "PHYS 121",
+  "section_ID": 2,
+  "semester": "Spring",
+  "year": 2022,
+  "term": "2A"
+ },
+ {
+  "ID": 21987654,
+  "course_ID": "PHYS 121",
+  "section_ID": 3,
+  "semester": "Spring",
+  "year": 2022,
+  "term": "2A"
+ },
+ {
+  "ID": 20654321,
+  "course_ID": "PHYS 122",
+  "section_ID": 1,
+  "semester": "Spring",
+  "year": 2022,
+  "term": "2A"
+ },
+ {
+  "ID": 90123456,
+  "course_ID": "PSYCH 101",
+  "section_ID": 2,
+  "semester": "Spring",
+  "year": 2023,
+  "term": "2B"
+ },
+ {
+  "ID": 12345677,
+  "course_ID": "BIOL 130",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2023,
+  "term": "2B"
+ },
+ {
+  "ID": 21487654,
+  "course_ID": "ECE 105",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2023,
+  "term": "2B"
+ },
+ {
+  "ID": 20928175,
+  "course_ID": "MSCI 261",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2023,
+  "term": "2B"
+ },
+ {
+  "ID": 21765423,
+  "course_ID": "AFM 123",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2023,
+  "term": "2B"
+ },
+ {
+  "ID": 20387129,
+  "course_ID": "CHEM 120",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2023,
+  "term": "2B"
+ },
+ {
+  "ID": 21123456,
+  "course_ID": "EARTH 121",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2023,
+  "term": "2B"
+ },
+ {
+  "ID": 21567890,
+  "course_ID": "CLAS 104",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2023,
+  "term": "2B"
+ },
+ {
+  "ID": 21987654,
+  "course_ID": "FR 192",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2023,
+  "term": "2B"
+ },
+ {
+  "ID": 20654321,
+  "course_ID": "MSCI 436",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2023,
+  "term": "2B"
+ },
+ {
+  "ID": 21345678,
+  "course_ID": "FR 152",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022,
+  "term": "1A"
+ },
+ {
+  "ID": 11111222,
+  "course_ID": "GER 271",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022,
+  "term": "1A"
+ },
+ {
+  "ID": 22223333,
+  "course_ID": "HIST 208",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022,
+  "term": "1A"
+ },
+ {
+  "ID": 33334444,
+  "course_ID": "KIN 140",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022,
+  "term": "1A"
+ },
+ {
+  "ID": 44445555,
+  "course_ID": "MSCI 311",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022,
+  "term": "1A"
+ },
+ {
+  "ID": 55556666,
+  "course_ID": "MUSIC 246",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022,
+  "term": "1A"
+ },
+ {
+  "ID": 66667777,
+  "course_ID": "NE 111",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022,
+  "term": "1A"
+ },
+ {
+  "ID": 77778888,
+  "course_ID": "ARBUS 201",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022,
+  "term": "1A"
+ },
+ {
+  "ID": 88889999,
+  "course_ID": "BIOL 240",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022,
+  "term": "1A"
+ },
+ {
+  "ID": 99990000,
+  "course_ID": "CHEM 364",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022,
+  "term": "1A"
+ },
+ {
+  "ID": 21345678,
+  "course_ID": "MATH 145",
+  "section_ID": 1,
+  "semester": "Spring",
+  "year": 2022,
+  "term": "1B"
+ },
+ {
+  "ID": 11111222,
+  "course_ID": "MATH 145",
+  "section_ID": 1,
+  "semester": "Spring",
+  "year": 2022,
+  "term": "1B"
+ },
+ {
+  "ID": 22223333,
+  "course_ID": "MATH 145",
+  "section_ID": 1,
+  "semester": "Spring",
+  "year": 2022,
+  "term": "1B"
+ },
+ {
+  "ID": 33334444,
+  "course_ID": "MATH 145",
+  "section_ID": 1,
+  "semester": "Spring",
+  "year": 2022,
+  "term": "1B"
+ },
+ {
+  "ID": 44445555,
+  "course_ID": "MATH 145",
+  "section_ID": 1,
+  "semester": "Spring",
+  "year": 2022,
+  "term": "1B"
+ },
+ {
+  "ID": 55556666,
+  "course_ID": "MATH 145",
+  "section_ID": 1,
+  "semester": "Spring",
+  "year": 2022,
+  "term": "1B"
+ },
+ {
+  "ID": 66667777,
+  "course_ID": "MATH 145",
+  "section_ID": 1,
+  "semester": "Spring",
+  "year": 2022,
+  "term": "1B"
+ },
+ {
+  "ID": 77778888,
+  "course_ID": "MATH 145",
+  "section_ID": 1,
+  "semester": "Spring",
+  "year": 2022,
+  "term": "1B"
+ },
+ {
+  "ID": 88889999,
+  "course_ID": "MATH 145",
+  "section_ID": 1,
+  "semester": "Spring",
+  "year": 2022,
+  "term": "1B"
+ },
+ {
+  "ID": 99990000,
+  "course_ID": "MATH 145",
+  "section_ID": 1,
+  "semester": "Spring",
+  "year": 2022,
+  "term": "1B"
+ },
+ {
+  "ID": 21345678,
+  "course_ID": "MATH 135",
+  "section_ID": 3,
+  "semester": "Fall",
+  "year": 2022,
+  "term": "2A"
+ },
+ {
+  "ID": 33334444,
+  "course_ID": "MATH 137",
+  "section_ID": 1,
+  "semester": "Fall",
+  "year": 2022,
+  "term": "2A"
+ },
+ {
+  "ID": 44445555,
+  "course_ID": "MATH 137",
+  "section_ID": 2,
+  "semester": "Fall",
+  "year": 2022,
+  "term": "2A"
+ },
+ {
+  "ID": 55556666,
+  "course_ID": "MATH 137",
+  "section_ID": 3,
+  "semester": "Fall",
+  "year": 2022,
+  "term": "2A"
+ },
+ {
+  "ID": 66667777,
+  "course_ID": "MATH 138",
+  "section_ID": 1,
+  "semester": "Fall",
+  "year": 2022,
+  "term": "2A"
+ },
+ {
+  "ID": 77778888,
+  "course_ID": "MATH 138",
+  "section_ID": 2,
+  "semester": "Fall",
+  "year": 2022,
+  "term": "2A"
+ },
+ {
+  "ID": 88889999,
+  "course_ID": "MATH 239",
+  "section_ID": 1,
+  "semester": "Fall",
+  "year": 2022,
+  "term": "2A"
+ },
+ {
+  "ID": 99990000,
+  "course_ID": "MATH 239",
+  "section_ID": 1,
+  "semester": "Fall",
+  "year": 2022,
+  "term": "2A"
+ },
+ {
+  "ID": 21345678,
+  "course_ID": "CHE 220",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2023,
+  "term": "2B"
+ },
+ {
+  "ID": 33334444,
+  "course_ID": "DRAMA 100",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2023,
+  "term": "2B"
+ },
+ {
+  "ID": 44445555,
+  "course_ID": "ENGL 108",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2023,
+  "term": "2B"
+ },
+ {
+  "ID": 55556666,
+  "course_ID": "FR 152",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2023,
+  "term": "2B"
+ },
+ {
+  "ID": 66667777,
+  "course_ID": "GER 271",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2023,
+  "term": "2B"
+ },
+ {
+  "ID": 77778888,
+  "course_ID": "HIST 208",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2023,
+  "term": "2B"
+ },
+ {
+  "ID": 88889999,
+  "course_ID": "KIN 140",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2023,
+  "term": "2B"
+ },
+ {
+  "ID": 99990000,
+  "course_ID": "MSCI 311",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2023,
+  "term": "2B"
+ },
+ {
+  "ID": 33334444,
+  "course_ID": "ECON 101",
+  "section_ID": 1,
+  "semester": "Spring",
+  "year": 2023,
+  "term": "3A"
+ },
+ {
+  "ID": 99990000,
+  "course_ID": "ECON 201",
+  "section_ID": 1,
+  "semester": "Spring",
+  "year": 2023,
+  "term": "3A"
+ },
+ {
+  "ID": 11112222,
+  "course_ID": "MATH 135",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022,
+  "term": "1A"
+ },
+ {
+  "ID": 22223333,
+  "course_ID": "MATH 135",
+  "section_ID": 2,
+  "semester": "Winter",
+  "year": 2022,
+  "term": "1A"
+ },
+ {
+  "ID": 33334444,
+  "course_ID": "MATH 135",
+  "section_ID": 3,
+  "semester": "Winter",
+  "year": 2022,
+  "term": "1A"
+ },
+ {
+  "ID": 13047963,
+  "course_ID": "MATH 137",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022,
+  "term": "1A"
+ },
+ {
+  "ID": 21479513,
+  "course_ID": "MATH 137",
+  "section_ID": 2,
+  "semester": "Winter",
+  "year": 2022,
+  "term": "1A"
+ },
+ {
+  "ID": 15702380,
+  "course_ID": "MATH 135",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022,
+  "term": "1A"
+ },
+ {
+  "ID": 19073284,
+  "course_ID": "MATH 135",
+  "section_ID": 2,
+  "semester": "Winter",
+  "year": 2022,
+  "term": "1A"
+ },
+ {
+  "ID": 16134702,
+  "course_ID": "MATH 135",
+  "section_ID": 3,
+  "semester": "Winter",
+  "year": 2022,
+  "term": "1A"
+ },
+ {
+  "ID": 17829051,
+  "course_ID": "MATH 137",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022,
+  "term": "1A"
+ },
+ {
+  "ID": 20571439,
+  "course_ID": "MATH 137",
+  "section_ID": 2,
+  "semester": "Winter",
+  "year": 2022,
+  "term": "1A"
+ },
+ {
+  "ID": 11112222,
+  "course_ID": "PHYS 122",
+  "section_ID": 2,
+  "semester": "Fall",
+  "year": 2022,
+  "term": "1B"
+ },
+ {
+  "ID": 22223333,
+  "course_ID": "PHYS 122",
+  "section_ID": 3,
+  "semester": "Fall",
+  "year": 2022,
+  "term": "1B"
+ },
+ {
+  "ID": 33334444,
+  "course_ID": "AFM 101",
+  "section_ID": 1,
+  "semester": "Fall",
+  "year": 2022,
+  "term": "1B"
+ },
+ {
+  "ID": 13047963,
+  "course_ID": "AFM 101",
+  "section_ID": 2,
+  "semester": "Fall",
+  "year": 2022,
+  "term": "1B"
+ },
+ {
+  "ID": 21479513,
+  "course_ID": "AFM 202",
+  "section_ID": 1,
+  "semester": "Fall",
+  "year": 2022,
+  "term": "1B"
+ },
+ {
+  "ID": 15702380,
+  "course_ID": "PHYS 122",
+  "section_ID": 2,
+  "semester": "Fall",
+  "year": 2022,
+  "term": "1B"
+ },
+ {
+  "ID": 19073284,
+  "course_ID": "PHYS 122",
+  "section_ID": 3,
+  "semester": "Fall",
+  "year": 2022,
+  "term": "1B"
+ },
+ {
+  "ID": 16134702,
+  "course_ID": "AFM 101",
+  "section_ID": 1,
+  "semester": "Fall",
+  "year": 2022,
+  "term": "1B"
+ },
+ {
+  "ID": 17829051,
+  "course_ID": "AFM 101",
+  "section_ID": 2,
+  "semester": "Fall",
+  "year": 2022,
+  "term": "1B"
+ },
+ {
+  "ID": 20571439,
+  "course_ID": "AFM 202",
+  "section_ID": 1,
+  "semester": "Fall",
+  "year": 2022,
+  "term": "1B"
+ },
+ {
+  "ID": 11112222,
+  "course_ID": "CS 246",
+  "section_ID": 3,
+  "semester": "Winter",
+  "year": 2022,
+  "term": "2A"
+ },
+ {
+  "ID": 22223333,
+  "course_ID": "CS 246",
+  "section_ID": 4,
+  "semester": "Winter",
+  "year": 2022,
+  "term": "2A"
+ },
+ {
+  "ID": 33334444,
+  "course_ID": "CS 251",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022,
+  "term": "2A"
+ },
+ {
+  "ID": 13047963,
+  "course_ID": "CS 341",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022,
+  "term": "2A"
+ },
+ {
+  "ID": 19073284,
+  "course_ID": "CS 346",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022,
+  "term": "2A"
+ },
+ {
+  "ID": 17829051,
+  "course_ID": "CS 346",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022,
+  "term": "2A"
+ },
+ {
+  "ID": 20571439,
+  "course_ID": "CS 346",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022,
+  "term": "2A"
+ },
+ {
+  "ID": 11112222,
+  "course_ID": "ECON 201",
+  "section_ID": 1,
+  "semester": "Spring",
+  "year": 2022,
+  "term": "2B"
+ },
+ {
+  "ID": 22223333,
+  "course_ID": "ECON 211",
+  "section_ID": 1,
+  "semester": "Spring",
+  "year": 2022,
+  "term": "2B"
+ },
+ {
+  "ID": 33334444,
+  "course_ID": "PHYS 121",
+  "section_ID": 1,
+  "semester": "Spring",
+  "year": 2022,
+  "term": "2B"
+ },
+ {
+  "ID": 13047963,
+  "course_ID": "PHYS 121",
+  "section_ID": 2,
+  "semester": "Spring",
+  "year": 2022,
+  "term": "2B"
+ },
+ {
+  "ID": 19073284,
+  "course_ID": "PHYS 121",
+  "section_ID": 3,
+  "semester": "Spring",
+  "year": 2022,
+  "term": "2B"
+ },
+ {
+  "ID": 17829051,
+  "course_ID": "PHYS 122",
+  "section_ID": 1,
+  "semester": "Spring",
+  "year": 2022,
+  "term": "2B"
+ },
+ {
+  "ID": 20571439,
+  "course_ID": "PHYS 122",
+  "section_ID": 2,
+  "semester": "Spring",
+  "year": 2022,
+  "term": "2B"
+ },
+ {
+  "ID": 22223333,
+  "course_ID": "CS 246",
+  "section_ID": 1,
+  "semester": "Fall",
+  "year": 2022,
+  "term": "3A"
+ },
+ {
+  "ID": 33334444,
+  "course_ID": "CS 246",
+  "section_ID": 2,
+  "semester": "Fall",
+  "year": 2022,
+  "term": "3A"
+ },
+ {
+  "ID": 13047963,
+  "course_ID": "CS 246",
+  "section_ID": 3,
+  "semester": "Fall",
+  "year": 2022,
+  "term": "3A"
+ },
+ {
+  "ID": 17829051,
+  "course_ID": "CS 246",
+  "section_ID": 4,
+  "semester": "Fall",
+  "year": 2022,
+  "term": "3A"
+ },
+ {
+  "ID": 22223333,
+  "course_ID": "CS 251",
+  "section_ID": 1,
+  "semester": "Fall",
+  "year": 2022,
+  "term": "3A"
+ },
+ {
+  "ID": 33334444,
+  "course_ID": "CS 341",
+  "section_ID": 1,
+  "semester": "Fall",
+  "year": 2022,
+  "term": "3A"
+ },
+ {
+  "ID": 13047963,
+  "course_ID": "CS 346",
+  "section_ID": 1,
+  "semester": "Fall",
+  "year": 2022,
+  "term": "3A"
  }
 ]

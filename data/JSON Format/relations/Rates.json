@@ -1,0 +1,1340 @@
+[
+ {
+  "course_ID": "CS 135",
+  "liked_rating": 4,
+  "useful_rating": 2,
+  "student_ID": 45453885
+ },
+ {
+  "course_ID": "CS 136",
+  "liked_rating": 3,
+  "useful_rating": 3,
+  "student_ID": 79689206
+ },
+ {
+  "course_ID": "CS 241",
+  "liked_rating": 4,
+  "useful_rating": 3,
+  "student_ID": 67496942
+ },
+ {
+  "course_ID": "CS 246",
+  "liked_rating": 4,
+  "useful_rating": 2,
+  "student_ID": 40128931
+ },
+ {
+  "course_ID": "CS 251",
+  "liked_rating": 3,
+  "useful_rating": 1,
+  "student_ID": 19767510
+ },
+ {
+  "course_ID": "CS 251",
+  "liked_rating": 4,
+  "useful_rating": 4,
+  "student_ID": 83950021
+ },
+ {
+  "course_ID": "CS 251",
+  "liked_rating": 4,
+  "useful_rating": 4,
+  "student_ID": 21217676
+ },
+ {
+  "course_ID": "CS 251",
+  "liked_rating": 4,
+  "useful_rating": 2,
+  "student_ID": 34566543
+ },
+ {
+  "course_ID": "CS 251",
+  "liked_rating": 3,
+  "useful_rating": 2,
+  "student_ID": 37486905
+ },
+ {
+  "course_ID": "CS 346",
+  "liked_rating": 3,
+  "useful_rating": 1,
+  "student_ID": 92514073
+ },
+ {
+  "course_ID": "CS 348",
+  "liked_rating": 4,
+  "useful_rating": 3,
+  "student_ID": 10871349
+ },
+ {
+  "course_ID": "CS 350",
+  "liked_rating": 2,
+  "useful_rating": 5,
+  "student_ID": 28349567
+ },
+ {
+  "course_ID": "CS 444",
+  "liked_rating": 2,
+  "useful_rating": 2,
+  "student_ID": 91827364
+ },
+ {
+  "course_ID": "CS 444",
+  "liked_rating": 1,
+  "useful_rating": 1,
+  "student_ID": 72819365
+ },
+ {
+  "course_ID": "CS 489",
+  "liked_rating": 5,
+  "useful_rating": 2,
+  "student_ID": 37482931
+ },
+ {
+  "course_ID": "CS 489",
+  "liked_rating": 4,
+  "useful_rating": 1,
+  "student_ID": 93746281
+ },
+ {
+  "course_ID": "CS 489",
+  "liked_rating": 1,
+  "useful_rating": 2,
+  "student_ID": 64927183
+ },
+ {
+  "course_ID": "CS 489",
+  "liked_rating": 3,
+  "useful_rating": 2,
+  "student_ID": 18372940
+ },
+ {
+  "course_ID": "CS 489",
+  "liked_rating": 5,
+  "useful_rating": 3,
+  "student_ID": 52468719
+ },
+ {
+  "course_ID": "CS 489",
+  "liked_rating": 3,
+  "useful_rating": 1,
+  "student_ID": 28374910
+ },
+ {
+  "course_ID": "MATH 135",
+  "liked_rating": 4,
+  "useful_rating": 5,
+  "student_ID": 18472039
+ },
+ {
+  "course_ID": "MATH 135",
+  "liked_rating": 1,
+  "useful_rating": 3,
+  "student_ID": 85719236
+ },
+ {
+  "course_ID": "MATH 135",
+  "liked_rating": 2,
+  "useful_rating": 5,
+  "student_ID": 49283617
+ },
+ {
+  "course_ID": "MATH 137",
+  "liked_rating": 2,
+  "useful_rating": 4,
+  "student_ID": 27384916
+ },
+ {
+  "course_ID": "MATH 138",
+  "liked_rating": 5,
+  "useful_rating": 5,
+  "student_ID": 38491725
+ },
+ {
+  "course_ID": "MATH 239",
+  "liked_rating": 4,
+  "useful_rating": 4,
+  "student_ID": 72918346
+ },
+ {
+  "course_ID": "MATH 235",
+  "liked_rating": 5,
+  "useful_rating": 4,
+  "student_ID": 29384617
+ },
+ {
+  "course_ID": "MATH 235",
+  "liked_rating": 1,
+  "useful_rating": 4,
+  "student_ID": 18473920
+ },
+ {
+  "course_ID": "MATH 235",
+  "liked_rating": 3,
+  "useful_rating": 5,
+  "student_ID": 18372940
+ },
+ {
+  "course_ID": "STAT 230",
+  "liked_rating": 4,
+  "useful_rating": 2,
+  "student_ID": 12345678
+ },
+ {
+  "course_ID": "STAT 231",
+  "liked_rating": 2,
+  "useful_rating": 1,
+  "student_ID": 23456789
+ },
+ {
+  "course_ID": "STAT 330",
+  "liked_rating": 5,
+  "useful_rating": 5,
+  "student_ID": 34567890
+ },
+ {
+  "course_ID": "ECE 208",
+  "liked_rating": 1,
+  "useful_rating": 5,
+  "student_ID": 45678901
+ },
+ {
+  "course_ID": "ECON 101",
+  "liked_rating": 5,
+  "useful_rating": 1,
+  "student_ID": 56789012
+ },
+ {
+  "course_ID": "ECON 101",
+  "liked_rating": 4,
+  "useful_rating": 5,
+  "student_ID": 67890123
+ },
+ {
+  "course_ID": "ECON 201",
+  "liked_rating": 3,
+  "useful_rating": 1,
+  "student_ID": 78901234
+ },
+ {
+  "course_ID": "ECON 201",
+  "liked_rating": 1,
+  "useful_rating": 3,
+  "student_ID": 89012345
+ },
+ {
+  "course_ID": "ECON 211",
+  "liked_rating": 3,
+  "useful_rating": 3,
+  "student_ID": 90123456
+ },
+ {
+  "course_ID": "ECON 211",
+  "liked_rating": 2,
+  "useful_rating": 5,
+  "student_ID": 12345677
+ },
+ {
+  "course_ID": "ECON 211",
+  "liked_rating": 1,
+  "useful_rating": 1,
+  "student_ID": 21487654
+ },
+ {
+  "course_ID": "PHYS 121",
+  "liked_rating": 3,
+  "useful_rating": 5,
+  "student_ID": 20928175
+ },
+ {
+  "course_ID": "PHYS 122",
+  "liked_rating": 2,
+  "useful_rating": 2,
+  "student_ID": 21765423
+ },
+ {
+  "course_ID": "AFM 101",
+  "liked_rating": 5,
+  "useful_rating": 2,
+  "student_ID": 20387129
+ },
+ {
+  "course_ID": "AFM 202",
+  "liked_rating": 1,
+  "useful_rating": 4,
+  "student_ID": 21123456
+ },
+ {
+  "course_ID": "AFM 341",
+  "liked_rating": 5,
+  "useful_rating": 4,
+  "student_ID": 21567890
+ },
+ {
+  "course_ID": "AFM 481",
+  "liked_rating": 4,
+  "useful_rating": 4,
+  "student_ID": 21987654
+ },
+ {
+  "course_ID": "MATH 145",
+  "liked_rating": 4,
+  "useful_rating": 1,
+  "student_ID": 55556666
+ },
+ {
+  "course_ID": "MATH 145",
+  "liked_rating": 2,
+  "useful_rating": 4,
+  "student_ID": 66667777
+ },
+ {
+  "course_ID": "MATH 145",
+  "liked_rating": 3,
+  "useful_rating": 4,
+  "student_ID": 77778888
+ },
+ {
+  "course_ID": "MATH 145",
+  "liked_rating": 3,
+  "useful_rating": 5,
+  "student_ID": 88889999
+ },
+ {
+  "course_ID": "MATH 145",
+  "liked_rating": 1,
+  "useful_rating": 1,
+  "student_ID": 99990000
+ },
+ {
+  "course_ID": "MATH 145",
+  "liked_rating": 5,
+  "useful_rating": 3,
+  "student_ID": 11112222
+ },
+ {
+  "course_ID": "MATH 145",
+  "liked_rating": 2,
+  "useful_rating": 2,
+  "student_ID": 22223333
+ },
+ {
+  "course_ID": "PSYCH 101",
+  "liked_rating": 1,
+  "useful_rating": 5,
+  "student_ID": 19767510
+ },
+ {
+  "course_ID": "PSYCH 101",
+  "liked_rating": 4,
+  "useful_rating": 2,
+  "student_ID": 83950021
+ },
+ {
+  "course_ID": "PSYCH 101",
+  "liked_rating": 5,
+  "useful_rating": 1,
+  "student_ID": 91260560
+ },
+ {
+  "course_ID": "PSYCH 101",
+  "liked_rating": 1,
+  "useful_rating": 4,
+  "student_ID": 60653931
+ },
+ {
+  "course_ID": "PSYCH 101",
+  "liked_rating": 4,
+  "useful_rating": 5,
+  "student_ID": 22779613
+ },
+ {
+  "course_ID": "PSYCH 101",
+  "liked_rating": 3,
+  "useful_rating": 4,
+  "student_ID": 13336678
+ },
+ {
+  "course_ID": "BIOL 130",
+  "liked_rating": 5,
+  "useful_rating": 4,
+  "student_ID": 21217676
+ },
+ {
+  "course_ID": "ECE 105",
+  "liked_rating": 2,
+  "useful_rating": 4,
+  "student_ID": 34566543
+ },
+ {
+  "course_ID": "MSCI 261",
+  "liked_rating": 3,
+  "useful_rating": 3,
+  "student_ID": 37486905
+ },
+ {
+  "course_ID": "AFM 123",
+  "liked_rating": 4,
+  "useful_rating": 1,
+  "student_ID": 92514073
+ },
+ {
+  "course_ID": "CHEM 120",
+  "liked_rating": 1,
+  "useful_rating": 2,
+  "student_ID": 10871349
+ },
+ {
+  "course_ID": "EARTH 121",
+  "liked_rating": 2,
+  "useful_rating": 5,
+  "student_ID": 62389417
+ },
+ {
+  "course_ID": "EARTH 121",
+  "liked_rating": 2,
+  "useful_rating": 1,
+  "student_ID": 29586401
+ },
+ {
+  "course_ID": "EARTH 121",
+  "liked_rating": 5,
+  "useful_rating": 5,
+  "student_ID": 54173986
+ },
+ {
+  "course_ID": "EARTH 121",
+  "liked_rating": 1,
+  "useful_rating": 3,
+  "student_ID": 75628493
+ },
+ {
+  "course_ID": "CLAS 104",
+  "liked_rating": 3,
+  "useful_rating": 1,
+  "student_ID": 23849065
+ },
+ {
+  "course_ID": "FR 192",
+  "liked_rating": 4,
+  "useful_rating": 3,
+  "student_ID": 64927183
+ },
+ {
+  "course_ID": "MSCI 436",
+  "liked_rating": 3,
+  "useful_rating": 2,
+  "student_ID": 18372940
+ },
+ {
+  "course_ID": "PSYCH 253",
+  "liked_rating": 2,
+  "useful_rating": 4,
+  "student_ID": 52468719
+ },
+ {
+  "course_ID": "ECE 209",
+  "liked_rating": 5,
+  "useful_rating": 4,
+  "student_ID": 28374910
+ },
+ {
+  "course_ID": "AFM 131",
+  "liked_rating": 3,
+  "useful_rating": 4,
+  "student_ID": 18472039
+ },
+ {
+  "course_ID": "ENVS 278",
+  "liked_rating": 4,
+  "useful_rating": 1,
+  "student_ID": 85719236
+ },
+ {
+  "course_ID": "CLAS 202",
+  "liked_rating": 2,
+  "useful_rating": 2,
+  "student_ID": 49283617
+ },
+ {
+  "course_ID": "CLAS 202",
+  "liked_rating": 1,
+  "useful_rating": 2,
+  "student_ID": 28374610
+ },
+ {
+  "course_ID": "CLAS 202",
+  "liked_rating": 1,
+  "useful_rating": 1,
+  "student_ID": 10293847
+ },
+ {
+  "course_ID": "CHEM 266",
+  "liked_rating": 4,
+  "useful_rating": 4,
+  "student_ID": 37492816
+ },
+ {
+  "course_ID": "CHEM 266",
+  "liked_rating": 5,
+  "useful_rating": 5,
+  "student_ID": 85927361
+ },
+ {
+  "course_ID": "GEOG 101",
+  "liked_rating": 1,
+  "useful_rating": 5,
+  "student_ID": 16273849
+ },
+ {
+  "course_ID": "EARTH 122",
+  "liked_rating": 5,
+  "useful_rating": 2,
+  "student_ID": 39485671
+ },
+ {
+  "course_ID": "ECON 221",
+  "liked_rating": 2,
+  "useful_rating": 1,
+  "student_ID": 62738495
+ },
+ {
+  "course_ID": "CS 343",
+  "liked_rating": 3,
+  "useful_rating": 1,
+  "student_ID": 20928175
+ },
+ {
+  "course_ID": "ACTSC 372",
+  "liked_rating": 1,
+  "useful_rating": 3,
+  "student_ID": 21765423
+ },
+ {
+  "course_ID": "SPAN 202",
+  "liked_rating": 5,
+  "useful_rating": 3,
+  "student_ID": 20387129
+ },
+ {
+  "course_ID": "BIOL 373",
+  "liked_rating": 3,
+  "useful_rating": 1,
+  "student_ID": 21123456
+ },
+ {
+  "course_ID": "BIOL 373",
+  "liked_rating": 2,
+  "useful_rating": 5,
+  "student_ID": 21567890
+ },
+ {
+  "course_ID": "BIOL 373",
+  "liked_rating": 4,
+  "useful_rating": 2,
+  "student_ID": 21987654
+ },
+ {
+  "course_ID": "BIOL 373",
+  "liked_rating": 5,
+  "useful_rating": 4,
+  "student_ID": 20654321
+ },
+ {
+  "course_ID": "BIOL 373",
+  "liked_rating": 4,
+  "useful_rating": 4,
+  "student_ID": 21345678
+ },
+ {
+  "course_ID": "BIOL 373",
+  "liked_rating": 4,
+  "useful_rating": 1,
+  "student_ID": 11111222
+ },
+ {
+  "course_ID": "CHE 220",
+  "liked_rating": 2,
+  "useful_rating": 4,
+  "student_ID": 22223333
+ },
+ {
+  "course_ID": "DRAMA 100",
+  "liked_rating": 3,
+  "useful_rating": 4,
+  "student_ID": 33334444
+ },
+ {
+  "course_ID": "ENGL 108",
+  "liked_rating": 3,
+  "useful_rating": 5,
+  "student_ID": 44445555
+ },
+ {
+  "course_ID": "FR 152",
+  "liked_rating": 1,
+  "useful_rating": 1,
+  "student_ID": 55556666
+ },
+ {
+  "course_ID": "GER 271",
+  "liked_rating": 5,
+  "useful_rating": 3,
+  "student_ID": 66667777
+ },
+ {
+  "course_ID": "HIST 208",
+  "liked_rating": 2,
+  "useful_rating": 2,
+  "student_ID": 77778888
+ },
+ {
+  "course_ID": "KIN 140",
+  "liked_rating": 1,
+  "useful_rating": 5,
+  "student_ID": 88889999
+ },
+ {
+  "course_ID": "KIN 140",
+  "liked_rating": 4,
+  "useful_rating": 2,
+  "student_ID": 99990000
+ },
+ {
+  "course_ID": "KIN 140",
+  "liked_rating": 5,
+  "useful_rating": 1,
+  "student_ID": 11112222
+ },
+ {
+  "course_ID": "KIN 140",
+  "liked_rating": 1,
+  "useful_rating": 4,
+  "student_ID": 22223333
+ },
+ {
+  "course_ID": "MSCI 311",
+  "liked_rating": 4,
+  "useful_rating": 5,
+  "student_ID": 33334444
+ },
+ {
+  "course_ID": "MSCI 311",
+  "liked_rating": 1,
+  "useful_rating": 4,
+  "student_ID": 13047963
+ },
+ {
+  "course_ID": "MSCI 311",
+  "liked_rating": 2,
+  "useful_rating": 2,
+  "student_ID": 21479513
+ },
+ {
+  "course_ID": "MUSIC 246",
+  "liked_rating": 5,
+  "useful_rating": 5,
+  "student_ID": 15702380
+ },
+ {
+  "course_ID": "NE 111",
+  "liked_rating": 4,
+  "useful_rating": 2,
+  "student_ID": 19073284
+ },
+ {
+  "course_ID": "ARBUS 201",
+  "liked_rating": 5,
+  "useful_rating": 1,
+  "student_ID": 16134702
+ },
+ {
+  "course_ID": "BIOL 240",
+  "liked_rating": 1,
+  "useful_rating": 1,
+  "student_ID": 17829051
+ },
+ {
+  "course_ID": "BIOL 240",
+  "liked_rating": 3,
+  "useful_rating": 2,
+  "student_ID": 20571439
+ },
+ {
+  "course_ID": "BIOL 240",
+  "liked_rating": 2,
+  "useful_rating": 3,
+  "student_ID": 73564630
+ },
+ {
+  "course_ID": "BIOL 240",
+  "liked_rating": 5,
+  "useful_rating": 3,
+  "student_ID": 51458338
+ },
+ {
+  "course_ID": "CHEM 364",
+  "liked_rating": 3,
+  "useful_rating": 1,
+  "student_ID": 45453885
+ },
+ {
+  "course_ID": "CLAS 104",
+  "liked_rating": 4,
+  "useful_rating": 5,
+  "student_ID": 79689206
+ },
+ {
+  "course_ID": "ECE 204",
+  "liked_rating": 2,
+  "useful_rating": 5,
+  "student_ID": 67496942
+ },
+ {
+  "course_ID": "CHEM 364",
+  "liked_rating": 3,
+  "useful_rating": 3,
+  "student_ID": 40128931
+ },
+ {
+  "course_ID": "CLAS 104",
+  "liked_rating": 5,
+  "useful_rating": 2,
+  "student_ID": 19767510
+ },
+ {
+  "course_ID": "ECE 204",
+  "liked_rating": 4,
+  "useful_rating": 1,
+  "student_ID": 83950021
+ },
+ {
+  "course_ID": "ENVS 200",
+  "liked_rating": 1,
+  "useful_rating": 5,
+  "student_ID": 91260560
+ },
+ {
+  "course_ID": "FINE 100",
+  "liked_rating": 1,
+  "useful_rating": 2,
+  "student_ID": 60653931
+ },
+ {
+  "course_ID": "GEOG 101",
+  "liked_rating": 2,
+  "useful_rating": 1,
+  "student_ID": 22779613
+ },
+ {
+  "course_ID": "HLTH 101",
+  "liked_rating": 4,
+  "useful_rating": 4,
+  "student_ID": 13336678
+ },
+ {
+  "course_ID": "ME 100",
+  "liked_rating": 3,
+  "useful_rating": 5,
+  "student_ID": 21217676
+ },
+ {
+  "course_ID": "ECE 204",
+  "liked_rating": 3,
+  "useful_rating": 4,
+  "student_ID": 34566543
+ },
+ {
+  "course_ID": "ECE 204",
+  "liked_rating": 2,
+  "useful_rating": 3,
+  "student_ID": 37486905
+ },
+ {
+  "course_ID": "GEOG 101",
+  "liked_rating": 1,
+  "useful_rating": 2,
+  "student_ID": 92514073
+ },
+ {
+  "course_ID": "HLTH 101",
+  "liked_rating": 5,
+  "useful_rating": 2,
+  "student_ID": 10871349
+ },
+ {
+  "course_ID": "HLTH 101",
+  "liked_rating": 2,
+  "useful_rating": 1,
+  "student_ID": 62389417
+ },
+ {
+  "course_ID": "AFM 291",
+  "liked_rating": 1,
+  "useful_rating": 5,
+  "student_ID": 93746281
+ },
+ {
+  "course_ID": "AMATH 250",
+  "liked_rating": 3,
+  "useful_rating": 3,
+  "student_ID": 64927183
+ },
+ {
+  "course_ID": "ARCH 282",
+  "liked_rating": 4,
+  "useful_rating": 5,
+  "student_ID": 18372940
+ },
+ {
+  "course_ID": "BME 101",
+  "liked_rating": 2,
+  "useful_rating": 2,
+  "student_ID": 52468719
+ },
+ {
+  "course_ID": "AFM 291",
+  "liked_rating": 1,
+  "useful_rating": 4,
+  "student_ID": 28374910
+ },
+ {
+  "course_ID": "AMATH 250",
+  "liked_rating": 4,
+  "useful_rating": 4,
+  "student_ID": 18472039
+ },
+ {
+  "course_ID": "ARCH 282",
+  "liked_rating": 5,
+  "useful_rating": 1,
+  "student_ID": 85719236
+ },
+ {
+  "course_ID": "BME 101",
+  "liked_rating": 4,
+  "useful_rating": 3,
+  "student_ID": 49283617
+ },
+ {
+  "course_ID": "CHE 101",
+  "liked_rating": 5,
+  "useful_rating": 5,
+  "student_ID": 28374610
+ },
+ {
+  "course_ID": "CO 255",
+  "liked_rating": 1,
+  "useful_rating": 1,
+  "student_ID": 10293847
+ },
+ {
+  "course_ID": "DRAMA 212",
+  "liked_rating": 5,
+  "useful_rating": 4,
+  "student_ID": 37492816
+ },
+ {
+  "course_ID": "ECON 361",
+  "liked_rating": 2,
+  "useful_rating": 4,
+  "student_ID": 85927361
+ },
+ {
+  "course_ID": "ECON 361",
+  "liked_rating": 3,
+  "useful_rating": 1,
+  "student_ID": 16273849
+ },
+ {
+  "course_ID": "ECON 361",
+  "liked_rating": 5,
+  "useful_rating": 3,
+  "student_ID": 39485671
+ },
+ {
+  "course_ID": "ECON 361",
+  "liked_rating": 1,
+  "useful_rating": 3,
+  "student_ID": 62738495
+ },
+ {
+  "course_ID": "ECON 361",
+  "liked_rating": 5,
+  "useful_rating": 1,
+  "student_ID": 85719263
+ },
+ {
+  "course_ID": "ECON 361",
+  "liked_rating": 4,
+  "useful_rating": 3,
+  "student_ID": 29384756
+ },
+ {
+  "course_ID": "ENGL 108",
+  "liked_rating": 3,
+  "useful_rating": 5,
+  "student_ID": 11111222
+ },
+ {
+  "course_ID": "GENE 123",
+  "liked_rating": 1,
+  "useful_rating": 3,
+  "student_ID": 22223333
+ },
+ {
+  "course_ID": "HIST 231",
+  "liked_rating": 2,
+  "useful_rating": 1,
+  "student_ID": 33334444
+ },
+ {
+  "course_ID": "HRM 250",
+  "liked_rating": 3,
+  "useful_rating": 1,
+  "student_ID": 44445555
+ },
+ {
+  "course_ID": "KIN 100",
+  "liked_rating": 1,
+  "useful_rating": 5,
+  "student_ID": 55556666
+ },
+ {
+  "course_ID": "MATH 237",
+  "liked_rating": 2,
+  "useful_rating": 4,
+  "student_ID": 66667777
+ },
+ {
+  "course_ID": "ME 100",
+  "liked_rating": 5,
+  "useful_rating": 4,
+  "student_ID": 77778888
+ },
+ {
+  "course_ID": "ENGL 108",
+  "liked_rating": 1,
+  "useful_rating": 2,
+  "student_ID": 88889999
+ },
+ {
+  "course_ID": "GENE 123",
+  "liked_rating": 2,
+  "useful_rating": 2,
+  "student_ID": 99990000
+ },
+ {
+  "course_ID": "HIST 231",
+  "liked_rating": 4,
+  "useful_rating": 1,
+  "student_ID": 11112222
+ },
+ {
+  "course_ID": "HRM 250",
+  "liked_rating": 4,
+  "useful_rating": 2,
+  "student_ID": 22223333
+ },
+ {
+  "course_ID": "KIN 100",
+  "liked_rating": 2,
+  "useful_rating": 5,
+  "student_ID": 33334444
+ },
+ {
+  "course_ID": "MATH 237",
+  "liked_rating": 1,
+  "useful_rating": 1,
+  "student_ID": 13047963
+ },
+ {
+  "course_ID": "ME 100",
+  "liked_rating": 3,
+  "useful_rating": 2,
+  "student_ID": 21479513
+ },
+ {
+  "course_ID": "ENGL 108",
+  "liked_rating": 5,
+  "useful_rating": 3,
+  "student_ID": 15702380
+ },
+ {
+  "course_ID": "GENE 123",
+  "liked_rating": 1,
+  "useful_rating": 4,
+  "student_ID": 56789012
+ },
+ {
+  "course_ID": "HIST 231",
+  "liked_rating": 4,
+  "useful_rating": 4,
+  "student_ID": 67890123
+ },
+ {
+  "course_ID": "HRM 250",
+  "liked_rating": 5,
+  "useful_rating": 5,
+  "student_ID": 78901234
+ },
+ {
+  "course_ID": "KIN 100",
+  "liked_rating": 5,
+  "useful_rating": 1,
+  "student_ID": 89012345
+ },
+ {
+  "course_ID": "MATH 237",
+  "liked_rating": 4,
+  "useful_rating": 3,
+  "student_ID": 90123456
+ },
+ {
+  "course_ID": "ME 100",
+  "liked_rating": 3,
+  "useful_rating": 5,
+  "student_ID": 12345677
+ },
+ {
+  "course_ID": "MSCI 211",
+  "liked_rating": 1,
+  "useful_rating": 3,
+  "student_ID": 21487654
+ },
+ {
+  "course_ID": "PACS 201",
+  "liked_rating": 2,
+  "useful_rating": 1,
+  "student_ID": 20928175
+ },
+ {
+  "course_ID": "PHIL 145",
+  "liked_rating": 3,
+  "useful_rating": 1,
+  "student_ID": 21765423
+ },
+ {
+  "course_ID": "PHYS 121",
+  "liked_rating": 1,
+  "useful_rating": 5,
+  "student_ID": 20387129
+ },
+ {
+  "course_ID": "ARTS 189",
+  "liked_rating": 2,
+  "useful_rating": 4,
+  "student_ID": 21123456
+ },
+ {
+  "course_ID": "MSCI 211",
+  "liked_rating": 5,
+  "useful_rating": 4,
+  "student_ID": 21567890
+ },
+ {
+  "course_ID": "PACS 201",
+  "liked_rating": 1,
+  "useful_rating": 2,
+  "student_ID": 21987654
+ },
+ {
+  "course_ID": "PHIL 145",
+  "liked_rating": 2,
+  "useful_rating": 2,
+  "student_ID": 20654321
+ },
+ {
+  "course_ID": "PHYS 121",
+  "liked_rating": 4,
+  "useful_rating": 1,
+  "student_ID": 21345678
+ },
+ {
+  "course_ID": "ARTS 189",
+  "liked_rating": 4,
+  "useful_rating": 2,
+  "student_ID": 11111222
+ },
+ {
+  "course_ID": "PHIL 145",
+  "liked_rating": 2,
+  "useful_rating": 5,
+  "student_ID": 22223333
+ },
+ {
+  "course_ID": "PHYS 121",
+  "liked_rating": 1,
+  "useful_rating": 1,
+  "student_ID": 33334444
+ },
+ {
+  "course_ID": "ARTS 189",
+  "liked_rating": 3,
+  "useful_rating": 2,
+  "student_ID": 44445555
+ },
+ {
+  "course_ID": "PHIL 145",
+  "liked_rating": 5,
+  "useful_rating": 3,
+  "student_ID": 66667777
+ },
+ {
+  "course_ID": "PHYS 121",
+  "liked_rating": 1,
+  "useful_rating": 4,
+  "student_ID": 77778888
+ },
+ {
+  "course_ID": "ARTS 189",
+  "liked_rating": 4,
+  "useful_rating": 4,
+  "student_ID": 88889999
+ },
+ {
+  "course_ID": "PHIL 145",
+  "liked_rating": 5,
+  "useful_rating": 5,
+  "student_ID": 99990000
+ },
+ {
+  "course_ID": "PHYS 121",
+  "liked_rating": 5,
+  "useful_rating": 3,
+  "student_ID": 11112222
+ },
+ {
+  "course_ID": "ARTS 189",
+  "liked_rating": 2,
+  "useful_rating": 3,
+  "student_ID": 22223333
+ },
+ {
+  "course_ID": "PHIL 145",
+  "liked_rating": 3,
+  "useful_rating": 2,
+  "student_ID": 33334444
+ },
+ {
+  "course_ID": "PHYS 121",
+  "liked_rating": 2,
+  "useful_rating": 1,
+  "student_ID": 13047963
+ },
+ {
+  "course_ID": "ARTS 189",
+  "liked_rating": 1,
+  "useful_rating": 5,
+  "student_ID": 21479513
+ },
+ {
+  "course_ID": "BIOL 308",
+  "liked_rating": 3,
+  "useful_rating": 4,
+  "student_ID": 15702380
+ },
+ {
+  "course_ID": "CHEM 254",
+  "liked_rating": 5,
+  "useful_rating": 1,
+  "student_ID": 19073284
+ },
+ {
+  "course_ID": "CLAS 104",
+  "liked_rating": 1,
+  "useful_rating": 2,
+  "student_ID": 16134702
+ },
+ {
+  "course_ID": "CO 480",
+  "liked_rating": 2,
+  "useful_rating": 2,
+  "student_ID": 17829051
+ },
+ {
+  "course_ID": "ECON 251",
+  "liked_rating": 4,
+  "useful_rating": 2,
+  "student_ID": 20571439
+ },
+ {
+  "course_ID": "BIOL 308",
+  "liked_rating": 4,
+  "useful_rating": 4,
+  "student_ID": 96667175
+ },
+ {
+  "course_ID": "CHEM 254",
+  "liked_rating": 1,
+  "useful_rating": 4,
+  "student_ID": 73564630
+ },
+ {
+  "course_ID": "CLAS 104",
+  "liked_rating": 5,
+  "useful_rating": 5,
+  "student_ID": 51458338
+ },
+ {
+  "course_ID": "CO 480",
+  "liked_rating": 1,
+  "useful_rating": 3,
+  "student_ID": 45453885
+ },
+ {
+  "course_ID": "ECON 251",
+  "liked_rating": 5,
+  "useful_rating": 4,
+  "student_ID": 79689206
+ },
+ {
+  "course_ID": "BIOL 308",
+  "liked_rating": 3,
+  "useful_rating": 3,
+  "student_ID": 67496942
+ },
+ {
+  "course_ID": "CHEM 254",
+  "liked_rating": 2,
+  "useful_rating": 5,
+  "student_ID": 40128931
+ },
+ {
+  "course_ID": "CLAS 104",
+  "liked_rating": 3,
+  "useful_rating": 1,
+  "student_ID": 19767510
+ },
+ {
+  "course_ID": "CO 480",
+  "liked_rating": 1,
+  "useful_rating": 1,
+  "student_ID": 83950021
+ },
+ {
+  "course_ID": "ECON 251",
+  "liked_rating": 4,
+  "useful_rating": 3,
+  "student_ID": 91260560
+ },
+ {
+  "course_ID": "ECON 251",
+  "liked_rating": 4,
+  "useful_rating": 2,
+  "student_ID": 60653931
+ },
+ {
+  "course_ID": "ECON 251",
+  "liked_rating": 2,
+  "useful_rating": 4,
+  "student_ID": 22779613
+ },
+ {
+  "course_ID": "ECON 251",
+  "liked_rating": 5,
+  "useful_rating": 1,
+  "student_ID": 13336678
+ },
+ {
+  "course_ID": "ENGL 109",
+  "liked_rating": 1,
+  "useful_rating": 1,
+  "student_ID": 21217676
+ },
+ {
+  "course_ID": "ERS 106",
+  "liked_rating": 2,
+  "useful_rating": 2,
+  "student_ID": 34566543
+ },
+ {
+  "course_ID": "FR 151",
+  "liked_rating": 3,
+  "useful_rating": 2,
+  "student_ID": 37486905
+ },
+ {
+  "course_ID": "GEOG 181",
+  "liked_rating": 5,
+  "useful_rating": 4,
+  "student_ID": 92514073
+ },
+ {
+  "course_ID": "ENGL 109",
+  "liked_rating": 4,
+  "useful_rating": 4,
+  "student_ID": 10871349
+ },
+ {
+  "course_ID": "ERS 106",
+  "liked_rating": 3,
+  "useful_rating": 5,
+  "student_ID": 72819365
+ },
+ {
+  "course_ID": "FR 151",
+  "liked_rating": 1,
+  "useful_rating": 3,
+  "student_ID": 37482931
+ },
+ {
+  "course_ID": "GEOG 181",
+  "liked_rating": 2,
+  "useful_rating": 5,
+  "student_ID": 93746281
+ },
+ {
+  "course_ID": "ENGL 109",
+  "liked_rating": 1,
+  "useful_rating": 2,
+  "student_ID": 64927183
+ },
+ {
+  "course_ID": "ERS 106",
+  "liked_rating": 5,
+  "useful_rating": 5,
+  "student_ID": 18372940
+ },
+ {
+  "course_ID": "FR 151",
+  "liked_rating": 3,
+  "useful_rating": 1,
+  "student_ID": 52468719
+ },
+ {
+  "course_ID": "GEOG 181",
+  "liked_rating": 4,
+  "useful_rating": 1,
+  "student_ID": 28374910
+ },
+ {
+  "course_ID": "GEOG 181",
+  "liked_rating": 1,
+  "useful_rating": 4,
+  "student_ID": 18472039
+ },
+ {
+  "course_ID": "ENGL 109",
+  "liked_rating": 5,
+  "useful_rating": 3,
+  "student_ID": 85719236
+ },
+ {
+  "course_ID": "ERS 106",
+  "liked_rating": 4,
+  "useful_rating": 3,
+  "student_ID": 49283617
+ },
+ {
+  "course_ID": "FR 151",
+  "liked_rating": 3,
+  "useful_rating": 3,
+  "student_ID": 28374610
+ },
+ {
+  "course_ID": "GEOG 181",
+  "liked_rating": 2,
+  "useful_rating": 1,
+  "student_ID": 10293847
+ }
+]
