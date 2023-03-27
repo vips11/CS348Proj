@@ -71,19 +71,19 @@ data = {
   links: [
     {
       type: "LinkedIn",
-      link: "www.linkedin.com",
+      link: "https://www.linkedin.com",
     },
     {
       type: "Email",
-      link: "email@gmail.com",
+      link: "mailto:email@gmail.com",
     },
     {
       type: "GitHub",
-      link: "www.github.com",
+      link: "https://www.github.com",
     },
     {
       type: "Discord",
-      link: "www.discord.com",
+      link: "https://www.discord.com",
     },
   ],
 };
@@ -113,20 +113,14 @@ const ViewSelfProfile = () => {
             <TimeLine data={data.timeLine} />
 
             <View style={styles.linksContainer}>
-              {data.links.map((linkInfo) => {
-                console.log(linkInfo);
-                return (
-                  <TouchableOpacity
-                    onPress={() => Linking.openURL(linkInfo.link)}
-                  >
-                    <Text style={styles.link}>{linkInfo.title}</Text>
-                  </TouchableOpacity>
-                );
-              })}
-              <Text style={styles.link}>LinkedIn</Text>
-              <Text style={styles.link}>GitHub</Text>
-              <Text style={styles.link}>Discord</Text>
-              <Text style={styles.link}>Email</Text>
+              {data.links.map((linkInfo, index) => (
+                <TouchableOpacity
+                  onPress={() => Linking.openURL(linkInfo.link)}
+                  key={index}
+                >
+                  <Text style={styles.link}>{linkInfo.type}</Text>
+                </TouchableOpacity>
+              ))}
             </View>
           </ScrollView>
         </View>
