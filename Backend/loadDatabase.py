@@ -35,7 +35,7 @@ def createTables():
             last_name varchar(255),
             term varchar(2),
             semester varchar(7),
-            year INTEGER,
+            year_in INTEGER,
             uw_email varchar(255) UNIQUE,
             program varchar(255),
             description varchar(255)
@@ -209,9 +209,9 @@ def loadStudentData():
 
         for data in tableData:
             query = f"""
-                    INSERT INTO STUDENT VALUES 
+                    INSERT OR IGNORE INTO STUDENT VALUES 
                     ({data["id"]}, "{data["first_name"]}", "{data["last_name"]}", "{data["uw_email"]}", "{data["program"]}",
-                     "{data["description"]}", "{data["current_term"]}",  "{data["semester"]}",  {data["year"]})
+                     "{data["description"]}", "{data["current_term"]}",  "{data["semester"]}",  {data["year_in"]})
                 """
             cursor = con.cursor()
             cursor.execute(query)
@@ -229,7 +229,7 @@ def loadCompanyData():
 
         for data in tableData:
             query = f"""
-                    INSERT INTO COMPANY VALUES 
+                    INSERT OR IGNORE INTO COMPANY VALUES 
                     ({data["Company_ID"]}, "{data["Name"]}")
                 """
             con.execute(query)
@@ -247,7 +247,7 @@ def loadCourseData():
 
         for data in tableData:
             query = f"""
-                    INSERT INTO COURSE VALUES 
+                    INSERT OR IGNORE INTO COURSE VALUES 
                     ("{data["course_ID"]}", "{data["course_name"]}", "{data["course_description"]}")
                 """
             con.execute(query)
@@ -265,7 +265,7 @@ def loadFacilityData():
 
         for data in tableData:
             query = f"""
-                    INSERT INTO FACILITY VALUES 
+                    INSERT OR IGNORE INTO FACILITY VALUES 
                     ({data["Facility_ID"]}, {data["Company_ID"]}, "{data["street"]}", "{data["city"]}", "{data["unit_number"]}", "{data["building_name"]}")
                 """
             con.execute(query)
@@ -282,7 +282,7 @@ def loadInterestedData():
 
         for data in tableData:
             query = f"""
-                    INSERT INTO INTERESTED VALUES 
+                    INSERT OR IGNORE INTO INTERESTED VALUES 
                     ({data["student_id"]}, {data["interest_id"]})
                 """
             con.execute(query)
@@ -300,7 +300,7 @@ def loadInterestsData():
 
         for data in tableData:
             query = f"""
-                    INSERT INTO INTERESTS VALUES 
+                    INSERT OR IGNORE INTO INTERESTS VALUES 
                     ({data["ID"]}, "{data["tag"]}")
                 """
             con.execute(query)
@@ -317,7 +317,7 @@ def loadJobData():
 
         for data in tableData:
             query = f"""
-                    INSERT INTO JOB VALUES 
+                    INSERT OR IGNORE INTO JOB VALUES 
                     ({data["job_ID"]}, "{data["position_name"]}", "{data["is_full_time?"]}", {data["facility_ID"]}, {data["company_ID"]})
                 """
             con.execute(query)
@@ -334,7 +334,7 @@ def loadSectionData():
 
         for data in tableData:
             query = f"""
-                    INSERT INTO SECTION VALUES 
+                    INSERT OR IGNORE INTO SECTION VALUES 
                     ("{data["course_ID"]}", {data["section_ID"]}, "{data["semester"]}", "{data["year"]}")
                 """
             con.execute(query)
@@ -352,7 +352,7 @@ def loadTakesData():
 
         for data in tableData:
             query = f"""
-                    INSERT INTO TAKES VALUES 
+                    INSERT OR IGNORE INTO TAKES VALUES 
                     ({data["ID"]}, "{data["course_ID"]}", {data["section_ID"]}, "{data["semester"]}", {data["year"]}, "{data["term"]}")
                 """
             con.execute(query)
@@ -368,7 +368,7 @@ def loadWorksData():
 
         for data in tableData:
             query = f"""
-                    INSERT INTO WORKS VALUES 
+                    INSERT OR IGNORE INTO WORKS VALUES 
                     ("{data["term"]}", "{data["start_date"]}", "{data["end_date"]}", {data["student_ID"]},
                     {data["job_ID"]}, {data["company_ID"]}, {data["facility_ID"]})
                 """
@@ -385,7 +385,7 @@ def loadRatesData():
 
         for data in tableData:
             query = f"""
-                    INSERT INTO RATES VALUES 
+                    INSERT OR IGNORE INTO RATES VALUES 
                     ({data["liked_rating"]}, {data["useful_rating"]}, "{data["course_ID"]}", {data["student_ID"]})
                 """
             con.execute(query)
@@ -402,7 +402,7 @@ def loadSpacesData():
 
         for data in tableData:
             query = f"""
-                    INSERT INTO SPACES VALUES 
+                    INSERT OR IGNORE INTO SPACES VALUES 
                     ({data["space_ID"]}, "{data["name"]}", "{data["description"]}")
                 """
             con.execute(query)
@@ -419,7 +419,7 @@ def loadIsMemberData():
 
         for data in tableData:
             query = f"""
-                    INSERT INTO ISMEMBER VALUES 
+                    INSERT OR IGNORE INTO ISMEMBER VALUES 
                     ({data["space_ID"]}, {data["student_ID"]})
                 """
             con.execute(query)
@@ -435,7 +435,7 @@ def loadAuthorisationData():
 
         for data in tableData:
             query = f"""
-                    INSERT INTO AUTHORISATION VALUES 
+                    INSERT OR IGNORE INTO AUTHORISATION VALUES 
                     ({data["student_ID"]}, "{data["uw_email"]}", "{data["password"]}")
                 """
             con.execute(query)
