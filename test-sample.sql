@@ -39,15 +39,15 @@ where course_id like '%CS%';
 /* Query 6 */
 /* Find a mentor for course for STAT 230 for student who took the course in Spring 2023 */
 /* We have the current student ID and course name so we can get current semester and year */
-select S.id, first_name, last_name, term, semester, year, uw_email, program, description
+select distinct S.id, first_name, last_name, S.term,
+                S.semester, S.year, uw_email, program, description
 from STUDENT as S, TAKES as T
-where course_id = 'MATH 135'
+where course_id = 'STAT 230'
       and ((T.year < S.year)
              or  (T.year = S.year
                       and ((S.semester = 'Spring' and T.semester = 'Winter')
                                or (S.semester = 'Fall'
                                        and (T.semester = 'Winter' or T.semester = 'Spring')))));
-
 /* 
 Updating the name
 */
@@ -67,11 +67,12 @@ Where ID = 51458338;
 
 /* Query 9 */
 /* Find a study group */
-select distinct first_name, last_name
+select distinct first_name, last_name, T2.course_id, T2.student_id
 from TAKES as T2, (select course_id, first_name, last_name
             from STUDENT as S, TAKES as T
-            where T.student_id = 22779613) as Temp
-where T2.course_id = Temp.course_id;
+            where T.student_id = 96667175) as Temp
+where T2.course_id = Temp.course_id and T2.student_id != 96667175;
+
 
 /* Query 10 */
 /* Finding spaces */
@@ -84,7 +85,23 @@ where T2.course_id = Temp.course_id;
 /* Find me a friend */
 
 /* Query 13 */
-/* find the course with the highest course rating */
+/* find the courses with the highest liked course rating */
+select RATES.course_id
+from (select max(liked_rating) as maxLikedRating
+        from RATES as R), RATES
+where RATES.liked_rating = maxLikedRating;
 
 /* Query 14 */
+/* find the course with the highest useful course rating */
+select course_id
+from (select max(useful_rating) as maxUsefulRating
+        from RATES as R), RATES
+where RATES.useful_rating = maxUsefulRating;
 
+/* Query 15 */
+/* find the course with the highest useful and liked course rating */
+select course_id
+from (select max(useful_rating) as maxUsefulRating, max(liked_rating) as maxLikedRating
+        from RATES as R), RATES
+where RATES.useful_rating = maxUsefulRating
+    and RATES.liked_rating = maxLikedRating;

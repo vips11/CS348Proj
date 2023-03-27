@@ -155,10 +155,10 @@ def createTables():
     # Rates
     tableQueries.append("""
         CREATE TABLE IF NOT EXISTS RATES (
-            student_id INTEGER,
-            course_id varchar(6),
             liked_rating INTEGER,
             useful_rating INTEGER,
+            course_id varchar(6),
+            student_id INTEGER,
             PRIMARY KEY(liked_rating, useful_rating, course_id),
             FOREIGN KEY (student_id) REFERENCES STUDENT(id),
             FOREIGN KEY (course_id) REFERENCES COURSE(course_id)
