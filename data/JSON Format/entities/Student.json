@@ -6,9 +6,9 @@
   "last_name": "Smith",
   "program": "Math",
   "current_term": "1A",
+  "description": "Todo",
   "semester": "Fall",
-  "year": "2021",
-  "description": "Todo"
+  "year": 2022
  },
  {
   "id": 73564630,
@@ -17,9 +17,9 @@
   "last_name": "Johnson",
   "program": "Math",
   "current_term": "1A",
-  "semester": "Fall",
-  "year": "2023",
-  "description": "Todo"
+  "description": "Todo",
+  "semester": "Winter",
+  "year": 2023
  },
  {
   "id": 51458338,
@@ -28,9 +28,9 @@
   "last_name": "Williams",
   "program": "Biology",
   "current_term": "1A",
-  "semester": "Spring",
-  "year": "2022",
-  "description": "Todo"
+  "description": "Todo",
+  "semester": "Winter",
+  "year": 2023
  },
  {
   "id": 45453885,
@@ -39,9 +39,9 @@
   "last_name": "Jones",
   "program": "Chemistry",
   "current_term": "2A",
-  "semester": "Winter",
-  "year": "2022",
-  "description": "Todo"
+  "description": "Todo",
+  "semester": "Spring",
+  "year": 2023
  },
  {
   "id": 79689206,
@@ -50,9 +50,9 @@
   "last_name": "Brown",
   "program": "Art",
   "current_term": "2B",
-  "semester": "Fall",
-  "year": "2022",
-  "description": "Todo"
+  "description": "Todo",
+  "semester": "Spring",
+  "year": 2023
  },
  {
   "id": 67496942,
@@ -61,9 +61,9 @@
   "last_name": "Davis",
   "program": "Math",
   "current_term": "3A",
+  "description": "Todo",
   "semester": "Spring",
-  "year": "2022",
-  "description": "Todo"
+  "year": 2023
  },
  {
   "id": 40128931,
@@ -72,9 +72,9 @@
   "last_name": "Miller",
   "program": "Physics",
   "current_term": "3B",
-  "semester": "Winter",
-  "year": "2022",
-  "description": "Todo"
+  "description": "Todo",
+  "semester": "Fall",
+  "year": 2021
  },
  {
   "id": 19767510,
@@ -83,9 +83,9 @@
   "last_name": "Wilson",
   "program": "Engineering",
   "current_term": "4A",
-  "semester": "Winter",
-  "year": "2023",
-  "description": "Todo"
+  "description": "Todo",
+  "semester": "Fall",
+  "year": 2021
  },
  {
   "id": 83950021,
@@ -94,9 +94,9 @@
   "last_name": "Robinson",
   "program": "Engineering",
   "current_term": "4B",
-  "semester": "Spring",
-  "year": "2023",
-  "description": "Todo"
+  "description": "Todo",
+  "semester": "Fall",
+  "year": 2021
  },
  {
   "id": 91260560,
@@ -105,9 +105,9 @@
   "last_name": "Williams",
   "program": "Biology",
   "current_term": "2A",
-  "semester": "Winter",
-  "year": "2023",
-  "description": "Todo"
+  "description": "Todo",
+  "semester": "Fall",
+  "year": 2021
  },
  {
   "id": 60653931,
@@ -116,9 +116,9 @@
   "last_name": "Smith",
   "program": "Physics",
   "current_term": "1A",
-  "semester": "Winter",
-  "year": "2022",
-  "description": "Todo"
+  "description": "Todo",
+  "semester": "Fall",
+  "year": 2021
  },
  {
   "id": 22779613,
@@ -127,9 +127,9 @@
   "last_name": "Smith",
   "program": "Physics",
   "current_term": "1B",
+  "description": "Todo",
   "semester": "Spring",
-  "year": "2023",
-  "description": "Todo"
+  "year": 2023
  },
  {
   "id": 13336678,
@@ -138,7 +138,9 @@
   "last_name": "Smith",
   "program": "CS",
   "current_term": "4A",
-  "description": "I am a senior studying computer science."
+  "description": "I am a senior studying computer science.",
+  "semester": "Spring",
+  "year": 2023
  },
  {
   "id": 21217676,
@@ -147,7 +149,9 @@
   "last_name": "Doe",
   "program": "Math",
   "current_term": "2A",
-  "description": "I am a junior studying mathematics."
+  "description": "I am a junior studying mathematics.",
+  "semester": "Spring",
+  "year": 2023
  },
  {
   "id": 34566543,
@@ -156,7 +160,9 @@
   "last_name": "Lee",
   "program": "Psych",
   "current_term": "2A",
-  "description": "I am a sophomore studying psychology."
+  "description": "I am a sophomore studying psychology.",
+  "semester": "Winter",
+  "year": 2023
  },
  {
   "id": 37486905,
@@ -165,7 +171,9 @@
   "last_name": "Kim",
   "program": "Bio",
   "current_term": "1B",
-  "description": "I am a freshman studying biology."
+  "description": "I am a freshman studying biology.",
+  "semester": "Winter",
+  "year": 2023
  },
  {
   "id": 92514073,
@@ -174,7 +182,9 @@
   "last_name": "Johnson",
   "program": "Econ",
   "current_term": "1B",
-  "description": "I am a senior studying economics."
+  "description": "I am a senior studying economics.",
+  "semester": "Winter",
+  "year": 2023
  },
  {
   "id": 10871349,
@@ -183,7 +193,9 @@
   "last_name": "Che",
   "program": "Chem",
   "current_term": "4A",
-  "description": "I am a sophomore studying chemistry."
+  "description": "I am a sophomore studying chemistry.",
+  "semester": "Winter",
+  "year": 2023
  },
  {
   "id": 62389417,
@@ -192,7 +204,9 @@
   "last_name": "Brown",
   "program": "PoliSci",
   "current_term": "2A",
-  "description": "I am a senior studying political science."
+  "description": "I am a senior studying political science.",
+  "semester": "Winter",
+  "year": 2023
  },
  {
   "id": 29586401,
@@ -201,7 +215,9 @@
   "last_name": "Rodriguez",
   "program": "English",
   "current_term": "2B",
-  "description": "I am a junior studying English."
+  "description": "I am a junior studying English.",
+  "semester": "Spring",
+  "year": 2023
  },
  {
   "id": 54173986,
@@ -210,7 +226,9 @@
   "last_name": "Martinez",
   "program": "Bus",
   "current_term": "2B",
-  "description": "I am a sophomore studying business."
+  "description": "I am a sophomore studying business.",
+  "semester": "Spring",
+  "year": 2023
  },
  {
   "id": 75628493,
@@ -219,7 +237,9 @@
   "last_name": "Wilson",
   "program": "Hist",
   "current_term": "4A",
-  "description": "I am a freshman studying history."
+  "description": "I am a freshman studying history.",
+  "semester": "Spring",
+  "year": 2023
  },
  {
   "id": 23849065,
@@ -228,7 +248,9 @@
   "last_name": "Nguyen",
   "program": "Psych",
   "current_term": "4A",
-  "description": "I am a senior studying psychology."
+  "description": "I am a senior studying psychology.",
+  "semester": "Fall",
+  "year": 2020
  },
  {
   "id": 96017348,
@@ -237,7 +259,9 @@
   "last_name": "Anderson",
   "program": "Math",
   "current_term": "4A",
-  "description": "I am a sophomore studying mathematics."
+  "description": "I am a sophomore studying mathematics.",
+  "semester": "Fall",
+  "year": 2020
  },
  {
   "id": 18235964,
@@ -246,7 +270,9 @@
   "last_name": "Thomas",
   "program": "CS",
   "current_term": "3B",
-  "description": "I am a freshman studying computer science."
+  "description": "I am a freshman studying computer science.",
+  "semester": "Fall",
+  "year": 2020
  },
  {
   "id": 65971234,
@@ -255,7 +281,9 @@
   "last_name": "Jackson",
   "program": "Bio",
   "current_term": "2B",
-  "description": "I am a junior studying biology."
+  "description": "I am a junior studying biology.",
+  "semester": "Fall",
+  "year": 2020
  },
  {
   "id": 48326591,
@@ -264,7 +292,9 @@
   "last_name": "White",
   "program": "Econ",
   "current_term": "3A",
-  "description": "I am a senior studying economics."
+  "description": "I am a senior studying economics.",
+  "semester": "Fall",
+  "year": 2020
  },
  {
   "id": 71420935,
@@ -273,7 +303,9 @@
   "last_name": "Harris",
   "program": "PoliSci",
   "current_term": "3B",
-  "description": "I am a sophomore studying political science."
+  "description": "I am a sophomore studying political science.",
+  "semester": "Fall",
+  "year": 2020
  },
  {
   "id": 52613498,
@@ -282,7 +314,9 @@
   "last_name": "Martin",
   "program": "English",
   "current_term": "3A",
-  "description": "I am a freshman studying English."
+  "description": "I am a freshman studying English.",
+  "semester": "Fall",
+  "year": 2020
  },
  {
   "id": 39827615,
@@ -291,7 +325,9 @@
   "last_name": "Thompson",
   "program": "Bus",
   "current_term": "3B",
-  "description": "I am a senior studying business"
+  "description": "I am a senior studying business",
+  "semester": "Fall",
+  "year": 2020
  },
  {
   "id": 43334990,
@@ -300,7 +336,9 @@
   "last_name": "Garci",
   "program": "Hist",
   "current_term": "3B",
-  "description": "I am a junior studying history."
+  "description": "I am a junior studying history.",
+  "semester": "Fall",
+  "year": 2020
  },
  {
   "id": 28349567,
@@ -309,7 +347,9 @@
   "last_name": "Smith",
   "program": "Computer Science",
   "current_term": "2A",
-  "description": "I am in my second year of CS."
+  "description": "I am in my second year of CS.",
+  "semester": "Fall",
+  "year": 2020
  },
  {
   "id": 91827364,
@@ -318,7 +358,9 @@
   "last_name": "Jones",
   "program": "Biology",
   "current_term": "1B",
-  "description": "I have always enjoyed biology"
+  "description": "I have always enjoyed biology",
+  "semester": "Fall",
+  "year": 2020
  },
  {
   "id": 72819365,
@@ -327,7 +369,9 @@
   "last_name": "Robinson",
   "program": "Accounting",
   "current_term": "2A",
-  "description": "I am enrolled in accounting"
+  "description": "I am enrolled in accounting",
+  "semester": "Fall",
+  "year": 2020
  },
  {
   "id": 37482931,
@@ -336,7 +380,9 @@
   "last_name": "Kim",
   "program": "Psychology",
   "current_term": "1B",
-  "description": "i am in psych"
+  "description": "i am in psych",
+  "semester": "Fall",
+  "year": 2020
  },
  {
   "id": 93746281,
@@ -345,7 +391,9 @@
   "last_name": "Wang",
   "program": "Computer Science",
   "current_term": "1B",
-  "description": "i am in cs"
+  "description": "i am in cs",
+  "semester": "Fall",
+  "year": 2020
  },
  {
   "id": 64927183,
@@ -354,7 +402,9 @@
   "last_name": "Smith",
   "program": "Biology",
   "current_term": "2A",
-  "description": "I am enrolled in biology"
+  "description": "I am enrolled in biology",
+  "semester": "Fall",
+  "year": 2020
  },
  {
   "id": 18372940,
@@ -363,7 +413,9 @@
   "last_name": "Park",
   "program": "Accounting",
   "current_term": "2A",
-  "description": "I am studying Accounting"
+  "description": "I am studying Accounting",
+  "semester": "Fall",
+  "year": 2020
  },
  {
   "id": 52468719,
@@ -372,7 +424,9 @@
   "last_name": "Lee",
   "program": "Psychology",
   "current_term": "3B",
-  "description": "i am studying psychology"
+  "description": "i am studying psychology",
+  "semester": "Fall",
+  "year": 2020
  },
  {
   "id": 28374910,
@@ -381,7 +435,9 @@
   "last_name": "Johnson",
   "program": "Computer Science",
   "current_term": "3B",
-  "description": "I am enrolled in com sci"
+  "description": "I am enrolled in com sci",
+  "semester": "Fall",
+  "year": 2020
  },
  {
   "id": 18472039,
@@ -390,7 +446,9 @@
   "last_name": "Brown",
   "program": "Biology",
   "current_term": "3B",
-  "description": "I am enrolled in biology"
+  "description": "I am enrolled in biology",
+  "semester": "Fall",
+  "year": 2020
  },
  {
   "id": 85719236,
@@ -399,7 +457,9 @@
   "last_name": "Davis",
   "program": "Accounting",
   "current_term": "2A",
-  "description": "I am studying Accounting"
+  "description": "I am studying Accounting",
+  "semester": "Fall",
+  "year": 2020
  },
  {
   "id": 49283617,
@@ -408,7 +468,9 @@
   "last_name": "Young",
   "program": "Psychology",
   "current_term": "3B",
-  "description": "I am a psych major"
+  "description": "I am a psych major",
+  "semester": "Fall",
+  "year": 2020
  },
  {
   "id": 28374610,
@@ -417,7 +479,9 @@
   "last_name": "Chen",
   "program": "Computer Science",
   "current_term": "1B",
-  "description": "i Like cs"
+  "description": "i Like cs",
+  "semester": "Fall",
+  "year": 2020
  },
  {
   "id": 10293847,
@@ -426,7 +490,9 @@
   "last_name": "Taylor",
   "program": "Biology",
   "current_term": "2A",
-  "description": "I am enrolled in biology"
+  "description": "I am enrolled in biology",
+  "semester": "Fall",
+  "year": 2020
  },
  {
   "id": 37492816,
@@ -435,7 +501,9 @@
   "last_name": "Anderson",
   "program": "Accounting",
   "current_term": "3B",
-  "description": "I am enrolled in accounting"
+  "description": "I am enrolled in accounting",
+  "semester": "Fall",
+  "year": 2020
  },
  {
   "id": 85927361,
@@ -444,7 +512,9 @@
   "last_name": "Smith",
   "program": "Computer Science",
   "current_term": "1A",
-  "description": "Passionate about programming and interested in AI"
+  "description": "Passionate about programming and interested in AI",
+  "semester": "Fall",
+  "year": 2020
  },
  {
   "id": 16273849,
@@ -453,7 +523,9 @@
   "last_name": "Jones",
   "program": "Biology",
   "current_term": "3A",
-  "description": "Seeking to understand the mechanisms of human physiology"
+  "description": "Seeking to understand the mechanisms of human physiology",
+  "semester": "Fall",
+  "year": 2020
  },
  {
   "id": 39485671,
@@ -462,7 +534,9 @@
   "last_name": "Robinson",
   "program": "Accounting",
   "current_term": "1A",
-  "description": "Motivated to learn how to create financial models"
+  "description": "Motivated to learn how to create financial models",
+  "semester": "Fall",
+  "year": 2020
  },
  {
   "id": 62738495,
@@ -471,7 +545,9 @@
   "last_name": "Kim",
   "program": "Psychology",
   "current_term": "3B",
-  "description": "Interested in exploring the relationship between behavior and cognition"
+  "description": "Interested in exploring the relationship between behavior and cognition",
+  "semester": "Winter",
+  "year": 2022
  },
  {
   "id": 85719263,
@@ -480,7 +556,9 @@
   "last_name": "Wang",
   "program": "Computer Science",
   "current_term": "1A",
-  "description": "Keen on understanding the underlying principles of algorithms"
+  "description": "Keen on understanding the underlying principles of algorithms",
+  "semester": "Winter",
+  "year": 2022
  },
  {
   "id": 29384756,
@@ -489,7 +567,9 @@
   "last_name": "Smith",
   "program": "Biology",
   "current_term": "1A",
-  "description": "Passionate about genetics and its potential applications"
+  "description": "Passionate about genetics and its potential applications",
+  "semester": "Winter",
+  "year": 2022
  },
  {
   "id": 17482936,
@@ -498,7 +578,9 @@
   "last_name": "Park",
   "program": "Accounting",
   "current_term": "1A",
-  "description": "Seeking to understand the complexities of financial markets"
+  "description": "Seeking to understand the complexities of financial markets",
+  "semester": "Winter",
+  "year": 2022
  },
  {
   "id": 82917364,
@@ -507,7 +589,9 @@
   "last_name": "Lee",
   "program": "Psychology",
   "current_term": "3A",
-  "description": "Interested in exploring the role of psychology in organizations"
+  "description": "Interested in exploring the role of psychology in organizations",
+  "semester": "Winter",
+  "year": 2022
  },
  {
   "id": 27384916,
@@ -516,7 +600,9 @@
   "last_name": "Johnson",
   "program": "Computer Science",
   "current_term": "3B",
-  "description": "Keen on understanding the concepts of machine learning and its applications"
+  "description": "Keen on understanding the concepts of machine learning and its applications",
+  "semester": "Winter",
+  "year": 2022
  },
  {
   "id": 38491725,
@@ -525,7 +611,9 @@
   "last_name": "Brown",
   "program": "Biology",
   "current_term": "3A",
-  "description": "Passionate about the natural world and its mysteries"
+  "description": "Passionate about the natural world and its mysteries",
+  "semester": "Winter",
+  "year": 2022
  },
  {
   "id": 72918346,
@@ -534,7 +622,9 @@
   "last_name": "Davis",
   "program": "Accounting",
   "current_term": "3A",
-  "description": "Motivated to learn the ins and outs of business finance"
+  "description": "Motivated to learn the ins and outs of business finance",
+  "semester": "Winter",
+  "year": 2022
  },
  {
   "id": 29384617,
@@ -543,7 +633,9 @@
   "last_name": "Young",
   "program": "Psychology",
   "current_term": "3A",
-  "description": "Interested in exploring the field of developmental psychology"
+  "description": "Interested in exploring the field of developmental psychology",
+  "semester": "Winter",
+  "year": 2022
  },
  {
   "id": 18473920,
@@ -552,7 +644,9 @@
   "last_name": "Chen",
   "program": "Computer Science",
   "current_term": "3A",
-  "description": "Keen on exploring the field of computer vision and image processing"
+  "description": "Keen on exploring the field of computer vision and image processing",
+  "semester": "Fall",
+  "year": 2021
  },
  {
   "id": 49283651,
@@ -561,7 +655,9 @@
   "last_name": "Taylor",
   "program": "Biology",
   "current_term": "1A",
-  "description": "Passionate about marine biology and ocean conservation"
+  "description": "Passionate about marine biology and ocean conservation",
+  "semester": "Fall",
+  "year": 2021
  },
  {
   "id": 19384762,
@@ -570,7 +666,9 @@
   "last_name": "Anderson",
   "program": "Accounting",
   "current_term": "3B",
-  "description": "Seeking to understand the principles of managerial accounting"
+  "description": "Seeking to understand the principles of managerial accounting",
+  "semester": "Fall",
+  "year": 2021
  },
  {
   "id": 12345678,
@@ -579,7 +677,9 @@
   "last_name": "Smith",
   "program": "Computer Science",
   "current_term": "4B",
-  "description": "Avid gamer and coffee lover"
+  "description": "Avid gamer and coffee lover",
+  "semester": "Fall",
+  "year": 2021
  },
  {
   "id": 23456789,
@@ -588,7 +688,9 @@
   "last_name": "Doe",
   "program": "Psychology",
   "current_term": "3A",
-  "description": "Aspiring writer with a passion for social justice"
+  "description": "Aspiring writer with a passion for social justice",
+  "semester": "Fall",
+  "year": 2021
  },
  {
   "id": 34567890,
@@ -597,7 +699,9 @@
   "last_name": "Johnson",
   "program": "Mathematics",
   "current_term": "4B",
-  "description": "Music enthusiast and amateur guitarist"
+  "description": "Music enthusiast and amateur guitarist",
+  "semester": "Fall",
+  "year": 2021
  },
  {
   "id": 45678901,
@@ -606,7 +710,9 @@
   "last_name": "Miller",
   "program": "Engineering",
   "current_term": "3A",
-  "description": "Sports fanatic and volunteer coach for local youth basketball league"
+  "description": "Sports fanatic and volunteer coach for local youth basketball league",
+  "semester": "Fall",
+  "year": 2021
  },
  {
   "id": 56789012,
@@ -615,7 +721,9 @@
   "last_name": "Lee",
   "program": "Accounting",
   "current_term": "4B",
-  "description": "Foodie and amateur chef with a love for international cuisine"
+  "description": "Foodie and amateur chef with a love for international cuisine",
+  "semester": "Fall",
+  "year": 2021
  },
  {
   "id": 67890123,
@@ -624,7 +732,9 @@
   "last_name": "Nguyen",
   "program": "Biology",
   "current_term": "3A",
-  "description": "Outdoor enthusiast and avid hiker"
+  "description": "Outdoor enthusiast and avid hiker",
+  "semester": "Fall",
+  "year": 2021
  },
  {
   "id": 78901234,
@@ -633,7 +743,9 @@
   "last_name": "Wong",
   "program": "Fine Arts",
   "current_term": "4B",
-  "description": "Aspiring artist with a passion for oil painting"
+  "description": "Aspiring artist with a passion for oil painting",
+  "semester": "Fall",
+  "year": 2021
  },
  {
   "id": 89012345,
@@ -642,7 +754,9 @@
   "last_name": "Chen",
   "program": "Computer Engineering",
   "current_term": "4B",
-  "description": "Tech enthusiast and aspiring software developer"
+  "description": "Tech enthusiast and aspiring software developer",
+  "semester": "Fall",
+  "year": 2021
  },
  {
   "id": 90123456,
@@ -651,7 +765,9 @@
   "last_name": "Smith",
   "program": "Physics",
   "current_term": "3A",
-  "description": "Science fiction fan and amateur astronomer"
+  "description": "Science fiction fan and amateur astronomer",
+  "semester": "Fall",
+  "year": 2021
  },
  {
   "id": 12345677,
@@ -660,7 +776,9 @@
   "last_name": "Johnson",
   "program": "Anthropology",
   "current_term": "3A",
-  "description": "Social activist and community organizer"
+  "description": "Social activist and community organizer",
+  "semester": "Fall",
+  "year": 2021
  },
  {
   "id": 21487654,
@@ -669,7 +787,9 @@
   "last_name": "Scott",
   "program": "Honours Science",
   "current_term": "2B",
-  "description": "enjoy exploring new topics and is always eager to learn more."
+  "description": "enjoy exploring new topics and is always eager to learn more.",
+  "semester": "Fall",
+  "year": 2021
  },
  {
   "id": 20928175,
@@ -677,8 +797,10 @@
   "first_name": "Mohamed",
   "last_name": "Young",
   "program": "Honours Mathematics",
-  "current_term": "1A",
-  "description": "always up for a challenge and enjoys exploring new areas of mathematics."
+  "current_term": "2B",
+  "description": "always up for a challenge and enjoys exploring new areas of mathematics.",
+  "semester": "Fall",
+  "year": 2021
  },
  {
   "id": 21765423,
@@ -687,7 +809,9 @@
   "last_name": "Kim",
   "program": "Honours Arts",
   "current_term": "3A",
-  "description": "creative writer "
+  "description": "creative writer ",
+  "semester": "Fall",
+  "year": 2021
  },
  {
   "id": 20387129,
@@ -696,7 +820,9 @@
   "last_name": "Gupta",
   "program": "Honours Computer Science",
   "current_term": "2B",
-  "description": "skilled programmer who enjoys solving challenging problems"
+  "description": "skilled programmer who enjoys solving challenging problems",
+  "semester": "Fall",
+  "year": 2021
  },
  {
   "id": 21123456,
@@ -705,7 +831,9 @@
   "last_name": "Lewis",
   "program": "Honours Psychology",
   "current_term": "2B",
-  "description": "I am in my first year"
+  "description": "I am in my first year",
+  "semester": "Fall",
+  "year": 2021
  },
  {
   "id": 21567890,
@@ -714,7 +842,9 @@
   "last_name": "Nguyen",
   "program": "Honours Biology",
   "current_term": "4B",
-  "description": " interested in exploring the natural world"
+  "description": " interested in exploring the natural world",
+  "semester": "Fall",
+  "year": 2021
  },
  {
   "id": 21987654,
@@ -723,7 +853,9 @@
   "last_name": "Fernandez",
   "program": "Honours Architecture",
   "current_term": "4B",
-  "description": "creative and talented designe"
+  "description": "creative and talented designe",
+  "semester": "Fall",
+  "year": 2021
  },
  {
   "id": 20654321,
@@ -732,7 +864,9 @@
   "last_name": "Patel",
   "program": "Honours Business",
   "current_term": "2B",
-  "description": "passionate about entrepreneurship and innovation"
+  "description": "passionate about entrepreneurship and innovation",
+  "semester": "Fall",
+  "year": 2021
  },
  {
   "id": 21345678,
@@ -741,7 +875,9 @@
   "last_name": "Baker",
   "program": "Honours English",
   "current_term": "4B",
-  "description": " passionate about exploring new ideas"
+  "description": " passionate about exploring new ideas",
+  "semester": "Fall",
+  "year": 2021
  },
  {
   "id": 11111222,
@@ -750,7 +886,9 @@
   "last_name": "Doe",
   "program": "Computer Science",
   "current_term": "1B",
-  "description": "John is a dedicated student with a passion for computer science."
+  "description": "John is a dedicated student with a passion for computer science.",
+  "semester": "Fall",
+  "year": 2021
  },
  {
   "id": 22223333,
@@ -759,7 +897,9 @@
   "last_name": "Smith",
   "program": "Honours Arts",
   "current_term": "1B",
-  "description": "Sarah is a creative writer "
+  "description": "Sarah is a creative writer ",
+  "semester": "Fall",
+  "year": 2021
  },
  {
   "id": 33334444,
@@ -768,7 +908,9 @@
   "last_name": "Patel",
   "program": "Mechanical Engineering",
   "current_term": "4B",
-  "description": "hands-on learner "
+  "description": "hands-on learner ",
+  "semester": "Winter",
+  "year": 2022
  },
  {
   "id": 44445555,
@@ -777,7 +919,9 @@
   "last_name": "Nguyen",
   "program": "Biology",
   "current_term": "2A",
-  "description": "Ryan is a curious student "
+  "description": "Ryan is a curious student ",
+  "semester": "Winter",
+  "year": 2022
  },
  {
   "id": 55556666,
@@ -786,7 +930,9 @@
   "last_name": "Parker",
   "program": "Psychology",
   "current_term": "2A",
-  "description": "interested in understanding human behavior."
+  "description": "interested in understanding human behavior.",
+  "semester": "Winter",
+  "year": 2022
  },
  {
   "id": 66667777,
@@ -795,7 +941,9 @@
   "last_name": "Brown",
   "program": "Chemistry",
   "current_term": "4B",
-  "description": " detail-oriented"
+  "description": " detail-oriented",
+  "semester": "Winter",
+  "year": 2022
  },
  {
   "id": 77778888,
@@ -804,7 +952,9 @@
   "last_name": "Lee",
   "program": "Honours Arts",
   "current_term": "4B",
-  "description": "curious student who enjoys exploring different fields of study."
+  "description": "curious student who enjoys exploring different fields of study.",
+  "semester": "Winter",
+  "year": 2022
  },
  {
   "id": 88889999,
@@ -813,7 +963,9 @@
   "last_name": "Chen",
   "program": "Computer Engineering",
   "current_term": "2A",
-  "description": "problem-solver who enjoys using technology to create innovative solutions."
+  "description": "problem-solver who enjoys using technology to create innovative solutions.",
+  "semester": "Winter",
+  "year": 2022
  },
  {
   "id": 99990000,
@@ -822,7 +974,9 @@
   "last_name": "Fung",
   "program": "Accounting",
   "current_term": "4B",
-  "description": " detail-oriented student"
+  "description": " detail-oriented student",
+  "semester": "Winter",
+  "year": 2022
  },
  {
   "id": 11112222,
@@ -831,7 +985,9 @@
   "last_name": "Liu",
   "program": "Mathematics",
   "current_term": "2A",
-  "description": "logical thinker"
+  "description": "logical thinker",
+  "semester": "Winter",
+  "year": 2022
  },
  {
   "id": 22223333,
@@ -840,7 +996,9 @@
   "last_name": "Zhang",
   "program": "Computer Science",
   "current_term": "2A",
-  "description": "tech-savvy student."
+  "description": "tech-savvy student.",
+  "semester": "Winter",
+  "year": 2022
  },
  {
   "id": 33334444,
@@ -849,7 +1007,9 @@
   "last_name": "Wong",
   "program": "Psychology",
   "current_term": "4B",
-  "description": "I am a psych major"
+  "description": "I am a psych major",
+  "semester": "Winter",
+  "year": 2022
  },
  {
   "id": 13047963,
@@ -858,7 +1018,9 @@
   "last_name": "Hill",
   "program": "Computer Science",
   "current_term": "2A",
-  "description": "enthusiastic computer science student "
+  "description": "enthusiastic computer science student ",
+  "semester": "Winter",
+  "year": 2022
  },
  {
   "id": 21479513,
@@ -867,7 +1029,9 @@
   "last_name": "Powell",
   "program": "Environmental Science",
   "current_term": "1B",
-  "description": "Lauren is passionate about the environment"
+  "description": "Lauren is passionate about the environment",
+  "semester": "Fall",
+  "year": 2022
  },
  {
   "id": 15702380,
@@ -876,7 +1040,9 @@
   "last_name": "Cooper",
   "program": "Mechanical Engineering",
   "current_term": "1B",
-  "description": "Joshua is a dedicated engineering student"
+  "description": "Joshua is a dedicated engineering student",
+  "semester": "Fall",
+  "year": 2022
  },
  {
   "id": 19073284,
@@ -885,7 +1051,9 @@
   "last_name": "Fisher",
   "program": "Psychology",
   "current_term": "2A",
-  "description": "interested in the human mind and behavior"
+  "description": "interested in the human mind and behavior",
+  "semester": "Fall",
+  "year": 2022
  },
  {
   "id": 16134702,
@@ -894,7 +1062,9 @@
   "last_name": "Turner",
   "program": "Biology",
   "current_term": "1B",
-  "description": "fascinated by the natural world"
+  "description": "fascinated by the natural world",
+  "semester": "Winter",
+  "year": 2023
  },
  {
   "id": 17829051,
@@ -903,7 +1073,9 @@
   "last_name": "Wood",
   "program": "English",
   "current_term": "2A",
-  "description": "aspiring writer"
+  "description": "aspiring writer",
+  "semester": "Winter",
+  "year": 2023
  },
  {
   "id": 20571439,
@@ -912,6 +1084,8 @@
   "last_name": "Sanchez",
   "program": "Computer Engineering",
   "current_term": "2A",
-  "description": "Daniel is a computer engineering student"
+  "description": "Daniel is a computer engineering student",
+  "semester": "Spring",
+  "year": 2023
  }
 ]
