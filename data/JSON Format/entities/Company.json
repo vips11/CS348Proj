@@ -5,7 +5,7 @@
  },
  {
   "Company_ID": 2,
-  "Name": "Mobius AI Inc"
+  "Name": "Mobius AI Inc\t"
  },
  {
   "Company_ID": 3,
@@ -33,10 +33,370 @@
  },
  {
   "Company_ID": 9,
-  "Name": "University of Waterloo"
+  "Name": "Baden-Wuerttemberg Cooperative "
  },
  {
   "Company_ID": 10,
   "Name": "Apple Inc"
+ },
+ {
+  "Company_ID": 11,
+  "Name": "Goodlife Fitness"
+ },
+ {
+  "Company_ID": 12,
+  "Name": "Google LLC"
+ },
+ {
+  "Company_ID": 13,
+  "Name": "Amazon.com Inc."
+ },
+ {
+  "Company_ID": 14,
+  "Name": "Microsoft Corp."
+ },
+ {
+  "Company_ID": 15,
+  "Name": "Facebook Inc."
+ },
+ {
+  "Company_ID": 16,
+  "Name": "Tesla Inc."
+ },
+ {
+  "Company_ID": 17,
+  "Name": "Oracle Corporation"
+ },
+ {
+  "Company_ID": 18,
+  "Name": "IBM Corporation"
+ },
+ {
+  "Company_ID": 19,
+  "Name": "Intel Corporation"
+ },
+ {
+  "Company_ID": 20,
+  "Name": "Cisco Systems Inc."
+ },
+ {
+  "Company_ID": 21,
+  "Name": "Adobe Inc."
+ },
+ {
+  "Company_ID": 22,
+  "Name": "Alibaba Group"
+ },
+ {
+  "Company_ID": 23,
+  "Name": "Boeing Company"
+ },
+ {
+  "Company_ID": 24,
+  "Name": "Goldman Sachs"
+ },
+ {
+  "Company_ID": 25,
+  "Name": "Netflix Inc."
+ },
+ {
+  "Company_ID": 26,
+  "Name": "NVIDIA Corporation"
+ },
+ {
+  "Company_ID": 27,
+  "Name": "Salesforce.com Inc"
+ },
+ {
+  "Company_ID": 28,
+  "Name": "Visa Inc."
+ },
+ {
+  "Company_ID": 29,
+  "Name": "Verizon"
+ },
+ {
+  "Company_ID": 30,
+  "Name": "Walt Disney Company"
+ },
+ {
+  "Company_ID": 31,
+  "Name": "Toyota Motor Corporation"
+ },
+ {
+  "Company_ID": 32,
+  "Name": "Honda Motor Co Ltd"
+ },
+ {
+  "Company_ID": 33,
+  "Name": "Nissan Motor Co Ltd"
+ },
+ {
+  "Company_ID": 34,
+  "Name": "Mitsubishi Motors Corp"
+ },
+ {
+  "Company_ID": 35,
+  "Name": "Subaru Corporation"
+ },
+ {
+  "Company_ID": 36,
+  "Name": "Mazda Motor Corporation"
+ },
+ {
+  "Company_ID": 37,
+  "Name": "Suzuki Motor Corporation"
+ },
+ {
+  "Company_ID": 38,
+  "Name": "Hyundai Motor Company"
+ },
+ {
+  "Company_ID": 39,
+  "Name": "Kia Corporation"
+ },
+ {
+  "Company_ID": 40,
+  "Name": "General Motors Company"
+ },
+ {
+  "Company_ID": 41,
+  "Name": "Ford Motor Company"
+ },
+ {
+  "Company_ID": 42,
+  "Name": "Fiat Chrysler Automobiles N.V."
+ },
+ {
+  "Company_ID": 43,
+  "Name": "Tesla Inc."
+ },
+ {
+  "Company_ID": 44,
+  "Name": "BMW Group"
+ },
+ {
+  "Company_ID": 45,
+  "Name": "Daimler AG"
+ },
+ {
+  "Company_ID": 46,
+  "Name": "Volkswagen Group"
+ },
+ {
+  "Company_ID": 47,
+  "Name": "Airbus SE"
+ },
+ {
+  "Company_ID": 48,
+  "Name": "The Boeing Company"
+ },
+ {
+  "Company_ID": 49,
+  "Name": "Raytheon Technologies Corp"
+ },
+ {
+  "Company_ID": 50,
+  "Name": "Lockheed Martin Corporation"
+ },
+ {
+  "Company_ID": 51,
+  "Name": "XYZ Inc."
+ },
+ {
+  "Company_ID": 52,
+  "Name": "Acme Corporation"
+ },
+ {
+  "Company_ID": 53,
+  "Name": "Omega Industries"
+ },
+ {
+  "Company_ID": 54,
+  "Name": "Nova Tech"
+ },
+ {
+  "Company_ID": 55,
+  "Name": "Bright Ideas Ltd."
+ },
+ {
+  "Company_ID": 56,
+  "Name": "New Horizon Technologies"
+ },
+ {
+  "Company_ID": 57,
+  "Name": "Advanced Analytics Group"
+ },
+ {
+  "Company_ID": 58,
+  "Name": "Horizon Enterprises"
+ },
+ {
+  "Company_ID": 59,
+  "Name": "East Coast Consulting"
+ },
+ {
+  "Company_ID": 60,
+  "Name": "Midwest Marketing Group"
+ },
+ {
+  "Company_ID": 61,
+  "Name": "West Coast Web Solutions"
+ },
+ {
+  "Company_ID": 62,
+  "Name": "Northern Star Systems"
+ },
+ {
+  "Company_ID": 63,
+  "Name": "Southern IT Services"
+ },
+ {
+  "Company_ID": 64,
+  "Name": "Pacific Rim Software"
+ },
+ {
+  "Company_ID": 65,
+  "Name": "Atlantic Business Solutions"
+ },
+ {
+  "Company_ID": 66,
+  "Name": "Global Business Solutions"
+ },
+ {
+  "Company_ID": 67,
+  "Name": "Bright Minds Consulting"
+ },
+ {
+  "Company_ID": 68,
+  "Name": "Clear Vision Enterprises"
+ },
+ {
+  "Company_ID": 69,
+  "Name": "MindWorks Consulting"
+ },
+ {
+  "Company_ID": 70,
+  "Name": "Innovative Ideas and Solutions Inc."
+ },
+ {
+  "Company_ID": 71,
+  "Name": "FutureTech Solutions"
+ },
+ {
+  "Company_ID": 72,
+  "Name": "Innovative Systems Group"
+ },
+ {
+  "Company_ID": 73,
+  "Name": "VantagePoint Technologies"
+ },
+ {
+  "Company_ID": 74,
+  "Name": "Prodigy Software"
+ },
+ {
+  "Company_ID": 75,
+  "Name": "Fusion Innovations"
+ },
+ {
+  "Company_ID": 76,
+  "Name": "Strategic Consulting Group"
+ },
+ {
+  "Company_ID": 77,
+  "Name": "Infinity Solutions"
+ },
+ {
+  "Company_ID": 78,
+  "Name": "AlphaTech Consulting"
+ },
+ {
+  "Company_ID": 79,
+  "Name": "Apex Technologies"
+ },
+ {
+  "Company_ID": 80,
+  "Name": "Brighter Minds Consulting"
+ },
+ {
+  "Company_ID": 81,
+  "Name": "Peak Performance Solutions"
+ },
+ {
+  "Company_ID": 82,
+  "Name": "Zenith IT Services"
+ },
+ {
+  "Company_ID": 83,
+  "Name": "Bright Ideas Consulting"
+ },
+ {
+  "Company_ID": 84,
+  "Name": "Upward Mobility Consulting"
+ },
+ {
+  "Company_ID": 85,
+  "Name": "Paramount Business Solutions"
+ },
+ {
+  "Company_ID": 86,
+  "Name": "Innovate Now Consulting"
+ },
+ {
+  "Company_ID": 87,
+  "Name": "Skyline Solutions"
+ },
+ {
+  "Company_ID": 88,
+  "Name": "Agile Business Consulting"
+ },
+ {
+  "Company_ID": 89,
+  "Name": "Clear Vision Enterprises"
+ },
+ {
+  "Company_ID": 90,
+  "Name": "Paradigm Shift Solutions"
+ },
+ {
+  "Company_ID": 91,
+  "Name": "Visionary Technologies"
+ },
+ {
+  "Company_ID": 92,
+  "Name": "Peak Performance Partners"
+ },
+ {
+  "Company_ID": 93,
+  "Name": "Next Generation Business Solutions"
+ },
+ {
+  "Company_ID": 94,
+  "Name": "Vanguard Business Consulting"
+ },
+ {
+  "Company_ID": 95,
+  "Name": "SkyTech Innovations"
+ },
+ {
+  "Company_ID": 96,
+  "Name": "AscendTech Solutions"
+ },
+ {
+  "Company_ID": 97,
+  "Name": "Visionary Consulting Services"
+ },
+ {
+  "Company_ID": 98,
+  "Name": "Boldly Go Consulting"
+ },
+ {
+  "Company_ID": 99,
+  "Name": "Pioneer Business Solutions"
+ },
+ {
+  "Company_ID": 100,
+  "Name": "NextGen Innovations"
  }
 ]

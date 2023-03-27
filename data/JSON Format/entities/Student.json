@@ -130,5 +130,788 @@
   "semester": "Spring",
   "year": "2023",
   "description": "Todo"
+ },
+ {
+  "id": 13336678,
+  "uw_email": "emilysmith@uwaterloo.ca",
+  "first_name": "Emily",
+  "last_name": "Smith",
+  "program": "CS",
+  "current_term": "4A",
+  "description": "I am a senior studying computer science."
+ },
+ {
+  "id": 21217676,
+  "uw_email": "johndoe@uwaterloo.ca",
+  "first_name": "John",
+  "last_name": "Doe",
+  "program": "Math",
+  "current_term": "2A",
+  "description": "I am a junior studying mathematics."
+ },
+ {
+  "id": 34566543,
+  "uw_email": "sarahlee@uwaterloo.ca",
+  "first_name": "Sarah",
+  "last_name": "Lee",
+  "program": "Psych",
+  "current_term": "2A",
+  "description": "I am a sophomore studying psychology."
+ },
+ {
+  "id": 37486905,
+  "uw_email": "akim@uwaterloo.ca",
+  "first_name": "Alex",
+  "last_name": "Kim",
+  "program": "Bio",
+  "current_term": "1B",
+  "description": "I am a freshman studying biology."
+ },
+ {
+  "id": 92514073,
+  "uw_email": "micjohnson@uwaterloo.ca",
+  "first_name": "Michael",
+  "last_name": "Johnson",
+  "program": "Econ",
+  "current_term": "1B",
+  "description": "I am a senior studying economics."
+ },
+ {
+  "id": 10871349,
+  "uw_email": "jenche@uwaterloo.ca",
+  "first_name": "Jennifer",
+  "last_name": "Che",
+  "program": "Chem",
+  "current_term": "4A",
+  "description": "I am a sophomore studying chemistry."
+ },
+ {
+  "id": 62389417,
+  "uw_email": "davbrown@uwaterloo.ca",
+  "first_name": "David",
+  "last_name": "Brown",
+  "program": "PoliSci",
+  "current_term": "2A",
+  "description": "I am a senior studying political science."
+ },
+ {
+  "id": 29586401,
+  "uw_email": "samrod34@uwaterloo.ca",
+  "first_name": "Samantha",
+  "last_name": "Rodriguez",
+  "program": "English",
+  "current_term": "2B",
+  "description": "I am a junior studying English."
+ },
+ {
+  "id": 54173986,
+  "uw_email": "ethmart4@uwaterloo.ca",
+  "first_name": "Ethan",
+  "last_name": "Martinez",
+  "program": "Bus",
+  "current_term": "2B",
+  "description": "I am a sophomore studying business."
+ },
+ {
+  "id": 75628493,
+  "uw_email": "avawils@uwaterloo.ca",
+  "first_name": "Ava",
+  "last_name": "Wilson",
+  "program": "Hist",
+  "current_term": "4A",
+  "description": "I am a freshman studying history."
+ },
+ {
+  "id": 23849065,
+  "uw_email": "benjnguyen@uwaterloo.ca",
+  "first_name": "Benjamin",
+  "last_name": "Nguyen",
+  "program": "Psych",
+  "current_term": "4A",
+  "description": "I am a senior studying psychology."
+ },
+ {
+  "id": 96017348,
+  "uw_email": "ol34and@uwaterloo.ca",
+  "first_name": "Olivia",
+  "last_name": "Anderson",
+  "program": "Math",
+  "current_term": "4A",
+  "description": "I am a sophomore studying mathematics."
+ },
+ {
+  "id": 18235964,
+  "uw_email": "will4thomas@uwaterloo.ca",
+  "first_name": "William",
+  "last_name": "Thomas",
+  "program": "CS",
+  "current_term": "3B",
+  "description": "I am a freshman studying computer science."
+ },
+ {
+  "id": 65971234,
+  "uw_email": "soph34jac@uwaterloo.ca",
+  "first_name": "Sophia",
+  "last_name": "Jackson",
+  "program": "Bio",
+  "current_term": "2B",
+  "description": "I am a junior studying biology."
+ },
+ {
+  "id": 48326591,
+  "uw_email": "danwhite@uwaterloo.ca",
+  "first_name": "Daniel",
+  "last_name": "White",
+  "program": "Econ",
+  "current_term": "3A",
+  "description": "I am a senior studying economics."
+ },
+ {
+  "id": 71420935,
+  "uw_email": "g34harris@uwaterloo.ca",
+  "first_name": "Grace",
+  "last_name": "Harris",
+  "program": "PoliSci",
+  "current_term": "3B",
+  "description": "I am a sophomore studying political science."
+ },
+ {
+  "id": 52613498,
+  "uw_email": "lmartin@uwaterloo.ca",
+  "first_name": "Lucas",
+  "last_name": "Martin",
+  "program": "English",
+  "current_term": "3A",
+  "description": "I am a freshman studying English."
+ },
+ {
+  "id": 39827615,
+  "uw_email": "emily5thom@uwaterloo.ca",
+  "first_name": "Emily",
+  "last_name": "Thompson",
+  "program": "Bus",
+  "current_term": "3B",
+  "description": "I am a senior studying business"
+ },
+ {
+  "id": 43334990,
+  "uw_email": "miagarcia@uwaterloo.ca",
+  "first_name": "Mia",
+  "last_name": "Garci",
+  "program": "Hist",
+  "current_term": "3B",
+  "description": "I am a junior studying history."
+ },
+ {
+  "id": 28349567,
+  "uw_email": "john6smith@uwaterloo.ca",
+  "first_name": "John",
+  "last_name": "Smith",
+  "program": "Computer Science",
+  "current_term": "2A",
+  "description": "I am in my second year of CS."
+ },
+ {
+  "id": 91827364,
+  "uw_email": "emmajones@uwaterloo.ca",
+  "first_name": "Emma",
+  "last_name": "Jones",
+  "program": "Biology",
+  "current_term": "1B",
+  "description": "I have always enjoyed biology"
+ },
+ {
+  "id": 72819365,
+  "uw_email": "samrobinson@uwaterloo.ca",
+  "first_name": "Samuel",
+  "last_name": "Robinson",
+  "program": "Accounting",
+  "current_term": "2A",
+  "description": "I am enrolled in accounting"
+ },
+ {
+  "id": 37482931,
+  "uw_email": "lisakim@uwaterloo.ca",
+  "first_name": "Lisa",
+  "last_name": "Kim",
+  "program": "Psychology",
+  "current_term": "1B",
+  "description": "i am in psych"
+ },
+ {
+  "id": 93746281,
+  "uw_email": "maxwang@uwaterloo.ca",
+  "first_name": "Max",
+  "last_name": "Wang",
+  "program": "Computer Science",
+  "current_term": "1B",
+  "description": "i am in cs"
+ },
+ {
+  "id": 64927183,
+  "uw_email": "oliv7smith@uwaterloo.ca",
+  "first_name": "Oliver",
+  "last_name": "Smith",
+  "program": "Biology",
+  "current_term": "2A",
+  "description": "I am enrolled in biology"
+ },
+ {
+  "id": 18372940,
+  "uw_email": "hannahpark@uwaterloo.ca",
+  "first_name": "Hannah",
+  "last_name": "Park",
+  "program": "Accounting",
+  "current_term": "2A",
+  "description": "I am studying Accounting"
+ },
+ {
+  "id": 52468719,
+  "uw_email": "jason0lee@uwaterloo.ca",
+  "first_name": "Jason",
+  "last_name": "Lee",
+  "program": "Psychology",
+  "current_term": "3B",
+  "description": "i am studying psychology"
+ },
+ {
+  "id": 28374910,
+  "uw_email": "emilyjohnson@uwaterloo.ca",
+  "first_name": "Emily",
+  "last_name": "Johnson",
+  "program": "Computer Science",
+  "current_term": "3B",
+  "description": "I am enrolled in com sci"
+ },
+ {
+  "id": 18472039,
+  "uw_email": "jacobbrown@uwaterloo.ca",
+  "first_name": "Jacob",
+  "last_name": "Brown",
+  "program": "Biology",
+  "current_term": "3B",
+  "description": "I am enrolled in biology"
+ },
+ {
+  "id": 85719236,
+  "uw_email": "avadavis@uwaterloo.ca",
+  "first_name": "Ava",
+  "last_name": "Davis",
+  "program": "Accounting",
+  "current_term": "2A",
+  "description": "I am studying Accounting"
+ },
+ {
+  "id": 49283617,
+  "uw_email": "ethanyoung@uwaterloo.ca",
+  "first_name": "Ethan",
+  "last_name": "Young",
+  "program": "Psychology",
+  "current_term": "3B",
+  "description": "I am a psych major"
+ },
+ {
+  "id": 28374610,
+  "uw_email": "miachen@uwaterloo.ca",
+  "first_name": "Mia",
+  "last_name": "Chen",
+  "program": "Computer Science",
+  "current_term": "1B",
+  "description": "i Like cs"
+ },
+ {
+  "id": 10293847,
+  "uw_email": "noahtaylor@uwaterloo.ca",
+  "first_name": "Noah",
+  "last_name": "Taylor",
+  "program": "Biology",
+  "current_term": "2A",
+  "description": "I am enrolled in biology"
+ },
+ {
+  "id": 37492816,
+  "uw_email": "sophiaanderson@uwaterloo.ca",
+  "first_name": "Sophia",
+  "last_name": "Anderson",
+  "program": "Accounting",
+  "current_term": "3B",
+  "description": "I am enrolled in accounting"
+ },
+ {
+  "id": 85927361,
+  "uw_email": "michaelsmith@uwaterloo.ca",
+  "first_name": "Michael",
+  "last_name": "Smith",
+  "program": "Computer Science",
+  "current_term": "1A",
+  "description": "Passionate about programming and interested in AI"
+ },
+ {
+  "id": 16273849,
+  "uw_email": "jessica3jones@uwaterloo.ca",
+  "first_name": "Jessica",
+  "last_name": "Jones",
+  "program": "Biology",
+  "current_term": "3A",
+  "description": "Seeking to understand the mechanisms of human physiology"
+ },
+ {
+  "id": 39485671,
+  "uw_email": "davidrobinson@uwaterloo.ca",
+  "first_name": "David",
+  "last_name": "Robinson",
+  "program": "Accounting",
+  "current_term": "1A",
+  "description": "Motivated to learn how to create financial models"
+ },
+ {
+  "id": 62738495,
+  "uw_email": "sarah2kim@uwaterloo.ca",
+  "first_name": "Sarah",
+  "last_name": "Kim",
+  "program": "Psychology",
+  "current_term": "3B",
+  "description": "Interested in exploring the relationship between behavior and cognition"
+ },
+ {
+  "id": 85719263,
+  "uw_email": "samuel5wang@uwaterloo.ca",
+  "first_name": "Samuel",
+  "last_name": "Wang",
+  "program": "Computer Science",
+  "current_term": "1A",
+  "description": "Keen on understanding the underlying principles of algorithms"
+ },
+ {
+  "id": 29384756,
+  "uw_email": "sophia6smith@uwaterloo.ca",
+  "first_name": "Sophia",
+  "last_name": "Smith",
+  "program": "Biology",
+  "current_term": "1A",
+  "description": "Passionate about genetics and its potential applications"
+ },
+ {
+  "id": 17482936,
+  "uw_email": "em34park@uwaterloo.ca",
+  "first_name": "Emily",
+  "last_name": "Park",
+  "program": "Accounting",
+  "current_term": "1A",
+  "description": "Seeking to understand the complexities of financial markets"
+ },
+ {
+  "id": 82917364,
+  "uw_email": "jacoblee@uwaterloo.ca",
+  "first_name": "Jacob",
+  "last_name": "Lee",
+  "program": "Psychology",
+  "current_term": "3A",
+  "description": "Interested in exploring the role of psychology in organizations"
+ },
+ {
+  "id": 27384916,
+  "uw_email": "avajohnso@uwaterloo.ca",
+  "first_name": "Ava",
+  "last_name": "Johnson",
+  "program": "Computer Science",
+  "current_term": "3B",
+  "description": "Keen on understanding the concepts of machine learning and its applications"
+ },
+ {
+  "id": 38491725,
+  "uw_email": "ethanbrown@uwaterloo.ca",
+  "first_name": "Ethan",
+  "last_name": "Brown",
+  "program": "Biology",
+  "current_term": "3A",
+  "description": "Passionate about the natural world and its mysteries"
+ },
+ {
+  "id": 72918346,
+  "uw_email": "miadavis@uwaterloo.ca",
+  "first_name": "Mia",
+  "last_name": "Davis",
+  "program": "Accounting",
+  "current_term": "3A",
+  "description": "Motivated to learn the ins and outs of business finance"
+ },
+ {
+  "id": 29384617,
+  "uw_email": "noahyoung@uwaterloo.ca",
+  "first_name": "Noah",
+  "last_name": "Young",
+  "program": "Psychology",
+  "current_term": "3A",
+  "description": "Interested in exploring the field of developmental psychology"
+ },
+ {
+  "id": 18473920,
+  "uw_email": "oliviachen@uwaterloo.ca",
+  "first_name": "Olivia",
+  "last_name": "Chen",
+  "program": "Computer Science",
+  "current_term": "3A",
+  "description": "Keen on exploring the field of computer vision and image processing"
+ },
+ {
+  "id": 49283651,
+  "uw_email": "alexan3taylor@uwaterloo.ca",
+  "first_name": "Alexander",
+  "last_name": "Taylor",
+  "program": "Biology",
+  "current_term": "1A",
+  "description": "Passionate about marine biology and ocean conservation"
+ },
+ {
+  "id": 19384762,
+  "uw_email": "emma0anderson@uwaterloo.ca",
+  "first_name": "Emma",
+  "last_name": "Anderson",
+  "program": "Accounting",
+  "current_term": "3B",
+  "description": "Seeking to understand the principles of managerial accounting"
+ },
+ {
+  "id": 12345678,
+  "uw_email": "jsmith@uwaterloo.ca",
+  "first_name": "John",
+  "last_name": "Smith",
+  "program": "Computer Science",
+  "current_term": "4B",
+  "description": "Avid gamer and coffee lover"
+ },
+ {
+  "id": 23456789,
+  "uw_email": "jdoe@uwaterloo.ca",
+  "first_name": "Jane",
+  "last_name": "Doe",
+  "program": "Psychology",
+  "current_term": "3A",
+  "description": "Aspiring writer with a passion for social justice"
+ },
+ {
+  "id": 34567890,
+  "uw_email": "jjohnson@uwaterloo.ca",
+  "first_name": "James",
+  "last_name": "Johnson",
+  "program": "Mathematics",
+  "current_term": "4B",
+  "description": "Music enthusiast and amateur guitarist"
+ },
+ {
+  "id": 45678901,
+  "uw_email": "mmiller@uwaterloo.ca",
+  "first_name": "Michael",
+  "last_name": "Miller",
+  "program": "Engineering",
+  "current_term": "3A",
+  "description": "Sports fanatic and volunteer coach for local youth basketball league"
+ },
+ {
+  "id": 56789012,
+  "uw_email": "blee@uwaterloo.ca",
+  "first_name": "Betty",
+  "last_name": "Lee",
+  "program": "Accounting",
+  "current_term": "4B",
+  "description": "Foodie and amateur chef with a love for international cuisine"
+ },
+ {
+  "id": 67890123,
+  "uw_email": "knguyen@uwaterloo.ca",
+  "first_name": "Kevin",
+  "last_name": "Nguyen",
+  "program": "Biology",
+  "current_term": "3A",
+  "description": "Outdoor enthusiast and avid hiker"
+ },
+ {
+  "id": 78901234,
+  "uw_email": "swong@uwaterloo.ca",
+  "first_name": "Samantha",
+  "last_name": "Wong",
+  "program": "Fine Arts",
+  "current_term": "4B",
+  "description": "Aspiring artist with a passion for oil painting"
+ },
+ {
+  "id": 89012345,
+  "uw_email": "cchen@uwaterloo.ca",
+  "first_name": "Charlie",
+  "last_name": "Chen",
+  "program": "Computer Engineering",
+  "current_term": "4B",
+  "description": "Tech enthusiast and aspiring software developer"
+ },
+ {
+  "id": 90123456,
+  "uw_email": "dsmith@uwaterloo.ca",
+  "first_name": "David",
+  "last_name": "Smith",
+  "program": "Physics",
+  "current_term": "3A",
+  "description": "Science fiction fan and amateur astronomer"
+ },
+ {
+  "id": 12345677,
+  "uw_email": "mjohnson@uwaterloo.ca",
+  "first_name": "Mary",
+  "last_name": "Johnson",
+  "program": "Anthropology",
+  "current_term": "3A",
+  "description": "Social activist and community organizer"
+ },
+ {
+  "id": 21487654,
+  "uw_email": "rachael.scott@uwaterloo.ca",
+  "first_name": "Rachael",
+  "last_name": "Scott",
+  "program": "Honours Science",
+  "current_term": "2B",
+  "description": "enjoy exploring new topics and is always eager to learn more."
+ },
+ {
+  "id": 20928175,
+  "uw_email": "mohamed.young@uwaterloo.ca",
+  "first_name": "Mohamed",
+  "last_name": "Young",
+  "program": "Honours Mathematics",
+  "current_term": "1A",
+  "description": "always up for a challenge and enjoys exploring new areas of mathematics."
+ },
+ {
+  "id": 21765423,
+  "uw_email": "megan.kim@uwaterloo.ca",
+  "first_name": "Megan",
+  "last_name": "Kim",
+  "program": "Honours Arts",
+  "current_term": "3A",
+  "description": "creative writer "
+ },
+ {
+  "id": 20387129,
+  "uw_email": "nathan.gupta@uwaterloo.ca",
+  "first_name": "Nathan",
+  "last_name": "Gupta",
+  "program": "Honours Computer Science",
+  "current_term": "2B",
+  "description": "skilled programmer who enjoys solving challenging problems"
+ },
+ {
+  "id": 21123456,
+  "uw_email": "jessica.lewis@uwaterloo.ca",
+  "first_name": "Jessica",
+  "last_name": "Lewis",
+  "program": "Honours Psychology",
+  "current_term": "2B",
+  "description": "I am in my first year"
+ },
+ {
+  "id": 21567890,
+  "uw_email": "alexander.nguyen@uwaterloo.ca",
+  "first_name": "Alexander",
+  "last_name": "Nguyen",
+  "program": "Honours Biology",
+  "current_term": "4B",
+  "description": " interested in exploring the natural world"
+ },
+ {
+  "id": 21987654,
+  "uw_email": "daniela.fernandez@uwaterloo.ca",
+  "first_name": "Daniela",
+  "last_name": "Fernandez",
+  "program": "Honours Architecture",
+  "current_term": "4B",
+  "description": "creative and talented designe"
+ },
+ {
+  "id": 20654321,
+  "uw_email": "jordan.patel@uwaterloo.ca",
+  "first_name": "Jordan",
+  "last_name": "Patel",
+  "program": "Honours Business",
+  "current_term": "2B",
+  "description": "passionate about entrepreneurship and innovation"
+ },
+ {
+  "id": 21345678,
+  "uw_email": "chloe.baker@uwaterloo.ca",
+  "first_name": "Chloe",
+  "last_name": "Baker",
+  "program": "Honours English",
+  "current_term": "4B",
+  "description": " passionate about exploring new ideas"
+ },
+ {
+  "id": 11111222,
+  "uw_email": "johndoe11@uwaterloo.ca",
+  "first_name": "John",
+  "last_name": "Doe",
+  "program": "Computer Science",
+  "current_term": "1B",
+  "description": "John is a dedicated student with a passion for computer science."
+ },
+ {
+  "id": 22223333,
+  "uw_email": "sarahsmith22@uwaterloo.ca",
+  "first_name": "Sarah",
+  "last_name": "Smith",
+  "program": "Honours Arts",
+  "current_term": "1B",
+  "description": "Sarah is a creative writer "
+ },
+ {
+  "id": 33334444,
+  "uw_email": "amitpatel33@uwaterloo.ca",
+  "first_name": "Amit",
+  "last_name": "Patel",
+  "program": "Mechanical Engineering",
+  "current_term": "4B",
+  "description": "hands-on learner "
+ },
+ {
+  "id": 44445555,
+  "uw_email": "ryannguyen44@uwaterloo.ca",
+  "first_name": "Ryan",
+  "last_name": "Nguyen",
+  "program": "Biology",
+  "current_term": "2A",
+  "description": "Ryan is a curious student "
+ },
+ {
+  "id": 55556666,
+  "uw_email": "ashleyparker5@uwaterloo.ca",
+  "first_name": "Ashley",
+  "last_name": "Parker",
+  "program": "Psychology",
+  "current_term": "2A",
+  "description": "interested in understanding human behavior."
+ },
+ {
+  "id": 66667777,
+  "uw_email": "davidbrown6@uwaterloo.ca",
+  "first_name": "David",
+  "last_name": "Brown",
+  "program": "Chemistry",
+  "current_term": "4B",
+  "description": " detail-oriented"
+ },
+ {
+  "id": 77778888,
+  "uw_email": "janetlee77@uwaterloo.ca",
+  "first_name": "Janet",
+  "last_name": "Lee",
+  "program": "Honours Arts",
+  "current_term": "4B",
+  "description": "curious student who enjoys exploring different fields of study."
+ },
+ {
+  "id": 88889999,
+  "uw_email": "robertchen8@uwaterloo.ca",
+  "first_name": "Robert",
+  "last_name": "Chen",
+  "program": "Computer Engineering",
+  "current_term": "2A",
+  "description": "problem-solver who enjoys using technology to create innovative solutions."
+ },
+ {
+  "id": 99990000,
+  "uw_email": "christinafung9@uwaterloo.ca",
+  "first_name": "Christina",
+  "last_name": "Fung",
+  "program": "Accounting",
+  "current_term": "4B",
+  "description": " detail-oriented student"
+ },
+ {
+  "id": 11112222,
+  "uw_email": "jenniferliu1@uwaterloo.ca",
+  "first_name": "Jennifer",
+  "last_name": "Liu",
+  "program": "Mathematics",
+  "current_term": "2A",
+  "description": "logical thinker"
+ },
+ {
+  "id": 22223333,
+  "uw_email": "kevinzhang2@uwaterloo.ca",
+  "first_name": "Kevin",
+  "last_name": "Zhang",
+  "program": "Computer Science",
+  "current_term": "2A",
+  "description": "tech-savvy student."
+ },
+ {
+  "id": 33334444,
+  "uw_email": "jessicawong33@uwaterloo.ca",
+  "first_name": "Jessica",
+  "last_name": "Wong",
+  "program": "Psychology",
+  "current_term": "4B",
+  "description": "I am a psych major"
+ },
+ {
+  "id": 13047963,
+  "uw_email": "samhill4@uwaterloo.ca",
+  "first_name": "Samuel",
+  "last_name": "Hill",
+  "program": "Computer Science",
+  "current_term": "2A",
+  "description": "enthusiastic computer science student "
+ },
+ {
+  "id": 21479513,
+  "uw_email": "laur2powell@uwaterloo.ca",
+  "first_name": "Lauren",
+  "last_name": "Powell",
+  "program": "Environmental Science",
+  "current_term": "1B",
+  "description": "Lauren is passionate about the environment"
+ },
+ {
+  "id": 15702380,
+  "uw_email": "joshcoop@uwaterloo.ca",
+  "first_name": "Joshua",
+  "last_name": "Cooper",
+  "program": "Mechanical Engineering",
+  "current_term": "1B",
+  "description": "Joshua is a dedicated engineering student"
+ },
+ {
+  "id": 19073284,
+  "uw_email": "mad2fisher@uwaterloo.ca",
+  "first_name": "Madison",
+  "last_name": "Fisher",
+  "program": "Psychology",
+  "current_term": "2A",
+  "description": "interested in the human mind and behavior"
+ },
+ {
+  "id": 16134702,
+  "uw_email": "andrewturner@uwaterloo.ca",
+  "first_name": "Andrew",
+  "last_name": "Turner",
+  "program": "Biology",
+  "current_term": "1B",
+  "description": "fascinated by the natural world"
+ },
+ {
+  "id": 17829051,
+  "uw_email": "olivia2wood@uwaterloo.ca",
+  "first_name": "Olivia",
+  "last_name": "Wood",
+  "program": "English",
+  "current_term": "2A",
+  "description": "aspiring writer"
+ },
+ {
+  "id": 20571439,
+  "uw_email": "dansanchez@uwaterloo.ca",
+  "first_name": "Daniel",
+  "last_name": "Sanchez",
+  "program": "Computer Engineering",
+  "current_term": "2A",
+  "description": "Daniel is a computer engineering student"
  }
 ]

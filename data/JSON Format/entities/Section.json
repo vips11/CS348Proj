@@ -2968,5 +2968,1373 @@
   "section_ID": 1,
   "semester": "Spring",
   "year": 2023
+ },
+ {
+  "course_ID": "MATH 145",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022
+ },
+ {
+  "course_ID": "ENGL 108",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022
+ },
+ {
+  "course_ID": "PSYCH 101",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022
+ },
+ {
+  "course_ID": "PHYS 121",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022
+ },
+ {
+  "course_ID": "BIOL 130",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022
+ },
+ {
+  "course_ID": "ECE 105",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022
+ },
+ {
+  "course_ID": "MSCI 261",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022
+ },
+ {
+  "course_ID": "AFM 123",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022
+ },
+ {
+  "course_ID": "CHEM 120",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022
+ },
+ {
+  "course_ID": "EARTH 121",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022
+ },
+ {
+  "course_ID": "CLAS 104",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022
+ },
+ {
+  "course_ID": "FR 192",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022
+ },
+ {
+  "course_ID": "MSCI 436",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022
+ },
+ {
+  "course_ID": "PSYCH 253",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022
+ },
+ {
+  "course_ID": "ECE 209",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022
+ },
+ {
+  "course_ID": "AFM 131",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022
+ },
+ {
+  "course_ID": "ENVS 278",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022
+ },
+ {
+  "course_ID": "CLAS 202",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022
+ },
+ {
+  "course_ID": "BIOL 239",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022
+ },
+ {
+  "course_ID": "CHEM 266",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022
+ },
+ {
+  "course_ID": "GEOG 101",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022
+ },
+ {
+  "course_ID": "EARTH 122",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022
+ },
+ {
+  "course_ID": "ECON 221",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022
+ },
+ {
+  "course_ID": "CS 343",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022
+ },
+ {
+  "course_ID": "ACTSC 372",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022
+ },
+ {
+  "course_ID": "SPAN 202",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022
+ },
+ {
+  "course_ID": "BIOL 373",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022
+ },
+ {
+  "course_ID": "CHE 220",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022
+ },
+ {
+  "course_ID": "DRAMA 100",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022
+ },
+ {
+  "course_ID": "ENGL 108",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022
+ },
+ {
+  "course_ID": "FR 152",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022
+ },
+ {
+  "course_ID": "GER 271",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022
+ },
+ {
+  "course_ID": "HIST 208",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022
+ },
+ {
+  "course_ID": "KIN 140",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022
+ },
+ {
+  "course_ID": "MSCI 311",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022
+ },
+ {
+  "course_ID": "MUSIC 246",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022
+ },
+ {
+  "course_ID": "NE 111",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022
+ },
+ {
+  "course_ID": "ARBUS 201",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022
+ },
+ {
+  "course_ID": "BIOL 240",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022
+ },
+ {
+  "course_ID": "CHEM 364",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022
+ },
+ {
+  "course_ID": "CLAS 104",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022
+ },
+ {
+  "course_ID": "ECE 204",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022
+ },
+ {
+  "course_ID": "ENVS 200",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022
+ },
+ {
+  "course_ID": "FINE 100",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022
+ },
+ {
+  "course_ID": "GEOG 101",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022
+ },
+ {
+  "course_ID": "HLTH 101",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022
+ },
+ {
+  "course_ID": "ME 100",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022
+ },
+ {
+  "course_ID": "AFM 291",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022
+ },
+ {
+  "course_ID": "AMATH 250",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022
+ },
+ {
+  "course_ID": "ARCH 282",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022
+ },
+ {
+  "course_ID": "BME 101",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022
+ },
+ {
+  "course_ID": "CHE 101",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022
+ },
+ {
+  "course_ID": "CO 255",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022
+ },
+ {
+  "course_ID": "DRAMA 212",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022
+ },
+ {
+  "course_ID": "ECON 361",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022
+ },
+ {
+  "course_ID": "ENGL 108",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022
+ },
+ {
+  "course_ID": "GENE 123",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022
+ },
+ {
+  "course_ID": "HIST 231",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022
+ },
+ {
+  "course_ID": "HRM 250",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022
+ },
+ {
+  "course_ID": "KIN 100",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022
+ },
+ {
+  "course_ID": "MATH 237",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022
+ },
+ {
+  "course_ID": "ME 100",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022
+ },
+ {
+  "course_ID": "MSCI 211",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022
+ },
+ {
+  "course_ID": "PACS 201",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022
+ },
+ {
+  "course_ID": "PHIL 145",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022
+ },
+ {
+  "course_ID": "PHYS 121",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022
+ },
+ {
+  "course_ID": "ARTS 189",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022
+ },
+ {
+  "course_ID": "BIOL 308",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022
+ },
+ {
+  "course_ID": "CHEM 254",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022
+ },
+ {
+  "course_ID": "CLAS 104",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022
+ },
+ {
+  "course_ID": "CO 480",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022
+ },
+ {
+  "course_ID": "ECON 251",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022
+ },
+ {
+  "course_ID": "ENGL 109",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022
+ },
+ {
+  "course_ID": "ERS 106",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022
+ },
+ {
+  "course_ID": "FR 151",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022
+ },
+ {
+  "course_ID": "GEOG 181",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022
+ },
+ {
+  "course_ID": "GEOG 181",
+  "section_ID": 2,
+  "semester": "Winter",
+  "year": 2022
+ },
+ {
+  "course_ID": "MATH 145",
+  "section_ID": 1,
+  "semester": "Fall",
+  "year": 2020
+ },
+ {
+  "course_ID": "ENGL 108",
+  "section_ID": 1,
+  "semester": "Fall",
+  "year": 2020
+ },
+ {
+  "course_ID": "PSYCH 101",
+  "section_ID": 1,
+  "semester": "Fall",
+  "year": 2020
+ },
+ {
+  "course_ID": "PHYS 121",
+  "section_ID": 1,
+  "semester": "Fall",
+  "year": 2020
+ },
+ {
+  "course_ID": "BIOL 130",
+  "section_ID": 1,
+  "semester": "Fall",
+  "year": 2020
+ },
+ {
+  "course_ID": "ECE 105",
+  "section_ID": 1,
+  "semester": "Fall",
+  "year": 2020
+ },
+ {
+  "course_ID": "MSCI 261",
+  "section_ID": 1,
+  "semester": "Fall",
+  "year": 2020
+ },
+ {
+  "course_ID": "AFM 123",
+  "section_ID": 1,
+  "semester": "Fall",
+  "year": 2020
+ },
+ {
+  "course_ID": "CHEM 120",
+  "section_ID": 1,
+  "semester": "Fall",
+  "year": 2020
+ },
+ {
+  "course_ID": "EARTH 121",
+  "section_ID": 1,
+  "semester": "Fall",
+  "year": 2020
+ },
+ {
+  "course_ID": "CLAS 104",
+  "section_ID": 1,
+  "semester": "Fall",
+  "year": 2020
+ },
+ {
+  "course_ID": "FR 192",
+  "section_ID": 1,
+  "semester": "Fall",
+  "year": 2020
+ },
+ {
+  "course_ID": "MSCI 436",
+  "section_ID": 1,
+  "semester": "Fall",
+  "year": 2020
+ },
+ {
+  "course_ID": "PSYCH 253",
+  "section_ID": 1,
+  "semester": "Fall",
+  "year": 2020
+ },
+ {
+  "course_ID": "ECE 209",
+  "section_ID": 1,
+  "semester": "Fall",
+  "year": 2020
+ },
+ {
+  "course_ID": "AFM 131",
+  "section_ID": 1,
+  "semester": "Fall",
+  "year": 2020
+ },
+ {
+  "course_ID": "ENVS 278",
+  "section_ID": 1,
+  "semester": "Fall",
+  "year": 2020
+ },
+ {
+  "course_ID": "CLAS 202",
+  "section_ID": 1,
+  "semester": "Fall",
+  "year": 2020
+ },
+ {
+  "course_ID": "BIOL 239",
+  "section_ID": 1,
+  "semester": "Fall",
+  "year": 2020
+ },
+ {
+  "course_ID": "CHEM 266",
+  "section_ID": 1,
+  "semester": "Fall",
+  "year": 2020
+ },
+ {
+  "course_ID": "GEOG 101",
+  "section_ID": 1,
+  "semester": "Fall",
+  "year": 2020
+ },
+ {
+  "course_ID": "EARTH 122",
+  "section_ID": 1,
+  "semester": "Fall",
+  "year": 2020
+ },
+ {
+  "course_ID": "ECON 221",
+  "section_ID": 1,
+  "semester": "Fall",
+  "year": 2020
+ },
+ {
+  "course_ID": "CS 343",
+  "section_ID": 1,
+  "semester": "Fall",
+  "year": 2020
+ },
+ {
+  "course_ID": "ACTSC 372",
+  "section_ID": 1,
+  "semester": "Fall",
+  "year": 2020
+ },
+ {
+  "course_ID": "SPAN 202",
+  "section_ID": 1,
+  "semester": "Fall",
+  "year": 2020
+ },
+ {
+  "course_ID": "BIOL 373",
+  "section_ID": 1,
+  "semester": "Fall",
+  "year": 2020
+ },
+ {
+  "course_ID": "CHE 220",
+  "section_ID": 1,
+  "semester": "Fall",
+  "year": 2020
+ },
+ {
+  "course_ID": "DRAMA 100",
+  "section_ID": 1,
+  "semester": "Fall",
+  "year": 2020
+ },
+ {
+  "course_ID": "ENGL 108",
+  "section_ID": 1,
+  "semester": "Fall",
+  "year": 2020
+ },
+ {
+  "course_ID": "FR 152",
+  "section_ID": 1,
+  "semester": "Fall",
+  "year": 2020
+ },
+ {
+  "course_ID": "GER 271",
+  "section_ID": 1,
+  "semester": "Fall",
+  "year": 2020
+ },
+ {
+  "course_ID": "HIST 208",
+  "section_ID": 1,
+  "semester": "Fall",
+  "year": 2020
+ },
+ {
+  "course_ID": "KIN 140",
+  "section_ID": 1,
+  "semester": "Fall",
+  "year": 2020
+ },
+ {
+  "course_ID": "MSCI 311",
+  "section_ID": 1,
+  "semester": "Fall",
+  "year": 2020
+ },
+ {
+  "course_ID": "MUSIC 246",
+  "section_ID": 1,
+  "semester": "Fall",
+  "year": 2020
+ },
+ {
+  "course_ID": "NE 111",
+  "section_ID": 1,
+  "semester": "Fall",
+  "year": 2020
+ },
+ {
+  "course_ID": "ARBUS 201",
+  "section_ID": 1,
+  "semester": "Fall",
+  "year": 2020
+ },
+ {
+  "course_ID": "BIOL 240",
+  "section_ID": 1,
+  "semester": "Fall",
+  "year": 2020
+ },
+ {
+  "course_ID": "CHEM 364",
+  "section_ID": 1,
+  "semester": "Fall",
+  "year": 2020
+ },
+ {
+  "course_ID": "CLAS 104",
+  "section_ID": 1,
+  "semester": "Fall",
+  "year": 2020
+ },
+ {
+  "course_ID": "ECE 204",
+  "section_ID": 1,
+  "semester": "Fall",
+  "year": 2020
+ },
+ {
+  "course_ID": "ENVS 200",
+  "section_ID": 1,
+  "semester": "Fall",
+  "year": 2020
+ },
+ {
+  "course_ID": "FINE 100",
+  "section_ID": 1,
+  "semester": "Fall",
+  "year": 2020
+ },
+ {
+  "course_ID": "GEOG 101",
+  "section_ID": 1,
+  "semester": "Fall",
+  "year": 2020
+ },
+ {
+  "course_ID": "HLTH 101",
+  "section_ID": 1,
+  "semester": "Fall",
+  "year": 2020
+ },
+ {
+  "course_ID": "ME 100",
+  "section_ID": 1,
+  "semester": "Fall",
+  "year": 2020
+ },
+ {
+  "course_ID": "AFM 291",
+  "section_ID": 1,
+  "semester": "Fall",
+  "year": 2020
+ },
+ {
+  "course_ID": "AMATH 250",
+  "section_ID": 1,
+  "semester": "Fall",
+  "year": 2020
+ },
+ {
+  "course_ID": "ARCH 282",
+  "section_ID": 1,
+  "semester": "Fall",
+  "year": 2020
+ },
+ {
+  "course_ID": "BME 101",
+  "section_ID": 1,
+  "semester": "Fall",
+  "year": 2020
+ },
+ {
+  "course_ID": "CHE 101",
+  "section_ID": 1,
+  "semester": "Fall",
+  "year": 2020
+ },
+ {
+  "course_ID": "CO 255",
+  "section_ID": 1,
+  "semester": "Fall",
+  "year": 2020
+ },
+ {
+  "course_ID": "DRAMA 212",
+  "section_ID": 1,
+  "semester": "Fall",
+  "year": 2020
+ },
+ {
+  "course_ID": "ECON 361",
+  "section_ID": 1,
+  "semester": "Fall",
+  "year": 2020
+ },
+ {
+  "course_ID": "ENGL 108",
+  "section_ID": 1,
+  "semester": "Fall",
+  "year": 2020
+ },
+ {
+  "course_ID": "GENE 123",
+  "section_ID": 1,
+  "semester": "Fall",
+  "year": 2020
+ },
+ {
+  "course_ID": "HIST 231",
+  "section_ID": 1,
+  "semester": "Fall",
+  "year": 2020
+ },
+ {
+  "course_ID": "HRM 250",
+  "section_ID": 1,
+  "semester": "Fall",
+  "year": 2020
+ },
+ {
+  "course_ID": "KIN 100",
+  "section_ID": 1,
+  "semester": "Fall",
+  "year": 2020
+ },
+ {
+  "course_ID": "MATH 237",
+  "section_ID": 1,
+  "semester": "Fall",
+  "year": 2020
+ },
+ {
+  "course_ID": "ME 100",
+  "section_ID": 1,
+  "semester": "Fall",
+  "year": 2020
+ },
+ {
+  "course_ID": "MSCI 211",
+  "section_ID": 1,
+  "semester": "Fall",
+  "year": 2020
+ },
+ {
+  "course_ID": "PACS 201",
+  "section_ID": 1,
+  "semester": "Fall",
+  "year": 2020
+ },
+ {
+  "course_ID": "PHIL 145",
+  "section_ID": 1,
+  "semester": "Fall",
+  "year": 2020
+ },
+ {
+  "course_ID": "PHYS 121",
+  "section_ID": 1,
+  "semester": "Fall",
+  "year": 2020
+ },
+ {
+  "course_ID": "ARTS 189",
+  "section_ID": 1,
+  "semester": "Fall",
+  "year": 2020
+ },
+ {
+  "course_ID": "BIOL 308",
+  "section_ID": 1,
+  "semester": "Fall",
+  "year": 2020
+ },
+ {
+  "course_ID": "CHEM 254",
+  "section_ID": 1,
+  "semester": "Fall",
+  "year": 2020
+ },
+ {
+  "course_ID": "CLAS 104",
+  "section_ID": 1,
+  "semester": "Fall",
+  "year": 2020
+ },
+ {
+  "course_ID": "CO 480",
+  "section_ID": 1,
+  "semester": "Fall",
+  "year": 2020
+ },
+ {
+  "course_ID": "ECON 251",
+  "section_ID": 1,
+  "semester": "Fall",
+  "year": 2020
+ },
+ {
+  "course_ID": "ENGL 109",
+  "section_ID": 1,
+  "semester": "Fall",
+  "year": 2020
+ },
+ {
+  "course_ID": "ERS 106",
+  "section_ID": 1,
+  "semester": "Fall",
+  "year": 2020
+ },
+ {
+  "course_ID": "FR 151",
+  "section_ID": 1,
+  "semester": "Fall",
+  "year": 2020
+ },
+ {
+  "course_ID": "GEOG 181",
+  "section_ID": 1,
+  "semester": "Fall",
+  "year": 2020
+ },
+ {
+  "course_ID": "MATH 145",
+  "section_ID": 1,
+  "semester": "Spring",
+  "year": 2023
+ },
+ {
+  "course_ID": "ENGL 108",
+  "section_ID": 1,
+  "semester": "Spring",
+  "year": 2023
+ },
+ {
+  "course_ID": "PSYCH 101",
+  "section_ID": 1,
+  "semester": "Spring",
+  "year": 2023
+ },
+ {
+  "course_ID": "PSYCH 101",
+  "section_ID": 2,
+  "semester": "Spring",
+  "year": 2023
+ },
+ {
+  "course_ID": "BIOL 130",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2023
+ },
+ {
+  "course_ID": "ECE 105",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2023
+ },
+ {
+  "course_ID": "MSCI 261",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2023
+ },
+ {
+  "course_ID": "AFM 123",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2023
+ },
+ {
+  "course_ID": "CHEM 120",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2023
+ },
+ {
+  "course_ID": "EARTH 121",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2023
+ },
+ {
+  "course_ID": "CLAS 104",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2023
+ },
+ {
+  "course_ID": "FR 192",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2023
+ },
+ {
+  "course_ID": "MSCI 436",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2023
+ },
+ {
+  "course_ID": "PSYCH 253",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2023
+ },
+ {
+  "course_ID": "ECE 209",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2023
+ },
+ {
+  "course_ID": "AFM 131",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2023
+ },
+ {
+  "course_ID": "ENVS 278",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2023
+ },
+ {
+  "course_ID": "CLAS 202",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2023
+ },
+ {
+  "course_ID": "BIOL 239",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2023
+ },
+ {
+  "course_ID": "CHEM 266",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2023
+ },
+ {
+  "course_ID": "GEOG 101",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2023
+ },
+ {
+  "course_ID": "EARTH 122",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2023
+ },
+ {
+  "course_ID": "ECON 221",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2023
+ },
+ {
+  "course_ID": "CS 343",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2023
+ },
+ {
+  "course_ID": "ACTSC 372",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2023
+ },
+ {
+  "course_ID": "SPAN 202",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2023
+ },
+ {
+  "course_ID": "BIOL 373",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2023
+ },
+ {
+  "course_ID": "CHE 220",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2023
+ },
+ {
+  "course_ID": "DRAMA 100",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2023
+ },
+ {
+  "course_ID": "ENGL 108",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2023
+ },
+ {
+  "course_ID": "FR 152",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2023
+ },
+ {
+  "course_ID": "GER 271",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2023
+ },
+ {
+  "course_ID": "HIST 208",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2023
+ },
+ {
+  "course_ID": "KIN 140",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2023
+ },
+ {
+  "course_ID": "MSCI 311",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2023
+ },
+ {
+  "course_ID": "MUSIC 246",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2023
+ },
+ {
+  "course_ID": "NE 111",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2023
+ },
+ {
+  "course_ID": "ARBUS 201",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2023
+ },
+ {
+  "course_ID": "BIOL 240",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2023
+ },
+ {
+  "course_ID": "CHEM 364",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2023
+ },
+ {
+  "course_ID": "CLAS 104",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2023
+ },
+ {
+  "course_ID": "ECE 204",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2023
+ },
+ {
+  "course_ID": "ENVS 200",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2023
+ },
+ {
+  "course_ID": "FINE 100",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2023
+ },
+ {
+  "course_ID": "GEOG 101",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2023
+ },
+ {
+  "course_ID": "HLTH 101",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2023
+ },
+ {
+  "course_ID": "ME 100",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2023
+ },
+ {
+  "course_ID": "AFM 291",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2023
+ },
+ {
+  "course_ID": "AMATH 250",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2023
+ },
+ {
+  "course_ID": "ARCH 282",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2023
+ },
+ {
+  "course_ID": "BME 101",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2023
+ },
+ {
+  "course_ID": "CHE 101",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2023
+ },
+ {
+  "course_ID": "CO 255",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2023
+ },
+ {
+  "course_ID": "DRAMA 212",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2023
+ },
+ {
+  "course_ID": "ECON 361",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2023
+ },
+ {
+  "course_ID": "ENGL 108",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2023
+ },
+ {
+  "course_ID": "GENE 123",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2023
+ },
+ {
+  "course_ID": "HIST 231",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2023
+ },
+ {
+  "course_ID": "HRM 250",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2023
+ },
+ {
+  "course_ID": "KIN 100",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2023
+ },
+ {
+  "course_ID": "MATH 237",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2023
+ },
+ {
+  "course_ID": "ME 100",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2023
+ },
+ {
+  "course_ID": "MSCI 211",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2023
+ },
+ {
+  "course_ID": "PACS 201",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2023
+ },
+ {
+  "course_ID": "PHIL 145",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2023
+ },
+ {
+  "course_ID": "PHYS 121",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2023
+ },
+ {
+  "course_ID": "ARTS 189",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2023
+ },
+ {
+  "course_ID": "BIOL 308",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2023
+ },
+ {
+  "course_ID": "CHEM 254",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2023
+ },
+ {
+  "course_ID": "CLAS 104",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2023
+ },
+ {
+  "course_ID": "CO 480",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2023
+ },
+ {
+  "course_ID": "ECON 251",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2023
+ },
+ {
+  "course_ID": "ENGL 109",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2023
+ },
+ {
+  "course_ID": "ERS 106",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2023
+ },
+ {
+  "course_ID": "FR 151",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2023
  }
 ]

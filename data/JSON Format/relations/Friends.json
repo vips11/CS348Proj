@@ -62,5 +62,333 @@
  {
   "Student1.ID": 45453886,
   "Student2.ID": 83950024
+ },
+ {
+  "Student1.ID": 48326591,
+  "Student2.ID": 28349567
+ },
+ {
+  "Student1.ID": 48326591,
+  "Student2.ID": 91827364
+ },
+ {
+  "Student1.ID": 48326591,
+  "Student2.ID": 72819365
+ },
+ {
+  "Student1.ID": 18472039,
+  "Student2.ID": 48326591
+ },
+ {
+  "Student1.ID": 18472039,
+  "Student2.ID": 71420935
+ },
+ {
+  "Student1.ID": 18472039,
+  "Student2.ID": 52613498
+ },
+ {
+  "Student1.ID": 67496942,
+  "Student2.ID": 79689206
+ },
+ {
+  "Student1.ID": 15702380,
+  "Student2.ID": 19073284
+ },
+ {
+  "Student1.ID": 15702380,
+  "Student2.ID": 16134702
+ },
+ {
+  "Student1.ID": 15702380,
+  "Student2.ID": 17829051
+ },
+ {
+  "Student1.ID": 15702380,
+  "Student2.ID": 48326591
+ },
+ {
+  "Student1.ID": 20571439,
+  "Student2.ID": 33334444
+ },
+ {
+  "Student1.ID": 20571439,
+  "Student2.ID": 13047963
+ },
+ {
+  "Student1.ID": 20571439,
+  "Student2.ID": 21479513
+ },
+ {
+  "Student1.ID": 66667777,
+  "Student2.ID": 21345678
+ },
+ {
+  "Student1.ID": 66667777,
+  "Student2.ID": 11111222
+ },
+ {
+  "Student1.ID": 89012345,
+  "Student2.ID": 20387129
+ },
+ {
+  "Student1.ID": 89012345,
+  "Student2.ID": 21123456
+ },
+ {
+  "Student1.ID": 89012345,
+  "Student2.ID": 21567890
+ },
+ {
+  "Student1.ID": 89012345,
+  "Student2.ID": 21987654
+ },
+ {
+  "Student1.ID": 89012345,
+  "Student2.ID": 17829051
+ },
+ {
+  "Student1.ID": 38491725,
+  "Student2.ID": 12345678
+ },
+ {
+  "Student1.ID": 38491725,
+  "Student2.ID": 23456789
+ },
+ {
+  "Student1.ID": 38491725,
+  "Student2.ID": 34567890
+ },
+ {
+  "Student1.ID": 72819365,
+  "Student2.ID": 18372940
+ },
+ {
+  "Student1.ID": 37482931,
+  "Student2.ID": 52468719
+ },
+ {
+  "Student1.ID": 93746281,
+  "Student2.ID": 28374910
+ },
+ {
+  "Student1.ID": 64927183,
+  "Student2.ID": 18472039
+ },
+ {
+  "Student1.ID": 64927183,
+  "Student2.ID": 96667175
+ },
+ {
+  "Student1.ID": 64927183,
+  "Student2.ID": 73564630
+ },
+ {
+  "Student1.ID": 64927183,
+  "Student2.ID": 51458338
+ },
+ {
+  "Student1.ID": 60653931,
+  "Student2.ID": 45453885
+ },
+ {
+  "Student1.ID": 52613498,
+  "Student2.ID": 54173986
+ },
+ {
+  "Student1.ID": 39827615,
+  "Student2.ID": 75628493
+ },
+ {
+  "Student1.ID": 43334990,
+  "Student2.ID": 23849065
+ },
+ {
+  "Student1.ID": 28349567,
+  "Student2.ID": 96017348
+ },
+ {
+  "Student1.ID": 91827364,
+  "Student2.ID": 18235964
+ },
+ {
+  "Student1.ID": 72819365,
+  "Student2.ID": 52468719
+ },
+ {
+  "Student1.ID": 72819365,
+  "Student2.ID": 28374910
+ },
+ {
+  "Student1.ID": 72819365,
+  "Student2.ID": 18472039
+ },
+ {
+  "Student1.ID": 72819365,
+  "Student2.ID": 85719236
+ },
+ {
+  "Student1.ID": 72819365,
+  "Student2.ID": 49283617
+ },
+ {
+  "Student1.ID": 72819365,
+  "Student2.ID": 28374610
+ },
+ {
+  "Student1.ID": 72819365,
+  "Student2.ID": 83950021
+ },
+ {
+  "Student1.ID": 91827364,
+  "Student2.ID": 83950021
+ },
+ {
+  "Student1.ID": 12345678,
+  "Student2.ID": 78901234
+ },
+ {
+  "Student1.ID": 23456789,
+  "Student2.ID": 89012345
+ },
+ {
+  "Student1.ID": 34567890,
+  "Student2.ID": 90123456
+ },
+ {
+  "Student1.ID": 45678901,
+  "Student2.ID": 12345677
+ },
+ {
+  "Student1.ID": 56789012,
+  "Student2.ID": 21487654
+ },
+ {
+  "Student1.ID": 67890123,
+  "Student2.ID": 20928175
+ },
+ {
+  "Student1.ID": 67890123,
+  "Student2.ID": 21765423
+ },
+ {
+  "Student1.ID": 67890123,
+  "Student2.ID": 21567890
+ },
+ {
+  "Student1.ID": 67890123,
+  "Student2.ID": 21987654
+ },
+ {
+  "Student1.ID": 67890123,
+  "Student2.ID": 20654321
+ },
+ {
+  "Student1.ID": 67890123,
+  "Student2.ID": 21345678
+ },
+ {
+  "Student1.ID": 67890123,
+  "Student2.ID": 11111222
+ },
+ {
+  "Student1.ID": 11111222,
+  "Student2.ID": 44445555
+ },
+ {
+  "Student1.ID": 11111222,
+  "Student2.ID": 55556666
+ },
+ {
+  "Student1.ID": 11111222,
+  "Student2.ID": 66667777
+ },
+ {
+  "Student1.ID": 11111222,
+  "Student2.ID": 77778888
+ },
+ {
+  "Student1.ID": 11111222,
+  "Student2.ID": 88889999
+ },
+ {
+  "Student1.ID": 38491725,
+  "Student2.ID": 54173986
+ },
+ {
+  "Student1.ID": 72918346,
+  "Student2.ID": 75628493
+ },
+ {
+  "Student1.ID": 29384617,
+  "Student2.ID": 23849065
+ },
+ {
+  "Student1.ID": 18473920,
+  "Student2.ID": 96017348
+ },
+ {
+  "Student1.ID": 49283651,
+  "Student2.ID": 18235964
+ },
+ {
+  "Student1.ID": 65971234,
+  "Student2.ID": 91827364
+ },
+ {
+  "Student1.ID": 65971234,
+  "Student2.ID": 72819365
+ },
+ {
+  "Student1.ID": 65971234,
+  "Student2.ID": 37482931
+ },
+ {
+  "Student1.ID": 65971234,
+  "Student2.ID": 64927183
+ },
+ {
+  "Student1.ID": 65971234,
+  "Student2.ID": 18372940
+ },
+ {
+  "Student1.ID": 93746281,
+  "Student2.ID": 85719236
+ },
+ {
+  "Student1.ID": 93746281,
+  "Student2.ID": 49283617
+ },
+ {
+  "Student1.ID": 93746281,
+  "Student2.ID": 28374610
+ },
+ {
+  "Student1.ID": 93746281,
+  "Student2.ID": 10293847
+ },
+ {
+  "Student1.ID": 39485671,
+  "Student2.ID": 73564630
+ },
+ {
+  "Student1.ID": 62738495,
+  "Student2.ID": 51458338
+ },
+ {
+  "Student1.ID": 85719263,
+  "Student2.ID": 45453885
+ },
+ {
+  "Student1.ID": 85719263,
+  "Student2.ID": 79689206
+ },
+ {
+  "Student1.ID": 85719263,
+  "Student2.ID": 67496942
+ },
+ {
+  "Student1.ID": 85719263,
+  "Student2.ID": 40128931
  }
 ]
