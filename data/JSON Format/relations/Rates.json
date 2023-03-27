@@ -1,0 +1,32 @@
+[
+  {
+    "liked_rating": 4,
+    "useful_rating": 5,
+    "course_ID": "CS 241",
+    "student_ID": 22779613
+  },
+  {
+    "liked_rating": 3,
+    "useful_rating": 4,
+    "course_ID": "STAT 230",
+    "student_ID": 60653931
+  },
+  {
+    "liked_rating": 5,
+    "useful_rating": 5,
+    "course_ID": "MATH 135",
+    "student_ID": 91260560
+  },
+  {
+    "liked_rating": 4,
+    "useful_rating": 3,
+    "course_ID": "CS 246",
+    "student_ID": 91260560
+  },
+  {
+    "liked_rating": 5,
+    "useful_rating": 4,
+    "course_ID": "CS 241",
+    "student_ID": 60653931
+  }
+]

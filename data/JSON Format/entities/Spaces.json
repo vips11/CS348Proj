@@ -1,0 +1,27 @@
+[
+  {
+    "space_ID": 1,
+    "name": "CS Club",
+    "description": "A club for people interested in computer science."
+  },
+  {
+    "space_ID": 2,
+    "name": "DS Club",
+    "description": "A club for people interested in data science."
+  },
+  {
+    "space_ID": 3,
+    "name": "Art Club",
+    "description": "A club for people interested in art."
+  },
+  {
+    "space_ID": 4,
+    "name": "Math Club",
+    "description": "A club for people interested in Math."
+  },
+  {
+    "space_ID": 5,
+    "name": "Physics Club",
+    "description": "A club for people interested in physics."
+  }
+]
