@@ -1,5 +1,5 @@
 import { StyleSheet, Text, View, TouchableOpacity } from "react-native";
-import { Link } from "expo-router";
+import { Link, useRouter } from "expo-router";
 
 import Header from "../components/Header";
 import DropDownMenu from "../components/DropDownMenu";
@@ -57,11 +57,9 @@ const data = [
 ];
 
 const Page = () => {
+  const router = useRouter();
   const handleProfileClick = (index) => {
-    console.log(index);
-    console.log(data[index]);
-    console.log("Going to View Profile Screen");
-    console.log("----------------------------");
+    router.push("ViewOtherProfile");
   };
 
   return (

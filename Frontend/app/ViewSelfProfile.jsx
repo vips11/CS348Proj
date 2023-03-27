@@ -6,7 +6,7 @@ import {
   ScrollView,
   Linking,
 } from "react-native";
-import { Link } from "expo-router";
+import { Link, useRouter } from "expo-router";
 
 import Header from "../components/Header";
 import TimeLine from "../components/TimeLine";
@@ -88,6 +88,7 @@ data = {
   ],
 };
 const ViewSelfProfile = () => {
+  const router = useRouter();
   return (
     <View style={styles.container}>
       <View style={styles.headerContainer}>
@@ -122,6 +123,12 @@ const ViewSelfProfile = () => {
                 </TouchableOpacity>
               ))}
             </View>
+            <TouchableOpacity
+              style={{ marginVertical: 20 }}
+              onPress={() => router.push("EditProfile")}
+            >
+              <Text style={{ color: "white" }}>EDIT PROFILE</Text>
+            </TouchableOpacity>
           </ScrollView>
         </View>
       </SafeAreaView>
