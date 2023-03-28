@@ -31,6 +31,8 @@ The application is written in React. The commands to run the program are given b
 The first line is to get to the directory with the code for the application. <br>
 The second line is to run the application.
 
+The backend is written in python. To run the backend cd into the Backend directory and execute "python3 api.py".
+
 ## Features
 <ol>
 <li>Search for students using their name
