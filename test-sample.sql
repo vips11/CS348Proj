@@ -117,3 +117,21 @@ from (select max(useful_rating) as maxUsefulRating, max(liked_rating) as maxLike
         from RATES as R), RATES
 where RATES.useful_rating = maxUsefulRating
     and RATES.liked_rating = maxLikedRating;
+
+/* Query 16 */
+/* Find a friend for the student with student_ID 96667175 */
+/* depending on students who have similar interests */
+SELECT DISTINCT first_name, last_name
+FROM Student s
+JOIN Interested i1 ON s.id = i1.student_id
+JOIN Interested i2 ON i1.interest_id = i2.interest_id AND i2.student_id = 96667175
+WHERE s.id <> 96667175
+group by s.id
+having count(DISTINCT i1.interest_id) >= 1
+
+
+/* Query 17 */
+/* Authoriza user login credentials */
+SELECT * from AUTHORISATION WHERE
+    uw_email = "milsmith@uwaterloo.ca" and
+    password = "uA&y2KsPmT$!vJ8Q"

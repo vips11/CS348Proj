@@ -16,11 +16,10 @@ Users will be able to make profiles and include details such as their program, a
 </ol>
 
 ## How to load the sample database
-Note: `my-test.db` has all the creating table queries. <br>
 <ol>
  <li>Make sure you have all the sample data json files.</li>
- <li>Run the loadDatabase.py file.</li>
- <li>A sql database should be created in your project root folder containing all the tables and the sample database.</li>
+ <li>cd into the Backend directory and run "python3 loadDatabase.py" </li>
+ <li>A sql database, named applicationDB.db, should be created in the Backend folder containing all the tables and the sample database.</li>
 </ol>
 
 NOTE: The production database is loaded the same way. We just added additional queries for the new tables.
