@@ -310,3 +310,10 @@
   "current_term": "1B",
   "description": "Todo"
  }
+
+/* Sample output for query 17
+{
+    "uw_email": "milsmith@uwaterloo.ca",
+    "student_id": "96667175",
+    "password": "uA&y2KsPmT$!vJ8Q"
+}
