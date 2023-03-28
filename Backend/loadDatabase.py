@@ -210,8 +210,8 @@ def loadStudentData():
         for data in tableData:
             query = f"""
                     INSERT OR IGNORE INTO STUDENT VALUES 
-                    ({data["id"]}, "{data["first_name"]}", "{data["last_name"]}", "{data["uw_email"]}", "{data["program"]}",
-                     "{data["description"]}", "{data["current_term"]}",  "{data["semester"]}",  {data["year"]})
+                    ({data["id"]}, "{data["first_name"]}", "{data["last_name"]}", "{data["current_term"]}",  "{data["semester"]}",  {data["year"]},
+                    "{data["uw_email"]}", "{data["program"]}", "{data["description"]}")
                 """
             cursor = con.cursor()
             cursor.execute(query)
