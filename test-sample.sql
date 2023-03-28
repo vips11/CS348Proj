@@ -116,3 +116,10 @@ JOIN Interested i2 ON i1.interest_id = i2.interest_id AND i2.student_id = 966671
 WHERE s.id <> 96667175
 group by s.id
 having count(DISTINCT i1.interest_id) >= 1
+
+
+/* Query 17 */
+/* Authoriza user login credentials */
+SELECT * from AUTHORISATION WHERE
+    uw_email = "milsmith@uwaterloo.ca" and
+    password = "uA&y2KsPmT$!vJ8Q"
