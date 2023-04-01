@@ -1,0 +1,845 @@
+/* Query 1 output */
+[
+  {
+    "id": 12345678,
+    "first_name": "John",
+    "last_name": "Smith",
+    "term": "4B",
+    "semester": "Fall",
+    "year": 2021,
+    "uw_email": "jsmith@uwaterloo.ca",
+    "program": "Computer Science",
+    "description": "Avid gamer and coffee lover"
+  },
+  {
+    "id": 13336678,
+    "first_name": "Emily",
+    "last_name": "Smith",
+    "term": "4A",
+    "semester": "Spring",
+    "year": 2023,
+    "uw_email": "emilysmith@uwaterloo.ca",
+    "program": "CS",
+    "description": "I am a senior studying computer science."
+  },
+  {
+    "id": 22223333,
+    "first_name": "Sarah",
+    "last_name": "Smith",
+    "term": "1B",
+    "semester": "Fall",
+    "year": 2021,
+    "uw_email": "sarahsmith22@uwaterloo.ca",
+    "program": "Honours Arts",
+    "description": "Sarah is a creative writer "
+  },
+  {
+    "id": 22779613,
+    "first_name": "Alex",
+    "last_name": "Smith",
+    "term": "alxsmith@uwaterloo.ca",
+    "semester": "Physics",
+    "year": "Todo",
+    "uw_email": "1B",
+    "program": "Spring",
+    "description": "2023"
+  },
+  {
+    "id": 28349567,
+    "first_name": "John",
+    "last_name": "Smith",
+    "term": "2A",
+    "semester": "Fall",
+    "year": 2020,
+    "uw_email": "john6smith@uwaterloo.ca",
+    "program": "Computer Science",
+    "description": "I am in my second year of CS."
+  },
+  {
+    "id": 29384756,
+    "first_name": "Sophia",
+    "last_name": "Smith",
+    "term": "1A",
+    "semester": "Winter",
+    "year": 2022,
+    "uw_email": "sophia6smith@uwaterloo.ca",
+    "program": "Biology",
+    "description": "Passionate about genetics and its potential applications"
+  },
+  {
+    "id": 60653931,
+    "first_name": "Mary",
+    "last_name": "Smith",
+    "term": "1A",
+    "semester": "Fall",
+    "year": 2021,
+    "uw_email": "maysmith@uwaterloo.ca",
+    "program": "Physics",
+    "description": "Todo"
+  },
+  {
+    "id": 64927183,
+    "first_name": "Oliver",
+    "last_name": "Smith",
+    "term": "2A",
+    "semester": "Fall",
+    "year": 2020,
+    "uw_email": "oliv7smith@uwaterloo.ca",
+    "program": "Biology",
+    "description": "I am enrolled in biology"
+  },
+  {
+    "id": 85927361,
+    "first_name": "Michael",
+    "last_name": "Smith",
+    "term": "1A",
+    "semester": "Fall",
+    "year": 2020,
+    "uw_email": "michaelsmith@uwaterloo.ca",
+    "program": "Computer Science",
+    "description": "Passionate about programming and interested in AI"
+  },
+  {
+    "id": 90123456,
+    "first_name": "David",
+    "last_name": "Smith",
+    "term": "3A",
+    "semester": "Fall",
+    "year": 2021,
+    "uw_email": "dsmith@uwaterloo.ca",
+    "program": "Physics",
+    "description": "Science fiction fan and amateur astronomer"
+  },
+  {
+    "id": 96667175,
+    "first_name": "Michael",
+    "last_name": "Smith",
+    "term": "milsmith@uwaterloo.ca",
+    "semester": "Math",
+    "year": "Todo",
+    "uw_email": "1A",
+    "program": "Fall",
+    "description": "2022"
+  }
+]
+
+/* Query 2 output */
+[
+  {
+    "id": 10293847,
+    "first_name": "Noah",
+    "last_name": "Taylor",
+    "uw_email": "noahtaylor@uwaterloo.ca",
+    "program": "Biology",
+    "description": "I am enrolled in biology"
+  },
+  {
+    "id": 10871349,
+    "first_name": "Jennifer",
+    "last_name": "Che",
+    "uw_email": "jenche@uwaterloo.ca",
+    "program": "Chem",
+    "description": "I am a sophomore studying chemistry."
+  },
+  {
+    "id": 11111222,
+    "first_name": "John",
+    "last_name": "Doe",
+    "uw_email": "johndoe11@uwaterloo.ca",
+    "program": "Computer Science",
+    "description": "John is a dedicated student with a passion for computer science."
+  },
+  {
+    "id": 11112222,
+    "first_name": "Jennifer",
+    "last_name": "Liu",
+    "uw_email": "jenniferliu1@uwaterloo.ca",
+    "program": "Mathematics",
+    "description": "logical thinker"
+  },
+  {
+    "id": 12345677,
+    "first_name": "Mary",
+    "last_name": "Johnson",
+    "uw_email": "mjohnson@uwaterloo.ca",
+    "program": "Anthropology",
+    "description": "Social activist and community organizer"
+  },
+  {
+    "id": 12345678,
+    "first_name": "John",
+    "last_name": "Smith",
+    "uw_email": "jsmith@uwaterloo.ca",
+    "program": "Computer Science",
+    "description": "Avid gamer and coffee lover"
+  },
+  {
+    "id": 13047963,
+    "first_name": "Samuel",
+    "last_name": "Hill",
+    "uw_email": "samhill4@uwaterloo.ca",
+    "program": "Computer Science",
+    "description": "enthusiastic computer science student "
+  },
+  {
+    "id": 13336678,
+    "first_name": "Emily",
+    "last_name": "Smith",
+    "uw_email": "emilysmith@uwaterloo.ca",
+    "program": "CS",
+    "description": "I am a senior studying computer science."
+  },
+  {
+    "id": 15702380,
+    "first_name": "Joshua",
+    "last_name": "Cooper",
+    "uw_email": "joshcoop@uwaterloo.ca",
+    "program": "Mechanical Engineering",
+    "description": "Joshua is a dedicated engineering student"
+  },
+  {
+    "id": 16134702,
+    "first_name": "Andrew",
+    "last_name": "Turner",
+    "uw_email": "andrewturner@uwaterloo.ca",
+    "program": "Biology",
+    "description": "fascinated by the natural world"
+  }
+]
+
+/* Query 3 */
+[
+  {
+    "id": 10293847,
+    "first_name": "Noah",
+    "last_name": "Taylor",
+    "term": "2A",
+    "semester": "Fall",
+    "year": 2020,
+    "uw_email": "noahtaylor@uwaterloo.ca",
+    "program": "Biology",
+    "description": "I am enrolled in biology"
+  },
+  {
+    "id": 11112222,
+    "first_name": "Jennifer",
+    "last_name": "Liu",
+    "term": "2A",
+    "semester": "Winter",
+    "year": 2022,
+    "uw_email": "jenniferliu1@uwaterloo.ca",
+    "program": "Mathematics",
+    "description": "logical thinker"
+  },
+  {
+    "id": 13047963,
+    "first_name": "Samuel",
+    "last_name": "Hill",
+    "term": "2A",
+    "semester": "Winter",
+    "year": 2022,
+    "uw_email": "samhill4@uwaterloo.ca",
+    "program": "Computer Science",
+    "description": "enthusiastic computer science student "
+  },
+  {
+    "id": 17829051,
+    "first_name": "Olivia",
+    "last_name": "Wood",
+    "term": "2A",
+    "semester": "Winter",
+    "year": 2023,
+    "uw_email": "olivia2wood@uwaterloo.ca",
+    "program": "English",
+    "description": "aspiring writer"
+  },
+  {
+    "id": 18372940,
+    "first_name": "Hannah",
+    "last_name": "Park",
+    "term": "2A",
+    "semester": "Fall",
+    "year": 2020,
+    "uw_email": "hannahpark@uwaterloo.ca",
+    "program": "Accounting",
+    "description": "I am studying Accounting"
+  },
+  {
+    "id": 19073284,
+    "first_name": "Madison",
+    "last_name": "Fisher",
+    "term": "2A",
+    "semester": "Fall",
+    "year": 2022,
+    "uw_email": "mad2fisher@uwaterloo.ca",
+    "program": "Psychology",
+    "description": "interested in the human mind and behavior"
+  },
+  {
+    "id": 20387129,
+    "first_name": "Nathan",
+    "last_name": "Gupta",
+    "term": "2B",
+    "semester": "Fall",
+    "year": 2021,
+    "uw_email": "nathan.gupta@uwaterloo.ca",
+    "program": "Honours Computer Science",
+    "description": "skilled programmer who enjoys solving challenging problems"
+  },
+  {
+    "id": 20571439,
+    "first_name": "Daniel",
+    "last_name": "Sanchez",
+    "term": "2A",
+    "semester": "Spring",
+    "year": 2023,
+    "uw_email": "dansanchez@uwaterloo.ca",
+    "program": "Computer Engineering",
+    "description": "Daniel is a computer engineering student"
+  },
+  {
+    "id": 20654321,
+    "first_name": "Jordan",
+    "last_name": "Patel",
+    "term": "2B",
+    "semester": "Fall",
+    "year": 2021,
+    "uw_email": "jordan.patel@uwaterloo.ca",
+    "program": "Honours Business",
+    "description": "passionate about entrepreneurship and innovation"
+  },
+  {
+    "id": 20928175,
+    "first_name": "Mohamed",
+    "last_name": "Young",
+    "term": "2B",
+    "semester": "Fall",
+    "year": 2021,
+    "uw_email": "mohamed.young@uwaterloo.ca",
+    "program": "Honours Mathematics",
+    "description": "always up for a challenge and enjoys exploring new areas of mathematics."
+  }
+]
+
+/* Query 4 */
+[
+  {
+    "id": 21217676,
+    "first_name": "John",
+    "last_name": "Doe",
+    "uw_email": "johndoe@uwaterloo.ca",
+    "program": "Math",
+    "description": "I am a junior studying mathematics."
+  },
+  {
+    "id": 45678901,
+    "first_name": "Michael",
+    "last_name": "Miller",
+    "uw_email": "mmiller@uwaterloo.ca",
+    "program": "Engineering",
+    "description": "Sports fanatic and volunteer coach for local youth basketball league"
+  },
+  {
+    "id": 60653931,
+    "first_name": "Mary",
+    "last_name": "Smith",
+    "uw_email": "maysmith@uwaterloo.ca",
+    "program": "Physics",
+    "description": "Todo"
+  },
+  {
+    "id": 73564630,
+    "first_name": "Christopher",
+    "last_name": "Johnson",
+    "uw_email": "chrjohns@uwaterloo.ca",
+    "program": "Math",
+    "description": "Todo"
+  },
+  {
+    "id": 90123456,
+    "first_name": "David",
+    "last_name": "Smith",
+    "uw_email": "dsmith@uwaterloo.ca",
+    "program": "Physics",
+    "description": "Science fiction fan and amateur astronomer"
+  },
+  {
+    "id": 96017348,
+    "first_name": "Olivia",
+    "last_name": "Anderson",
+    "uw_email": "ol34and@uwaterloo.ca",
+    "program": "Math",
+    "description": "I am a sophomore studying mathematics."
+  }
+]
+
+/* Query 5 */
+[
+  {
+    "id": 10293847,
+    "first_name": "Noah",
+    "last_name": "Taylor",
+    "term": "2A",
+    "semester": "Fall",
+    "year": 2020,
+    "uw_email": "noahtaylor@uwaterloo.ca",
+    "program": "Biology",
+    "description": "I am enrolled in biology"
+  },
+  {
+    "id": 10871349,
+    "first_name": "Jennifer",
+    "last_name": "Che",
+    "term": "4A",
+    "semester": "Winter",
+    "year": 2023,
+    "uw_email": "jenche@uwaterloo.ca",
+    "program": "Chem",
+    "description": "I am a sophomore studying chemistry."
+  },
+  {
+    "id": 11111222,
+    "first_name": "John",
+    "last_name": "Doe",
+    "term": "1B",
+    "semester": "Fall",
+    "year": 2021,
+    "uw_email": "johndoe11@uwaterloo.ca",
+    "program": "Computer Science",
+    "description": "John is a dedicated student with a passion for computer science."
+  },
+  {
+    "id": 11112222,
+    "first_name": "Jennifer",
+    "last_name": "Liu",
+    "term": "2A",
+    "semester": "Winter",
+    "year": 2022,
+    "uw_email": "jenniferliu1@uwaterloo.ca",
+    "program": "Mathematics",
+    "description": "logical thinker"
+  },
+  {
+    "id": 12345677,
+    "first_name": "Mary",
+    "last_name": "Johnson",
+    "term": "3A",
+    "semester": "Fall",
+    "year": 2021,
+    "uw_email": "mjohnson@uwaterloo.ca",
+    "program": "Anthropology",
+    "description": "Social activist and community organizer"
+  },
+  {
+    "id": 12345678,
+    "first_name": "John",
+    "last_name": "Smith",
+    "term": "4B",
+    "semester": "Fall",
+    "year": 2021,
+    "uw_email": "jsmith@uwaterloo.ca",
+    "program": "Computer Science",
+    "description": "Avid gamer and coffee lover"
+  },
+  {
+    "id": 13047963,
+    "first_name": "Samuel",
+    "last_name": "Hill",
+    "term": "2A",
+    "semester": "Winter",
+    "year": 2022,
+    "uw_email": "samhill4@uwaterloo.ca",
+    "program": "Computer Science",
+    "description": "enthusiastic computer science student "
+  },
+  {
+    "id": 13336678,
+    "first_name": "Emily",
+    "last_name": "Smith",
+    "term": "4A",
+    "semester": "Spring",
+    "year": 2023,
+    "uw_email": "emilysmith@uwaterloo.ca",
+    "program": "CS",
+    "description": "I am a senior studying computer science."
+  },
+  {
+    "id": 15702380,
+    "first_name": "Joshua",
+    "last_name": "Cooper",
+    "term": "1B",
+    "semester": "Fall",
+    "year": 2022,
+    "uw_email": "joshcoop@uwaterloo.ca",
+    "program": "Mechanical Engineering",
+    "description": "Joshua is a dedicated engineering student"
+  },
+  {
+    "id": 16134702,
+    "first_name": "Andrew",
+    "last_name": "Turner",
+    "term": "1B",
+    "semester": "Winter",
+    "year": 2023,
+    "uw_email": "andrewturner@uwaterloo.ca",
+    "program": "Biology",
+    "description": "fascinated by the natural world"
+  }
+]
+
+/* Query 6 */
+[
+  {
+    "student_id": 12345678,
+    "course_id": "STAT 230",
+    "year": 2021,
+    "semester": "Fall",
+    "id": 12345678,
+    "first_name": "John",
+    "last_name": "Smith",
+    "term": "4B"
+  },
+  {
+    "student_id": 19384762,
+    "course_id": "STAT 230",
+    "year": 2021,
+    "semester": "Fall",
+    "id": 19384762,
+    "first_name": "Emma",
+    "last_name": "Anderson",
+    "term": "3B"
+  },
+  {
+    "student_id": 23456789,
+    "course_id": "STAT 230",
+    "year": 2021,
+    "semester": "Fall",
+    "id": 23456789,
+    "first_name": "Jane",
+    "last_name": "Doe",
+    "term": "3A"
+  },
+  {
+    "student_id": 34567890,
+    "course_id": "STAT 230",
+    "year": 2021,
+    "semester": "Fall",
+    "id": 34567890,
+    "first_name": "James",
+    "last_name": "Johnson",
+    "term": "4B"
+  },
+  {
+    "student_id": 45678901,
+    "course_id": "STAT 230",
+    "year": 2021,
+    "semester": "Fall",
+    "id": 45678901,
+    "first_name": "Michael",
+    "last_name": "Miller",
+    "term": "3A"
+  },
+  {
+    "student_id": 51458338,
+    "course_id": "STAT 230",
+    "year": 2023,
+    "semester": "Winter",
+    "id": 51458338,
+    "first_name": "Jessica",
+    "last_name": "Williams",
+    "term": "1A"
+  },
+  {
+    "student_id": 51458338,
+    "course_id": "STAT 230",
+    "year": 2022,
+    "semester": "Winter",
+    "id": 51458338,
+    "first_name": "Jessica",
+    "last_name": "Williams",
+    "term": "1A"
+  },
+  {
+    "student_id": 56789012,
+    "course_id": "STAT 230",
+    "year": 2021,
+    "semester": "Fall",
+    "id": 56789012,
+    "first_name": "Betty",
+    "last_name": "Lee",
+    "term": "4B"
+  },
+  {
+    "student_id": 60653931,
+    "course_id": "STAT 230",
+    "year": 2023,
+    "semester": "Fall",
+    "id": 60653931,
+    "first_name": "Mary",
+    "last_name": "Smith",
+    "term": "1A"
+  },
+  {
+    "student_id": 67890123,
+    "course_id": "STAT 230",
+    "year": 2021,
+    "semester": "Fall",
+    "id": 67890123,
+    "first_name": "Kevin",
+    "last_name": "Nguyen",
+    "term": "3A"
+  },
+  {
+    "student_id": 73564630,
+    "course_id": "STAT 230",
+    "year": 2023,
+    "semester": "Winter",
+    "id": 73564630,
+    "first_name": "Christopher",
+    "last_name": "Johnson",
+    "term": "1A"
+  },
+  {
+    "student_id": 78901234,
+    "course_id": "STAT 230",
+    "year": 2021,
+    "semester": "Fall",
+    "id": 78901234,
+    "first_name": "Samantha",
+    "last_name": "Wong",
+    "term": "4B"
+  },
+  {
+    "student_id": 89012345,
+    "course_id": "STAT 230",
+    "year": 2021,
+    "semester": "Fall",
+    "id": 89012345,
+    "first_name": "Charlie",
+    "last_name": "Chen",
+    "term": "4B"
+  }
+]
+
+/* Query 9 */
+[
+  {
+    "first_name": "Alex",
+    "last_name": "Kim"
+  },
+  {
+    "first_name": "Alex",
+    "last_name": "Smith"
+  },
+  {
+    "first_name": "Alexander",
+    "last_name": "Nguyen"
+  },
+  {
+    "first_name": "Alexander",
+    "last_name": "Taylor"
+  },
+  {
+    "first_name": "Amanda",
+    "last_name": "Wilson"
+  },
+  {
+    "first_name": "Amit",
+    "last_name": "Patel"
+  },
+  {
+    "first_name": "Andrew",
+    "last_name": "Turner"
+  },
+  {
+    "first_name": "Ashley",
+    "last_name": "Brown"
+  },
+  {
+    "first_name": "Ashley",
+    "last_name": "Parker"
+  },
+  {
+    "first_name": "Ava",
+    "last_name": "Davis"
+  }
+]
+
+/* Query 10 */
+[
+  {
+    "first_name": "John",
+    "last_name": "Doe"
+  },
+  {
+    "first_name": "John",
+    "last_name": "Smith"
+  },
+  {
+    "first_name": "Olivia",
+    "last_name": "Wood"
+  },
+  {
+    "first_name": "William",
+    "last_name": "Thomas"
+  },
+  {
+    "first_name": "Mohamed",
+    "last_name": "Young"
+  },
+  {
+    "first_name": "Megan",
+    "last_name": "Kim"
+  },
+  {
+    "first_name": "Sarah",
+    "last_name": "Smith"
+  },
+  {
+    "first_name": "Alex",
+    "last_name": "Smith"
+  },
+  {
+    "first_name": "Michael",
+    "last_name": "Miller"
+  },
+  {
+    "first_name": "Daniel",
+    "last_name": "White"
+  },
+  {
+    "first_name": "Jessica",
+    "last_name": "Williams"
+  },
+  {
+    "first_name": "Mary",
+    "last_name": "Smith"
+  },
+  {
+    "first_name": "Sophia",
+    "last_name": "Jackson"
+  },
+  {
+    "first_name": "Grace",
+    "last_name": "Harris"
+  },
+  {
+    "first_name": "Daniel",
+    "last_name": "Robinson"
+  },
+  {
+    "first_name": "Charlie",
+    "last_name": "Chen"
+  }
+]
+
+/* Query 11 */
+[
+  {
+    "course_id": "ARBUS 201"
+  },
+  {
+    "course_id": "ARCH 282"
+  },
+  {
+    "course_id": "CHEM 254"
+  },
+  {
+    "course_id": "ECON 101"
+  },
+  {
+    "course_id": "ECON 251"
+  },
+  {
+    "course_id": "ECON 361"
+  },
+  {
+    "course_id": "KIN 100"
+  },
+  {
+    "course_id": "KIN 140"
+  },
+  {
+    "course_id": "PSYCH 101"
+  },
+  {
+    "course_id": "AFM 101"
+  }
+]
+
+/* Query 12 */
+[
+  {
+    "course_id": "AFM 291"
+  },
+  {
+    "course_id": "ARTS 189"
+  },
+  {
+    "course_id": "ECE 208"
+  },
+  {
+    "course_id": "ENVS 200"
+  },
+  {
+    "course_id": "GEOG 101"
+  },
+  {
+    "course_id": "KIN 100"
+  },
+  {
+    "course_id": "KIN 140"
+  },
+  {
+    "course_id": "PHYS 121"
+  },
+  {
+    "course_id": "PSYCH 101"
+  },
+  {
+    "course_id": "BIOL 373"
+  }
+]
+
+/* Query 13 */
+[
+  {
+    "course_id": "CHE 101"
+  },
+  {
+    "course_id": "CHEM 266"
+  },
+  {
+    "course_id": "CLAS 104"
+  },
+  {
+    "course_id": "EARTH 121"
+  },
+  {
+    "course_id": "ERS 106"
+  },
+  {
+    "course_id": "HRM 250"
+  },
+  {
+    "course_id": "MATH 138"
+  },
+  {
+    "course_id": "MUSIC 246"
+  },
+  {
+    "course_id": "PHIL 145"
+  },
+  {
+    "course_id": "STAT 330"
+  }
+]
+
+/* Query 14 */
+[
+  {
+    "space_id": 1,
+    "name": "Musical Fridays",
+    "description": "Every friday, we gather together and do some karoke"
+  }
+]
