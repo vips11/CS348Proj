@@ -2,6 +2,8 @@ from flask_restful import Resource
 from flask import jsonify, make_response, request
 import sqlite3 as sl
 
+from Backend.helper import *
+
 
 def intersect(list1, list2):
     intersect = []
@@ -38,42 +40,28 @@ class Students(Resource):
             "students": []
         }
         try:
-            con = sl.connect('applicationDb.db')
             rows = []
             if key != "":
                 query = f"select * from STUDENT where uw_email = '{key}'"
-                cursor = con.cursor()
-                cursor.execute(query)
-                rows = cursor.fetchall()
-                response["students"] = rows
+                response["students"] = executeQuery(query)
 
                 return make_response(jsonify(response), 200)
 
             if firstName != "":
                 query = f"select * from STUDENT where first_name like '%{firstName}%'"
-                cursor = con.cursor()
-                cursor.execute(query)
-                rows = intersect(rows, cursor.fetchall())
+                rows = intersect(rows, executeQuery(query))
             if lastName != "":
                 query = f"select * from STUDENT where last_name like '%{lastName}%'"
-                cursor = con.cursor()
-                cursor.execute(query)
-                rows = intersect(rows, cursor.fetchall())
+                rows = intersect(rows, executeQuery(query))
             if term != "":
                 query = f"select * from STUDENT where term = '{term}'"
-                cursor = con.cursor()
-                cursor.execute(query)
-                rows = intersect(rows, cursor.fetchall())
+                rows = intersect(rows, executeQuery(query))
             if program != "":
                 query = f"select * from STUDENT where term = '{term}'"
-                cursor = con.cursor()
-                cursor.execute(query)
-                rows = intersect(rows, cursor.fetchall())
+                rows = intersect(rows, executeQuery(query))
             if company != "":
                 query = f"select * from STUDENT, COMPANY natural join WORKS where COMPANY.name like '%{company}%';"
-                cursor = con.cursor()
-                cursor.execute(query)
-                rows = intersect(rows, cursor.fetchall())
+                rows = intersect(rows, executeQuery(query))
 
             response["students"] = rows
         except Exception as e:
