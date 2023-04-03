@@ -140,8 +140,8 @@ def createTables():
     tableQueries.append("""
         CREATE TABLE IF NOT EXISTS WORKS (
             term varchar(2),
-            start_date date,
-            end_date date,
+            semester varchar(255),
+            year INTEGER,
             student_id INTEGER,
             job_id INTEGER,
             company_id INTEGER,
@@ -369,7 +369,7 @@ def loadWorksData():
         for data in tableData:
             query = f"""
                     INSERT OR IGNORE INTO WORKS VALUES 
-                    ("{data["term"]}", "{data["start_date"]}", "{data["end_date"]}", {data["student_ID"]},
+                    ("{data["term"]}", "{data["semester"]}", "{data["year"]}", {data["student_ID"]},
                     {data["job_ID"]}, {data["company_ID"]}, {data["facility_ID"]})
                 """
             con.execute(query)

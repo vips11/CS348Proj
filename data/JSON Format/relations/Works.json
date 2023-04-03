@@ -4,206 +4,206 @@
   "company_ID": 1,
   "facility_ID": 1,
   "job_ID": 1,
-  "term": "2B",
-  "start_date": "01\/01\/1990",
-  "end_date": "01\/01\/1991"
+  "term": "Coop 1",
+  "semester": "Winter",
+  "year": "1990"
  },
  {
   "student_ID": 83950021,
   "company_ID": 4,
   "facility_ID": 2,
   "job_ID": 2,
-  "term": "3A",
-  "start_date": "01\/01\/1992",
-  "end_date": "01\/01\/1993"
+  "term": "Coop 1",
+  "semester": "Winter",
+  "year": "1992"
  },
  {
   "student_ID": 10871349,
   "company_ID": 57,
   "facility_ID": 1,
   "job_ID": 3,
-  "term": "4A",
-  "start_date": "01\/01\/2000",
-  "end_date": "04\/02\/2000"
+  "term": "Coop 1",
+  "semester": "Winter",
+  "year": "2000"
  },
  {
   "student_ID": 62389417,
   "company_ID": 57,
   "facility_ID": 1,
   "job_ID": 4,
-  "term": "2A",
-  "start_date": "01\/01\/2000",
-  "end_date": "04\/02\/2000"
+  "term": "Coop 1",
+  "semester": "Winter",
+  "year": "2000"
  },
  {
   "student_ID": 29586401,
   "company_ID": 58,
   "facility_ID": 1,
   "job_ID": 1,
-  "term": "2B",
-  "start_date": "01\/01\/2000",
-  "end_date": "04\/02\/2000"
+  "term": "Coop 1",
+  "semester": "Winter",
+  "year": "2000"
  },
  {
   "student_ID": 54173986,
   "company_ID": 59,
   "facility_ID": 1,
   "job_ID": 1,
-  "term": "2B",
-  "start_date": "01\/04\/2001",
-  "end_date": "04\/05\/2001"
+  "term": "Coop 1",
+  "semester": "Winter",
+  "year": "2001"
  },
  {
   "student_ID": 75628493,
   "company_ID": 60,
   "facility_ID": 1,
   "job_ID": 1,
-  "term": "4A",
-  "start_date": "01\/04\/2001",
-  "end_date": "04\/05\/2001"
+  "term": "Coop 1",
+  "semester": "Winter",
+  "year": "2001"
  },
  {
   "student_ID": 23849065,
   "company_ID": 61,
   "facility_ID": 1,
   "job_ID": 1,
-  "term": "4A",
-  "start_date": "01\/04\/2001",
-  "end_date": "04\/05\/2001"
+  "term": "Coop 1",
+  "semester": "Winter",
+  "year": "2001"
  },
  {
   "student_ID": 96017348,
   "company_ID": 61,
   "facility_ID": 2,
   "job_ID": 2,
-  "term": "4A",
-  "start_date": "01\/04\/2001",
-  "end_date": "04\/05\/2001"
+  "term": "Coop 1",
+  "semester": "Winter",
+  "year": "2001"
  },
  {
   "student_ID": 52468719,
   "company_ID": 62,
   "facility_ID": 1,
   "job_ID": 1,
-  "term": "3B",
-  "start_date": "05\/03\/2001",
-  "end_date": "08\/24\/2001"
+  "term": "Coop 1",
+  "semester": "Spring",
+  "year": "2001"
  },
  {
   "student_ID": 28374910,
   "company_ID": 88,
   "facility_ID": 4,
   "job_ID": 5,
-  "term": "3B",
-  "start_date": "05\/03\/2001",
-  "end_date": "08\/24\/2001"
+  "term": "Coop 1",
+  "semester": "Spring",
+  "year": "2001"
  },
  {
   "student_ID": 18472039,
   "company_ID": 89,
   "facility_ID": 1,
   "job_ID": 1,
-  "term": "3B",
-  "start_date": "05\/03\/2001",
-  "end_date": "08\/24\/2001"
+  "term": "Coop 1",
+  "semester": "Spring",
+  "year": "2001"
  },
  {
   "student_ID": 85719236,
   "company_ID": 90,
   "facility_ID": 1,
   "job_ID": 1,
-  "term": "2A",
-  "start_date": "05\/03\/2001",
-  "end_date": "08\/24\/2001"
+  "term": "Coop 1",
+  "semester": "Spring",
+  "year": "2001"
  },
  {
   "student_ID": 49283617,
   "company_ID": 91,
   "facility_ID": 1,
   "job_ID": 1,
-  "term": "3B",
-  "start_date": "05\/03\/2001",
-  "end_date": "08\/24\/2001"
+  "term": "Coop 1",
+  "semester": "Spring",
+  "year": "2001"
  },
  {
   "student_ID": 28374610,
   "company_ID": 92,
   "facility_ID": 1,
   "job_ID": 1,
-  "term": "1B",
-  "start_date": "05\/03\/2001",
-  "end_date": "08\/24\/2001"
+  "term": "Coop 1",
+  "semester": "Spring",
+  "year": "2001"
  },
  {
   "student_ID": 21987654,
   "company_ID": 13,
   "facility_ID": 1,
   "job_ID": 1,
-  "term": "4B",
-  "start_date": "05\/03\/2011",
-  "end_date": "08\/24\/2001"
+  "term": "Coop 1",
+  "semester": "Spring",
+  "year": "2001"
  },
  {
   "student_ID": 20654321,
   "company_ID": 14,
   "facility_ID": 1,
   "job_ID": 1,
-  "term": "2B",
-  "start_date": "05\/03\/2011",
-  "end_date": "08\/24\/2001"
+  "term": "Coop 1",
+  "semester": "Spring",
+  "year": "2001"
  },
  {
   "student_ID": 21345678,
   "company_ID": 15,
   "facility_ID": 1,
   "job_ID": 1,
-  "term": "4B",
-  "start_date": "05\/03\/2011",
-  "end_date": "08\/24\/2001"
+  "term": "Coop 1",
+  "semester": "Spring",
+  "year": "2001"
  },
  {
   "student_ID": 11111222,
   "company_ID": 16,
   "facility_ID": 1,
   "job_ID": 1,
-  "term": "1B",
-  "start_date": "05\/03\/2011",
-  "end_date": "08\/24\/2001"
+  "term": "Coop 1",
+  "semester": "Spring",
+  "year": "2001"
  },
  {
   "student_ID": 22223333,
   "company_ID": 17,
   "facility_ID": 1,
   "job_ID": 1,
-  "term": "1B",
-  "start_date": "05\/03\/2011",
-  "end_date": "08\/24\/2001"
+  "term": "Coop 1",
+  "semester": "Spring",
+  "year": "2001"
  },
  {
   "student_ID": 21479513,
   "company_ID": 21,
   "facility_ID": 1,
   "job_ID": 1,
-  "term": "1B",
-  "start_date": "09\/02\/2021",
-  "end_date": "12\/23\/2021"
+  "term": "Coop 1",
+  "semester": "Fall",
+  "year": "2021"
  },
  {
   "student_ID": 15702380,
   "company_ID": 22,
   "facility_ID": 1,
   "job_ID": 1,
-  "term": "1B",
-  "start_date": "09\/02\/2021",
-  "end_date": "12\/23\/2021"
+  "term": "Coop 1",
+  "semester": "Fall",
+  "year": "2021"
  },
  {
   "student_ID": 19073284,
   "company_ID": 23,
   "facility_ID": 1,
   "job_ID": 1,
-  "term": "2A",
-  "start_date": "09\/02\/2021",
-  "end_date": "12\/23\/2021"
+  "term": "Coop 1",
+  "semester": "Fall",
+  "year": "2021"
  }
 ]
