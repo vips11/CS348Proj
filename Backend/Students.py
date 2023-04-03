@@ -5,14 +5,31 @@ import sqlite3 as sl
 from Backend.helper import *
 
 
-def intersect(list1, list2):
+def intersect(list1, list2, isFirst):
+    EMAIL_INDEX = 6
+    FNAME_INDEX = 1
+    LNAME_INDEX = 2
+    TERM_INDEX = 3
+    PROGRAM_INDEX = 7
     intersect = []
+
+    if isFirst:
+        for student in list2:
+            newStudent = {
+                "key": student[EMAIL_INDEX],
+                "firstName": student[FNAME_INDEX],
+                "lastName": student[LNAME_INDEX],
+                "termInfo": getTermInfo(student[TERM_INDEX], student[PROGRAM_INDEX])
+            }
+
+            intersect.append(newStudent)
+
+        return intersect
+
     for student1 in list1:
         for student2 in list2:
-            if student2["uw_email"] == student1["uw_email"]:
-                student2["termInfo"] = student2["term"] + " " + student2["program"]
-                student2["key"] = student2["uw_email"]
-                intersect.append(student2)
+            if student2[EMAIL_INDEX] == student1["key"]:
+                intersect.append(student1)
                 break
 
     return intersect
@@ -47,21 +64,27 @@ class Students(Resource):
 
                 return make_response(jsonify(response), 200)
 
+            isFirst = True
             if firstName != "":
                 query = f"select * from STUDENT where first_name like '%{firstName}%'"
-                rows = intersect(rows, executeQuery(query))
+                rows = intersect(rows, executeQuery(query), isFirst)
+                isFirst = False
             if lastName != "":
                 query = f"select * from STUDENT where last_name like '%{lastName}%'"
-                rows = intersect(rows, executeQuery(query))
+                rows = intersect(rows, executeQuery(query), isFirst)
+                isFirst = False
             if term != "":
                 query = f"select * from STUDENT where term = '{term}'"
-                rows = intersect(rows, executeQuery(query))
+                rows = intersect(rows, executeQuery(query), isFirst)
+                isFirst = False
             if program != "":
                 query = f"select * from STUDENT where term = '{term}'"
-                rows = intersect(rows, executeQuery(query))
+                rows = intersect(rows, executeQuery(query), isFirst)
+                isFirst = False
             if company != "":
                 query = f"select * from STUDENT, COMPANY natural join WORKS where COMPANY.name like '%{company}%';"
-                rows = intersect(rows, executeQuery(query))
+                rows = intersect(rows, executeQuery(query), isFirst)
+                isFirst = False
 
             response["students"] = rows
         except Exception as e:
@@ -70,34 +93,36 @@ class Students(Resource):
         return make_response(jsonify(response), 200)
 
     def post(self):
-        id = request.args.get('id')
-        first_name = request.args.get('first_name')
-        last_name = request.args.get('last_name')
-        program = request.args.get('program')
-        term = request.args.get('term')
+        dto = request.json
+        key = dto["key"]
+        first_name = dto['firstName']
+        last_name = dto['lastName']
+        program = dto['curProgram']
+        term = dto['curTerm']
+        description = dto['term']
 
         response = {"success": False}
         try:
-            if id is None:
+            if key is None:
                 response["message"] = "No id provided"
                 raise Exception
 
             con = sl.connect('applicationDb.db')
             cursor = con.cursor()
             if first_name is not None:
-                query = f"Update Student Set first_name = '{first_name}' Where ID = {id}"
+                query = f"Update Student Set first_name = '{first_name}' Where uw_email = {key}"
                 cursor.execute(query)
             if last_name is not None:
-                query = f"Update Student Set last_name = '{last_name}' Where ID = {id}"
+                query = f"Update Student Set last_name = '{last_name}' Where uw_email = {key}"
                 cursor.execute(query)
             if program is not None:
-                query = f"Update Student Set program = '{program}' Where ID = {id}"
+                query = f"Update Student Set program = '{program}' Where uw_email = {key}"
                 cursor.execute(query)
             if term is not None:
-                query = f"Update Student Set term = '{term}' Where ID = {id}"
+                query = f"Update Student Set term = '{term}' Where uw_email = {key}"
                 cursor.execute(query)
-            if program is not None:
-                query = f"Update Student Set term = '{program}' Where ID = {id}"
+            if description is not None:
+                query = f"Update Student Set description = '{description}' Where uw_email = {key}"
                 cursor.execute(query)
 
             con.commit()
@@ -109,23 +134,67 @@ class Students(Resource):
         return make_response(jsonify(response), 200)
 
 
-# class DetailedStudent(Resource):
-#     def get(self):
+# def updateStudentTerms(Resource):
+#     def post(self):
 #         dto = request.json
 #         key = dto["key"]
+#         term = dto['curTerm']
+#         description = dto['term']
 #
+#         response = {"success": False}
 #         try:
+#             if key is None:
+#                 response["message"] = "No id provided"
+#                 raise Exception
+#
 #             con = sl.connect('applicationDb.db')
-#             query = f"select * from STUDENT where uw_email = '{key}'"
 #
-#             cursor = con.cursor()
-#             cursor.execute(query)
+#             con.commit()
 #
-#             rows = cursor.fetchall()
+#             response["success"] = True
+#         except Exception as e:
+#             print("Error", e)
 #
-#             query2 = f"select * from "
-#
-#             for student in rows:
+#         return make_response(jsonify(response), 200)
+
+
+class DetailedStudent(Resource):
+    def get(self):
+        dto = request.json
+        key = dto["key"]
+        student = {}
+
+        try:
+            query1 = f"select * from student where uw_email = '{key}'"
+            query2 = f"""select student_id, T.term as term, S.semester as semester, 
+                        S.year as year, course_id from STUDENT as S join TAKES T 
+                        on S.id = T.student_id where S.uw_email = '{key}'"""
+
+            row = executeQuery(query1)[0]
+
+            query3 = f"""select student_id, term, semester, year, name as company_name, position_name from 
+                                    WORKS natural join COMPANY natural join JOB where student_id = '{row[0]}'"""
+
+            student = {
+                "student_id": row[0],
+                "firstName": row[1],
+                "lastName": row[2],
+                "CurTerm": row[3],
+                "CurSemester": row[4],
+                "startYear": row[5],
+                "uw_email": row[6],
+                "description": row[7],
+            }
+
+            rows = executeQuery(query2)
+            rows += executeQuery(query3)
+            timeline = getTimeline(rows)
+
+            student["timeline"] = timeline
+        except Exception as e:
+            print("Error: ", e)
+
+        return make_response(jsonify(student), 200)
 
 
 class FindAMentor(Resource):
@@ -205,8 +274,3 @@ class Authorize(Resource):
             print("Error: ", e)
 
         return make_response(jsonify(response), 200)
-
-# How to innovatively fund venture in times of crisis
-# Give examples like "covid", "2008 crisis"
-# How innovative ideas made a difference
-# 1 mil companies went out of business in covid times

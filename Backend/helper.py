@@ -1,6 +1,22 @@
 import sqlite3 as sl
 
 
+months = {
+    "Fall": {
+        True: "Sept",
+        False: "Dec"
+    },
+    "Spring": {
+        True: "May",
+        False: "Aug",
+    },
+    "Winter": {
+        True: "Jan",
+        False: "Apr"
+    }
+}
+
+
 def getTermInfo(term, programOrPos):
     if term == "COOP":
         return term + " @ " + programOrPos
@@ -17,10 +33,81 @@ def executeQuery(query):
     return rows
 
 
+def compareTerms(t1, t2):
+    t = ["Winter", "Spring", "Fall"]
+    t1_index = t.index(t1)
+    t2_index = t.index(t2)
+
+    return t1_index < t2_index
+
+
+def getDates(term, year, isStart):
+    return months[term][isStart] + " " + str(year)
+
+
+def sortTimeline(timeline):
+    sortedTimeline = []
+    for termId in timeline:
+        term = timeline[termId]
+        index = 0
+        for time in sortedTimeline:
+            if time["year"] > term["year"]:
+                break
+            elif time["year"] > term["year"] and compareTerms(term["semester"], time["semester"]):
+                break
+            index += 1
+
+        sortedTimeline.insert(index, term)
+
+    return sortedTimeline
+
+
 def getTimeline(terms):
+    TERM_INDEX = 1
+    COURSE_ID_INDEX = 4
+    YEAR_INDEX = 3
+    SEMESTER_INDEX = 2
+    COMPANY_INDEX = 4
+    POSITION_INDEX = 5
     timeline = {}
 
     for term in terms:
-        termId = term["term"]
+        print(term)
+        termId = term[TERM_INDEX]
+        print(termId)
         if termId in timeline:
-            timeline[termId]["description"] += ", " + term[""]
+            timeline[termId]["description"] += ", " + term[COURSE_ID_INDEX]
+        else:
+            if "Coop" in termId:
+                print("Hi")
+                timeline[termId] = {
+                    "type": "work",
+                    "term": termId,
+                    "description": term[POSITION_INDEX] + " @ " + term[COMPANY_INDEX],
+                    "startDate": getDates(term[SEMESTER_INDEX], term[YEAR_INDEX], True),
+                    "endDate": getDates(term[SEMESTER_INDEX], term[YEAR_INDEX], False),
+                    "semester": term[SEMESTER_INDEX],
+                    "year": term[YEAR_INDEX]
+                }
+            elif "Off" in termId:
+                timeline[termId] = {
+                    "type": "off",
+                    "term": termId,
+                    "description": "Off term",
+                    "startDate": getDates(term[SEMESTER_INDEX], term[YEAR_INDEX], True),
+                    "endDate": getDates(term[SEMESTER_INDEX], term[YEAR_INDEX], False),
+                    "semester": term[SEMESTER_INDEX],
+                    "year": term[YEAR_INDEX]
+                }
+            else:
+                timeline[termId] = {
+                    "type": "study",
+                    "term": termId,
+                    "description": term[COURSE_ID_INDEX],
+                    "startDate": getDates(term[SEMESTER_INDEX], term[YEAR_INDEX], True),
+                    "endDate": getDates(term[SEMESTER_INDEX], term[YEAR_INDEX], False),
+                    "semester": term[SEMESTER_INDEX],
+                    "year": term[YEAR_INDEX]
+                }
+
+    return sortTimeline(timeline)
