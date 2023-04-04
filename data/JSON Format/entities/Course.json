@@ -2,146 +2,526 @@
  {
   "course_ID": "CS 135",
   "course_name": "Designing Functional Programs",
-  "course_description": "Todo"
+  "course_description": "An introduction to the fundamentals of computer science through the application of elementary programming patterns in the functional style of programming. Syntax and semantics of a functional programming language. "
  },
  {
   "course_ID": "CS 136",
   "course_name": "Elementary Algorithm Design and Data Abstraction",
-  "course_description": "Todo"
+  "course_description": "This course builds on the techniques and patterns learned in CS 135 while making the transition to use an imperative language. It introduces the design and analysis of algorithms, the management of information, and the programming mechanisms and methodologies required in implementations."
  },
  {
   "course_ID": "CS 241",
   "course_name": "Foundations of Sequential Programming",
-  "course_description": "Todo"
+  "course_description": "The relationship between high-level languages and the computer architecture that underlies their implementation, including basic machine architecture, assemblers, specification and translation of programming languages, linkers and loaders, block-structured languages, parameter passing mechanisms, and comparison of programming languages."
  },
  {
   "course_ID": "CS 246",
   "course_name": "Object Oriented Software Development",
-  "course_description": "Todo"
+  "course_description": "Introduction to object-oriented programming and to tools and techniques for software development. Designing, coding, debugging, testing, and documenting medium-sized programs: reading specifications and designing software to implement them; selecting appropriate data structures and control structures; writing reusable code; reusing existing code; basic performance issues; debuggers; test suites."
  },
  {
   "course_ID": "CS 251",
   "course_name": "Computer Organization and Design",
-  "course_description": "Todo"
+  "course_description": "Overview of computer organization and performance. Basics of digital logic design. Combinational and sequential elements. Data representation and manipulation."
  },
  {
   "course_ID": "CS 341",
   "course_name": "Algorithms",
-  "course_description": "Todo"
+  "course_description": "The study of efficient algorithms and effective algorithm design techniques. Program design with emphasis on pragmatic and mathematical aspects of program efficiency."
  },
  {
   "course_ID": "CS 346",
   "course_name": "Application Development",
-  "course_description": "Todo"
+  "course_description": "Introduction to full-stack application design and development. Students will work in project teams to design and build complete, working applications and services using standard tools."
  },
  {
   "course_ID": "CS 348",
   "course_name": "Introduction to Database Management",
-  "course_description": "Todo"
+  "course_description": "The main objective of this course is to introduce students to fundamentals of database technology by studying databases from three viewpoints: those of the database user, the database designer, and the database administrator. It teaches the use of a database management system (DBMS) by treating it as a black box, focusing only on its functionality and its interfaces."
  },
  {
   "course_ID": "CS 350",
   "course_name": "Operating Systems",
-  "course_description": "Todo"
+  "course_description": "An introduction to the fundamentals of operating system function, design, and implementation. Topics include concurrency, synchronization, processes, threads, scheduling, memory management, file systems, device management, and security."
  },
  {
   "course_ID": "CS 444",
   "course_name": "Compiler Construction",
-  "course_description": "Todo"
+  "course_description": "Phases of compilation. Lexical analysis and a review of parsing. Compiler-compilers and translator writing systems. LEX and YACC. Scope rules, block structure, and symbol tables."
  },
  {
   "course_ID": "CS 489",
   "course_name": "Advanced Topics in Computer Science",
-  "course_description": "Todo"
+  "course_description": "See the Course Offerings List for topics available."
  },
  {
   "course_ID": "MATH 135",
   "course_name": "Algebra for Honours Mathematics",
-  "course_description": "Todo"
+  "course_description": "An introduction to the language of mathematics and proof techniques through a study of the basic algebraic systems of mathematics: the integers, the integers modulo n, the rational numbers, the real numbers, the complex numbers and polynomials."
  },
  {
   "course_ID": "MATH 137",
   "course_name": "Calculus 1 for Honours Mathematics",
-  "course_description": "Todo"
+  "course_description": "Absolute values and inequalities. Sequences and their limits. Introduction to series. Limits of functions and continuity. The Intermediate Value theorem and approximate solutions to equations."
  },
  {
   "course_ID": "MATH 138",
   "course_name": "Calculus 2 for Honours Mathematics",
-  "course_description": "Todo"
+  "course_description": "Introduction to the Riemann integral and approximations. Antiderivatives and the fundamental theorem of calculus. Change of variables, methods of integration. Applications of the integral. Improper integrals."
  },
  {
   "course_ID": "MATH 239",
   "course_name": "Introduction to Combinatorics",
-  "course_description": "Todo"
+  "course_description": "Introduction to graph theory: colourings, matchings, connectivity, planarity. Introduction to combinatorial analysis: generating series, recurrence relations, binary strings, plane trees."
  },
  {
   "course_ID": "MATH 235",
   "course_name": "Linear Algebra 2 for Honours Mathematics",
-  "course_description": "Todo"
+  "course_description": "Orthogonal and unitary matrices and transformations. Orthogonal projections, Gram-Schmidt procedure, best approximations, least-squares. Inner products, angles and orthogonality, orthogonal diagonalization, singular value decomposition, applications."
  },
  {
   "course_ID": "STAT 230",
   "course_name": "Probability",
-  "course_description": "Todo"
+  "course_description": "This course provides an introduction to probability models including sample spaces, mutually exclusive and independent events, conditional probability and Bayes' Theorem. The named distributions (Discrete Uniform, Hypergeometric, Binomial, Negative Binomial, Geometric, Poisson, Continuous Uniform, Exponential, Normal (Gaussian), and Multinomial) are used to model real phenomena."
  },
  {
   "course_ID": "STAT 231",
   "course_name": "Statistics",
-  "course_description": "Todo"
+  "course_description": "This course provides a systematic approach to empirical problem solving which will enable students to critically assess the sampling protocol and conclusions of an empirical study including the possible sources of error in the study and whether evidence of a causal relationship can be reasonably concluded."
  },
  {
   "course_ID": "STAT 330",
   "course_name": "Mathematical Statistics",
-  "course_description": "Todo"
+  "course_description": "This course provides a mathematically rigorous treatment for topics covered in STAT 230 and 231, and to make essential extensions to the multivariate case. Maximum likelihood estimation."
  },
  {
   "course_ID": "ECE 208",
   "course_name": "Discrete Mathematics and Logic 2",
-  "course_description": "Todo"
+  "course_description": "Formal logics, methods, and associated tools, and their uses in specifying, synthesizing, and verifying computing systems. Predicate logic. Temporal logic. Relational logic. Set theory."
  },
  {
   "course_ID": "ECON 101",
   "course_name": "Introduction to Microeconomics",
-  "course_description": "Todo"
+  "course_description": "This course provides an introduction to microeconomic analysis relevant for understanding the Canadian economy. The behaviour of individual consumers and producers, the determination of market prices for commodities and resources, and the role of government policy in the functioning of the market system are the main topics covered."
  },
  {
   "course_ID": "ECON 201",
   "course_name": "Microeconomic Theory for Business and Policy",
-  "course_description": "Todo"
+  "course_description": "This course offers an introduction to the theory of market based economies. Topics include consumer choice, production, price and output under perfect and imperfect competition, price discrimination and two part pricing, vertical and horizontal firm boundaries and integration, and market structure."
  },
  {
   "course_ID": "ECON 211",
   "course_name": "Introduction to Mathematical Economics",
-  "course_description": "Todo"
+  "course_description": "An introduction to mathematical techniques of particular use in economics. Topics include matrix algebra, differentation, partial derivatives, optimization techniques including constrained optimization - all developed within the context of economic problems."
  },
  {
   "course_ID": "PHYS 121",
   "course_name": "Mechanics",
-  "course_description": "Todo"
+  "course_description": "An introductory course in physics for students intending to concentrate their future studies in the physical sciences, optometry, or mathematics; includes vectors (dot and cross products), particle kinematics and dynamics, forces in nature, work and energy, conservation of energy and linear momentum, rotational kinematics and dynamics, and conservation of angular momentum."
  },
  {
   "course_ID": "PHYS 122",
   "course_name": "Waves, Electricity and Magnetism",
-  "course_description": "Todo"
+  "course_description": "Simple harmonic motion, resonance, damped harmonic motion, complex numbers, wave motion and sound, electrostatic force and potential, electric current and power, capacitors, DC circuits, LRC circuits, introduction to magnetic fields Lorentz Force."
  },
  {
   "course_ID": "AFM 101",
   "course_name": "Introduction to Financial Accounting",
-  "course_description": "Todo"
+  "course_description": "This course is an introduction to financial accounting. The preparation and use of financial statements is examined. The accounting cycle and assets and liabilities reporting, is discussed."
  },
  {
   "course_ID": "AFM 202",
   "course_name": "Introduction to Public Practice",
-  "course_description": "Todo"
+  "course_description": "This course focuses on the knowledge and skills that enhance experiential learning during a first co-op work term. Topic areas include professional ethics, assurance, taxation, and leveraging technology for assurance and taxation competencies."
  },
  {
   "course_ID": "AFM 341",
   "course_name": "Accounting Information Systems",
-  "course_description": "Todo"
+  "course_description": "Examines the planning, requirements analysis, acquisition, and evaluation of information systems, with an emphasis on accounting information systems. Introduces information systems assurance concepts, and considers the role of information technology in the improvement of business performance."
  },
  {
   "course_ID": "AFM 481",
   "course_name": "Cost Management Systems",
-  "course_description": "Todo"
+  "course_description": "Consideration of more complex topics in management planning and control. Emphasis is on traditional and contemporary cost accumulation systems and their application in modern day organizations."
+ },
+ {
+  "course_ID": "MATH 145",
+  "course_name": "Algebra",
+  "course_description": "This course covers the algebraic concepts and techniques necessary for success in later mathematics courses. Topics include sets and logic, relations and functions, mathematical induction, groups, rings, and fields."
+ },
+ {
+  "course_ID": "ENGL 108",
+  "course_name": "Introduction to Academic Writing",
+  "course_description": "This course provides students with the skills and strategies necessary for successful academic writing. Topics include critical reading and analysis, research techniques, and writing in a variety of genres and styles."
+ },
+ {
+  "course_ID": "PSYCH 101",
+  "course_name": "Introduction to Psychology",
+  "course_description": "This course introduces students to the scientific study of human behaviour and mental processes. Topics include research methods, neuroscience, perception, learning and memory, motivation and emotion, personality, social psychology, and psychological disorders."
+ },
+ {
+  "course_ID": "PHYS 121",
+  "course_name": "Mechanics",
+  "course_description": "This course covers the principles of mechanics, including kinematics, Newton's laws, work and energy, momentum, and rotational motion."
+ },
+ {
+  "course_ID": "BIOL 130",
+  "course_name": "Introductory Cell Biology",
+  "course_description": "This course covers the fundamental concepts of cell biology, including cell structure and function, membrane transport, cell signaling, and the cell cycle."
+ },
+ {
+  "course_ID": "ECE 105",
+  "course_name": "Physics of Electrical and Computer Engineering",
+  "course_description": "This course introduces the fundamental principles of electricity and magnetism, circuit analysis, and electronic devices. Topics include electric fields and potential, capacitors and inductors, magnetic fields and forces, transformers, operational amplifiers, and diodes."
+ },
+ {
+  "course_ID": "MSCI 261",
+  "course_name": "Introduction to Management Science",
+  "course_description": "This course provides an overview of the tools and techniques of management science, including linear programming, network analysis, decision analysis, and forecasting."
+ },
+ {
+  "course_ID": "AFM 123",
+  "course_name": "Introductory Financial Accounting",
+  "course_description": "This course covers the basics of financial accounting, including the accounting cycle, the preparation of financial statements, and the analysis and interpretation of financial information."
+ },
+ {
+  "course_ID": "CHEM 120",
+  "course_name": "Physical and Chemical Properties of Matter",
+  "course_description": "This course covers the fundamental principles of chemistry, including atomic structure, chemical bonding, states of matter, and chemical reactions."
+ },
+ {
+  "course_ID": "EARTH 121",
+  "course_name": "The Earth System",
+  "course_description": "This course provides an overview of the Earth system, including the atmosphere, oceans, solid Earth, and living organisms. Topics include climate, weather patterns, plate tectonics, mineral and rock formation, and ecological systems."
+ },
+ {
+  "course_ID": "CLAS 104",
+  "course_name": "Introduction to Classical Mythology",
+  "course_description": "This course introduces students to the mythology and religion of the ancient Greeks and Romans. Topics include the Olympian gods, heroes, and monsters; the creation and destruction of the world; and the afterlife."
+ },
+ {
+  "course_ID": "FR 192",
+  "course_name": "Introduction to French Language and Culture",
+  "course_description": "This course provides an introduction to the French language and culture. Students will"
+ },
+ {
+  "course_ID": "MSCI 436",
+  "course_name": "Strategic Management of Technology and Innovation",
+  "course_description": "This course covers the strategic management of technology and innovation in organizations. Topics include technology strategy, innovation management, intellectual property, and the management of research and development."
+ },
+ {
+  "course_ID": "PSYCH 253",
+  "course_name": "Cognitive Psychology",
+  "course_description": "This course explores the cognitive processes involved in perception, attention, memory, language, problem solving, and decision making. Topics include cognitive neuroscience, cognitive development, and artificial intelligence."
+ },
+ {
+  "course_ID": "ECE 209",
+  "course_name": "Computer Systems and Programming",
+  "course_description": "This course covers the fundamentals of computer systems and programming. Topics include assembly language, machine language, computer architecture, operating systems, and software engineering."
+ },
+ {
+  "course_ID": "AFM 131",
+  "course_name": "Introduction to Business in North America",
+  "course_description": "This course provides an introduction to the business environment in North America. Topics include globalization, trade agreements, and the legal, political, and economic systems in Canada and the United States."
+ },
+ {
+  "course_ID": "ENVS 278",
+  "course_name": "Ecology",
+  "course_description": "This course covers the principles of ecology, including population dynamics, community structure, ecosystem processes, and conservation biology."
+ },
+ {
+  "course_ID": "CLAS 202",
+  "course_name": "Ancient Greek Literature",
+  "course_description": "This course provides an introduction to ancient Greek literature in translation. Topics include the epic tradition, tragedy, comedy, and philosophy."
+ },
+ {
+  "course_ID": "BIOL 239",
+  "course_name": "Genetics",
+  "course_description": "This course covers the principles of genetics, including Mendelian inheritance, molecular genetics, population genetics, and genomics."
+ },
+ {
+  "course_ID": "CHEM 266",
+  "course_name": "Organic Chemistry Laboratory 1",
+  "course_description": "This course provides hands-on experience in organic chemistry laboratory techniques. Topics include purification of organic compounds, identification of unknown compounds, and synthesis of organic molecules."
+ },
+ {
+  "course_ID": "GEOG 101",
+  "course_name": "Introduction to Human Geography",
+  "course_description": "This course provides an introduction to human geography, including the study of population, culture, political geography, economic geography, and urban geography."
+ },
+ {
+  "course_ID": "EARTH 122",
+  "course_name": "The Dynamic Earth",
+  "course_description": "This course explores the dynamic processes that shape the Earth, including plate tectonics, earthquakes, volcanoes, and mountain building."
+ },
+ {
+  "course_ID": "ECON 221",
+  "course_name": "Introduction to Mathematical Economics",
+  "course_description": "This course provides an introduction to the mathematical methods used in economics, including optimization, matrix algebra, and calculus. Topics include consumer theory, production theory, and game theory."
+ },
+ {
+  "course_ID": "CS 343",
+  "course_name": "Concurrent and Parallel Programming",
+  "course_description": "This course covers concurrent and parallel programming techniques"
+ },
+ {
+  "course_ID": "ACTSC 372",
+  "course_name": "Mathematics of Finance",
+  "course_description": "This course covers the mathematical principles underlying financial decision making, including interest rates, present value, and financial derivatives. Topics include option pricing, binomial models, and stochastic calculus."
+ },
+ {
+  "course_ID": "SPAN 202",
+  "course_name": "Intermediate Spanish Language and Culture",
+  "course_description": "This course provides intermediate level instruction in Spanish language and culture. Topics include grammar, vocabulary, conversation, and cultural traditions."
+ },
+ {
+  "course_ID": "BIOL 373",
+  "course_name": "Cell Biology and Physiology",
+  "course_description": "This course covers the principles of cell biology and physiology, including cell structure and function, metabolism, signal transduction, and cellular communication."
+ },
+ {
+  "course_ID": "CHE 220",
+  "course_name": "Thermodynamics and Kinetics",
+  "course_description": "This course covers the principles of thermodynamics and kinetics in chemical systems. Topics include entropy, heat capacity, reaction rates, and reaction mechanisms."
+ },
+ {
+  "course_ID": "DRAMA 100",
+  "course_name": "Introduction to Theatre",
+  "course_description": "This course provides an introduction to the history, theory, and practice of theatre. Topics include playwriting, directing, acting, design, and dramaturgy."
+ },
+ {
+  "course_ID": "ENGL 108",
+  "course_name": "Introduction to Academic Writing",
+  "course_description": "This course provides instruction in academic writing for university-level assignments. Topics include critical reading, thesis development, research methods, and essay organization."
+ },
+ {
+  "course_ID": "FR 152",
+  "course_name": "French Language and Culture II",
+  "course_description": "This course provides instruction in French language and culture at the intermediate level. Topics include grammar, vocabulary, conversation, and cultural traditions."
+ },
+ {
+  "course_ID": "GER 271",
+  "course_name": "German Culture and Civilization",
+  "course_description": "This course provides an introduction to German culture and civilization. Topics include history, literature, music, art, and film."
+ },
+ {
+  "course_ID": "HIST 208",
+  "course_name": "The World Since 1945",
+  "course_description": "This course provides an overview of global history since 1945, including the Cold War, decolonization, globalization, and the rise of new social movements."
+ },
+ {
+  "course_ID": "KIN 140",
+  "course_name": "Introduction to Kinesiology",
+  "course_description": "This course provides an introduction to the scientific study of human movement. Topics include anatomy, physiology, biomechanics, and motor learning."
+ },
+ {
+  "course_ID": "MSCI 311",
+  "course_name": "Operations Research and Optimization",
+  "course_description": "This course covers the mathematical principles of operations research and optimization, including linear programming, integer programming, and dynamic programming. Topics include applications in business, engineering, and public policy."
+ },
+ {
+  "course_ID": "MUSIC 246",
+  "course_name": "Music and Gender Studies",
+  "course_description": "This course explores the intersection of music and gender in various cultures and historical periods. Topics include representation, identity, performance, and activism."
+ },
+ {
+  "course_ID": "NE 111",
+  "course_name": "Introduction to Nanotechnology",
+  "course_description": "This course provides an introduction to nanotechnology."
+ },
+ {
+  "course_ID": "ARBUS 201",
+  "course_name": "Introduction to Business in North America",
+  "course_description": "This course provides an introduction to business in North America, including the economic, political, and legal systems that underpin it. Topics include marketing, finance, and management, with a focus on Canadian and US markets."
+ },
+ {
+  "course_ID": "BIOL 240",
+  "course_name": "Genetics",
+  "course_description": "This course covers the principles of genetics, including transmission genetics, molecular genetics, and population genetics. Topics include genetic variation, gene expression, genetic disorders, and the genetics of evolution."
+ },
+ {
+  "course_ID": "CHEM 364",
+  "course_name": "Organic Chemistry Laboratory II",
+  "course_description": "This course provides laboratory experience in advanced techniques of organic synthesis and characterization. Topics include multi-step synthesis, chromatography, and spectroscopy."
+ },
+ {
+  "course_ID": "CLAS 104",
+  "course_name": "Classical Mythology and Literature",
+  "course_description": "This course provides an introduction to classical mythology and literature. Topics include Greek and Roman gods, heroes, and myths, as well as literary works from the classical period."
+ },
+ {
+  "course_ID": "ECE 204",
+  "course_name": "Circuits and Signals",
+  "course_description": "This course covers the principles of circuits and signals in electrical and computer engineering. Topics include resistive circuits, amplifiers, and filters, as well as time-domain and frequency-domain analysis of signals."
+ },
+ {
+  "course_ID": "ENVS 200",
+  "course_name": "Introduction to Environmental Studies",
+  "course_description": "This course provides an introduction to environmental studies, including the physical, biological, and social dimensions of environmental issues. Topics include sustainability, conservation, and environmental policy."
+ },
+ {
+  "course_ID": "FINE 100",
+  "course_name": "Drawing I",
+  "course_description": "This course provides an introduction to drawing, including techniques, materials, and composition. Topics include still life, landscape, and figure drawing."
+ },
+ {
+  "course_ID": "GEOG 101",
+  "course_name": "Introduction to Physical Geography",
+  "course_description": "This course provides an introduction to physical geography, including the study of Earth's natural systems. Topics include weather and climate, geomorphology, and biogeography."
+ },
+ {
+  "course_ID": "HLTH 101",
+  "course_name": "Health in Today's Society",
+  "course_description": "This course provides an introduction to health and wellness in contemporary society, including factors that contribute to individual and population health. Topics include epidemiology, health promotion, and health care systems."
+ },
+ {
+  "course_ID": "ME 100",
+  "course_name": "Introduction to Mechanical Engineering",
+  "course_description": "This course provides an introduction to the concepts of mechanical engineering"
+ },
+ {
+  "course_ID": "AFM 291",
+  "course_name": "Introduction to Financial Accounting",
+  "course_description": "This course provides an introduction to financial accounting, including accounting principles and practices, financial statements, and analysis of financial data. Topics include accounting for assets, liabilities, and equity, and the preparation of financial statements."
+ },
+ {
+  "course_ID": "AMATH 250",
+  "course_name": "Differential Equations and Dynamical Systems",
+  "course_description": "This course covers the theory of ordinary differential equations and dynamical systems. Topics include existence and uniqueness theorems, stability, phase plane analysis, and applications to physical and biological systems."
+ },
+ {
+  "course_ID": "ARCH 282",
+  "course_name": "History of Architecture",
+  "course_description": "This course provides a historical survey of architecture, including the development of architectural styles, movements, and technologies. Topics include ancient, medieval, and modern architecture, as well as the cultural and social contexts in which they emerged."
+ },
+ {
+  "course_ID": "BME 101",
+  "course_name": "Introduction to Biomedical Engineering",
+  "course_description": "This course provides an introduction to biomedical engineering, including the application of engineering principles to solve problems in medicine and biology. Topics include biomaterials, bioinstrumentation, and biomedical imaging."
+ },
+ {
+  "course_ID": "CHE 101",
+  "course_name": "Chemistry for Engineers",
+  "course_description": "This course provides an introduction to chemistry for engineering students, including topics in stoichiometry, thermodynamics, and chemical kinetics. Topics include atomic and molecular structure, chemical bonding, and acid-base chemistry."
+ },
+ {
+  "course_ID": "CO 255",
+  "course_name": "Introduction to Optimization",
+  "course_description": "This course provides an introduction to optimization theory and methods. Topics include linear programming, network flows, and integer programming."
+ },
+ {
+  "course_ID": "DRAMA 212",
+  "course_name": "Performance and the Body",
+  "course_description": "This course explores the relationship between performance and the body, including physical training techniques, movement analysis, and somatic practices. Topics include acting, dance, and performance art."
+ },
+ {
+  "course_ID": "ECON 361",
+  "course_name": "International Trade and Finance",
+  "course_description": "This course provides an introduction to international trade and finance, including theories of trade and exchange rates, balance of payments, and international capital flows. Topics include the global economy, trade policy, and multinational corporations."
+ },
+ {
+  "course_ID": "ENGL 108",
+  "course_name": "Introduction to Canadian Literature",
+  "course_description": "This course provides an introduction to Canadian literature, including works of fiction, poetry, and drama by Canadian authors. Topics include the historical and cultural contexts of Canadian literature, as well as critical approaches to literary analysis."
+ },
+ {
+  "course_ID": "GENE 123",
+  "course_name": "Introduction to Genetic Engineering",
+  "course_description": "This course provides an introduction to genetic engineering, including the manipulation of DNA, RNA, and proteins for the purpose of gene therapy, genetic testing, and biotechnology. Topics include recombinant DNA technology, gene cloning, and genetic modification of organisms."
+ },
+ {
+  "course_ID": "HIST 231",
+  "course_name": "The Middle Ages",
+  "course_description": "This course provides an introduction to the history of the Middle Ages, including the political, social, and cultural developments of the period. Topics include the rise of Christianity, the Byzantine Empire, the Crusades, and the Black Death."
+ },
+ {
+  "course_ID": "HRM 250",
+  "course_name": "Human Resource Management",
+  "course_description": "This course provides an overview of human resource management, including topics in recruitment, selection, training, performance management, and compensation. Topics include organizational behavior, labor relations, and diversity and inclusion."
+ },
+ {
+  "course_ID": "KIN 100",
+  "course_name": "Introduction to Kinesiology",
+  "course_description": "This course provides an introduction to kinesiology, including the study of human movement, physical activity, and exercise science. Topics include anatomy and physiology, biomechanics, and motor control."
+ },
+ {
+  "course_ID": "MATH 237",
+  "course_name": "Multivariable Calculus",
+  "course_description": "This course covers the calculus of functions of several variables. Topics include vectors, partial derivatives, multiple integrals, line and surface integrals, and applications to physics and engineering."
+ },
+ {
+  "course_ID": "ME 100",
+  "course_name": "Introduction to Mechanical Engineering",
+  "course_description": "This course provides an introduction to mechanical engineering, including the principles of mechanics, thermodynamics, and materials science. Topics include the design and analysis of mechanical systems, as well as an introduction to computer-aided design and manufacturing."
+ },
+ {
+  "course_ID": "MSCI 211",
+  "course_name": "Introduction to Management Science",
+  "course_description": "This course provides an introduction to management science, including topics in linear programming, network analysis, and decision analysis. Topics include optimization models, decision-making under uncertainty, and simulation modeling."
+ },
+ {
+  "course_ID": "PACS 201",
+  "course_name": "Introduction to Peace and Conflict Studies",
+  "course_description": "This course provides an introduction to peace and conflict studies, including the study of violence, war, and peacebuilding. Topics include the causes of conflict, the role of civil society, and the principles of conflict resolution."
+ },
+ {
+  "course_ID": "PHIL 145",
+  "course_name": "Critical Thinking",
+  "course_description": "This course provides an introduction to critical thinking, including the evaluation of arguments, the identification of fallacies, and the construction of logical arguments. Topics include informal and formal logic, ethical reasoning, and the role of critical thinking in academic and professional contexts."
+ },
+ {
+  "course_ID": "PHYS 121",
+  "course_name": "Mechanics",
+  "course_description": "This course provides an introduction to classical mechanics, including the principles of kinematics, Newton's laws, and conservation laws."
+ },
+ {
+  "course_ID": "ARTS 189",
+  "course_name": "Introduction to Digital Arts and Media",
+  "course_description": "This course provides an introduction to digital arts and media, including the creation and manipulation of digital images, audio, and video. Topics include the use of digital tools and software, as well as an exploration of the social and cultural implications of digital media."
+ },
+ {
+  "course_ID": "BIOL 308",
+  "course_name": "Genetics",
+  "course_description": "This course provides an introduction to genetics, including the principles of inheritance, molecular genetics, and population genetics. Topics include the use of genetic techniques in research, as well as an exploration of the social and ethical implications of genetics."
+ },
+ {
+  "course_ID": "CHEM 254",
+  "course_name": "Organic Chemistry II",
+  "course_description": "This course covers the principles of organic chemistry, including the structure, properties, and reactivity of organic compounds. Topics include carbonyl compounds, aromatic compounds, and the chemistry of biomolecules."
+ },
+ {
+  "course_ID": "CLAS 104",
+  "course_name": "Introduction to Ancient Greek Society and Culture",
+  "course_description": "This course provides an introduction to ancient Greek society and culture, including the study of Greek history, literature, philosophy, and art. Topics include the rise of the city-state, the development of democracy, and the legacy of ancient Greece in modern society."
+ },
+ {
+  "course_ID": "CO 480",
+  "course_name": "Introduction to Human-Computer Interaction",
+  "course_description": "This course provides an introduction to human-computer interaction, including the design and evaluation of interactive systems. Topics include user interface design, cognitive psychology, and human factors engineering."
+ },
+ {
+  "course_ID": "ECON 251",
+  "course_name": "Microeconomic Theory I",
+  "course_description": "This course provides an introduction to microeconomic theory, including the principles of supply and demand, consumer choice, and market structure. Topics include the analysis of market failure, the role of government in the economy, and the economics of information."
+ },
+ {
+  "course_ID": "ENGL 109",
+  "course_name": "Literature and Composition",
+  "course_description": "This course provides an introduction to literature and composition, including the study of various literary genres and the development of analytical and writing skills. Topics include critical reading, effective writing, and the exploration of literary themes and styles."
+ },
+ {
+  "course_ID": "ERS 106",
+  "course_name": "Introduction to Environmental Science",
+  "course_description": "This course provides an introduction to environmental science, including the study of ecological principles, human impacts on the environment, and the development of sustainable practices. Topics include climate change, water resources, and biodiversity conservation."
+ },
+ {
+  "course_ID": "FR 151",
+  "course_name": "Introduction to French Language and Culture I",
+  "course_description": "This course provides an introduction to French language and culture, including basic grammar, vocabulary, and communication skills. Topics include an introduction to French culture and history, as well as an exploration of contemporary issues in French society."
+ },
+ {
+  "course_ID": "GEOG 181",
+  "course_name": "Geography of Canada",
+  "course_description": "This course provides an introduction to the geography of Canada."
  }
 ]

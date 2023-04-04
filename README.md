@@ -4,19 +4,25 @@ This is a web driven application exclusively for UWaterloo students to connect w
 
 Users will be able to make profiles and include details such as their program, academic term, courses (per term), co-op journey info, and social media links such as LinkedIn, email, discord, personal website.
  
-## How to create the sample database
+## How to create the sample dataset
 <ol>
 <li> Put all the data in excel files.
 <li> Convert the XLSX files to JSON using https://products.aspose.app/cells/conversion/xlsx-to-json.
 </ol>
 
+## How to create the production dataset
+<ol>
+<li> Give the relational model to ChatGPT with the data specifications.
+</ol>
+
 ## How to load the sample database
-Note: `my-test.db` has all the creating table queries. <br>
 <ol>
  <li>Make sure you have all the sample data json files.</li>
- <li>Run the loadDatabase.py file.</li>
- <li>A sql database should be created in your project root folder containing all the tables and the sample database.</li>
+ <li>cd into the Backend directory and run "python3 loadDatabase.py" </li>
+ <li>A sql database, named applicationDB.db, should be created in the Backend folder containing all the tables and the sample database.</li>
 </ol>
+
+NOTE: The production database is loaded the same way. We just added additional queries for the new tables.
 
 ## Running the application
 The application is written in React. The commands to run the program are given below: <br><br>
@@ -24,6 +30,8 @@ The application is written in React. The commands to run the program are given b
   npm start ` <br> <br>
 The first line is to get to the directory with the code for the application. <br>
 The second line is to run the application.
+
+The backend is written in python. To run the backend cd into the Backend directory and execute "python3 api.py".
 
 ## Features
 <ol>
@@ -40,6 +48,8 @@ The second line is to run the application.
 
 ## Features that are currently implemented
 The application currently supports features 1 and 2.
+New supported faeatures: 4, 7.
+Files that have the implemenation: 
 
 
 ## User Privileges
@@ -68,4 +78,5 @@ Database Support Technologies: MySQL
 
 ## ER diagram
 
-![ER diagram](https://user-images.githubusercontent.com/66628544/223319617-085f6498-9bb6-4be0-a8eb-3a5f380fe6e7.png)
+![image](https://user-images.githubusercontent.com/66628544/228086815-9de0c533-c3bf-46be-bdd8-230b70620220.png)
+

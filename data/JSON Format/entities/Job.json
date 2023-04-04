@@ -1,191 +1,902 @@
 [
  {
   "company_ID": 1,
-  "facility_ID": 1,
   "job_ID": 1,
   "position_name": "Data Scientist",
   "is_full_time?": true
  },
  {
   "company_ID": 1,
-  "facility_ID": 2,
   "job_ID": 2,
   "position_name": "Machine Learning Intern",
   "is_full_time?": true
  },
  {
   "company_ID": 1,
-  "facility_ID": 3,
   "job_ID": 3,
   "position_name": "Marketing Intern",
   "is_full_time?": true
  },
  {
   "company_ID": 1,
-  "facility_ID": 4,
   "job_ID": 4,
   "position_name": "Software Developer",
   "is_full_time?": true
  },
  {
   "company_ID": 1,
-  "facility_ID": 1,
   "job_ID": 5,
   "position_name": "Data Analyst",
   "is_full_time?": true
  },
  {
   "company_ID": 2,
-  "facility_ID": 1,
   "job_ID": 1,
   "position_name": "Machine Learning Intern",
   "is_full_time?": true
  },
  {
   "company_ID": 2,
-  "facility_ID": 2,
   "job_ID": 2,
   "position_name": "Software Developer",
   "is_full_time?": true
  },
  {
   "company_ID": 3,
-  "facility_ID": 1,
   "job_ID": 1,
   "position_name": "Data Scientist",
   "is_full_time?": true
  },
  {
   "company_ID": 3,
-  "facility_ID": 2,
   "job_ID": 2,
   "position_name": "Software Developer",
   "is_full_time?": true
  },
  {
   "company_ID": 3,
-  "facility_ID": 3,
   "job_ID": 3,
   "position_name": "Data Analyst",
   "is_full_time?": true
  },
  {
   "company_ID": 4,
-  "facility_ID": 1,
   "job_ID": 1,
   "position_name": "Wire Engineering",
   "is_full_time?": true
  },
  {
   "company_ID": 4,
-  "facility_ID": 2,
   "job_ID": 2,
   "position_name": "Software Developer",
   "is_full_time?": true
  },
  {
   "company_ID": 4,
-  "facility_ID": 1,
   "job_ID": 3,
   "position_name": "Sustainability Management Intern",
   "is_full_time?": true
  },
  {
   "company_ID": 4,
-  "facility_ID": 2,
   "job_ID": 4,
   "position_name": "Intern Smart Factory",
   "is_full_time?": true
  },
  {
   "company_ID": 4,
-  "facility_ID": 1,
   "job_ID": 5,
   "position_name": "Hardware Technology Co-op",
   "is_full_time?": true
  },
  {
   "company_ID": 5,
-  "facility_ID": 1,
   "job_ID": 1,
   "position_name": "Machine Learning Intern",
   "is_full_time?": true
  },
  {
   "company_ID": 6,
-  "facility_ID": 1,
   "job_ID": 1,
   "position_name": "Marketing Intern",
   "is_full_time?": true
  },
  {
   "company_ID": 6,
-  "facility_ID": 4,
   "job_ID": 2,
   "position_name": "Pharmacy Assistant",
   "is_full_time?": true
  },
  {
   "company_ID": 7,
-  "facility_ID": 1,
   "job_ID": 1,
   "position_name": "Wire Engineering",
   "is_full_time?": true
  },
  {
   "company_ID": 7,
-  "facility_ID": 2,
   "job_ID": 2,
   "position_name": "Sustainability Management Intern",
   "is_full_time?": true
  },
  {
   "company_ID": 7,
-  "facility_ID": 2,
   "job_ID": 3,
   "position_name": "Intern Smart Factory",
   "is_full_time?": true
  },
  {
   "company_ID": 8,
-  "facility_ID": 1,
   "job_ID": 1,
   "position_name": "Marketing Intern",
   "is_full_time?": true
  },
  {
   "company_ID": 9,
-  "facility_ID": 3,
   "job_ID": 1,
   "position_name": "Data Scientist",
   "is_full_time?": true
  },
  {
   "company_ID": 9,
-  "facility_ID": 3,
   "job_ID": 2,
   "position_name": "Data Analyst",
   "is_full_time?": true
  },
  {
   "company_ID": 10,
-  "facility_ID": 2,
   "job_ID": 1,
   "position_name": "Machine Learning Intern",
   "is_full_time?": true
  },
  {
   "company_ID": 10,
-  "facility_ID": 1,
   "job_ID": 2,
   "position_name": "Software Developer",
   "is_full_time?": true
  },
  {
   "company_ID": 10,
-  "facility_ID": 2,
   "job_ID": 3,
   "position_name": "Sustainability Management Intern",
+  "is_full_time?": true
+ },
+ {
+  "company_ID": 11,
+  "job_ID": 1,
+  "position_name": "Marketing Assistant",
+  "is_full_time?": true
+ },
+ {
+  "company_ID": 12,
+  "job_ID": 1,
+  "position_name": "Software Developer",
+  "is_full_time?": true
+ },
+ {
+  "company_ID": 13,
+  "job_ID": 1,
+  "position_name": "Research Analyst",
+  "is_full_time?": true
+ },
+ {
+  "company_ID": 14,
+  "job_ID": 1,
+  "position_name": "Data Science Intern",
+  "is_full_time?": true
+ },
+ {
+  "company_ID": 15,
+  "job_ID": 1,
+  "position_name": "Supply Chain Coordinator",
+  "is_full_time?": true
+ },
+ {
+  "company_ID": 16,
+  "job_ID": 1,
+  "position_name": "Graphic Design Intern",
+  "is_full_time?": true
+ },
+ {
+  "company_ID": 17,
+  "job_ID": 1,
+  "position_name": "Project Manager",
+  "is_full_time?": true
+ },
+ {
+  "company_ID": 18,
+  "job_ID": 1,
+  "position_name": "Human Resources Assistant",
+  "is_full_time?": true
+ },
+ {
+  "company_ID": 18,
+  "job_ID": 2,
+  "position_name": "Accounting Analyst",
+  "is_full_time?": true
+ },
+ {
+  "company_ID": 18,
+  "job_ID": 3,
+  "position_name": "Sales Representative",
+  "is_full_time?": true
+ },
+ {
+  "company_ID": 18,
+  "job_ID": 4,
+  "position_name": "Quality Assurance Tester",
+  "is_full_time?": true
+ },
+ {
+  "company_ID": 19,
+  "job_ID": 1,
+  "position_name": "Social Media Coordinator",
+  "is_full_time?": true
+ },
+ {
+  "company_ID": 20,
+  "job_ID": 1,
+  "position_name": "Financial Analyst",
+  "is_full_time?": true
+ },
+ {
+  "company_ID": 20,
+  "job_ID": 2,
+  "position_name": "Technical Writer",
+  "is_full_time?": true
+ },
+ {
+  "company_ID": 20,
+  "job_ID": 3,
+  "position_name": "Customer Service Representative",
+  "is_full_time?": true
+ },
+ {
+  "company_ID": 21,
+  "job_ID": 1,
+  "position_name": "Business Operations Coordinator",
+  "is_full_time?": true
+ },
+ {
+  "company_ID": 22,
+  "job_ID": 1,
+  "position_name": "Web Developer",
+  "is_full_time?": true
+ },
+ {
+  "company_ID": 23,
+  "job_ID": 1,
+  "position_name": "Event Coordinator",
+  "is_full_time?": true
+ },
+ {
+  "company_ID": 24,
+  "job_ID": 1,
+  "position_name": "Public Relations Specialist",
+  "is_full_time?": true
+ },
+ {
+  "company_ID": 25,
+  "job_ID": 1,
+  "position_name": "Operations Research Analyst",
+  "is_full_time?": true
+ },
+ {
+  "company_ID": 26,
+  "job_ID": 1,
+  "position_name": "Software Tester",
+  "is_full_time?": true
+ },
+ {
+  "company_ID": 27,
+  "job_ID": 1,
+  "position_name": "Marketing Coordinator",
+  "is_full_time?": true
+ },
+ {
+  "company_ID": 27,
+  "job_ID": 2,
+  "position_name": "Research Assistant",
+  "is_full_time?": true
+ },
+ {
+  "company_ID": 27,
+  "job_ID": 3,
+  "position_name": "UX\/UI Designer",
+  "is_full_time?": true
+ },
+ {
+  "company_ID": 28,
+  "job_ID": 1,
+  "position_name": "Supply Chain Analyst",
+  "is_full_time?": true
+ },
+ {
+  "company_ID": 29,
+  "job_ID": 1,
+  "position_name": "Data Analyst Intern",
+  "is_full_time?": true
+ },
+ {
+  "company_ID": 30,
+  "job_ID": 1,
+  "position_name": "Project Coordinator",
+  "is_full_time?": true
+ },
+ {
+  "company_ID": 31,
+  "job_ID": 1,
+  "position_name": "Human Resources Coordinator",
+  "is_full_time?": true
+ },
+ {
+  "company_ID": 31,
+  "job_ID": 2,
+  "position_name": "Financial Services Intern",
+  "is_full_time?": true
+ },
+ {
+  "company_ID": 32,
+  "job_ID": 1,
+  "position_name": "Sales Associate",
+  "is_full_time?": true
+ },
+ {
+  "company_ID": 33,
+  "job_ID": 1,
+  "position_name": "Quality Control Inspector",
+  "is_full_time?": true
+ },
+ {
+  "company_ID": 34,
+  "job_ID": 1,
+  "position_name": "Social Media Strategist",
+  "is_full_time?": true
+ },
+ {
+  "company_ID": 35,
+  "job_ID": 1,
+  "position_name": "Business Development Representative",
+  "is_full_time?": true
+ },
+ {
+  "company_ID": 36,
+  "job_ID": 1,
+  "position_name": "Technical Support Specialist",
+  "is_full_time?": true
+ },
+ {
+  "company_ID": 37,
+  "job_ID": 1,
+  "position_name": "Customer Experience Representative",
+  "is_full_time?": true
+ },
+ {
+  "company_ID": 38,
+  "job_ID": 1,
+  "position_name": "Operations Manager",
+  "is_full_time?": true
+ },
+ {
+  "company_ID": 39,
+  "job_ID": 1,
+  "position_name": "Web Content Creator",
+  "is_full_time?": true
+ },
+ {
+  "company_ID": 39,
+  "job_ID": 2,
+  "position_name": "Event Planner",
+  "is_full_time?": true
+ },
+ {
+  "company_ID": 40,
+  "job_ID": 1,
+  "position_name": "Public Relations Coordinator",
+  "is_full_time?": true
+ },
+ {
+  "company_ID": 41,
+  "job_ID": 1,
+  "position_name": "User Experience Researcher",
+  "is_full_time?": true
+ },
+ {
+  "company_ID": 42,
+  "job_ID": 1,
+  "position_name": "Web Marketing Coordinator",
+  "is_full_time?": true
+ },
+ {
+  "company_ID": 43,
+  "job_ID": 1,
+  "position_name": "Data Analytics Intern",
+  "is_full_time?": true
+ },
+ {
+  "company_ID": 44,
+  "job_ID": 1,
+  "position_name": "Supply Chain Planner",
+  "is_full_time?": true
+ },
+ {
+  "company_ID": 45,
+  "job_ID": 1,
+  "position_name": "Software Engineer",
+  "is_full_time?": true
+ },
+ {
+  "company_ID": 45,
+  "job_ID": 2,
+  "position_name": "Research Scientist",
+  "is_full_time?": true
+ },
+ {
+  "company_ID": 46,
+  "job_ID": 1,
+  "position_name": "User Interface Designer",
+  "is_full_time?": true
+ },
+ {
+  "company_ID": 47,
+  "job_ID": 1,
+  "position_name": "Project Administrator",
+  "is_full_time?": true
+ },
+ {
+  "company_ID": 47,
+  "job_ID": 2,
+  "position_name": "Human Resources Generalist",
+  "is_full_time?": true
+ },
+ {
+  "company_ID": 47,
+  "job_ID": 3,
+  "position_name": "Financial Analyst Intern",
+  "is_full_time?": false
+ },
+ {
+  "company_ID": 48,
+  "job_ID": 1,
+  "position_name": "Inside Sales Representative",
+  "is_full_time?": true
+ },
+ {
+  "company_ID": 49,
+  "job_ID": 1,
+  "position_name": "Quality Assurance Analyst",
+  "is_full_time?": true
+ },
+ {
+  "company_ID": 50,
+  "job_ID": 1,
+  "position_name": "Social Media Manager",
+  "is_full_time?": true
+ },
+ {
+  "company_ID": 50,
+  "job_ID": 2,
+  "position_name": "Business Analyst",
+  "is_full_time?": true
+ },
+ {
+  "company_ID": 50,
+  "job_ID": 3,
+  "position_name": "Technical Support Engineer",
+  "is_full_time?": true
+ },
+ {
+  "company_ID": 51,
+  "job_ID": 1,
+  "position_name": "Customer Success Specialist",
+  "is_full_time?": true
+ },
+ {
+  "company_ID": 52,
+  "job_ID": 1,
+  "position_name": "Operations Coordinator",
+  "is_full_time?": true
+ },
+ {
+  "company_ID": 52,
+  "job_ID": 2,
+  "position_name": "Web Designer",
+  "is_full_time?": true
+ },
+ {
+  "company_ID": 53,
+  "job_ID": 1,
+  "position_name": "Event Coordinator Assistant",
+  "is_full_time?": true
+ },
+ {
+  "company_ID": 54,
+  "job_ID": 1,
+  "position_name": "Public Relations Assistant",
+  "is_full_time?": true
+ },
+ {
+  "company_ID": 55,
+  "job_ID": 1,
+  "position_name": "User Experience Designer",
+  "is_full_time?": true
+ },
+ {
+  "company_ID": 56,
+  "job_ID": 1,
+  "position_name": "Cybersecurity Analyst",
+  "is_full_time?": true
+ },
+ {
+  "company_ID": 57,
+  "job_ID": 1,
+  "position_name": "Marketing Specialist",
+  "is_full_time?": true
+ },
+ {
+  "company_ID": 57,
+  "job_ID": 2,
+  "position_name": "Research Coordinator",
+  "is_full_time?": true
+ },
+ {
+  "company_ID": 57,
+  "job_ID": 3,
+  "position_name": "Front-End Developer",
+  "is_full_time?": true
+ },
+ {
+  "company_ID": 57,
+  "job_ID": 4,
+  "position_name": "Supply Chain Associate",
+  "is_full_time?": true
+ },
+ {
+  "company_ID": 58,
+  "job_ID": 1,
+  "position_name": "Data Science Analyst",
+  "is_full_time?": true
+ },
+ {
+  "company_ID": 59,
+  "job_ID": 1,
+  "position_name": "Project Scheduler",
+  "is_full_time?": true
+ },
+ {
+  "company_ID": 60,
+  "job_ID": 1,
+  "position_name": "Human Resources Advisor",
+  "is_full_time?": true
+ },
+ {
+  "company_ID": 61,
+  "job_ID": 1,
+  "position_name": "Investment Banking Analyst",
+  "is_full_time?": true
+ },
+ {
+  "company_ID": 61,
+  "job_ID": 2,
+  "position_name": "Sales Manager",
+  "is_full_time?": true
+ },
+ {
+  "company_ID": 62,
+  "job_ID": 1,
+  "position_name": "Quality Control Technician",
+  "is_full_time?": true
+ },
+ {
+  "company_ID": 63,
+  "job_ID": 1,
+  "position_name": "Social Media Analyst",
+  "is_full_time?": true
+ },
+ {
+  "company_ID": 64,
+  "job_ID": 1,
+  "position_name": "Business Process Analyst",
+  "is_full_time?": true
+ },
+ {
+  "company_ID": 65,
+  "job_ID": 1,
+  "position_name": "Technical Consultant",
+  "is_full_time?": true
+ },
+ {
+  "company_ID": 66,
+  "job_ID": 1,
+  "position_name": "Customer Service Manager",
+  "is_full_time?": true
+ },
+ {
+  "company_ID": 66,
+  "job_ID": 2,
+  "position_name": "Operations Specialist",
+  "is_full_time?": true
+ },
+ {
+  "company_ID": 66,
+  "job_ID": 3,
+  "position_name": "Web Content Strategist",
+  "is_full_time?": true
+ },
+ {
+  "company_ID": 66,
+  "job_ID": 4,
+  "position_name": "Event Marketing Coordinator",
+  "is_full_time?": true
+ },
+ {
+  "company_ID": 66,
+  "job_ID": 5,
+  "position_name": "Public Relations Manager",
+  "is_full_time?": true
+ },
+ {
+  "company_ID": 67,
+  "job_ID": 1,
+  "position_name": "UX\/UI Researcher",
+  "is_full_time?": true
+ },
+ {
+  "company_ID": 68,
+  "job_ID": 1,
+  "position_name": "Full Stack Developer",
+  "is_full_time?": true
+ },
+ {
+  "company_ID": 69,
+  "job_ID": 1,
+  "position_name": "Marketing Analyst",
+  "is_full_time?": true
+ },
+ {
+  "company_ID": 70,
+  "job_ID": 1,
+  "position_name": "Research Assistant (Lab)",
+  "is_full_time?": true
+ },
+ {
+  "company_ID": 71,
+  "job_ID": 1,
+  "position_name": "UX Research Analyst",
+  "is_full_time?": true
+ },
+ {
+  "company_ID": 72,
+  "job_ID": 1,
+  "position_name": "Procurement Specialist",
+  "is_full_time?": true
+ },
+ {
+  "company_ID": 72,
+  "job_ID": 2,
+  "position_name": "Data Visualization Specialist",
+  "is_full_time?": true
+ },
+ {
+  "company_ID": 73,
+  "job_ID": 1,
+  "position_name": "Project Analyst",
+  "is_full_time?": true
+ },
+ {
+  "company_ID": 74,
+  "job_ID": 1,
+  "position_name": "Human Resources Coordinator (Benefits)",
+  "is_full_time?": true
+ },
+ {
+  "company_ID": 75,
+  "job_ID": 1,
+  "position_name": "Corporate Finance Intern",
+  "is_full_time?": true
+ },
+ {
+  "company_ID": 76,
+  "job_ID": 1,
+  "position_name": "Sales Coordinator",
+  "is_full_time?": true
+ },
+ {
+  "company_ID": 77,
+  "job_ID": 1,
+  "position_name": "Quality Assurance Engineer",
+  "is_full_time?": true
+ },
+ {
+  "company_ID": 77,
+  "job_ID": 2,
+  "position_name": "Social Media Advertising Specialist",
+  "is_full_time?": true
+ },
+ {
+  "company_ID": 77,
+  "job_ID": 3,
+  "position_name": "Business Intelligence Analyst",
+  "is_full_time?": false
+ },
+ {
+  "company_ID": 77,
+  "job_ID": 4,
+  "position_name": "Technical Writer (IT)",
+  "is_full_time?": true
+ },
+ {
+  "company_ID": 78,
+  "job_ID": 1,
+  "position_name": "Customer Service Supervisor",
+  "is_full_time?": true
+ },
+ {
+  "company_ID": 79,
+  "job_ID": 1,
+  "position_name": "Operations Analyst",
+  "is_full_time?": true
+ },
+ {
+  "company_ID": 80,
+  "job_ID": 1,
+  "position_name": "Web Accessibility Specialist",
+  "is_full_time?": true
+ },
+ {
+  "company_ID": 81,
+  "job_ID": 1,
+  "position_name": "Event Operations Manager",
+  "is_full_time?": true
+ },
+ {
+  "company_ID": 82,
+  "job_ID": 1,
+  "position_name": "Public Relations Strategist",
+  "is_full_time?": true
+ },
+ {
+  "company_ID": 83,
+  "job_ID": 1,
+  "position_name": "User Experience Strategist",
+  "is_full_time?": true
+ },
+ {
+  "company_ID": 84,
+  "job_ID": 1,
+  "position_name": "Mobile App Developer",
+  "is_full_time?": true
+ },
+ {
+  "company_ID": 84,
+  "job_ID": 2,
+  "position_name": "Market Research Analyst",
+  "is_full_time?": true
+ },
+ {
+  "company_ID": 85,
+  "job_ID": 1,
+  "position_name": "Research Coordinator (Medical)",
+  "is_full_time?": true
+ },
+ {
+  "company_ID": 86,
+  "job_ID": 1,
+  "position_name": "UX\/UI Researcher\/Designer",
+  "is_full_time?": true
+ },
+ {
+  "company_ID": 87,
+  "job_ID": 1,
+  "position_name": "Logistics Coordinator",
+  "is_full_time?": true
+ },
+ {
+  "company_ID": 88,
+  "job_ID": 1,
+  "position_name": "Data Governance Analyst",
+  "is_full_time?": true
+ },
+ {
+  "company_ID": 88,
+  "job_ID": 2,
+  "position_name": "Project Planner",
+  "is_full_time?": true
+ },
+ {
+  "company_ID": 88,
+  "job_ID": 3,
+  "position_name": "Human Resources Coordinator (Recruiting)",
+  "is_full_time?": true
+ },
+ {
+  "company_ID": 88,
+  "job_ID": 4,
+  "position_name": "Investment Management Analyst",
+  "is_full_time?": true
+ },
+ {
+  "company_ID": 88,
+  "job_ID": 5,
+  "position_name": "Sales Operations Coordinator",
+  "is_full_time?": true
+ },
+ {
+  "company_ID": 89,
+  "job_ID": 1,
+  "position_name": "Quality Assurance Manager",
+  "is_full_time?": true
+ },
+ {
+  "company_ID": 90,
+  "job_ID": 1,
+  "position_name": "Social Media Content Creator",
+  "is_full_time?": true
+ },
+ {
+  "company_ID": 91,
+  "job_ID": 1,
+  "position_name": "Business Process Improvement Specialist",
+  "is_full_time?": true
+ },
+ {
+  "company_ID": 92,
+  "job_ID": 1,
+  "position_name": "Technical Project Manager",
+  "is_full_time?": true
+ },
+ {
+  "company_ID": 93,
+  "job_ID": 1,
+  "position_name": "Customer Experience Designer",
+  "is_full_time?": false
+ },
+ {
+  "company_ID": 94,
+  "job_ID": 1,
+  "position_name": "Operations Support Analyst",
+  "is_full_time?": false
+ },
+ {
+  "company_ID": 95,
+  "job_ID": 1,
+  "position_name": "Web Accessibility Consultant",
+  "is_full_time?": false
+ },
+ {
+  "company_ID": 96,
+  "job_ID": 1,
+  "position_name": "Event Sales Coordinator",
+  "is_full_time?": true
+ },
+ {
+  "company_ID": 97,
+  "job_ID": 1,
+  "position_name": "Public Relations Coordinator (Media)",
+  "is_full_time?": true
+ },
+ {
+  "company_ID": 98,
+  "job_ID": 1,
+  "position_name": "User Experience Consultant",
+  "is_full_time?": true
+ },
+ {
+  "company_ID": 99,
+  "job_ID": 1,
+  "position_name": "Market Intelligence Analyst",
+  "is_full_time?": true
+ },
+ {
+  "company_ID": 100,
+  "job_ID": 1,
+  "position_name": "Clinical Research Coordinator",
+  "is_full_time?": true
+ },
+ {
+  "company_ID": 100,
+  "job_ID": 2,
+  "position_name": "UX Researcher\/Designer",
   "is_full_time?": true
  }
 ]

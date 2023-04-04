@@ -1,76 +1,129 @@
+import uuid
+
 from flask_restful import Resource
 from flask import jsonify, make_response, request
 import sqlite3 as sl
 
+from Backend.helper import *
+
+
+def intersect(list1, list2, isFirst):
+    EMAIL_INDEX = 6
+    FNAME_INDEX = 1
+    LNAME_INDEX = 2
+    TERM_INDEX = 3
+    PROGRAM_INDEX = 7
+    intersect = []
+
+    if isFirst:
+        for student in list2:
+            newStudent = {
+                "key": student[EMAIL_INDEX],
+                "firstName": student[FNAME_INDEX],
+                "lastName": student[LNAME_INDEX],
+                "termInfo": getTermInfo(student[TERM_INDEX], student[PROGRAM_INDEX])
+            }
+
+            intersect.append(newStudent)
+
+        return intersect
+
+    for student1 in list1:
+        for student2 in list2:
+            if student2[EMAIL_INDEX] == student1["key"]:
+                intersect.append(student1)
+                break
+
+    return intersect
+
+
+# def prepareDetailedStudent(student):
+
 
 class Students(Resource):
     def get(self):
-        name = request.args.get('name')
-        term = request.args.get('term')
-        program = request.args.get('program')
+        dto = request.json
+        firstName = lastName = term = program = company = key = ""
+        if "firstName" in dto:
+            firstName = dto["firstName"]
+        if "lastName" in dto:
+            lastName = dto["lastName"]
+        if "term" in dto:
+            term = dto["term"]
+        if "program" in dto:
+            program = dto["program"]
+        if "company" in dto:
+            company = dto["program"]
 
         response = {
             "students": []
         }
         try:
-            con = sl.connect('applicationDb.db')
-            query = "SELECT * FROM STUDENT"
+            rows = []
+            if key != "":
+                query = f"select * from STUDENT where uw_email = '{key}'"
+                response["students"] = executeQuery(query)
+
+                return make_response(jsonify(response), 200)
+
             isFirst = True
-            if name is not None:
-                query += f" where first_name like '%{name}%' or last_name like '%{name}%'"
+            if firstName != "":
+                query = f"select * from STUDENT where first_name like '%{firstName}%'"
+                rows = intersect(rows, executeQuery(query), isFirst)
                 isFirst = False
-            if term is not None:
-                if isFirst:
-                    query += f" where term = '{term}'"
-                else:
-                    query += f" and term = '{term}'"
+            if lastName != "":
+                query = f"select * from STUDENT where last_name like '%{lastName}%'"
+                rows = intersect(rows, executeQuery(query), isFirst)
                 isFirst = False
-            if program is not None:
-                if isFirst:
-                    query += f" where program like '%{program}%'"
-                else:
-                    query += f" and program like '%{program}%'"
+            if term != "":
+                query = f"select * from STUDENT where term = '{term}'"
+                rows = intersect(rows, executeQuery(query), isFirst)
+                isFirst = False
+            if program != "":
+                query = f"select * from STUDENT where program = '{program}'"
+                rows = intersect(rows, executeQuery(query), isFirst)
+                isFirst = False
+            if company != "":
+                query = f"select * from STUDENT, COMPANY natural join WORKS where COMPANY.name like '%{company}%';"
+                rows = intersect(rows, executeQuery(query), isFirst)
 
-            print(query)
-
-            cursor = con.cursor()
-            cursor.execute(query)
-            rows = cursor.fetchall()
-
-            response = {
-                "students": rows
-            }
+            response["students"] = rows
         except Exception as e:
             print("Error", e)
 
         return make_response(jsonify(response), 200)
 
     def post(self):
-        id = request.args.get('id')
-        first_name = request.args.get('first_name')
-        last_name = request.args.get('last_name')
-        program = request.args.get('program')
-        term = request.args.get('term')
+        dto = request.json
+        key = dto["key"]
+        first_name = dto['firstName']
+        last_name = dto['lastName']
+        program = dto['curProgram']
+        term = dto['curTerm']
+        description = dto['term']
 
         response = {"success": False}
         try:
-            if id is None:
+            if key is None:
                 response["message"] = "No id provided"
                 raise Exception
 
             con = sl.connect('applicationDb.db')
             cursor = con.cursor()
             if first_name is not None:
-                query = f"Update Student Set first_name = '{first_name}' Where ID = {id}"
+                query = f"Update Student Set first_name = '{first_name}' Where uw_email = {key}"
                 cursor.execute(query)
             if last_name is not None:
-                query = f"Update Student Set last_name = '{last_name}' Where ID = {id}"
+                query = f"Update Student Set last_name = '{last_name}' Where uw_email = {key}"
                 cursor.execute(query)
             if program is not None:
-                query = f"Update Student Set program = '{program}' Where ID = {id}"
+                query = f"Update Student Set program = '{program}' Where uw_email = {key}"
                 cursor.execute(query)
             if term is not None:
-                query = f"Update Student Set term = '{term}' Where ID = {id}"
+                query = f"Update Student Set term = '{term}' Where uw_email = {key}"
+                cursor.execute(query)
+            if description is not None:
+                query = f"Update Student Set description = '{description}' Where uw_email = {key}"
                 cursor.execute(query)
 
             con.commit()
@@ -81,31 +134,180 @@ class Students(Resource):
 
         return make_response(jsonify(response), 200)
 
+    def put(self):
+        dto = request.json
+        try:
+            con = sl.connect('applicationDb.db')
+            cursor = con.cursor()
+
+            query = f"""INSERT OR IGNORE INTO STUDENT VALUES 
+                    ({dto["id"]}, "{dto["firstName"]}", "{dto["lastName"]}", "{dto["currentTerm"]}",  "{dto["semester"]}",  {dto["year"]},
+                    "{dto["uw_email"]}", "{dto["program"]}", "{dto["description"]}")"""
+
+            cursor.execute(query)
+
+            for social in dto["socials"]:
+                query = f"""INSERT OR IGNORE INTO SOCIAL VALUES 
+                                    ({social["id"]}, "{social["platform"]}", "{social["link"]}")"""
+                cursor.execute(query)
+
+            for course in dto["courses"]:
+                query = f"""INSERT OR IGNORE INTO TAKES VALUES 
+                    ({course["ID"]}, "{course["course_ID"]}", {course["section_ID"]}, "{course["semester"]}", {course["year"]}, "{course["term"]}")"""
+                cursor.execute(query)
+
+            for work in dto["works"]:
+                companyId = uuid.uuid4()
+                jobId = uuid.uuid4()
+
+                query = f"""
+                    INSERT OR IGNORE INTO COMPANY VALUES 
+                    ({companyId}, "{work["company"]}")
+                """
+                cursor.execute(query)
+
+                query = f"""
+                    INSERT OR IGNORE INTO JOB VALUES 
+                    ({jobId}, "{work["position"]}", "{work["isFullTime"]}", {companyId})
+                """
+                con.execute(query)
+
+                query = f"""INSERT OR IGNORE INTO WORKS VALUES 
+                    ("{work["term"]}", "{work["semester"]}", "{work["year"]}", {work["student_ID"]},
+                    {jobId}, {companyId})
+                """
+                cursor.execute(query)
+
+        except Exception as e:
+            print("Error: ", e)
+
+
+class DetailedStudent(Resource):
+    def get(self):
+        dto = request.json
+        key = dto["key"]
+        student = {}
+
+        try:
+            query1 = f"select * from student where uw_email = '{key}'"
+            query2 = f"""select student_id, T.term as term, S.semester as semester, 
+                        S.year as year, course_id from STUDENT as S join TAKES T 
+                        on S.id = T.student_id where S.uw_email = '{key}'"""
+
+            row = executeQuery(query1)[0]
+            print(row)
+
+            query3 = f"""select student_id, term, semester, year, name as company_name, position_name from 
+                                    WORKS natural join COMPANY natural join JOB where student_id = '{row[0]}'"""
+
+            query4 = f"""select platform, link from SOCIALS where id = '{row[0]}'"""
+
+            student = {
+                "student_id": row[0],
+                "firstName": row[1],
+                "lastName": row[2],
+                "currentTerm": row[3],
+                "program": row[7],
+                "startYear": row[5],
+                "email": row[6],
+                "description": row[8],
+            }
+
+            rows = executeQuery(query2)
+            rows += executeQuery(query3)
+            timeline = getTimeline(rows)
+
+            rows = executeQuery(query4)
+            socials = []
+            for row in rows:
+                socials.append({
+                    "platform": row[0],
+                    "link": row[1]
+                })
+
+            student["links"] = socials
+            student["timeline"] = timeline
+        except Exception as e:
+            print("Error: ", e)
+
+        return make_response(jsonify(student), 200)
+
 
 class FindAMentor(Resource):
     def get(self):
-        courseName = request.args.get('course')
+        dto = request.json
+        courseName = dto["course"]
+        year = dto["year"]
+        sem = dto["semester"]
+
+        response = []
+        try:
+            con = sl.connect('applicationDb.db')
+            query = f"select uw_email, first_name, last_name from Takes join Student on student_id = id  " \
+                    f"where course_ID = '{courseName}' and Takes.year < {year} and " \
+                    f"Takes.semester <> '{sem}'"
+
+            cursor = con.cursor()
+            cursor.execute(query)
+            rows = cursor.fetchall()
+
+            result = []
+
+            for row in rows:
+                result.append({
+                    "email": row[0],
+                    "firstName": row[1],
+                    "lastName": row[2]
+                })
+
+            response = result
+        except Exception as e:
+            print("Error", e)
+
+        return make_response(jsonify(response), 200)
+
+
+class FindAStudyGroup(Resource):
+    def get(self):
+        dto = request.json
+        key = dto["key"]
 
         response = {
             "students": []
         }
         try:
             con = sl.connect('applicationDb.db')
-            query = f"select first_name, last_name from Takes join Student on student_id = id  where course_ID = '{courseName}' and Takes.year < 2023"
-
-            print(query)
+            query = f"""
+                SELECT DISTINCT s2.id, s2.first_name, s2.last_name FROM Student s1
+                JOIN Takes t1 ON s1.ID = t1.student_ID
+                JOIN Takes t2 ON t1.course_ID = t2.course_ID AND t1.section_ID = t2.section_ID AND t1.semester = t2.semester AND t1.year = t2.year
+                JOIN Student s2 ON t2.student_ID = s2.ID
+                WHERE s1.ID = '{key}' AND s2.ID <> '{key}'
+                GROUP BY s2.ID
+                HAVING COUNT(DISTINCT t2.course_ID) >= 3;
+            """
 
             cursor = con.cursor()
             cursor.execute(query)
             rows = cursor.fetchall()
 
+            result = []
+
+            for row in rows:
+                result.append({
+                    "firstName": row[1],
+                    "lastName": row[2],
+                    "id": row[0]
+                })
+
             response = {
-                "students": rows
+                "students": result
             }
         except Exception as e:
             print("Error", e)
 
         return make_response(jsonify(response), 200)
+
 
 class FindAFriend(Resource):
 
@@ -134,3 +336,28 @@ class FindAFriend(Resource):
 
         return make_response(jsonify(response), 200)
 
+
+class Authorize(Resource):
+    def get(self):
+        response = {
+            "authorize": False
+        }
+
+        try:
+            dto = request.json
+            username = dto["username"]
+            password = dto["password"]
+
+            con = sl.connect('applicationDb.db')
+            query = f"SELECT * from AUTHORISATION WHERE uw_email = '{username}' and password = '{password}'"
+
+            cursor = con.cursor()
+            cursor.execute(query)
+            rows = cursor.fetchall()
+
+            if len(rows) > 0:
+                response["authorize"] = True
+        except Exception as e:
+            print("Error: ", e)
+
+        return make_response(jsonify(response), 200)
