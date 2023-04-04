@@ -344,8 +344,9 @@ class Authorize(Resource):
         }
 
         try:
-            username = request.args.get('user')
-            password = request.args.get("pwd")
+            dto = request.json
+            username = dto["username"]
+            password = dto["password"]
 
             con = sl.connect('applicationDb.db')
             query = f"SELECT * from AUTHORISATION WHERE uw_email = '{username}' and password = '{password}'"
