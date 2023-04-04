@@ -3,6 +3,8 @@ from flask_restful import Api
 import loadDatabase
 from Students import Students, FindAMentor, Authorize, DetailedStudent, FindAStudyGroup
 from Spaces import SpacesFilter, SpacesDetail
+from Company import Company
+from Courses import Courses
 
 app = Flask(__name__)
 api = Api(app)
@@ -15,6 +17,8 @@ api.add_resource(Authorize, "/authorize")
 api.add_resource(SpacesFilter, "/spaces")
 api.add_resource(SpacesDetail, "/spaces/detail")
 api.add_resource(FindAStudyGroup, "/find-a-study-grp")
+api.add_resource(Company, "/company")
+api.add_resource(Courses, "/course")
 
 
 if __name__ == '__main__':

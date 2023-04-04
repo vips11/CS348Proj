@@ -416,13 +416,13 @@ def loadSpacesData():
 
 def loadPostsData():
     try:
-        with open(f"{BASE_PATH}/entities/Posts.json", "r") as f:
+        with open(f"{BASE_PATH}/entities/Post.json", "r") as f:
             tableData = json.loads(f.read())
 
         for data in tableData:
             query = f"""
-                    INSERT OR IGNORE INTO SPACES VALUES 
-                    ({data["space_ID"]}, "{data["post_id"]}", "{data["title"]}", "{data["description"]}")
+                    INSERT OR IGNORE INTO POSTS VALUES 
+                    ({data["space_ID"]}, "{data["ID"]}", "{data["title"]}", "{data["description"]}")
                 """
             con.execute(query)
 
@@ -481,6 +481,7 @@ def loadData():
     loadIsMemberData()
     loadAuthorisationData()
     loadSocialsData()
+    loadPostsData()
 
 
 createTables()
