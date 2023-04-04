@@ -39,42 +39,23 @@ class SpacesDetail(Resource):
 
         try:
             con = sl.connect('applicationDb.db')
-            query = f"select * from SPACES"
+            query = f"select SPACES.id, name, description, post from SPACES join POST on SPACES.id = POST.id where SPACE.id = '{key}'"
             cursor = con.cursor()
             cursor.execute(query)
             rows = cursor.fetchall()
 
-            result = []
+            result = {
+                "id": rows[0][0],
+                "name": rows[0][1],
+                "description": rows[0][2],
+                "posts": []
+            }
 
             for row in rows:
-                result.append({
-                    "space_ID": row[0],
-                    "name": row[1],
-                    "description": row[2]
-                })
+                result["posts"].append(row[3])
 
             response = result
         except Exception as e:
             print("Error: ", e)
 
         return make_response(jsonify(response), 200)
-
-
-# class Spaces(Resource):
-#     def get(self):
-#         dto = request.json
-#         response = {
-#             "student": []
-#         }
-#
-#         try:
-#             con = sl.connect('applicationDb.db')
-#             key = dto["key"]
-#             query = f"select * from SPACES where space_id = '{key}'"
-#             cursor = con.cursor()
-#             cursor.execute(query)
-#             row = cursor.fetchone()
-#         except Exception as e:
-#             print("Error: ", e)
-#
-#         return make_response(jsonify(response), 200)

@@ -78,13 +78,12 @@ class Students(Resource):
                 rows = intersect(rows, executeQuery(query), isFirst)
                 isFirst = False
             if program != "":
-                query = f"select * from STUDENT where term = '{term}'"
+                query = f"select * from STUDENT where program = '{program}'"
                 rows = intersect(rows, executeQuery(query), isFirst)
                 isFirst = False
             if company != "":
                 query = f"select * from STUDENT, COMPANY natural join WORKS where COMPANY.name like '%{company}%';"
                 rows = intersect(rows, executeQuery(query), isFirst)
-                isFirst = False
 
             response["students"] = rows
         except Exception as e:
@@ -133,29 +132,37 @@ class Students(Resource):
 
         return make_response(jsonify(response), 200)
 
+    def put(self):
+        dto = request.json
+        try:
+            con = sl.connect('applicationDb.db')
+            cursor = con.cursor()
 
-# def updateStudentTerms(Resource):
-#     def post(self):
-#         dto = request.json
-#         key = dto["key"]
-#         term = dto['curTerm']
-#         description = dto['term']
-#
-#         response = {"success": False}
-#         try:
-#             if key is None:
-#                 response["message"] = "No id provided"
-#                 raise Exception
-#
-#             con = sl.connect('applicationDb.db')
-#
-#             con.commit()
-#
-#             response["success"] = True
-#         except Exception as e:
-#             print("Error", e)
-#
-#         return make_response(jsonify(response), 200)
+            query = f"""INSERT OR IGNORE INTO STUDENT VALUES 
+                    ({dto["id"]}, "{dto["firstName"]}", "{dto["lastName"]}", "{dto["currentTerm"]}",  "{dto["semester"]}",  {dto["year"]},
+                    "{dto["uw_email"]}", "{dto["program"]}", "{dto["description"]}")"""
+
+            cursor.execute(query)
+
+            for social in dto["socials"]:
+                query = f"""INSERT OR IGNORE INTO SOCIAL VALUES 
+                                    ({social["id"]}, "{social["platform"]}", "{social["link"]}")"""
+                cursor.execute(query)
+
+            for course in dto["courses"]:
+                query = f"""INSERT OR IGNORE INTO TAKES VALUES 
+                    ({course["ID"]}, "{course["course_ID"]}", {course["section_ID"]}, "{course["semester"]}", {course["year"]}, "{course["term"]}")"""
+                cursor.execute(query)
+
+            for work in dto["works"]:
+                query = f"""INSERT OR IGNORE INTO WORKS VALUES 
+                    ("{work["term"]}", "{work["semester"]}", "{work["year"]}", {work["student_ID"]},
+                    {work["job_ID"]}, {work["company_ID"]})
+                """
+                cursor.execute(query)
+
+        except Exception as e:
+            print("Error: ", e)
 
 
 class DetailedStudent(Resource):
@@ -175,6 +182,8 @@ class DetailedStudent(Resource):
             query3 = f"""select student_id, term, semester, year, name as company_name, position_name from 
                                     WORKS natural join COMPANY natural join JOB where student_id = '{row[0]}'"""
 
+            query4 = f"""select platform, link from SOCIALS where id = '{row[0]}'"""
+
             student = {
                 "student_id": row[0],
                 "firstName": row[1],
@@ -190,6 +199,15 @@ class DetailedStudent(Resource):
             rows += executeQuery(query3)
             timeline = getTimeline(rows)
 
+            rows = executeQuery(query4)
+            socials = []
+            for row in rows:
+                socials.append({
+                    "platform": row[0],
+                    "link": row[1]
+                })
+
+            student["links"] = socials
             student["timeline"] = timeline
         except Exception as e:
             print("Error: ", e)
@@ -199,23 +217,73 @@ class DetailedStudent(Resource):
 
 class FindAMentor(Resource):
     def get(self):
-        courseName = request.args.get('course')
+        dto = request.json
+        courseName = dto["course"]
+        year = dto["year"]
+        sem = dto["semester"]
+
+        response = []
+        try:
+            con = sl.connect('applicationDb.db')
+            query = f"select uw_email, first_name, last_name from Takes join Student on student_id = id  " \
+                    f"where course_ID = '{courseName}' and Takes.year < {year} and " \
+                    f"Takes.semester <> '{sem}'"
+
+            cursor = con.cursor()
+            cursor.execute(query)
+            rows = cursor.fetchall()
+
+            result = []
+
+            for row in rows:
+                result.append({
+                    "uw_email": row[0],
+                    "firstName": row[1],
+                    "lastName": row[2]
+                })
+
+            response = result
+        except Exception as e:
+            print("Error", e)
+
+        return make_response(jsonify(response), 200)
+
+
+class FindAStudyGroup(Resource):
+    def get(self):
+        dto = request.json
+        key = dto["key"]
 
         response = {
             "students": []
         }
         try:
             con = sl.connect('applicationDb.db')
-            query = f"select first_name, last_name from Takes join Student on student_id = id  where course_ID = '{courseName}' and Takes.year < 2023"
-
-            print(query)
+            query = f"""
+                SELECT DISTINCT s2.id, s2.first_name, s2.last_name FROM Student s1
+                JOIN Takes t1 ON s1.ID = t1.student_ID
+                JOIN Takes t2 ON t1.course_ID = t2.course_ID AND t1.section_ID = t2.section_ID AND t1.semester = t2.semester AND t1.year = t2.year
+                JOIN Student s2 ON t2.student_ID = s2.ID
+                WHERE s1.ID = '{key}' AND s2.ID <> '{key}'
+                GROUP BY s2.ID
+                HAVING COUNT(DISTINCT t2.course_ID) >= 3;
+            """
 
             cursor = con.cursor()
             cursor.execute(query)
             rows = cursor.fetchall()
 
+            result = []
+
+            for row in rows:
+                result.append({
+                    "firstName": row[1],
+                    "lastName": row[2],
+                    "id": row[0]
+                })
+
             response = {
-                "students": rows
+                "students": result
             }
         except Exception as e:
             print("Error", e)
