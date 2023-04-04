@@ -3809,199 +3809,199 @@
  },
  {
   "ID": 12345677,
-  "course_ID": "ENGL 108",
-  "section_ID": 1,
-  "semester": "Winter",
-  "year": 2023,
+  "course_ID": "MATH 138",
+  "section_ID": 2,
+  "semester": "Fall",
+  "year": 2021,
   "term": "1A"
  },
  {
   "ID": 12345677,
-  "course_ID": "MATH 137",
+  "course_ID": "AFM 202",
   "section_ID": 1,
   "semester": "Fall",
-  "year": 2020,
+  "year": 2021,
   "term": "1A"
  },
  {
   "ID": 12345677,
-  "course_ID": "CS 135",
+  "course_ID": "MSCI 211",
   "section_ID": 1,
   "semester": "Winter",
-  "year": 2021,
+  "year": 2022,
   "term": "1B"
  },
  {
   "ID": 12345677,
-  "course_ID": "CS 241",
+  "course_ID": "ECE 208",
   "section_ID": 1,
   "semester": "Spring",
-  "year": 2021,
+  "year": 2022,
   "term": "2A"
  },
  {
   "ID": 12345677,
-  "course_ID": "CS 246",
+  "course_ID": "ECON 101",
   "section_ID": 1,
   "semester": "Spring",
-  "year": 2021,
+  "year": 2022,
   "term": "2A"
  },
  {
   "ID": 12345677,
-  "course_ID": "CS 346",
+  "course_ID": "ECON 211",
   "section_ID": 1,
   "semester": "Fall",
-  "year": 2021,
+  "year": 2022,
   "term": "2B"
  },
  {
   "ID": 12345677,
-  "course_ID": "MATH 235",
+  "course_ID": "AFM 481",
   "section_ID": 1,
   "semester": "Spring",
-  "year": 2022,
+  "year": 2023,
   "term": "3A"
  },
  {
   "ID": 12345677,
-  "course_ID": "STAT 230",
+  "course_ID": "MATH 145",
   "section_ID": 1,
   "semester": "Spring",
-  "year": 2022,
+  "year": 2023,
   "term": "3A"
  },
  {
   "ID": 21487654,
   "course_ID": "PHYS 121",
-  "section_ID": 3,
+  "section_ID": 2,
   "semester": "Fall",
   "year": 2021,
   "term": "1A"
  },
  {
   "ID": 21487654,
-  "course_ID": "ENGL 108",
-  "section_ID": 1,
-  "semester": "Winter",
-  "year": 2023,
+  "course_ID": "MATH 138",
+  "section_ID": 2,
+  "semester": "Fall",
+  "year": 2021,
   "term": "1A"
  },
  {
   "ID": 21487654,
-  "course_ID": "MATH 137",
+  "course_ID": "AFM 202",
   "section_ID": 1,
   "semester": "Fall",
-  "year": 2020,
+  "year": 2021,
   "term": "1A"
  },
  {
   "ID": 21487654,
-  "course_ID": "CS 135",
+  "course_ID": "MSCI 211",
   "section_ID": 1,
   "semester": "Winter",
-  "year": 2021,
+  "year": 2022,
   "term": "1B"
  },
  {
   "ID": 21487654,
-  "course_ID": "CS 241",
+  "course_ID": "ECE 208",
   "section_ID": 1,
   "semester": "Spring",
-  "year": 2021,
+  "year": 2022,
   "term": "2A"
  },
  {
   "ID": 21487654,
-  "course_ID": "CS 246",
+  "course_ID": "ECON 101",
   "section_ID": 1,
   "semester": "Spring",
-  "year": 2021,
+  "year": 2022,
   "term": "2A"
  },
  {
   "ID": 21487654,
-  "course_ID": "CS 346",
+  "course_ID": "ECON 211",
   "section_ID": 1,
   "semester": "Fall",
-  "year": 2021,
+  "year": 2022,
   "term": "2B"
  },
  {
   "ID": 21487654,
+  "course_ID": "AFM 481",
+  "section_ID": 1,
+  "semester": "Spring",
+  "year": 2023,
+  "term": "3A"
+ },
+ {
+  "ID": 21487654,
+  "course_ID": "MATH 145",
+  "section_ID": 1,
+  "semester": "Spring",
+  "year": 2023,
+  "term": "3A"
+ },
+ {
+  "ID": 20928175,
+  "course_ID": "MATH 135",
+  "section_ID": 2,
+  "semester": "Fall",
+  "year": 2021,
+  "term": "1A"
+ },
+ {
+  "ID": 20928175,
+  "course_ID": "MATH 138",
+  "section_ID": 2,
+  "semester": "Fall",
+  "year": 2021,
+  "term": "1A"
+ },
+ {
+  "ID": 20928175,
+  "course_ID": "AFM 202",
+  "section_ID": 1,
+  "semester": "Fall",
+  "year": 2021,
+  "term": "1A"
+ },
+ {
+  "ID": 20928175,
   "course_ID": "MATH 235",
   "section_ID": 1,
-  "semester": "Spring",
-  "year": 2022,
-  "term": "3A"
- },
- {
-  "ID": 21487654,
-  "course_ID": "STAT 230",
-  "section_ID": 1,
-  "semester": "Spring",
-  "year": 2022,
-  "term": "3A"
- },
- {
-  "ID": 20928175,
-  "course_ID": "PHYS 122",
-  "section_ID": 1,
-  "semester": "Fall",
-  "year": 2021,
-  "term": "1A"
- },
- {
-  "ID": 20928175,
-  "course_ID": "ENGL 108",
-  "section_ID": 1,
   "semester": "Winter",
-  "year": 2023,
-  "term": "1A"
- },
- {
-  "ID": 20928175,
-  "course_ID": "MATH 137",
-  "section_ID": 1,
-  "semester": "Fall",
-  "year": 2020,
-  "term": "1A"
- },
- {
-  "ID": 20928175,
-  "course_ID": "CS 135",
-  "section_ID": 1,
-  "semester": "Winter",
-  "year": 2021,
+  "year": 2022,
   "term": "1B"
  },
  {
   "ID": 20928175,
-  "course_ID": "CS 241",
+  "course_ID": "MATH 239",
   "section_ID": 1,
   "semester": "Spring",
-  "year": 2021,
+  "year": 2022,
   "term": "2A"
  },
  {
   "ID": 20928175,
-  "course_ID": "CS 246",
+  "course_ID": "ECON 101",
   "section_ID": 1,
   "semester": "Spring",
-  "year": 2021,
+  "year": 2022,
   "term": "2A"
  },
  {
   "ID": 20928175,
-  "course_ID": "CS 346",
+  "course_ID": "ECON 211",
   "section_ID": 1,
   "semester": "Fall",
-  "year": 2021,
+  "year": 2022,
   "term": "2B"
  },
  {
   "ID": 21765423,
-  "course_ID": "PHYS 122",
+  "course_ID": "PHYS 121",
   "section_ID": 2,
   "semester": "Fall",
   "year": 2021,
@@ -4009,111 +4009,127 @@
  },
  {
   "ID": 21765423,
-  "course_ID": "ENGL 108",
-  "section_ID": 1,
-  "semester": "Winter",
-  "year": 2023,
+  "course_ID": "MATH 138",
+  "section_ID": 2,
+  "semester": "Fall",
+  "year": 2021,
   "term": "1A"
  },
  {
   "ID": 21765423,
-  "course_ID": "MATH 137",
+  "course_ID": "AFM 202",
   "section_ID": 1,
   "semester": "Fall",
-  "year": 2020,
+  "year": 2021,
   "term": "1A"
  },
  {
   "ID": 21765423,
-  "course_ID": "CS 135",
+  "course_ID": "MSCI 211",
   "section_ID": 1,
   "semester": "Winter",
-  "year": 2021,
+  "year": 2022,
   "term": "1B"
  },
  {
   "ID": 21765423,
-  "course_ID": "CS 241",
+  "course_ID": "ECE 208",
   "section_ID": 1,
   "semester": "Spring",
-  "year": 2021,
+  "year": 2022,
   "term": "2A"
  },
  {
   "ID": 21765423,
-  "course_ID": "CS 246",
+  "course_ID": "ECON 101",
   "section_ID": 1,
   "semester": "Spring",
-  "year": 2021,
+  "year": 2022,
   "term": "2A"
  },
  {
   "ID": 21765423,
-  "course_ID": "CS 346",
+  "course_ID": "ECON 211",
   "section_ID": 1,
   "semester": "Fall",
-  "year": 2021,
+  "year": 2022,
   "term": "2B"
  },
  {
   "ID": 20387129,
-  "course_ID": "PHYS 122",
-  "section_ID": 3,
+  "course_ID": "PHYS 121",
+  "section_ID": 2,
   "semester": "Fall",
   "year": 2021,
   "term": "1A"
  },
  {
   "ID": 20387129,
-  "course_ID": "ENGL 108",
-  "section_ID": 1,
-  "semester": "Winter",
-  "year": 2023,
+  "course_ID": "MATH 138",
+  "section_ID": 2,
+  "semester": "Fall",
+  "year": 2021,
   "term": "1A"
  },
  {
   "ID": 20387129,
-  "course_ID": "MATH 137",
+  "course_ID": "AFM 202",
   "section_ID": 1,
   "semester": "Fall",
-  "year": 2020,
+  "year": 2021,
   "term": "1A"
  },
  {
   "ID": 20387129,
-  "course_ID": "CS 135",
+  "course_ID": "MSCI 211",
   "section_ID": 1,
   "semester": "Winter",
-  "year": 2021,
+  "year": 2022,
   "term": "1B"
  },
  {
   "ID": 20387129,
-  "course_ID": "CS 241",
+  "course_ID": "ECE 208",
   "section_ID": 1,
   "semester": "Spring",
-  "year": 2021,
+  "year": 2022,
   "term": "2A"
  },
  {
   "ID": 20387129,
-  "course_ID": "CS 246",
+  "course_ID": "ECON 101",
   "section_ID": 1,
   "semester": "Spring",
-  "year": 2021,
+  "year": 2022,
   "term": "2A"
  },
  {
   "ID": 20387129,
-  "course_ID": "CS 346",
+  "course_ID": "ECON 211",
   "section_ID": 1,
   "semester": "Fall",
-  "year": 2021,
+  "year": 2022,
   "term": "2B"
  },
  {
   "ID": 21123456,
-  "course_ID": "PHYS 122",
+  "course_ID": "PHYS 121",
+  "section_ID": 2,
+  "semester": "Fall",
+  "year": 2021,
+  "term": "1A"
+ },
+ {
+  "ID": 21123456,
+  "course_ID": "MATH 138",
+  "section_ID": 2,
+  "semester": "Fall",
+  "year": 2021,
+  "term": "1A"
+ },
+ {
+  "ID": 21123456,
+  "course_ID": "AFM 202",
   "section_ID": 1,
   "semester": "Fall",
   "year": 2021,
@@ -4121,55 +4137,39 @@
  },
  {
   "ID": 21123456,
-  "course_ID": "ENGL 108",
+  "course_ID": "MSCI 211",
   "section_ID": 1,
   "semester": "Winter",
-  "year": 2023,
-  "term": "1A"
- },
- {
-  "ID": 21123456,
-  "course_ID": "MATH 137",
-  "section_ID": 1,
-  "semester": "Fall",
-  "year": 2020,
-  "term": "1A"
- },
- {
-  "ID": 21123456,
-  "course_ID": "CS 135",
-  "section_ID": 1,
-  "semester": "Winter",
-  "year": 2021,
+  "year": 2022,
   "term": "1B"
  },
  {
   "ID": 21123456,
-  "course_ID": "CS 241",
+  "course_ID": "ECE 208",
   "section_ID": 1,
   "semester": "Spring",
-  "year": 2021,
+  "year": 2022,
   "term": "2A"
  },
  {
   "ID": 21123456,
-  "course_ID": "CS 246",
+  "course_ID": "ECON 101",
   "section_ID": 1,
   "semester": "Spring",
-  "year": 2021,
+  "year": 2022,
   "term": "2A"
  },
  {
   "ID": 21123456,
-  "course_ID": "CS 346",
+  "course_ID": "ECON 211",
   "section_ID": 1,
   "semester": "Fall",
-  "year": 2021,
+  "year": 2022,
   "term": "2B"
  },
  {
   "ID": 21567890,
-  "course_ID": "PHYS 122",
+  "course_ID": "PHYS 121",
   "section_ID": 2,
   "semester": "Fall",
   "year": 2021,
@@ -4177,239 +4177,255 @@
  },
  {
   "ID": 21567890,
-  "course_ID": "ENGL 108",
-  "section_ID": 1,
-  "semester": "Winter",
-  "year": 2023,
+  "course_ID": "MATH 138",
+  "section_ID": 2,
+  "semester": "Fall",
+  "year": 2021,
   "term": "1A"
  },
  {
   "ID": 21567890,
-  "course_ID": "MATH 137",
+  "course_ID": "AFM 202",
   "section_ID": 1,
   "semester": "Fall",
-  "year": 2020,
+  "year": 2021,
   "term": "1A"
  },
  {
   "ID": 21567890,
-  "course_ID": "CS 135",
+  "course_ID": "MSCI 211",
   "section_ID": 1,
   "semester": "Winter",
-  "year": 2021,
+  "year": 2022,
   "term": "1B"
  },
  {
   "ID": 21567890,
-  "course_ID": "CS 241",
+  "course_ID": "ECE 208",
   "section_ID": 1,
   "semester": "Spring",
-  "year": 2021,
+  "year": 2022,
   "term": "2A"
  },
  {
   "ID": 21567890,
-  "course_ID": "CS 246",
+  "course_ID": "ECON 101",
   "section_ID": 1,
   "semester": "Spring",
-  "year": 2021,
+  "year": 2022,
   "term": "2A"
  },
  {
   "ID": 21567890,
-  "course_ID": "CS 346",
+  "course_ID": "ECON 211",
   "section_ID": 1,
   "semester": "Fall",
-  "year": 2021,
+  "year": 2022,
   "term": "2B"
  },
  {
   "ID": 21987654,
-  "course_ID": "PHYS 122",
+  "course_ID": "PHYS 121",
+  "section_ID": 2,
+  "semester": "Fall",
+  "year": 2021,
+  "term": "1A"
+ },
+ {
+  "ID": 21987654,
+  "course_ID": "MATH 138",
+  "section_ID": 2,
+  "semester": "Fall",
+  "year": 2021,
+  "term": "1A"
+ },
+ {
+  "ID": 21987654,
+  "course_ID": "AFM 202",
+  "section_ID": 1,
+  "semester": "Fall",
+  "year": 2021,
+  "term": "1A"
+ },
+ {
+  "ID": 21987654,
+  "course_ID": "MSCI 211",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022,
+  "term": "1B"
+ },
+ {
+  "ID": 21987654,
+  "course_ID": "ECE 208",
+  "section_ID": 1,
+  "semester": "Spring",
+  "year": 2022,
+  "term": "2A"
+ },
+ {
+  "ID": 21987654,
+  "course_ID": "ECON 101",
+  "section_ID": 1,
+  "semester": "Spring",
+  "year": 2022,
+  "term": "2A"
+ },
+ {
+  "ID": 21987654,
+  "course_ID": "ECON 211",
+  "section_ID": 1,
+  "semester": "Fall",
+  "year": 2022,
+  "term": "2B"
+ },
+ {
+  "ID": 20654321,
+  "course_ID": "ECON 201",
+  "section_ID": 1,
+  "semester": "Fall",
+  "year": 2021,
+  "term": "1A"
+ },
+ {
+  "ID": 20654321,
+  "course_ID": "ECON 211",
+  "section_ID": 1,
+  "semester": "Fall",
+  "year": 2021,
+  "term": "1A"
+ },
+ {
+  "ID": 20654321,
+  "course_ID": "AFM 202",
+  "section_ID": 1,
+  "semester": "Fall",
+  "year": 2021,
+  "term": "1A"
+ },
+ {
+  "ID": 20654321,
+  "course_ID": "MSCI 211",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022,
+  "term": "1B"
+ },
+ {
+  "ID": 20654321,
+  "course_ID": "AFM 341",
+  "section_ID": 1,
+  "semester": "Spring",
+  "year": 2022,
+  "term": "2A"
+ },
+ {
+  "ID": 20654321,
+  "course_ID": "AFM 481",
+  "section_ID": 1,
+  "semester": "Spring",
+  "year": 2022,
+  "term": "2A"
+ },
+ {
+  "ID": 20654321,
+  "course_ID": "AFM 481",
+  "section_ID": 1,
+  "semester": "Fall",
+  "year": 2022,
+  "term": "2B"
+ },
+ {
+  "ID": 21345678,
+  "course_ID": "PHYS 121",
+  "section_ID": 2,
+  "semester": "Fall",
+  "year": 2021,
+  "term": "1A"
+ },
+ {
+  "ID": 21345678,
+  "course_ID": "MATH 138",
+  "section_ID": 2,
+  "semester": "Fall",
+  "year": 2021,
+  "term": "1A"
+ },
+ {
+  "ID": 21345678,
+  "course_ID": "AFM 202",
+  "section_ID": 1,
+  "semester": "Fall",
+  "year": 2021,
+  "term": "1A"
+ },
+ {
+  "ID": 21345678,
+  "course_ID": "ENGL 108",
+  "section_ID": 1,
+  "semester": "Winter",
+  "year": 2022,
+  "term": "1B"
+ },
+ {
+  "ID": 21345678,
+  "course_ID": "ECE 208",
+  "section_ID": 1,
+  "semester": "Spring",
+  "year": 2022,
+  "term": "2A"
+ },
+ {
+  "ID": 21345678,
+  "course_ID": "ECON 101",
+  "section_ID": 1,
+  "semester": "Spring",
+  "year": 2022,
+  "term": "2A"
+ },
+ {
+  "ID": 21345678,
+  "course_ID": "ECON 211",
+  "section_ID": 1,
+  "semester": "Fall",
+  "year": 2022,
+  "term": "2B"
+ },
+ {
+  "ID": 21345678,
+  "course_ID": "AFM 481",
+  "section_ID": 1,
+  "semester": "Spring",
+  "year": 2023,
+  "term": "3A"
+ },
+ {
+  "ID": 21345678,
+  "course_ID": "MATH 145",
+  "section_ID": 1,
+  "semester": "Spring",
+  "year": 2023,
+  "term": "3A"
+ },
+ {
+  "ID": 11111222,
+  "course_ID": "CS 135",
   "section_ID": 3,
   "semester": "Fall",
   "year": 2021,
   "term": "1A"
  },
  {
-  "ID": 21987654,
-  "course_ID": "ENGL 108",
-  "section_ID": 1,
-  "semester": "Winter",
-  "year": 2023,
-  "term": "1A"
- },
- {
-  "ID": 21987654,
-  "course_ID": "MATH 137",
-  "section_ID": 1,
-  "semester": "Fall",
-  "year": 2020,
-  "term": "1A"
- },
- {
-  "ID": 21987654,
-  "course_ID": "CS 135",
-  "section_ID": 1,
-  "semester": "Winter",
-  "year": 2021,
-  "term": "1B"
- },
- {
-  "ID": 21987654,
-  "course_ID": "CS 241",
-  "section_ID": 1,
-  "semester": "Spring",
-  "year": 2021,
-  "term": "2A"
- },
- {
-  "ID": 21987654,
-  "course_ID": "CS 246",
-  "section_ID": 1,
-  "semester": "Spring",
-  "year": 2021,
-  "term": "2A"
- },
- {
-  "ID": 21987654,
-  "course_ID": "CS 346",
-  "section_ID": 1,
-  "semester": "Fall",
-  "year": 2021,
-  "term": "2B"
- },
- {
-  "ID": 20654321,
-  "course_ID": "PHYS 122",
-  "section_ID": 3,
+  "ID": 11111222,
+  "course_ID": "MATH 138",
+  "section_ID": 2,
   "semester": "Fall",
   "year": 2021,
   "term": "1A"
- },
- {
-  "ID": 20654321,
-  "course_ID": "ENGL 108",
-  "section_ID": 1,
-  "semester": "Winter",
-  "year": 2023,
-  "term": "1A"
- },
- {
-  "ID": 20654321,
-  "course_ID": "MATH 137",
-  "section_ID": 1,
-  "semester": "Fall",
-  "year": 2020,
-  "term": "1A"
- },
- {
-  "ID": 20654321,
-  "course_ID": "CS 135",
-  "section_ID": 1,
-  "semester": "Winter",
-  "year": 2021,
-  "term": "1B"
- },
- {
-  "ID": 20654321,
-  "course_ID": "CS 241",
-  "section_ID": 1,
-  "semester": "Spring",
-  "year": 2021,
-  "term": "2A"
- },
- {
-  "ID": 20654321,
-  "course_ID": "CS 246",
-  "section_ID": 1,
-  "semester": "Spring",
-  "year": 2021,
-  "term": "2A"
- },
- {
-  "ID": 20654321,
-  "course_ID": "CS 346",
-  "section_ID": 1,
-  "semester": "Fall",
-  "year": 2021,
-  "term": "2B"
- },
- {
-  "ID": 21345678,
-  "course_ID": "PHYS 122",
-  "section_ID": 3,
-  "semester": "Fall",
-  "year": 2021,
-  "term": "1A"
- },
- {
-  "ID": 21345678,
-  "course_ID": "ENGL 108",
-  "section_ID": 1,
-  "semester": "Winter",
-  "year": 2023,
-  "term": "1A"
- },
- {
-  "ID": 21345678,
-  "course_ID": "MATH 137",
-  "section_ID": 1,
-  "semester": "Fall",
-  "year": 2020,
-  "term": "1A"
- },
- {
-  "ID": 21345678,
-  "course_ID": "CS 135",
-  "section_ID": 1,
-  "semester": "Winter",
-  "year": 2021,
-  "term": "1B"
- },
- {
-  "ID": 21345678,
-  "course_ID": "CS 241",
-  "section_ID": 1,
-  "semester": "Spring",
-  "year": 2021,
-  "term": "2A"
- },
- {
-  "ID": 21345678,
-  "course_ID": "CS 246",
-  "section_ID": 1,
-  "semester": "Spring",
-  "year": 2021,
-  "term": "2A"
- },
- {
-  "ID": 21345678,
-  "course_ID": "CS 346",
-  "section_ID": 1,
-  "semester": "Fall",
-  "year": 2021,
-  "term": "2B"
- },
- {
-  "ID": 21345678,
-  "course_ID": "GER 271",
-  "section_ID": 1,
-  "semester": "Winter",
-  "year": 2022,
-  "term": "3A"
- },
- {
-  "ID": 21345678,
-  "course_ID": "HIST 208",
-  "section_ID": 1,
-  "semester": "Winter",
-  "year": 2022,
-  "term": "3A"
  },
  {
   "ID": 11111222,
-  "course_ID": "PHYS 122",
+  "course_ID": "MATH 135",
   "section_ID": 3,
   "semester": "Fall",
   "year": 2021,
@@ -4417,72 +4433,72 @@
  },
  {
   "ID": 11111222,
-  "course_ID": "ENGL 108",
+  "course_ID": "CS 136",
   "section_ID": 1,
   "semester": "Winter",
-  "year": 2023,
-  "term": "1A"
- },
- {
-  "ID": 11111222,
-  "course_ID": "MATH 137",
-  "section_ID": 1,
-  "semester": "Fall",
-  "year": 2020,
-  "term": "1A"
- },
- {
-  "ID": 11111222,
-  "course_ID": "CS 135",
-  "section_ID": 1,
-  "semester": "Winter",
-  "year": 2021,
+  "year": 2022,
   "term": "1B"
  },
  {
   "ID": 11111222,
-  "course_ID": "CS 241",
+  "course_ID": "CS 341",
   "section_ID": 1,
   "semester": "Spring",
-  "year": 2021,
-  "term": "2A"
- },
- {
-  "ID": 11111222,
-  "course_ID": "CS 246",
-  "section_ID": 1,
-  "semester": "Spring",
-  "year": 2021,
+  "year": 2022,
   "term": "2A"
  },
  {
   "ID": 11111222,
   "course_ID": "CS 346",
   "section_ID": 1,
+  "semester": "Spring",
+  "year": 2022,
+  "term": "2A"
+ },
+ {
+  "ID": 11111222,
+  "course_ID": "ECON 211",
+  "section_ID": 1,
   "semester": "Fall",
-  "year": 2021,
+  "year": 2022,
   "term": "2B"
  },
  {
   "ID": 11111222,
-  "course_ID": "GER 271",
+  "course_ID": "CS 350",
   "section_ID": 1,
-  "semester": "Winter",
-  "year": 2022,
+  "semester": "Spring",
+  "year": 2023,
   "term": "3A"
  },
  {
   "ID": 11111222,
-  "course_ID": "HIST 208",
+  "course_ID": "CS 444",
   "section_ID": 1,
-  "semester": "Winter",
-  "year": 2022,
+  "semester": "Spring",
+  "year": 2023,
   "term": "3A"
  },
  {
   "ID": 22223333,
-  "course_ID": "PHYS 122",
-  "section_ID": 3,
+  "course_ID": "PHYS 121",
+  "section_ID": 2,
+  "semester": "Fall",
+  "year": 2021,
+  "term": "1A"
+ },
+ {
+  "ID": 22223333,
+  "course_ID": "MATH 138",
+  "section_ID": 2,
+  "semester": "Fall",
+  "year": 2021,
+  "term": "1A"
+ },
+ {
+  "ID": 22223333,
+  "course_ID": "AFM 202",
+  "section_ID": 1,
   "semester": "Fall",
   "year": 2021,
   "term": "1A"
@@ -4492,135 +4508,119 @@
   "course_ID": "ENGL 108",
   "section_ID": 1,
   "semester": "Winter",
-  "year": 2023,
-  "term": "1A"
- },
- {
-  "ID": 22223333,
-  "course_ID": "MATH 137",
-  "section_ID": 1,
-  "semester": "Fall",
-  "year": 2020,
-  "term": "1A"
- },
- {
-  "ID": 22223333,
-  "course_ID": "CS 135",
-  "section_ID": 1,
-  "semester": "Winter",
-  "year": 2021,
+  "year": 2022,
   "term": "1B"
  },
  {
   "ID": 22223333,
-  "course_ID": "CS 241",
+  "course_ID": "ECE 208",
   "section_ID": 1,
   "semester": "Spring",
-  "year": 2021,
+  "year": 2022,
   "term": "2A"
  },
  {
   "ID": 22223333,
-  "course_ID": "CS 246",
+  "course_ID": "ECON 101",
   "section_ID": 1,
   "semester": "Spring",
-  "year": 2021,
+  "year": 2022,
   "term": "2A"
  },
  {
   "ID": 22223333,
-  "course_ID": "CS 346",
+  "course_ID": "ECON 211",
   "section_ID": 1,
   "semester": "Fall",
-  "year": 2021,
+  "year": 2022,
   "term": "2B"
  },
  {
   "ID": 22223333,
-  "course_ID": "GER 271",
+  "course_ID": "AFM 481",
   "section_ID": 1,
-  "semester": "Winter",
-  "year": 2022,
+  "semester": "Spring",
+  "year": 2023,
   "term": "3A"
  },
  {
   "ID": 22223333,
-  "course_ID": "HIST 208",
+  "course_ID": "MATH 145",
   "section_ID": 1,
-  "semester": "Winter",
-  "year": 2022,
+  "semester": "Spring",
+  "year": 2023,
   "term": "3A"
  },
  {
   "ID": 33334444,
-  "course_ID": "PHYS 122",
-  "section_ID": 3,
+  "course_ID": "PHYS 121",
+  "section_ID": 2,
   "semester": "Fall",
   "year": 2021,
   "term": "1A"
  },
  {
   "ID": 33334444,
-  "course_ID": "ENGL 108",
-  "section_ID": 1,
-  "semester": "Winter",
-  "year": 2023,
+  "course_ID": "MATH 138",
+  "section_ID": 2,
+  "semester": "Fall",
+  "year": 2021,
   "term": "1A"
  },
  {
   "ID": 33334444,
-  "course_ID": "MATH 137",
+  "course_ID": "AFM 202",
   "section_ID": 1,
   "semester": "Fall",
-  "year": 2020,
+  "year": 2021,
   "term": "1A"
  },
  {
   "ID": 33334444,
-  "course_ID": "CS 135",
+  "course_ID": "ECE 204",
   "section_ID": 1,
   "semester": "Winter",
-  "year": 2021,
+  "year": 2022,
   "term": "1B"
  },
  {
   "ID": 33334444,
-  "course_ID": "CS 241",
+  "course_ID": "ECE 208",
   "section_ID": 1,
   "semester": "Spring",
-  "year": 2021,
+  "year": 2022,
   "term": "2A"
  },
  {
   "ID": 33334444,
-  "course_ID": "CS 246",
+  "course_ID": "ECON 101",
   "section_ID": 1,
   "semester": "Spring",
-  "year": 2021,
+  "year": 2022,
   "term": "2A"
  },
  {
   "ID": 33334444,
-  "course_ID": "CS 346",
+  "course_ID": "ECON 211",
   "section_ID": 1,
   "semester": "Fall",
-  "year": 2021,
+  "year": 2022,
   "term": "2B"
  },
  {
   "ID": 33334444,
-  "course_ID": "GER 271",
+  "course_ID": "AFM 481",
   "section_ID": 1,
-  "semester": "Winter",
-  "year": 2022,
+  "semester": "Spring",
+  "year": 2023,
   "term": "3A"
  },
  {
   "ID": 33334444,
-  "course_ID": "HIST 208",
+  "course_ID": "MATH 145",
   "section_ID": 1,
-  "semester": "Winter",
-  "year": 2022,
+  "semester": "Spring",
+  "year": 2023,
   "term": "3A"
  },
  {
@@ -5120,14 +5120,6 @@
   "term": "2A"
  },
  {
-  "ID": 22223333,
-  "course_ID": "PHYS 122",
-  "section_ID": 3,
-  "semester": "Fall",
-  "year": 2022,
-  "term": "1B"
- },
- {
   "ID": 21479513,
   "course_ID": "AFM 202",
   "section_ID": 1,
@@ -5323,14 +5315,6 @@
   "ID": 11112222,
   "course_ID": "CS 246",
   "section_ID": 3,
-  "semester": "Winter",
-  "year": 2022,
-  "term": "2A"
- },
- {
-  "ID": 22223333,
-  "course_ID": "CS 246",
-  "section_ID": 4,
   "semester": "Winter",
   "year": 2022,
   "term": "2A"
