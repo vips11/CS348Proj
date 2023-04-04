@@ -30,6 +30,14 @@ const findStudyGrp = axios.create({
 	baseURL: `${host}/find-a-study-grp`,
 });
 
+const course = axios.create({
+	baseURL: `${host}/course`,
+});
+
+const company = axios.create({
+	baseURL: `${host}/company`,
+});
+
 const executeGet = async (api, request, callback = null) => {
 	try {
 		if (callback) {
@@ -115,4 +123,16 @@ export const verifyLogin = (request, callback) => {
 
 export const findAStudyGrp = (request, callback) => {
     executeGet(findStudyGrp, request, callback)
+}
+
+export const getCourses = (request, callback) => {
+    executeGet(course, request, callback)
+}
+
+export const rateCourse = (request, callback) => {
+    executePost(course, request, callback)
+}
+
+export const getCompany = (request, callback) => {
+    executePost(company, request, callback)
 }
