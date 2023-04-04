@@ -14,7 +14,7 @@ class Courses(Resource):
         response = []
 
         try:
-            query = f"select course_ID from COURSE C natural join RATES R where course_ID LIKE '%{name}%'"
+            query = f"select course_ID, section_ID, semester, year, course_description from RATES R natural join COURSE C natural join SECTION where course_ID LIKE '%{name}%'"
             if liked != "none":
                 query += " order by liked_rating " + liked
             if useful != "none":
@@ -25,11 +25,20 @@ class Courses(Resource):
 
             print(query)
 
-            result = []
+            result = {}
             for row in rows:
-                result.append(row[0])
+                result[row[0]] = {
+                    "courseId": row[0],
+                    "sectionId": row[1],
+                    "semester": row[2],
+                    "year": row[3],
+                    "description": row[4]
+                }
 
-            response = result
+            actResult = []
+            for course in result:
+                actResult.append(result[course])
+            response = actResult
         except Exception as e:
             print("Error: ", e)
 
@@ -50,7 +59,6 @@ class Courses(Resource):
             query = f"""INSERT OR IGNORE INTO RATES VALUES 
                     ({liked}, {useful}, "{course}", {studentId})"""
 
-            print(query)
             con = sl.connect('applicationDb.db')
             cursor = con.cursor()
             cursor.execute(query)
