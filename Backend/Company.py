@@ -7,7 +7,7 @@ from helper import *
 class Company(Resource):
     def get(self):
         dto = request.json
-        name = dto["name"]
+        name = request.args.get("name")
         response = []
 
         try:

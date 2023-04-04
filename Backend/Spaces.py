@@ -5,7 +5,6 @@ import sqlite3 as sl
 
 class SpacesFilter(Resource):
     def get(self):
-        dto = request.json
         response = []
 
         try:
@@ -34,7 +33,7 @@ class SpacesFilter(Resource):
 class SpacesDetail(Resource):
     def get(self):
         dto = request.json
-        key = dto["key"]
+        key = request.args.get("key")
         response = {}
 
         try:

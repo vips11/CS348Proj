@@ -42,18 +42,12 @@ def intersect(list1, list2, isFirst):
 
 class Students(Resource):
     def get(self):
-        dto = request.json
-        firstName = lastName = term = program = company = key = ""
-        if "firstName" in dto:
-            firstName = dto["firstName"]
-        if "lastName" in dto:
-            lastName = dto["lastName"]
-        if "term" in dto:
-            term = dto["term"]
-        if "program" in dto:
-            program = dto["program"]
-        if "company" in dto:
-            company = dto["program"]
+        key = request.args.get("key")
+        firstName = request.args.get('firstName')
+        lastName = request.args.get('lastName')
+        term = request.args.get('term')
+        program = request.args.get("program")
+        company = request.args.get("company")
 
         response = {
             "students": []
@@ -184,8 +178,7 @@ class Students(Resource):
 
 class DetailedStudent(Resource):
     def get(self):
-        dto = request.json
-        key = dto["key"]
+        key = request.args.get("key")
         student = {}
 
         try:
@@ -235,10 +228,9 @@ class DetailedStudent(Resource):
 
 class FindAMentor(Resource):
     def get(self):
-        dto = request.json
-        courseName = dto["course"]
-        year = dto["year"]
-        sem = dto["semester"]
+        courseName = request.args.get("courseName")
+        year = request.args.get("year")
+        sem = request.args.get("year")
 
         response = []
         try:
@@ -269,8 +261,7 @@ class FindAMentor(Resource):
 
 class FindAStudyGroup(Resource):
     def get(self):
-        dto = request.json
-        key = dto["key"]
+        key = request.args.get("key")
 
         response = {
             "students": []
@@ -345,12 +336,8 @@ class Authorize(Resource):
         }
 
         try:
-            print(request)
-            dto = request.json
-            print(request.data)
-
-            username = dto["username"]
-            password = dto["password"]
+            username = request.args.get("username")
+            password = request.args.get("password")
 
             con = sl.connect('applicationDb.db')
             query = f"SELECT * from AUTHORISATION WHERE uw_email = '{username}' and password = '{password}'"

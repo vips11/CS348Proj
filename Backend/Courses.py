@@ -6,11 +6,10 @@ from helper import *
 
 class Courses(Resource):
     def get(self):
-        dto = request.json
-        name = dto["name"]
-        liked = dto["liked"]
-        useful = dto["useful"]
-        alpha = dto["alpha"]
+        name = request.args.get("courseId")
+        liked = request.args.get("liked")
+        useful = request.args.get("useful")
+        alpha = request.args.get("alpha")
         response = []
 
         try:
