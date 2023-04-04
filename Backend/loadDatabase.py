@@ -10,7 +10,6 @@ dataFileMapping = {
     "student.json": "STUDENT",
     "company.json": "COMPANY",
     "course.json": "COURSE",
-    "facility.json": "FACILITY",
     "interested.json": "INTERESTED",
     "interests.json": "INTERESTS",
     "job.json": "JOB",
@@ -39,6 +38,15 @@ def createTables():
             uw_email varchar(255) UNIQUE,
             program varchar(255),
             description varchar(255)
+        )
+    """)
+
+    tableQueries.append("""
+        CREATE TABLE IF NOT EXISTS SOCIALS (
+            id INTEGER,
+            platform varchar(255),
+            link varchar(255),
+            PRIMARY KEY (id, platform, link)
         )
     """)
 
@@ -108,31 +116,15 @@ def createTables():
         )
     """)
 
-    # Facility
-    tableQueries.append("""
-        CREATE TABLE IF NOT EXISTS FACILITY (
-            facility_id INTEGER,
-            company_id INTEGER,
-            street varchar(255),
-            city varchar(255),
-            country varchar(255),
-            building_name varchar(255),
-            PRIMARY KEY (facility_id, company_id),
-            FOREIGN KEY (company_id) REFERENCES COMPANY(company_id) 
-        )
-    """)
-
     # Job
     tableQueries.append("""
         CREATE TABLE IF NOT EXISTS JOB (
             job_id INTEGER,
             position_name varchar(255),
             is_full_time varchar(255),
-            facility_id INTEGER,
             company_id INTEGER,
             PRIMARY KEY (job_id, company_id),
-            FOREIGN KEY (company_id) REFERENCES COMPANY(company_id),
-            FOREIGN KEY (facility_id) REFERENCES FACILITY(facility_id)
+            FOREIGN KEY (company_id) REFERENCES COMPANY(company_id)
         )
     """)
 
@@ -145,7 +137,6 @@ def createTables():
             student_id INTEGER,
             job_id INTEGER,
             company_id INTEGER,
-            facility_id INTEGER,
             PRIMARY KEY (student_id, job_id),
             FOREIGN KEY (student_id) REFERENCES STUDENT(id),
             FOREIGN KEY (job_id) REFERENCES JOB(job_id)
@@ -198,6 +189,18 @@ def createTables():
         )
     """)
 
+    # Posts
+    tableQueries.append("""
+            CREATE TABLE IF NOT EXISTS POSTS (
+                space_id INTEGER,
+                post_id INTEGER,
+                title varchar(255),
+                description varchar(255),
+                PRIMARY KEY (post_id),
+                FOREIGN KEY (space_id) REFERENCES SPACES(space_id)
+            )
+        """)
+
     for tableQuery in tableQueries:
         con.execute(tableQuery)
 
@@ -215,11 +218,27 @@ def loadStudentData():
                 """
             cursor = con.cursor()
             cursor.execute(query)
-            # con.execute(query)
 
         print("Added data to student table")
     except Exception as e:
         print("Error while adding data to student table: ", e)
+
+
+def loadSocialsData():
+    try:
+        with open(f"{BASE_PATH}/entities/Social.json", "r") as f:
+            tableData = json.loads(f.read())
+
+        for data in tableData:
+            query = f"""
+                    INSERT OR IGNORE INTO SOCIALS VALUES ({data["id"]}, "{data["platform"]}", "{data["link"]}")
+                """
+            cursor = con.cursor()
+            cursor.execute(query)
+
+        print("Added data to socials table")
+    except Exception as e:
+        print("Error while adding data to socials table: ", e)
 
 
 def loadCompanyData():
@@ -256,23 +275,6 @@ def loadCourseData():
 
     except Exception as e:
         print("Error while adding data to course table: ", e)
-
-
-def loadFacilityData():
-    try:
-        with open(f"{BASE_PATH}/entities/Facility.json", "r") as f:
-            tableData = json.loads(f.read())
-
-        for data in tableData:
-            query = f"""
-                    INSERT OR IGNORE INTO FACILITY VALUES 
-                    ({data["Facility_ID"]}, {data["Company_ID"]}, "{data["street"]}", "{data["city"]}", "{data["unit_number"]}", "{data["building_name"]}")
-                """
-            con.execute(query)
-
-        print("Added data to facility table")
-    except Exception as e:
-        print("Error while adding data to facility table: ", e)
 
 
 def loadInterestedData():
@@ -318,7 +320,7 @@ def loadJobData():
         for data in tableData:
             query = f"""
                     INSERT OR IGNORE INTO JOB VALUES 
-                    ({data["job_ID"]}, "{data["position_name"]}", "{data["is_full_time?"]}", {data["facility_ID"]}, {data["company_ID"]})
+                    ({data["job_ID"]}, "{data["position_name"]}", "{data["is_full_time?"]}", {data["company_ID"]})
                 """
             con.execute(query)
 
@@ -370,7 +372,7 @@ def loadWorksData():
             query = f"""
                     INSERT OR IGNORE INTO WORKS VALUES 
                     ("{data["term"]}", "{data["semester"]}", "{data["year"]}", {data["student_ID"]},
-                    {data["job_ID"]}, {data["company_ID"]}, {data["facility_ID"]})
+                    {data["job_ID"]}, {data["company_ID"]})
                 """
             con.execute(query)
 
@@ -411,6 +413,24 @@ def loadSpacesData():
     except Exception as e:
         print("Error while adding data to spaces table: ", e)
 
+
+def loadPostsData():
+    try:
+        with open(f"{BASE_PATH}/entities/Posts.json", "r") as f:
+            tableData = json.loads(f.read())
+
+        for data in tableData:
+            query = f"""
+                    INSERT OR IGNORE INTO SPACES VALUES 
+                    ({data["space_ID"]}, "{data["post_id"]}", "{data["title"]}", "{data["description"]}")
+                """
+            con.execute(query)
+
+        print("Added data to posts table")
+    except Exception as e:
+        print("Error while adding data to posts table: ", e)
+
+
 #IsMember
 def loadIsMemberData():
     try:
@@ -450,7 +470,6 @@ def loadData():
     loadCompanyData()
     loadCourseData()
     loadInterestsData()
-    loadFacilityData()
     loadJobData()
     loadWorksData()
     loadInterestedData()
@@ -460,6 +479,7 @@ def loadData():
     loadRatesData()
     loadIsMemberData()
     loadAuthorisationData()
+    loadSocialsData()
 
 
 createTables()
