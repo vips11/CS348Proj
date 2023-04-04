@@ -1,6 +1,6 @@
 import React from "react";
 import { View, TouchableOpacity, StyleSheet } from "react-native";
-import { Ionicons } from "@expo/vector-icons";
+import { Ionicons, SimpleLineIcons } from "@expo/vector-icons";
 import { Link } from "expo-router";
 
 const PageBarMenu = ({ selected }) => {
@@ -49,6 +49,20 @@ const PageBarMenu = ({ selected }) => {
           name="people-outline"
           size={selected === 3 ? 30 : 28}
           color={selected === 3 ? "#007AFF" : "white"}
+        />
+      </Link>
+
+      <Link
+        style={[
+          styles.iconContainer,
+          selected === 4 ? styles.selectedIcon : styles.deselectedIcon,
+        ]}
+        href="/Courses"
+      >
+        <SimpleLineIcons
+          name="pencil"
+          size={selected === 4 ? 24 : 22}
+          color={selected === 4 ? "#007AFF" : "white"}
         />
       </Link>
     </View>
