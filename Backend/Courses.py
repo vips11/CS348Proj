@@ -1,7 +1,7 @@
 from flask_restful import Resource
 from flask import jsonify, make_response, request
 
-from Backend.helper import *
+from helper import *
 
 
 class Courses(Resource):

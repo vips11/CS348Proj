@@ -22,7 +22,12 @@ const LoginScreen = () => {
   const handleLogin = () => {
     // Check if the username and password are correct
 
-    verifyLogin({ username: username, password: password }, (res) => {
+    const credentials = {
+      username: username,
+      password: password,
+    };
+
+    verifyLogin(credentials, (res) => {
       if (res.authorized) {
         console.log("VERIFY-LOGIN RES: SUCCESS");
       } else {

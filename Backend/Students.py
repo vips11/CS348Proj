@@ -4,7 +4,7 @@ from flask_restful import Resource
 from flask import jsonify, make_response, request
 import sqlite3 as sl
 
-from Backend.helper import *
+from helper import *
 
 
 def intersect(list1, list2, isFirst):
@@ -339,12 +339,16 @@ class FindAFriend(Resource):
 
 class Authorize(Resource):
     def get(self):
+        print("HELLO")
         response = {
             "authorize": False
         }
 
         try:
+            print(request)
             dto = request.json
+            print(request.data)
+
             username = dto["username"]
             password = dto["password"]
 

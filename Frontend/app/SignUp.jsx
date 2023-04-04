@@ -8,6 +8,8 @@ import {
 } from "react-native";
 import { Link, useRouter } from "expo-router";
 
+import { createStudent } from "./api";
+
 export default function SignupScreen() {
   const router = useRouter();
   const [firstName, setFirstName] = useState("");
@@ -39,6 +41,13 @@ export default function SignupScreen() {
     setError("");
 
     // API CALL HERE TO CREATE PROFILE
+    // createStudent(credentials, (res) => {
+    //   if (res.authorized) {
+    //     console.log("VERIFY-LOGIN RES: SUCCESS");
+    //   } else {
+    //     console.log("VERIFY-LOGIN RES: FAILED");
+    //   }
+    // });
 
     // const params = new URLSearchParams({
     //   firstName: firstName,
