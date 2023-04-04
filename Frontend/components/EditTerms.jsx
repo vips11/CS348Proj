@@ -1,6 +1,6 @@
 import { StyleSheet, Text, View } from "react-native";
 import React, { useState } from "react";
-import { TouchableOpacity } from "react-native-gesture-handler";
+import { TextInput, TouchableOpacity } from "react-native-gesture-handler";
 
 const RenderStudyTerm = (year, term, courses) => {
   return (
@@ -45,6 +45,69 @@ const RenderStudyTerm = (year, term, courses) => {
       >
         {courses.join(", ")}
       </Text>
+    </View>
+  );
+};
+
+const RenderNewStudyTerm = (year, term, courses, index) => {
+  return (
+    <View>
+      <View
+        style={{
+          paddingVertical: 20,
+          marginVertical: 10,
+          display: "flex",
+          flexDirection: "row",
+          backgroundColor: "#262c2c",
+          alignItems: "center",
+        }}
+        key={index}
+      >
+        <Text
+          style={{
+            color: "white",
+            // width: "15%",
+            textAlign: "center",
+            fontSize: 16,
+            marginRight: 20,
+          }}
+        >
+          Year:
+        </Text>
+        <TextInput style={[styles.filterInput, styles.inputWidth]} />
+        <View
+          style={{
+            display: "flex",
+            flexDirection: "row",
+            alignItems: "center",
+          }}
+        >
+          <Text
+            style={{
+              color: "white",
+              // width: "15%",
+              textAlign: "center",
+              fontSize: 16,
+              marginRight: 20,
+            }}
+          >
+            Term:
+          </Text>
+          <TextInput style={[styles.filterInput, styles.inputWidth]} />
+          <Text
+            style={{
+              color: "white",
+              // width: "15%",
+              textAlign: "center",
+              fontSize: 16,
+              marginRight: 20,
+            }}
+          >
+            Courses:
+          </Text>
+          <TextInput style={[styles.coursesInput, styles.inputWidth]} />
+        </View>
+      </View>
     </View>
   );
 };
@@ -95,7 +158,69 @@ const RenderWorkTerm = (year, term, position, company) => {
     </View>
   );
 };
-
+const RenderNewWorkTerm = (year, term, courses, index) => {
+  return (
+    <View>
+      <View
+        style={{
+          paddingVertical: 20,
+          marginVertical: 10,
+          display: "flex",
+          flexDirection: "row",
+          backgroundColor: "#262c2c",
+          alignItems: "center",
+        }}
+        key={index}
+      >
+        <Text
+          style={{
+            color: "white",
+            // width: "15%",
+            textAlign: "center",
+            fontSize: 16,
+            marginRight: 20,
+            marginLeft: 10,
+          }}
+        >
+          Year:
+        </Text>
+        <TextInput style={[styles.filterInput, styles.inputWidth]} />
+        <View
+          style={{
+            display: "flex",
+            flexDirection: "row",
+            alignItems: "center",
+          }}
+        >
+          <Text
+            style={{
+              color: "white",
+              // width: "15%",
+              textAlign: "center",
+              fontSize: 16,
+              marginRight: 20,
+            }}
+          >
+            Num:
+          </Text>
+          <TextInput style={[styles.filterInput, styles.inputWidth]} />
+          <Text
+            style={{
+              color: "white",
+              // width: "15%",
+              textAlign: "center",
+              fontSize: 16,
+              marginRight: 20,
+            }}
+          >
+            Company:
+          </Text>
+          <TextInput style={[styles.filterInput, styles.inputWidth]} />
+        </View>
+      </View>
+    </View>
+  );
+};
 const RenderOffTerm = (year, description) => {
   return (
     <View
@@ -129,6 +254,65 @@ const RenderOffTerm = (year, description) => {
       >
         {description}
       </Text>
+    </View>
+  );
+};
+
+const RenderNewOffTerm = (year, term, courses, index) => {
+  return (
+    <View>
+      <View
+        style={{
+          paddingVertical: 20,
+          marginVertical: 10,
+          display: "flex",
+          flexDirection: "row",
+          backgroundColor: "#262c2c",
+          alignItems: "center",
+        }}
+        key={index}
+      >
+        <Text
+          style={{
+            color: "white",
+            // width: "15%",
+            textAlign: "center",
+            fontSize: 16,
+            marginRight: 20,
+            marginLeft: 10,
+          }}
+        >
+          Year:
+        </Text>
+        <TextInput style={[styles.filterInput, styles.inputWidth]} />
+        <View
+          style={{
+            display: "flex",
+            flexDirection: "row",
+            alignItems: "center",
+          }}
+        >
+          <Text
+            style={{
+              color: "white",
+              // width: "15%",
+              textAlign: "center",
+              fontSize: 16,
+              marginRight: 20,
+            }}
+          >
+            Description:
+          </Text>
+          <TextInput
+            style={{
+              borderWidth: 1,
+              borderColor: "white",
+              padding: 8,
+              color: "white",
+            }}
+          />
+        </View>
+      </View>
     </View>
   );
 };
@@ -182,7 +366,7 @@ const EditTerms = () => {
   const [newStudyTerms, setNewStudyTerms] = useState([]);
   const [newWorkTerms, setNewWorkTerms] = useState([]);
   const [newOffTerms, setNewOffTerms] = useState([]);
-
+  console.log(newStudyTerms);
   return (
     <View style={styles.container}>
       <Text style={styles.title}>Edit Terms</Text>
@@ -191,17 +375,19 @@ const EditTerms = () => {
         <Text style={styles.subTitle}>Study Terms</Text>
         {prevStudyTerms.map((x) => RenderStudyTerm(x.year, x.term, x.courses))}
         {newStudyTerms.map((x, index) =>
-          RenderNewStudyTerm(x.year, x.term, x.courses)
+          RenderNewStudyTerm(x.year, x.term, x.courses, index)
         )}
         <TouchableOpacity
           style={styles.button}
           onPress={() => {
-            // append {
-            //     year: "",
-            //     term: "",
-            //     courses: "",
-            // }
-            // to newStudyTerms
+            let temp = [];
+            newStudyTerms.map((x) => temp.push(x));
+            temp.push({
+              year: "",
+              term: "",
+              courses: "",
+            });
+            setNewStudyTerms(temp);
           }}
         >
           <Text style={styles.buttonText}>Add New Study Term</Text>
@@ -213,7 +399,22 @@ const EditTerms = () => {
         {prevWorkTerms.map((x) =>
           RenderWorkTerm(x.year, x.term, x.position, x.company)
         )}
-        <TouchableOpacity style={styles.button} onPress={handleSave()}>
+        {newWorkTerms.map((x, index) =>
+          RenderNewWorkTerm(x.year, x.term, x.courses, index)
+        )}
+        <TouchableOpacity
+          style={styles.button}
+          onPress={() => {
+            let temp = [];
+            newWorkTerms.map((x) => temp.push(x));
+            temp.push({
+              year: "",
+              term: "",
+              courses: "",
+            });
+            setNewWorkTerms(temp);
+          }}
+        >
           <Text style={styles.buttonText}>Add New Work Term</Text>
         </TouchableOpacity>
       </View>
@@ -221,7 +422,22 @@ const EditTerms = () => {
       <View style={styles.section}>
         <Text style={styles.subTitle}>Off Terms</Text>
         {prevOffTerms.map((x) => RenderOffTerm(x.year, x.description))}
-        <TouchableOpacity style={styles.button} onPress={handleSave()}>
+        {newOffTerms.map((x, index) =>
+          RenderNewOffTerm(x.year, x.term, x.courses, index)
+        )}
+        <TouchableOpacity
+          style={styles.button}
+          onPress={() => {
+            let temp = [];
+            newOffTerms.map((x) => temp.push(x));
+            temp.push({
+              year: "",
+              term: "",
+              courses: "",
+            });
+            setNewOffTerms(temp);
+          }}
+        >
           <Text style={styles.buttonText}>Add New Off Term</Text>
         </TouchableOpacity>
       </View>
@@ -259,7 +475,7 @@ const styles = StyleSheet.create({
     alignItems: "center",
     justifyContent: "center",
     width: "100%",
-    paddingVertical: 40,
+    paddingVertical: 80,
     paddingHorizontal: 20,
   },
   title: {
@@ -306,6 +522,21 @@ const styles = StyleSheet.create({
   errorMsg: {
     color: "#ff0000",
     marginTop: 10,
+  },
+  filterInput: {
+    borderWidth: 1,
+    borderColor: "white",
+    padding: 8,
+    width: "20%",
+    color: "white",
+    marginRight: 20,
+  },
+  coursesInput: {
+    borderWidth: 1,
+    borderColor: "white",
+    padding: 8,
+    color: "white",
+    marginRight: 20,
   },
 });
 
