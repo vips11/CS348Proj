@@ -330,7 +330,6 @@ class FindAFriend(Resource):
 
 class Authorize(Resource):
     def get(self):
-        print("HELLO")
         response = {
             "authorize": False
         }
@@ -341,6 +340,7 @@ class Authorize(Resource):
 
             con = sl.connect('applicationDb.db')
             query = f"SELECT * from AUTHORISATION WHERE uw_email = '{username}' and password = '{password}'"
+            #print(query)
 
             cursor = con.cursor()
             cursor.execute(query)

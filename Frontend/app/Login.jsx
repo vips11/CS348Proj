@@ -28,11 +28,12 @@ const LoginScreen = () => {
     };
 
     verifyLogin(credentials, (res) => {
-      if (res.authorized) {
-        console.log("VERIFY-LOGIN RES: SUCCESS");
-      } else {
-        console.log("VERIFY-LOGIN RES: FAILED");
-      }
+      console.log(res);
+      // if (res.authorized) {
+      //   console.log("VERIFY-LOGIN RES: SUCCESS");
+      // } else {
+      //   console.log("VERIFY-LOGIN RES: FAILED");
+      // }
     });
 
     if (username === "v56gupta@uwaterloo.ca" && password === "your_password") {
