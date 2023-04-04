@@ -448,6 +448,7 @@ def loadIsMemberData():
     except Exception as e:
         print("Error while adding data to isMember table: ", e)
 
+
 def loadAuthorisationData():
     try:
         with open(f"{BASE_PATH}/entities/Authorisation.json", "r") as f:
@@ -485,4 +486,3 @@ def loadData():
 createTables()
 loadData()
 con.commit()
-

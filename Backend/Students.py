@@ -178,6 +178,7 @@ class DetailedStudent(Resource):
                         on S.id = T.student_id where S.uw_email = '{key}'"""
 
             row = executeQuery(query1)[0]
+            print(row)
 
             query3 = f"""select student_id, term, semester, year, name as company_name, position_name from 
                                     WORKS natural join COMPANY natural join JOB where student_id = '{row[0]}'"""
@@ -188,11 +189,11 @@ class DetailedStudent(Resource):
                 "student_id": row[0],
                 "firstName": row[1],
                 "lastName": row[2],
-                "CurTerm": row[3],
-                "CurSemester": row[4],
+                "currentTerm": row[3],
+                "program": row[7],
                 "startYear": row[5],
-                "uw_email": row[6],
-                "description": row[7],
+                "email": row[6],
+                "description": row[8],
             }
 
             rows = executeQuery(query2)
@@ -237,7 +238,7 @@ class FindAMentor(Resource):
 
             for row in rows:
                 result.append({
-                    "uw_email": row[0],
+                    "email": row[0],
                     "firstName": row[1],
                     "lastName": row[2]
                 })
