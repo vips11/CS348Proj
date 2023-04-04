@@ -1,3 +1,5 @@
+import uuid
+
 from flask_restful import Resource
 from flask import jsonify, make_response, request
 import sqlite3 as sl
@@ -155,9 +157,24 @@ class Students(Resource):
                 cursor.execute(query)
 
             for work in dto["works"]:
+                companyId = uuid.uuid4()
+                jobId = uuid.uuid4()
+
+                query = f"""
+                    INSERT OR IGNORE INTO COMPANY VALUES 
+                    ({companyId}, "{work["company"]}")
+                """
+                cursor.execute(query)
+
+                query = f"""
+                    INSERT OR IGNORE INTO JOB VALUES 
+                    ({jobId}, "{work["position"]}", "{work["isFullTime"]}", {companyId})
+                """
+                con.execute(query)
+
                 query = f"""INSERT OR IGNORE INTO WORKS VALUES 
                     ("{work["term"]}", "{work["semester"]}", "{work["year"]}", {work["student_ID"]},
-                    {work["job_ID"]}, {work["company_ID"]})
+                    {jobId}, {companyId})
                 """
                 cursor.execute(query)
 
