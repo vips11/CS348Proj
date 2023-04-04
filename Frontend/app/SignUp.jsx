@@ -13,6 +13,7 @@ export default function SignupScreen() {
   const [firstName, setFirstName] = useState("");
   const [lastName, setLastName] = useState("");
   const [email, setEmail] = useState("");
+  const [program, setProgram] = useState("");
   const [password, setPassword] = useState("");
   const [confirmPassword, setConfirmPassword] = useState("");
   const [error, setError] = useState("");
@@ -36,9 +37,17 @@ export default function SignupScreen() {
     }
 
     setError("");
-    //router.push("newEditProfile");
-    router.push("EditProfile");
-    // TODO: perform sign up action
+
+    // API CALL HERE TO CREATE PROFILE
+
+    // const params = new URLSearchParams({
+    //   firstName: firstName,
+    //   lastName: lastName,
+    //   email: email,
+    // });
+
+    // router.push(`/CreateProfile?${params.toString()}`);
+    router.push(`/Home`);
   };
 
   return (
@@ -68,6 +77,15 @@ export default function SignupScreen() {
           placeholderTextColor="#fff"
           value={email}
           onChangeText={setEmail}
+          style={styles.inputText}
+        />
+      </View>
+      <View style={styles.inputView}>
+        <TextInput
+          placeholder="Program"
+          placeholderTextColor="#fff"
+          value={program}
+          onChangeText={setProgram}
           style={styles.inputText}
         />
       </View>
