@@ -11,8 +11,10 @@ import { Link, useRouter } from "expo-router";
 import Header from "../components/Header";
 import TimeLine from "../components/TimeLine";
 import { TouchableOpacity } from "react-native-gesture-handler";
+import { useEffect, useState } from "react";
+import allPeople from "./data";
 
-data = {
+const tempData = {
   firstName: "Anthony",
   lastName: "Vasquez",
   description:
@@ -81,6 +83,20 @@ data = {
   ],
 };
 const ViewOtherProfile = () => {
+  const [data, setData] = useState(null);
+
+  useEffect(() => {
+    setTimeout(() => {
+      const queryParams = new URLSearchParams(window.location.search);
+      let i = queryParams.get("index");
+      setData(allPeople[i]);
+    }, 1000);
+  }, []);
+
+  useEffect(() => {
+    console.log(data);
+  }, [data]);
+
   return (
     <View style={styles.container}>
       <View style={styles.headerContainer}>
@@ -88,34 +104,36 @@ const ViewOtherProfile = () => {
       </View>
       <SafeAreaView style={styles.body}>
         <View style={styles.contentBody}>
-          <ScrollView
-            contentContainerStyle={{
-              height: "100%",
-              width: "70%",
-              alignItems: "center",
-              paddingVertical: 20,
-              marginBottom: 20,
-              alignSelf: "center",
-            }}
-          >
-            <Text style={styles.title}>
-              {data.firstName + " " + data.lastName}
-            </Text>
-            <Text style={styles.subtitle}>{data.description}</Text>
+          {data && (
+            <ScrollView
+              contentContainerStyle={{
+                height: "100%",
+                width: "70%",
+                alignItems: "center",
+                paddingVertical: 20,
+                marginBottom: 20,
+                alignSelf: "center",
+              }}
+            >
+              <Text style={styles.title}>
+                {data.firstName + " " + data.lastName}
+              </Text>
+              <Text style={styles.subtitle}>{data.description}</Text>
 
-            <TimeLine data={data.timeLine} />
+              <TimeLine data={data.timeLine} />
 
-            <View style={styles.linksContainer}>
-              {data.links.map((linkInfo, index) => (
-                <TouchableOpacity
-                  onPress={() => Linking.openURL(linkInfo.link)}
-                  key={index}
-                >
-                  <Text style={styles.link}>{linkInfo.type}</Text>
-                </TouchableOpacity>
-              ))}
-            </View>
-          </ScrollView>
+              <View style={styles.linksContainer}>
+                {data.links.map((linkInfo, index) => (
+                  <TouchableOpacity
+                    onPress={() => Linking.openURL(linkInfo.link)}
+                    key={index}
+                  >
+                    <Text style={styles.link}>{linkInfo.type}</Text>
+                  </TouchableOpacity>
+                ))}
+              </View>
+            </ScrollView>
+          )}
         </View>
       </SafeAreaView>
     </View>

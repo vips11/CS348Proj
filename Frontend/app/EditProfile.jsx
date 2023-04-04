@@ -29,7 +29,7 @@ const EditProfile = () => {
       </View>
       <SafeAreaView style={styles.body}>
         <View style={styles.contentBody}>
-          <Text style={styles.header}>Edit your information</Text>
+          <Text style={styles.header}>Edit your profile</Text>
           <ScrollView
             contentContainerStyle={{
               height: "100%",

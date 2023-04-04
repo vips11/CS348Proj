@@ -1,50 +1,103 @@
-import { StyleSheet, Text, View } from "react-native";
-import { Link } from "expo-router";
+import React, { useState } from "react";
+import {
+  StyleSheet,
+  Text,
+  View,
+  TextInput,
+  TouchableOpacity,
+} from "react-native";
+import { Link, useRouter } from "expo-router";
 
-const Login = () => {
+const LoginScreen = () => {
+  const router = useRouter();
+
+  const [username, setUsername] = useState("");
+  const [password, setPassword] = useState("");
+  const [errorMsg, setErrorMsg] = useState("");
+
+  const handleLogin = () => {
+    // Check if the username and password are correct
+    if (username === "v56gupta@uwaterloo.ca" && password === "your_password") {
+      router.push("/Home");
+    } else {
+      setErrorMsg("Username or Password Incorrect");
+    }
+  };
+
   return (
     <View style={styles.container}>
-      <View style={styles.main}>
-        <Text style={styles.title}>Login Page</Text>
-        <Text style={styles.subtitle}>This is the Login Page</Text>
-
-        <View
-          style={{
-            flexDirection: "row",
-            width: "100%",
-            justifyContent: "space-between",
-            marginVertical: "1%",
-          }}
-        >
-          <Link href="/Home">Home</Link>
-          <Link href="/Spaces">Spaces</Link>
-          <Link href="/People">People</Link>
-        </View>
+      <Text style={styles.logo}>Login</Text>
+      <View style={styles.inputView}>
+        <TextInput
+          style={styles.inputText}
+          placeholder="Username"
+          placeholderTextColor="#bfbfbf"
+          onChangeText={setUsername}
+          value={username}
+        />
       </View>
+      <View style={styles.inputView}>
+        <TextInput
+          style={styles.inputText}
+          placeholder="Password"
+          placeholderTextColor="#bfbfbf"
+          secureTextEntry={true}
+          onChangeText={setPassword}
+          value={password}
+        />
+      </View>
+      <TouchableOpacity style={styles.loginBtn} onPress={handleLogin}>
+        <Text style={styles.loginText}>LOGIN</Text>
+      </TouchableOpacity>
+      {errorMsg ? <Text style={styles.errorMsg}>{errorMsg}</Text> : null}
     </View>
   );
 };
 
-export default Login;
-
 const styles = StyleSheet.create({
   container: {
     flex: 1,
+    backgroundColor: "#1b1f1f",
     alignItems: "center",
-    padding: 24,
-  },
-  main: {
-    flex: 1,
     justifyContent: "center",
-    maxWidth: 960,
-    marginHorizontal: "auto",
   },
-  title: {
-    fontSize: 64,
+  logo: {
     fontWeight: "bold",
+    fontSize: 50,
+    color: "#fff",
+    marginBottom: 40,
   },
-  subtitle: {
-    fontSize: 36,
-    color: "#38434D",
+  inputView: {
+    width: "30%",
+    backgroundColor: "#262c2c",
+    borderRadius: 25,
+    height: 50,
+    marginBottom: 20,
+    justifyContent: "center",
+    padding: 20,
+  },
+  inputText: {
+    height: 50,
+    color: "#fff",
+    outlineStyle: "none",
+  },
+  loginBtn: {
+    width: "30%",
+    backgroundColor: "#262c2c",
+    borderRadius: 25,
+    height: 50,
+    alignItems: "center",
+    justifyContent: "center",
+    marginTop: 20,
+    marginBottom: 10,
+  },
+  loginText: {
+    color: "#fff",
+  },
+  errorMsg: {
+    color: "#ff0000",
+    marginTop: 10,
   },
 });
+
+export default LoginScreen;

@@ -13,10 +13,10 @@ import TimeLine from "../components/TimeLine";
 import { TouchableOpacity } from "react-native-gesture-handler";
 
 data = {
-  firstName: "Jane",
-  lastName: "Doe",
+  firstName: "Vipasha",
+  lastName: "Gupta",
   description:
-    "Hi there, I'm John. I'm an international student originally from Argentina, and I'm from currently studying CS.",
+    "Hi there, I'm Vipasha. I'm an international student originally from Argentina, and I'm from currently studying CS.",
   timeLine: [
     {
       type: "study",

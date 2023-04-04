@@ -4,63 +4,55 @@ import { Link, useRouter } from "expo-router";
 import Header from "../components/Header";
 import DropDownMenu from "../components/DropDownMenu";
 import ProfilesListItem from "../components/ProfileListItem";
-
-const data = [
-  {
-    key: "anthonyV@uwaterloo.ca",
-    firstName: "Anthony",
-    lastName: "Vasquez",
-    termInfo: "2B Computer Science",
-  },
-  {
-    key: "djon1234@uwaterloo.ca",
-    firstName: "Jon",
-    lastName: "Doe",
-    termInfo: "2A Computer Science",
-  },
-  {
-    key: "djane123@uwaterloo.ca",
-    firstName: "Jane",
-    lastName: "Doe",
-    termInfo: "2A Computer Science",
-  },
-  {
-    key: "mlkjr420@uwaterloo.ca",
-    firstName: "Martin Luther",
-    lastName: "King Jr",
-    termInfo: "4A Legal Studies",
-  },
-  {
-    key: "bwayne12@uwaterloo.ca",
-    firstName: "Bruce",
-    lastName: "Wayne",
-    termInfo: "3A Math Business and Physics Joint",
-  },
-  {
-    key: "ckent123@uwaterloo.ca",
-    firstName: "Clark",
-    lastName: "Kent",
-    termInfo: "4A English",
-  },
-  {
-    key: "ballen12@uwaterloo.ca",
-    firstName: "Bary",
-    lastName: "Allen",
-    termInfo: "1A Criminology",
-  },
-  {
-    key: "oqueen12@uwaterloo.ca",
-    firstName: "Oliver",
-    lastName: "Queen",
-    termInfo: "4B Policial Science",
-  },
-];
+import allPeople from "./data";
+import { useEffect, useState } from "react";
+import { ScrollView } from "react-native-gesture-handler";
 
 const Page = () => {
+  const [data, setData] = useState([]);
+
   const router = useRouter();
   const handleProfileClick = (index) => {
-    router.push("ViewOtherProfile");
+    router.push("ViewOtherProfile?index=" + index);
   };
+
+  const getTermInfo = (index) => {
+    if (allPeople[index].currentTerm.startsWith("Coop") === false) {
+      return allPeople[index].currentTerm + " " + allPeople[index].program;
+    }
+    var temp = null;
+    for (var i = 0; i < allPeople[index].timeLine.length; i++) {
+      if (allPeople[index].timeLine[i].term === allPeople[index].currentTerm) {
+        temp = allPeople[index].timeLine[i];
+        break;
+      }
+    }
+    if (temp == null) {
+      temp = {
+        type: "work",
+        term: "Coop 1",
+        termDescription: "Testing and QA @ XYZ Inc.",
+        startDate: "May 2021",
+        endDate: "Aug 2021",
+      };
+    }
+    return temp.termDescription;
+  };
+
+  useEffect(() => {
+    const t = [];
+    console.log(allPeople);
+    allPeople.map((person, index) =>
+      t.push({
+        key: person.email,
+        firstName: person.firstName,
+        lastName: person.lastName,
+        termInfo: getTermInfo(index),
+      })
+    );
+    console.log(data);
+    setData(t);
+  }, []);
 
   return (
     <View style={styles.container}>
@@ -68,7 +60,7 @@ const Page = () => {
         <Header pageNum={3} />
       </View>
 
-      <View style={styles.body}>
+      <ScrollView style={styles.body}>
         <View style={styles.contentBody}>
           <DropDownMenu />
           {data.map((person, index) => (
@@ -85,7 +77,7 @@ const Page = () => {
             </TouchableOpacity>
           ))}
         </View>
-      </View>
+      </ScrollView>
     </View>
   );
 };

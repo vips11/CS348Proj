@@ -10,20 +10,24 @@ const data = {
   description: "Every friday, we gather together and do some karoke",
   posts: [
     {
-      title: "Post Title 1",
-      description: "This is a post description 1.",
+      title: "Photos from Last Week's Musical Fridays",
+      description:
+        "Check out these pictures from our last Musical Fridays event! Thanks to everyone who came out and made it a great night.",
     },
     {
-      title: "Post Title 2",
-      description: "This is a post description 2.",
+      title: "Karaoke Competition",
+      description:
+        "We're hosting a karaoke competition at Musical Fridays next week. Come show off your skills and compete for a prize!",
     },
     {
-      title: "Post Title 3",
-      description: "This is a post description 3.",
+      title: "Musical Fridays Cancelled",
+      description:
+        "Unfortunately, we have to cancel this week's Musical Fridays due to unforeseen circumstances. Stay tuned for updates on when we'll be back up and running!",
     },
     {
-      title: "Post Title 4",
-      description: "This is a post description 4.",
+      title: "Reminder: Musical Fridays Tonight!",
+      description:
+        "Just a friendly reminder that Musical Fridays is happening tonight. Come join us for some great music and good times!",
     },
   ],
 };
