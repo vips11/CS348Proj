@@ -1,209 +1,690 @@
 [
  {
-  "student_ID": 19767510,
-  "company_ID": 1,
-  "facility_ID": 1,
+  "student_ID": 73564630,
+  "company_ID": 16,
   "job_ID": 1,
   "term": "Coop 1",
-  "semester": "Winter",
-  "year": "1990"
+  "semester": "Spring",
+  "year": 2023
  },
  {
-  "student_ID": 83950021,
-  "company_ID": 4,
-  "facility_ID": 2,
+  "student_ID": 51458338,
+  "company_ID": 57,
+  "job_ID": 1,
+  "term": "Coop 1",
+  "semester": "Fall",
+  "year": 2023
+ },
+ {
+  "student_ID": 45453885,
+  "company_ID": 57,
   "job_ID": 2,
   "term": "Coop 1",
   "semester": "Winter",
-  "year": "1992"
+  "year": 2022
+ },
+ {
+  "student_ID": 45453885,
+  "company_ID": 13,
+  "job_ID": 1,
+  "term": "Coop 2",
+  "semester": "Winter",
+  "year": 2023
+ },
+ {
+  "student_ID": 79689206,
+  "company_ID": 61,
+  "job_ID": 1,
+  "term": "Coop 1",
+  "semester": "Winter",
+  "year": 2022
+ },
+ {
+  "student_ID": 79689206,
+  "company_ID": 61,
+  "job_ID": 2,
+  "term": "Coop 2",
+  "semester": "Winter",
+  "year": 2023
+ },
+ {
+  "student_ID": 91260560,
+  "company_ID": 62,
+  "job_ID": 1,
+  "term": "Coop 1",
+  "semester": "Fall",
+  "year": 2021
+ },
+ {
+  "student_ID": 91260560,
+  "company_ID": 91,
+  "job_ID": 1,
+  "term": "Coop 2",
+  "semester": "Winter",
+  "year": 2022
+ },
+ {
+  "student_ID": 60653931,
+  "company_ID": 92,
+  "job_ID": 1,
+  "term": "Coop 1",
+  "semester": "Fall",
+  "year": 2023
+ },
+ {
+  "student_ID": 22779613,
+  "company_ID": 13,
+  "job_ID": 2,
+  "term": "Coop 1",
+  "semester": "Fall",
+  "year": 2023
+ },
+ {
+  "student_ID": 13336678,
+  "company_ID": 21,
+  "job_ID": 1,
+  "term": "Coop 1",
+  "semester": "Winter",
+  "year": 2021
+ },
+ {
+  "student_ID": 21217676,
+  "company_ID": 22,
+  "job_ID": 1,
+  "term": "Coop 1",
+  "semester": "Winter",
+  "year": 2021
+ },
+ {
+  "student_ID": 34566543,
+  "company_ID": 23,
+  "job_ID": 1,
+  "term": "Coop 1",
+  "semester": "Winter",
+  "year": 2021
+ },
+ {
+  "student_ID": 34566543,
+  "company_ID": 23,
+  "job_ID": 2,
+  "term": "Coop 2",
+  "semester": "Spring",
+  "year": 2021
+ },
+ {
+  "student_ID": 37486905,
+  "company_ID": 59,
+  "job_ID": 1,
+  "term": "Coop 1",
+  "semester": "Winter",
+  "year": 2021
+ },
+ {
+  "student_ID": 37486905,
+  "company_ID": 60,
+  "job_ID": 1,
+  "term": "Coop 2",
+  "semester": "Spring",
+  "year": 2021
+ },
+ {
+  "student_ID": 92514073,
+  "company_ID": 61,
+  "job_ID": 1,
+  "term": "Coop 1",
+  "semester": "Winter",
+  "year": 2021
+ },
+ {
+  "student_ID": 92514073,
+  "company_ID": 61,
+  "job_ID": 2,
+  "term": "Coop 2",
+  "semester": "Spring",
+  "year": 2021
  },
  {
   "student_ID": 10871349,
-  "company_ID": 57,
-  "facility_ID": 1,
-  "job_ID": 3,
+  "company_ID": 1,
+  "job_ID": 1,
   "term": "Coop 1",
-  "semester": "Winter",
-  "year": "2000"
+  "semester": "Spring",
+  "year": 2020
  },
  {
-  "student_ID": 62389417,
-  "company_ID": 57,
-  "facility_ID": 1,
-  "job_ID": 4,
-  "term": "Coop 1",
-  "semester": "Winter",
-  "year": "2000"
+  "student_ID": 10871349,
+  "company_ID": 2,
+  "job_ID": 1,
+  "term": "Coop 2",
+  "semester": "Fall",
+  "year": 2022
  },
  {
   "student_ID": 29586401,
-  "company_ID": 58,
-  "facility_ID": 1,
+  "company_ID": 3,
   "job_ID": 1,
   "term": "Coop 1",
   "semester": "Winter",
-  "year": "2000"
+  "year": 2021
  },
  {
-  "student_ID": 54173986,
-  "company_ID": 59,
-  "facility_ID": 1,
+  "student_ID": 29586401,
+  "company_ID": 4,
   "job_ID": 1,
-  "term": "Coop 1",
-  "semester": "Winter",
-  "year": "2001"
+  "term": "Coop 2",
+  "semester": "Spring",
+  "year": 2021
  },
  {
   "student_ID": 75628493,
-  "company_ID": 60,
-  "facility_ID": 1,
+  "company_ID": 5,
   "job_ID": 1,
   "term": "Coop 1",
-  "semester": "Winter",
-  "year": "2001"
+  "semester": "Fall",
+  "year": 2020
  },
  {
-  "student_ID": 23849065,
-  "company_ID": 61,
-  "facility_ID": 1,
-  "job_ID": 1,
-  "term": "Coop 1",
-  "semester": "Winter",
-  "year": "2001"
+  "student_ID": 75628493,
+  "company_ID": 5,
+  "job_ID": 2,
+  "term": "Coop 2",
+  "semester": "Spring",
+  "year": 2021
  },
  {
   "student_ID": 96017348,
-  "company_ID": 61,
-  "facility_ID": 2,
-  "job_ID": 2,
+  "company_ID": 6,
+  "job_ID": 1,
   "term": "Coop 1",
-  "semester": "Winter",
-  "year": "2001"
+  "semester": "Fall",
+  "year": 2020
  },
  {
-  "student_ID": 52468719,
-  "company_ID": 62,
-  "facility_ID": 1,
+  "student_ID": 96017348,
+  "company_ID": 7,
+  "job_ID": 1,
+  "term": "Coop 2",
+  "semester": "Spring",
+  "year": 2021
+ },
+ {
+  "student_ID": 96017348,
+  "company_ID": 8,
+  "job_ID": 1,
+  "term": "Coop 3",
+  "semester": "Fall",
+  "year": 2021
+ },
+ {
+  "student_ID": 96017348,
+  "company_ID": 9,
+  "job_ID": 1,
+  "term": "Coop 4",
+  "semester": "Fall",
+  "year": 2023
+ },
+ {
+  "student_ID": 65971234,
+  "company_ID": 10,
+  "job_ID": 1,
+  "term": "Coop 1",
+  "semester": "Fall",
+  "year": 2020
+ },
+ {
+  "student_ID": 65971234,
+  "company_ID": 11,
+  "job_ID": 1,
+  "term": "Coop 2",
+  "semester": "Fall",
+  "year": 2021
+ },
+ {
+  "student_ID": 65971234,
+  "company_ID": 12,
+  "job_ID": 1,
+  "term": "Coop 3",
+  "semester": "Fall",
+  "year": 2023
+ },
+ {
+  "student_ID": 71420935,
+  "company_ID": 13,
+  "job_ID": 3,
+  "term": "Coop 1",
+  "semester": "Spring",
+  "year": 2021
+ },
+ {
+  "student_ID": 71420935,
+  "company_ID": 14,
+  "job_ID": 1,
+  "term": "Coop 2",
+  "semester": "Winter",
+  "year": 2023
+ },
+ {
+  "student_ID": 39827615,
+  "company_ID": 15,
   "job_ID": 1,
   "term": "Coop 1",
   "semester": "Spring",
-  "year": "2001"
+  "year": 2021
+ },
+ {
+  "student_ID": 39827615,
+  "company_ID": 16,
+  "job_ID": 2,
+  "term": "Coop 2",
+  "semester": "Winter",
+  "year": 2023
+ },
+ {
+  "student_ID": 28349567,
+  "company_ID": 17,
+  "job_ID": 1,
+  "term": "Coop 1",
+  "semester": "Winter",
+  "year": 2021
+ },
+ {
+  "student_ID": 28349567,
+  "company_ID": 18,
+  "job_ID": 1,
+  "term": "Coop 2",
+  "semester": "Winter",
+  "year": 2022
+ },
+ {
+  "student_ID": 72819365,
+  "company_ID": 19,
+  "job_ID": 1,
+  "term": "Coop 1",
+  "semester": "Winter",
+  "year": 2021
+ },
+ {
+  "student_ID": 72819365,
+  "company_ID": 20,
+  "job_ID": 1,
+  "term": "Coop 2",
+  "semester": "Spring",
+  "year": 2021
+ },
+ {
+  "student_ID": 18372940,
+  "company_ID": 21,
+  "job_ID": 1,
+  "term": "Coop 1",
+  "semester": "Winter",
+  "year": 2021
+ },
+ {
+  "student_ID": 18372940,
+  "company_ID": 21,
+  "job_ID": 2,
+  "term": "Coop 2",
+  "semester": "Spring",
+  "year": 2021
  },
  {
   "student_ID": 28374910,
-  "company_ID": 88,
-  "facility_ID": 4,
-  "job_ID": 5,
-  "term": "Coop 1",
-  "semester": "Spring",
-  "year": "2001"
- },
- {
-  "student_ID": 18472039,
-  "company_ID": 89,
-  "facility_ID": 1,
+  "company_ID": 22,
   "job_ID": 1,
   "term": "Coop 1",
-  "semester": "Spring",
-  "year": "2001"
+  "semester": "Winter",
+  "year": 2021
+ },
+ {
+  "student_ID": 28374910,
+  "company_ID": 22,
+  "job_ID": 2,
+  "term": "Coop 2",
+  "semester": "Fall",
+  "year": 2023
  },
  {
   "student_ID": 85719236,
-  "company_ID": 90,
-  "facility_ID": 1,
+  "company_ID": 23,
   "job_ID": 1,
   "term": "Coop 1",
-  "semester": "Spring",
-  "year": "2001"
+  "semester": "Winter",
+  "year": 2021
  },
  {
-  "student_ID": 49283617,
-  "company_ID": 91,
-  "facility_ID": 1,
+  "student_ID": 85719236,
+  "company_ID": 24,
   "job_ID": 1,
-  "term": "Coop 1",
-  "semester": "Spring",
-  "year": "2001"
+  "term": "Coop 2",
+  "semester": "Fall",
+  "year": 2021
  },
  {
-  "student_ID": 28374610,
-  "company_ID": 92,
-  "facility_ID": 1,
+  "student_ID": 85719236,
+  "company_ID": 25,
   "job_ID": 1,
-  "term": "Coop 1",
+  "term": "Coop 3",
   "semester": "Spring",
-  "year": "2001"
+  "year": 2022
  },
  {
-  "student_ID": 21987654,
-  "company_ID": 13,
-  "facility_ID": 1,
-  "job_ID": 1,
-  "term": "Coop 1",
-  "semester": "Spring",
-  "year": "2001"
- },
- {
-  "student_ID": 20654321,
-  "company_ID": 14,
-  "facility_ID": 1,
-  "job_ID": 1,
-  "term": "Coop 1",
-  "semester": "Spring",
-  "year": "2001"
- },
- {
-  "student_ID": 21345678,
-  "company_ID": 15,
-  "facility_ID": 1,
-  "job_ID": 1,
-  "term": "Coop 1",
-  "semester": "Spring",
-  "year": "2001"
- },
- {
-  "student_ID": 11111222,
-  "company_ID": 16,
-  "facility_ID": 1,
-  "job_ID": 1,
-  "term": "Coop 1",
-  "semester": "Spring",
-  "year": "2001"
- },
- {
-  "student_ID": 22223333,
-  "company_ID": 17,
-  "facility_ID": 1,
-  "job_ID": 1,
-  "term": "Coop 1",
-  "semester": "Spring",
-  "year": "2001"
- },
- {
-  "student_ID": 21479513,
-  "company_ID": 21,
-  "facility_ID": 1,
+  "student_ID": 10293847,
+  "company_ID": 26,
   "job_ID": 1,
   "term": "Coop 1",
   "semester": "Fall",
-  "year": "2021"
+  "year": 2022
+ },
+ {
+  "student_ID": 10293847,
+  "company_ID": 27,
+  "job_ID": 1,
+  "term": "Coop 2",
+  "semester": "Winter",
+  "year": 2023
+ },
+ {
+  "student_ID": 16273849,
+  "company_ID": 28,
+  "job_ID": 1,
+  "term": "Coop 1",
+  "semester": "Winter",
+  "year": 2021
+ },
+ {
+  "student_ID": 16273849,
+  "company_ID": 29,
+  "job_ID": 1,
+  "term": "Coop 2",
+  "semester": "Fall",
+  "year": 2021
+ },
+ {
+  "student_ID": 16273849,
+  "company_ID": 30,
+  "job_ID": 1,
+  "term": "Coop 3",
+  "semester": "Winter",
+  "year": 2023
+ },
+ {
+  "student_ID": 85719263,
+  "company_ID": 31,
+  "job_ID": 1,
+  "term": "Coop 1",
+  "semester": "Spring",
+  "year": 2022
+ },
+ {
+  "student_ID": 17482936,
+  "company_ID": 32,
+  "job_ID": 1,
+  "term": "Coop 1",
+  "semester": "Spring",
+  "year": 2022
+ },
+ {
+  "student_ID": 38491725,
+  "company_ID": 33,
+  "job_ID": 1,
+  "term": "Coop 1",
+  "semester": "Winter",
+  "year": 2021
+ },
+ {
+  "student_ID": 38491725,
+  "company_ID": 34,
+  "job_ID": 1,
+  "term": "Coop 2",
+  "semester": "Fall",
+  "year": 2021
+ },
+ {
+  "student_ID": 38491725,
+  "company_ID": 35,
+  "job_ID": 1,
+  "term": "Coop 3",
+  "semester": "Winter",
+  "year": 2023
+ },
+ {
+  "student_ID": 29384617,
+  "company_ID": 36,
+  "job_ID": 1,
+  "term": "Coop 1",
+  "semester": "Winter",
+  "year": 2021
+ },
+ {
+  "student_ID": 29384617,
+  "company_ID": 36,
+  "job_ID": 2,
+  "term": "Coop 2",
+  "semester": "Fall",
+  "year": 2021
+ },
+ {
+  "student_ID": 29384617,
+  "company_ID": 37,
+  "job_ID": 1,
+  "term": "Coop 3",
+  "semester": "Winter",
+  "year": 2023
+ },
+ {
+  "student_ID": 49283651,
+  "company_ID": 38,
+  "job_ID": 1,
+  "term": "Coop 1",
+  "semester": "Fall",
+  "year": 2023
+ },
+ {
+  "student_ID": 78901234,
+  "company_ID": 39,
+  "job_ID": 1,
+  "term": "Coop1",
+  "semester": "Winter",
+  "year": 2022
+ },
+ {
+  "student_ID": 78901234,
+  "company_ID": 40,
+  "job_ID": 1,
+  "term": "Coop 2",
+  "semester": "Winter",
+  "year": 2023
+ },
+ {
+  "student_ID": 89012345,
+  "company_ID": 41,
+  "job_ID": 1,
+  "term": "Coop1",
+  "semester": "Winter",
+  "year": 2022
+ },
+ {
+  "student_ID": 89012345,
+  "company_ID": 41,
+  "job_ID": 2,
+  "term": "Coop 2",
+  "semester": "Winter",
+  "year": 2023
+ },
+ {
+  "student_ID": 90123456,
+  "company_ID": 42,
+  "job_ID": 1,
+  "term": "Coop1",
+  "semester": "Winter",
+  "year": 2022
+ },
+ {
+  "student_ID": 90123456,
+  "company_ID": 43,
+  "job_ID": 2,
+  "term": "Coop 2",
+  "semester": "Winter",
+  "year": 2023
+ },
+ {
+  "student_ID": 66667777,
+  "company_ID": 44,
+  "job_ID": 1,
+  "term": "Coop 1",
+  "semester": "Spring",
+  "year": 2022
+ },
+ {
+  "student_ID": 66667777,
+  "company_ID": 45,
+  "job_ID": 1,
+  "term": "Coop 2",
+  "semester": "Spring",
+  "year": 2023
+ },
+ {
+  "student_ID": 77778888,
+  "company_ID": 46,
+  "job_ID": 1,
+  "term": "Coop 1",
+  "semester": "Spring",
+  "year": 2022
+ },
+ {
+  "student_ID": 77778888,
+  "company_ID": 47,
+  "job_ID": 1,
+  "term": "Coop 2",
+  "semester": "Spring",
+  "year": 2023
+ },
+ {
+  "student_ID": 88889999,
+  "company_ID": 48,
+  "job_ID": 1,
+  "term": "Coop 1",
+  "semester": "Spring",
+  "year": 2022
+ },
+ {
+  "student_ID": 88889999,
+  "company_ID": 49,
+  "job_ID": 1,
+  "term": "Coop 2",
+  "semester": "Spring",
+  "year": 2023
+ },
+ {
+  "student_ID": 99990000,
+  "company_ID": 50,
+  "job_ID": 1,
+  "term": "Coop 1",
+  "semester": "Spring",
+  "year": 2022
+ },
+ {
+  "student_ID": 99990000,
+  "company_ID": 51,
+  "job_ID": 1,
+  "term": "Coop 2",
+  "semester": "Spring",
+  "year": 2023
+ },
+ {
+  "student_ID": 11112222,
+  "company_ID": 71,
+  "job_ID": 1,
+  "term": "Coop 1",
+  "semester": "Spring",
+  "year": 2022
+ },
+ {
+  "student_ID": 11112222,
+  "company_ID": 72,
+  "job_ID": 1,
+  "term": "Coop 2",
+  "semester": "Spring",
+  "year": 2023
+ },
+ {
+  "student_ID": 22213333,
+  "company_ID": 73,
+  "job_ID": 1,
+  "term": "Coop 1",
+  "semester": "Spring",
+  "year": 2022
+ },
+ {
+  "student_ID": 22213333,
+  "company_ID": 74,
+  "job_ID": 1,
+  "term": "Coop 2",
+  "semester": "Spring",
+  "year": 2023
  },
  {
   "student_ID": 15702380,
-  "company_ID": 22,
-  "facility_ID": 1,
+  "company_ID": 76,
   "job_ID": 1,
   "term": "Coop 1",
-  "semester": "Fall",
-  "year": "2021"
+  "semester": "Winter",
+  "year": 2023
+ },
+ {
+  "student_ID": 15702380,
+  "company_ID": 77,
+  "job_ID": 1,
+  "term": "Coop 2",
+  "semester": "Spring",
+  "year": 2023
  },
  {
   "student_ID": 19073284,
-  "company_ID": 23,
-  "facility_ID": 1,
+  "company_ID": 78,
   "job_ID": 1,
   "term": "Coop 1",
+  "semester": "Winter",
+  "year": 2023
+ },
+ {
+  "student_ID": 19073284,
+  "company_ID": 79,
+  "job_ID": 1,
+  "term": "Coop 2",
+  "semester": "Spring",
+  "year": 2023
+ },
+ {
+  "student_ID": 17829051,
+  "company_ID": 80,
+  "job_ID": 1,
+  "term": "Coop 1",
+  "semester": "Spring",
+  "year": 2020
+ },
+ {
+  "student_ID": 17829051,
+  "company_ID": 81,
+  "job_ID": 1,
+  "term": "Coop 2",
+  "semester": "Winter",
+  "year": 2022
+ },
+ {
+  "student_ID": 17829051,
+  "company_ID": 82,
+  "job_ID": 1,
+  "term": "Coop 3",
   "semester": "Fall",
-  "year": "2021"
+  "year": 2022
+ },
+ {
+  "student_ID": 17829051,
+  "company_ID": 83,
+  "job_ID": 1,
+  "term": "Coop 4",
+  "semester": "Fall",
+  "year": 2023
  }
 ]

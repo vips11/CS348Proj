@@ -371,8 +371,8 @@ def loadWorksData():
         for data in tableData:
             query = f"""
                     INSERT OR IGNORE INTO WORKS VALUES 
-                    ("{data["term"]}", "{data["semester"]}", "{data["year"]}", {data["student_ID"]},
-                    {data["job_ID"]}, {data["company_ID"]})
+                    ({data["student_ID"]}, {data["company_ID"]}, {data["job_ID"]},
+                    "{data["term"]}", "{data["semester"]}", "{data["year"]}")
                 """
             con.execute(query)
 
