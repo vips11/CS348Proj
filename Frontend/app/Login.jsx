@@ -20,8 +20,6 @@ const LoginScreen = () => {
   const [errorMsg, setErrorMsg] = useState("");
 
   const handleLogin = () => {
-    // Check if the username and password are correct
-
     const credentials = {
       username: username,
       password: password,
@@ -29,18 +27,13 @@ const LoginScreen = () => {
 
     verifyLogin(credentials, (res) => {
       console.log(res);
-      // if (res.authorized) {
-      //   console.log("VERIFY-LOGIN RES: SUCCESS");
-      // } else {
-      //   console.log("VERIFY-LOGIN RES: FAILED");
-      // }
+      if (res.data.authorize == true) {
+        setErrorMsg("");
+        router.push("/Home");
+      } else {
+        setErrorMsg("Username or Password Incorrect");
+      }
     });
-
-    if (username === "v56gupta@uwaterloo.ca" && password === "your_password") {
-      router.push("/Home");
-    } else {
-      setErrorMsg("Username or Password Incorrect");
-    }
   };
 
   return (
