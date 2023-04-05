@@ -70,20 +70,18 @@ Where ID = 51458338;
 
 /* Query 9 */
 /* Find a study group */
-SELECT s.ID, s.first_name, s.last_name, s.uw_email, s.program, s.description
-FROM Student s
-JOIN Takes t ON s.ID = t.student_ID
-JOIN Section sec ON t.course_ID = sec.course_ID AND t.section_ID = sec.section_ID AND t.semester = sec.semester AND t.year = sec.year
-WHERE sec.semester = 'Fall' -- Replace with the current semester
-AND sec.year = 2020 -- Replace with the current year
-AND t.student_ID <> 29384617 -- Exclude the given student
-AND t.course_ID IN (
+SELECT s.ID, s.first_name, s.last_name, s.uw_email, s.program, s.description 
+FROM Student s 
+JOIN Takes t ON s.ID = t.student_ID 
+JOIN Section sec ON t.course_ID = sec.course_ID AND t.section_ID = sec.section_ID AND t.semester = sec.semester AND t.year = sec.year 
+WHERE sec.semester = 'Fall'
+AND sec.year = 2020
+AND t.student_ID <> 29384617
+AND t.course_ID IN ( 
 SELECT t2.course_ID FROM Takes t2 WHERE t2.student_ID = 29384617
-)
-GROUP BY s.ID
+) 
+GROUP BY s.ID 
 HAVING COUNT(DISTINCT t.course_ID) >= 3
-
-
 
 /* Query 10 */
 /* Find a friend for the student with student_ID 96667175 */
