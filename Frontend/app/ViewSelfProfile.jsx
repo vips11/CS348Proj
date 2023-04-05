@@ -5,90 +5,26 @@ import {
   SafeAreaView,
   ScrollView,
   Linking,
+  TouchableOpacity,
 } from "react-native";
 import { Link, useRouter } from "expo-router";
+import { useEffect, useState } from "react";
 
 import Header from "../components/Header";
 import TimeLine from "../components/TimeLine";
-import { TouchableOpacity } from "react-native-gesture-handler";
+import { getStudentProfile } from "./api";
+import { getUserEmail } from "./asyncStore";
 
-data = {
-  firstName: "Vipasha",
-  lastName: "Gupta",
-  description:
-    "Hi there, I'm Vipasha. I'm an international student originally from Argentina, and I'm from currently studying CS.",
-  timeLine: [
-    {
-      type: "study",
-      term: "1A",
-      termDescription: "Math 135, Math 137, CS 135, Phys 121, SPCOM 100",
-      startDate: "Sept 2020",
-      endDate: "Dec 2020",
-    },
-    {
-      type: "study",
-      term: "1B ",
-      termDescription: "Math 136, Math 138, CS 136, AFM 101, Econ 101",
-      startDate: "Jan 2021",
-      endDate: "Apr 2021",
-    },
-    {
-      type: "work",
-      term: "Coop 1",
-      termDescription: "Software Developer @ ABC Inc.",
-      startDate: "May 2021",
-      endDate: "Aug 2021",
-    },
-    {
-      type: "study",
-      term: "2A",
-      termDescription: "CS 245, CS 246, Math 239, Stat 230, AFM 102",
-      startDate: "Sep 2021",
-      endDate: "Dec 2021",
-    },
-    {
-      type: "off",
-      term: "Off-Term",
-      termDescription: "I took a break!",
-      startDate: "Jan 2022",
-      endDate: "April 2022",
-    },
-    {
-      type: "work",
-      term: "Coop 2",
-      termDescription: "Software Developer @ DEF Inc.",
-      startDate: "May 2022",
-      endDate: "Aug 2022",
-    },
-    {
-      type: "study",
-      term: "2B",
-      termDescription: "CS 241, CS 251, CS 240, SPCOM 200, Stat 231 ",
-      startDate: "Sept 2022",
-      endDate: "Dec 2022",
-    },
-  ],
-  links: [
-    {
-      type: "LinkedIn",
-      link: "https://www.linkedin.com",
-    },
-    {
-      type: "Email",
-      link: "mailto:email@gmail.com",
-    },
-    {
-      type: "GitHub",
-      link: "https://www.github.com",
-    },
-    {
-      type: "Discord",
-      link: "https://www.discord.com",
-    },
-  ],
-};
 const ViewSelfProfile = () => {
   const router = useRouter();
+  const [data, setData] = useState(null);
+
+  useEffect(async () => {
+    const key = getUserEmail();
+    const result = await getStudentProfile(key);
+    setData(result);
+  }, []);
+
   return (
     <View style={styles.container}>
       <View style={styles.headerContainer}>
@@ -107,21 +43,22 @@ const ViewSelfProfile = () => {
             }}
           >
             <Text style={styles.title}>
-              {data.firstName + " " + data.lastName}
+              {data && data.firstName + " " + data.lastName}
             </Text>
-            <Text style={styles.subtitle}>{data.description}</Text>
+            <Text style={styles.subtitle}>{data && data.description}</Text>
 
             <TimeLine data={data.timeLine} />
 
             <View style={styles.linksContainer}>
-              {data.links.map((linkInfo, index) => (
-                <TouchableOpacity
-                  onPress={() => Linking.openURL(linkInfo.link)}
-                  key={index}
-                >
-                  <Text style={styles.link}>{linkInfo.type}</Text>
-                </TouchableOpacity>
-              ))}
+              {data &&
+                data.links.map((linkInfo, index) => (
+                  <TouchableOpacity
+                    onPress={() => Linking.openURL(linkInfo.link)}
+                    key={index}
+                  >
+                    <Text style={styles.link}>{linkInfo.type}</Text>
+                  </TouchableOpacity>
+                ))}
             </View>
             <TouchableOpacity
               style={{ marginVertical: 20 }}

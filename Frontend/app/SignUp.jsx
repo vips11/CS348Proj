@@ -9,6 +9,7 @@ import {
 import { Link, useRouter } from "expo-router";
 
 import { createStudent } from "./api";
+import { saveUserEmail } from "./asyncStore";
 
 export default function SignupScreen() {
   const router = useRouter();
@@ -17,55 +18,41 @@ export default function SignupScreen() {
   const [email, setEmail] = useState("");
   const [studentID, setStudentID] = useState("");
   const [program, setProgram] = useState("");
-  const [curTerm, setCurTerm] = useState("");
-  const [startingSem, setStartingSem] = useState("");
-  const [startingYear, setStartingYear] = useState("");
   const [password, setPassword] = useState("");
   const [confirmPassword, setConfirmPassword] = useState("");
   const [error, setError] = useState("");
 
-  const handleSignup = () => {
+  const handleSignup = async () => {
     // Check if any fields are empty
-    // if (!firstName || !lastName || !email || !password || !confirmPassword) {
-    //   setError("Please fill in all fields");
-    //   return;
-    // }
+    if (!firstName || !lastName || !email || !password || !confirmPassword) {
+      setError("Please fill in all fields");
+      return;
+    }
 
-    // // Check if passwords match
-    // if (password !== confirmPassword) {
-    //   setError("Passwords do not match");
-    //   return;
-    // }
-
-    // if (email === "v56gupta@uwaterloo.ca") {
-    //   setError("User already exists");
-    //   return;
-    // }
+    // Check if passwords match
+    if (password !== confirmPassword) {
+      setError("Passwords do not match");
+      return;
+    }
 
     setError("");
 
-    const params = {
-      firstName: "fn",
-      lastName: "ln",
-      uw_email: "em",
-      username: "em",
-      id: "69",
-      program: "CS",
-      password: "pass",
-      currentTerm: "",
-      semester: "",
-      year: 2023,
-      description: "",
-    };
+    const result = await createStudent(
+      firstName,
+      lastName,
+      email,
+      password,
+      studentID,
+      program
+    );
 
-    createStudent(params, (res) => {
-      console.log(res);
-      // if (res.data.created) {
-      //   router.push(`/Home`);
-      // } else {
-      //   setError("Something Wrong. Contact Administrator");
-      // }
-    });
+    if (result) {
+      // ADD EMAIL TO ASYNC STORE HERE
+      await saveUserEmail(email);
+      router.push("/Home");
+    } else {
+      setError("Something Wrong. Contact Site Admin.");
+    }
   };
 
   return (
