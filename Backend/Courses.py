@@ -13,7 +13,7 @@ class Courses(Resource):
         response = []
 
         try:
-            query = f"select course_ID, section_ID, semester, year, course_description from RATES R natural join COURSE C natural join SECTION where course_ID LIKE '%{name}%'"
+            query = f"select course_ID, course_description from RATES R natural join COURSE C where course_ID LIKE '%{name}%'"
             if liked != "none":
                 query += " order by liked_rating " + liked
             if useful != "none":
