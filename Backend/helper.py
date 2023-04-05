@@ -63,6 +63,7 @@ def sortTimeline(timeline):
 
 
 def getTimeline(terms):
+    print(terms)
     TERM_INDEX = 1
     COURSE_ID_INDEX = 4
     YEAR_INDEX = 3
@@ -72,18 +73,17 @@ def getTimeline(terms):
     timeline = {}
 
     for term in terms:
-        print(term)
+        print(timeline)
         termId = term[TERM_INDEX]
-        print(termId)
+        # print(termId)
         if termId in timeline:
-            timeline[termId]["description"] += ", " + term[COURSE_ID_INDEX]
+            timeline[termId]["termDescription"] += ", " + term[COURSE_ID_INDEX]
         else:
             if "Coop" in termId:
-                print("Hi")
                 timeline[termId] = {
                     "type": "work",
                     "term": termId,
-                    "description": term[POSITION_INDEX] + " @ " + term[COMPANY_INDEX],
+                    "termDescription": term[POSITION_INDEX] + " @ " + term[COMPANY_INDEX],
                     "startDate": getDates(term[SEMESTER_INDEX], term[YEAR_INDEX], True),
                     "endDate": getDates(term[SEMESTER_INDEX], term[YEAR_INDEX], False),
                     "semester": term[SEMESTER_INDEX],
@@ -93,7 +93,7 @@ def getTimeline(terms):
                 timeline[termId] = {
                     "type": "off",
                     "term": termId,
-                    "description": "Off term",
+                    "termDescription": "Off term",
                     "startDate": getDates(term[SEMESTER_INDEX], term[YEAR_INDEX], True),
                     "endDate": getDates(term[SEMESTER_INDEX], term[YEAR_INDEX], False),
                     "semester": term[SEMESTER_INDEX],
@@ -103,11 +103,13 @@ def getTimeline(terms):
                 timeline[termId] = {
                     "type": "study",
                     "term": termId,
-                    "description": term[COURSE_ID_INDEX],
+                    "termDescription": term[COURSE_ID_INDEX],
                     "startDate": getDates(term[SEMESTER_INDEX], term[YEAR_INDEX], True),
                     "endDate": getDates(term[SEMESTER_INDEX], term[YEAR_INDEX], False),
                     "semester": term[SEMESTER_INDEX],
                     "year": term[YEAR_INDEX]
                 }
+
+    print(timeline)
 
     return sortTimeline(timeline)

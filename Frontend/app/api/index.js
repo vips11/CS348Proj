@@ -97,8 +97,15 @@ export const updateStudent = (request, callback) => {
   executePost(student, request, callback);
 };
 
-export const createStudent = (request, callback) => {
-  executePut(student, request, callback);
+export const createStudent = async (request, callback) => {
+    try {
+        const response = await axios.put(
+            host + `/student`, request
+        );
+        callback(response);
+    } catch (error) {
+        console.log(error);
+    }
 };
 
 export const getStudentDetail = (request, callback) => {
@@ -118,45 +125,15 @@ export const findAMentor = (request, callback) => {
 };
 
 export const verifyLogin = async (credentials, callback) => {
-  //executeGet(authorize, request, callback);
-
-  //   const fetchData = async () => {
-  //     try {
-  //       // Make the GET request with query parameters
-  //       const response = await axios.get(
-  //         host +
-  //           `/authorize?username=${credentials.username}&password=${credentials.password}`
-  //       );
-
-  //       console.log(response.data);
-  //       return response;
-  //     } catch (error) {
-  //       console.error(error);
-  //     }
-  //   };
-
   try {
-    const qs = require('qs');
     const response = await axios.get(
-      host + `/authorize`, qs.stringify(credentials)
+      host +
+        `/authorize?username=${credentials.username}&password=${credentials.password}`
     );
-
-    console.log("1: " + response);
     callback(response);
   } catch (error) {
     console.log(error);
   }
-
-  //   axios
-  //     .get(
-  //       host +
-  //         `/authorize?username=${credentials.username}&password=${credentials.password}`
-  //     )
-  //     .then((response) => console.log(response))
-  //     .catch((error) => console.log(error));
-
-  //   const res = await fetchData();
-  //   callback(res);
 };
 
 export const findAStudyGrp = (request, callback) => {

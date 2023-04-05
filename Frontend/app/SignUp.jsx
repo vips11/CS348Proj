@@ -15,48 +15,57 @@ export default function SignupScreen() {
   const [firstName, setFirstName] = useState("");
   const [lastName, setLastName] = useState("");
   const [email, setEmail] = useState("");
+  const [studentID, setStudentID] = useState("");
   const [program, setProgram] = useState("");
+  const [curTerm, setCurTerm] = useState("");
+  const [startingSem, setStartingSem] = useState("");
+  const [startingYear, setStartingYear] = useState("");
   const [password, setPassword] = useState("");
   const [confirmPassword, setConfirmPassword] = useState("");
   const [error, setError] = useState("");
 
   const handleSignup = () => {
     // Check if any fields are empty
-    if (!firstName || !lastName || !email || !password || !confirmPassword) {
-      setError("Please fill in all fields");
-      return;
-    }
+    // if (!firstName || !lastName || !email || !password || !confirmPassword) {
+    //   setError("Please fill in all fields");
+    //   return;
+    // }
 
-    // Check if passwords match
-    if (password !== confirmPassword) {
-      setError("Passwords do not match");
-      return;
-    }
+    // // Check if passwords match
+    // if (password !== confirmPassword) {
+    //   setError("Passwords do not match");
+    //   return;
+    // }
 
-    if (email === "v56gupta@uwaterloo.ca") {
-      setError("User already exists");
-      return;
-    }
+    // if (email === "v56gupta@uwaterloo.ca") {
+    //   setError("User already exists");
+    //   return;
+    // }
 
     setError("");
 
-    // API CALL HERE TO CREATE PROFILE
-    // createStudent(credentials, (res) => {
-    //   if (res.authorized) {
-    //     console.log("VERIFY-LOGIN RES: SUCCESS");
-    //   } else {
-    //     console.log("VERIFY-LOGIN RES: FAILED");
-    //   }
-    // });
+    const params = {
+      firstName: "fn",
+      lastName: "ln",
+      uw_email: "em",
+      username: "em",
+      id: "69",
+      program: "CS",
+      password: "pass",
+      currentTerm: "",
+      semester: "",
+      year: 2023,
+      description: "",
+    };
 
-    // const params = new URLSearchParams({
-    //   firstName: firstName,
-    //   lastName: lastName,
-    //   email: email,
-    // });
-
-    // router.push(`/CreateProfile?${params.toString()}`);
-    router.push(`/Home`);
+    createStudent(params, (res) => {
+      console.log(res);
+      // if (res.data.created) {
+      //   router.push(`/Home`);
+      // } else {
+      //   setError("Something Wrong. Contact Administrator");
+      // }
+    });
   };
 
   return (
@@ -86,6 +95,15 @@ export default function SignupScreen() {
           placeholderTextColor="#fff"
           value={email}
           onChangeText={setEmail}
+          style={styles.inputText}
+        />
+      </View>
+      <View style={styles.inputView}>
+        <TextInput
+          placeholder="Student ID"
+          placeholderTextColor="#fff"
+          value={studentID}
+          onChangeText={setStudentID}
           style={styles.inputText}
         />
       </View>
