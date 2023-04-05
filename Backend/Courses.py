@@ -41,7 +41,9 @@ class Courses(Resource):
         except Exception as e:
             print("Error: ", e)
 
-        return make_response(jsonify(response), 200)
+        response = jsonify(response)
+        response.headers.add('Access-Control-Allow-Origin', '*')
+        return response
 
     def post(self):
         dto = request.json
@@ -67,4 +69,6 @@ class Courses(Resource):
         except Exception as e:
             print("Error: ", e)
 
-        return make_response(jsonify(response), 200)
+        response = jsonify(response)
+        response.headers.add('Access-Control-Allow-Origin', '*')
+        return response

@@ -21,7 +21,6 @@ const LoginScreen = () => {
 
   const handleLogin = () => {
     // Check if the username and password are correct
-
     const credentials = {
       username: username,
       password: password,

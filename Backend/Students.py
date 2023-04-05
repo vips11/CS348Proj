@@ -2,7 +2,6 @@ import uuid
 
 from flask_restful import Resource
 from flask import jsonify, make_response, request
-import sqlite3 as sl
 
 from helper import *
 
@@ -85,7 +84,9 @@ class Students(Resource):
         except Exception as e:
             print("Error", e)
 
-        return make_response(jsonify(response), 200)
+        response = jsonify(response)
+        response.headers.add('Access-Control-Allow-Origin', '*')
+        return response
 
     def post(self):
         dto = request.json
@@ -126,10 +127,15 @@ class Students(Resource):
         except Exception as e:
             print("Error", e)
 
-        return make_response(jsonify(response), 200)
+        response = jsonify(response)
+        response.headers.add('Access-Control-Allow-Origin', '*')
+        return response
 
     def put(self):
         dto = request.json
+        response = {
+            "success": False
+        }
         try:
             con = sl.connect('applicationDb.db')
             cursor = con.cursor()
@@ -140,40 +146,55 @@ class Students(Resource):
 
             cursor.execute(query)
 
-            for social in dto["socials"]:
-                query = f"""INSERT OR IGNORE INTO SOCIAL VALUES 
-                                    ({social["id"]}, "{social["platform"]}", "{social["link"]}")"""
-                cursor.execute(query)
-
-            for course in dto["courses"]:
-                query = f"""INSERT OR IGNORE INTO TAKES VALUES 
-                    ({course["ID"]}, "{course["course_ID"]}", {course["section_ID"]}, "{course["semester"]}", {course["year"]}, "{course["term"]}")"""
-                cursor.execute(query)
-
-            for work in dto["works"]:
-                companyId = uuid.uuid4()
-                jobId = uuid.uuid4()
-
+            if "username" in dto and "password" in dto:
                 query = f"""
-                    INSERT OR IGNORE INTO COMPANY VALUES 
-                    ({companyId}, "{work["company"]}")
-                """
-                cursor.execute(query)
-
-                query = f"""
-                    INSERT OR IGNORE INTO JOB VALUES 
-                    ({jobId}, "{work["position"]}", "{work["isFullTime"]}", {companyId})
+                    INSERT OR IGNORE INTO AUTHORISATION VALUES 
+                    ({dto["id"]}, "{dto["username"]}", "{dto["password"]}")
                 """
                 con.execute(query)
 
-                query = f"""INSERT OR IGNORE INTO WORKS VALUES 
-                    ("{work["term"]}", "{work["semester"]}", "{work["year"]}", {work["student_ID"]},
-                    {jobId}, {companyId})
-                """
-                cursor.execute(query)
+            if "socials" in dto:
+                for social in dto["socials"]:
+                    query = f"""INSERT OR IGNORE INTO SOCIAL VALUES 
+                                        ({social["id"]}, "{social["platform"]}", "{social["link"]}")"""
+                    cursor.execute(query)
 
+            if "courses" in dto:
+                for course in dto["courses"]:
+                    query = f"""INSERT OR IGNORE INTO TAKES VALUES 
+                        ({course["ID"]}, "{course["course_ID"]}", {course["section_ID"]}, "{course["semester"]}", {course["year"]}, "{course["term"]}")"""
+                    cursor.execute(query)
+
+            if "works" in dto:
+                for work in dto["works"]:
+                    companyId = uuid.uuid4()
+                    jobId = uuid.uuid4()
+
+                    query = f"""
+                        INSERT OR IGNORE INTO COMPANY VALUES 
+                        ({companyId}, "{work["company"]}")
+                    """
+                    cursor.execute(query)
+
+                    query = f"""
+                        INSERT OR IGNORE INTO JOB VALUES 
+                        ({jobId}, "{work["position"]}", "{work["isFullTime"]}", {companyId})
+                    """
+                    con.execute(query)
+
+                    query = f"""INSERT OR IGNORE INTO WORKS VALUES 
+                        ("{work["term"]}", "{work["semester"]}", "{work["year"]}", {work["student_ID"]},
+                        {jobId}, {companyId})
+                    """
+                    cursor.execute(query)
+
+            response["success"] = True
         except Exception as e:
             print("Error: ", e)
+
+        response = jsonify(response)
+        response.headers.add('Access-Control-Allow-Origin', '*')
+        return response
 
 
 class DetailedStudent(Resource):
@@ -223,7 +244,9 @@ class DetailedStudent(Resource):
         except Exception as e:
             print("Error: ", e)
 
-        return make_response(jsonify(student), 200)
+        response = jsonify(student)
+        response.headers.add('Access-Control-Allow-Origin', '*')
+        return response
 
 
 class FindAMentor(Resource):
@@ -256,7 +279,9 @@ class FindAMentor(Resource):
         except Exception as e:
             print("Error", e)
 
-        return make_response(jsonify(response), 200)
+        response = jsonify(response)
+        response.headers.add('Access-Control-Allow-Origin', '*')
+        return response
 
 
 class FindAStudyGroup(Resource):
@@ -297,7 +322,9 @@ class FindAStudyGroup(Resource):
         except Exception as e:
             print("Error", e)
 
-        return make_response(jsonify(response), 200)
+        response = jsonify(response)
+        response.headers.add('Access-Control-Allow-Origin', '*')
+        return response
 
 
 class FindAFriend(Resource):
@@ -325,7 +352,9 @@ class FindAFriend(Resource):
         except Exception as e:
             print("Error", e)
 
-        return make_response(jsonify(response), 200)
+        response = jsonify(response)
+        response.headers.add('Access-Control-Allow-Origin', '*')
+        return response
 
 
 class Authorize(Resource):
@@ -351,4 +380,6 @@ class Authorize(Resource):
         except Exception as e:
             print("Error: ", e)
 
-        return make_response(jsonify(response), 200)
+        response = jsonify(response)
+        response.headers.add('Access-Control-Allow-Origin', '*')
+        return response
