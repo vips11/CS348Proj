@@ -70,14 +70,20 @@ Where ID = 51458338;
 
 /* Query 9 */
 /* Find a study group */
-SELECT DISTINCT s2.first_name, s2.last_name
-FROM Student s1
-JOIN Takes t1 ON s1.ID = t1.student_ID
-JOIN Takes t2 ON t1.course_ID = t2.course_ID AND t1.section_ID = t2.section_ID AND t1.semester = t2.semester AND t1.year = t2.year
-JOIN Student s2 ON t2.student_ID = s2.ID
-WHERE s1.ID = 29384617 AND s1.program = s2.program AND s2.ID <> 29384617
-GROUP BY s2.ID
-HAVING COUNT(DISTINCT t2.course_ID) >= 3;
+SELECT s.ID, s.first_name, s.last_name, s.uw_email, s.program, s.description
+FROM Student s
+JOIN Takes t ON s.ID = t.student_ID
+JOIN Section sec ON t.course_ID = sec.course_ID AND t.section_ID = sec.section_ID AND t.semester = sec.semester AND t.year = sec.year
+WHERE sec.semester = 'Fall' -- Replace with the current semester
+AND sec.year = 2020 -- Replace with the current year
+AND t.student_ID <> 29384617 -- Exclude the given student
+AND t.course_ID IN (
+    SELECT t2.course_ID
+    FROM Takes t2
+    WHERE t2.student_ID = 29384617-- Replace with the given student ID
+)
+GROUP BY s.ID
+HAVING COUNT(DISTINCT t.course_ID) >= 3
 
 
 /* Query 10 */
