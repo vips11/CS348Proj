@@ -119,9 +119,9 @@ export const findAMentor = (request, callback) => {
 
 export const verifyLogin = async (credentials, callback) => {
   try {
+    const qs = require('qs');
     const response = await axios.get(
-      host +
-        `/authorize?username=${credentials.username}&password=${credentials.password}`
+      host + `/authorize`, qs.stringify(credentials)
     );
     callback(response);
   } catch (error) {

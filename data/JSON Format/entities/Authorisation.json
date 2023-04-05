@@ -1,497 +1,498 @@
 [
-  {
-    "student_ID": 96667175,
-    "uw_email": "milsmith@uwaterloo.ca",
-    "password": "uAy2KsPmTvJ8Q"
-  },
-  {
-    "student_ID": 73564630,
-    "uw_email": "chrjohns@uwaterloo.ca",
-    "password": "F9BgkXzNp7LhWc"
-  },
-  {
-    "student_ID": 51458338,
-    "uw_email": "jeawilli@uwaterloo.ca",
-    "password": "Rf5bL2vHx8@jD9T"
-  },
-  {
-    "student_ID": 45453885,
-    "uw_email": "mawjones@uwaterloo.ca",
-    "password": "Y6t^pMhLc7FgKwQ"
-  },
-  {
-    "student_ID": 79689206,
-    "uw_email": "asybrown@uwaterloo.ca",
-    "password": "A3rHqWjX9pTmZ6"
-  },
-  {
-    "student_ID": 67496942,
-    "uw_email": "jerdavis@uwaterloo.ca",
-    "password": "8sRfJyV2G@wUz7"
-  },
-  {
-    "student_ID": 40128931,
-    "uw_email": "jasmille@uwaterloo.ca",
-    "password": "D6mnXuZcQ4qE@8y"
-  },
-  {
-    "student_ID": 19767510,
-    "uw_email": "amawilso@uwaterloo.ca",
-    "password": "S7bwL6NpH^uG5x"
-  },
-  {
-    "student_ID": 83950021,
-    "uw_email": "dalrobin@uwaterloo.ca",
-    "password": "W4hcUk7Vz8L2yS5"
-  },
-  {
-    "student_ID": 91260560,
-    "uw_email": "dadwilli@uwaterloo.ca",
-    "password": "9xJmBtN7vFzKg"
-  },
-  {
-    "student_ID": 60653931,
-    "uw_email": "maysmith@uwaterloo.ca",
-    "password": "P8cGtHnMkYfAjL"
-  },
-  {
-    "student_ID": 22779613,
-    "uw_email": "alxsmith@uwaterloo.ca",
-    "password": "Z3rTqNcGjX9pV8sW"
-  },
-  {
-    "student_ID": 13336678,
-    "uw_email": "emilysmith@uwaterloo.ca",
-    "password": "6uLQfRyA5HxS4z"
-  },
-  {
-    "student_ID": 21217676,
-    "uw_email": "johndoe@uwaterloo.ca",
-    "password": "E2gzR9UfM6qY3v"
-  },
-  {
-    "student_ID": 34566543,
-    "uw_email": "sarahlee@uwaterloo.ca",
-    "password": "K7p^hF8bW5mVjZt"
-  },
-  {
-    "student_ID": 37486905,
-    "uw_email": "akim@uwaterloo.ca",
-    "password": "L9fHk2Cg5VzS6w"
-  },
-  {
-    "student_ID": 92514073,
-    "uw_email": "micjohnson@uwaterloo.ca",
-    "password": "U8jW5mD7vNfZ9"
-  },
-  {
-    "student_ID": 10871349,
-    "uw_email": "jenche@uwaterloo.ca",
-    "password": "B5xgHm7uJ6cL2y"
-  },
-  {
-    "student_ID": 62389417,
-    "uw_email": "davbrown@uwaterloo.ca",
-    "password": "Q4dS6jL2XcNz9u"
-  },
-  {
-    "student_ID": 29586401,
-    "uw_email": "samrod34@uwaterloo.ca",
-    "password": "I3qwN6hYpV7tKf"
-  },
-  {
-    "student_ID": 54173986,
-    "uw_email": "ethmart4@uwaterloo.ca",
-    "password": "O5c@rA6tPfKwZ9"
-  },
-  {
-    "student_ID": 75628493,
-    "uw_email": "avawils@uwaterloo.ca",
-    "password": "8xZrV2LhQ7yKgW"
-  },
-  {
-    "student_ID": 23849065,
-    "uw_email": "benjnguyen@uwaterloo.ca",
-    "password": "D3fqA5wRv7pH8t"
-  },
-  {
-    "student_ID": 96017348,
-    "uw_email": "ol34and@uwaterloo.ca",
-    "password": "S9u@jK6nTzW8yR4"
-  },
-  {
-    "student_ID": 18235964,
-    "uw_email": "will4thomas@uwaterloo.ca",
-    "password": "6mNvU2jHc8fX7q"
-  },
-  {
-    "student_ID": 65971234,
-    "uw_email": "soph34jac@uwaterloo.ca",
-    "password": "Y4s@zE6tPwD7kQ2"
-  },
-  {
-    "student_ID": 48326591,
-    "uw_email": "danwhite@uwaterloo.ca",
-    "password": "W7hbF8mS9pL6tZ"
-  },
-  {
-    "student_ID": 71420935,
-    "uw_email": "g34harris@uwaterloo.ca",
-    "password": "A6uB4jG7yQ2wM9"
-  },
-  {
-    "student_ID": 52613498,
-    "uw_email": "lmartin@uwaterloo.ca",
-    "password": "R8fkC7pS4tV3vU"
-  },
-  {
-    "student_ID": 39827615,
-    "uw_email": "emily5thom@uwaterloo.ca",
-    "password": "P2ywH6cT9dV7xZ"
-  },
-  {
-    "student_ID": 43334990,
-    "uw_email": "miagarcia@uwaterloo.ca",
-    "password": "Z9qfX3vN2mW5rL"
-  },
-  {
-    "student_ID": 28349567,
-    "uw_email": "john6smith@uwaterloo.ca",
-    "password": "F6mN7bP5cH8xR9"
-  },
-  {
-    "student_ID": 91827364,
-    "uw_email": "emmajones@uwaterloo.ca",
-    "password": "J3gkV5uW8tL6pZ"
-  },
-  {
-    "student_ID": 72819365,
-    "uw_email": "samrobinson@uwaterloo.ca",
-    "password": "E9r@tL5xN2jV7mQ"
-  },
-  {
-    "student_ID": 37482931,
-    "uw_email": "lisakim@uwaterloo.ca",
-    "password": "K2vwG8yF6bP3qT"
-  },
-  {
-    "student_ID": 93746281,
-    "uw_email": "maxwang@uwaterloo.ca",
-    "password": "T8cxZ7jR9nL5gH"
-  },
-  {
-    "student_ID": 64927183,
-    "uw_email": "oliv7smith@uwaterloo.ca",
-    "password": "B6u@pH5wY4kV7dN"
-  },
-  {
-    "student_ID": 18372940,
-    "uw_email": "hannahpark@uwaterloo.ca",
-    "password": "G9tjF2rM7vS4lP"
-  },
-  {
-    "student_ID": 52468719,
-    "uw_email": "jason0lee@uwaterloo.ca",
-    "password": "O4hcQ2fN6mS8jW"
-  },
-  {
-    "student_ID": 28374910,
-    "uw_email": "emilyjohnson@uwaterloo.ca",
-    "password": "I7xzD3vT8yR6sU"
-  },
-  {
-    "student_ID": 18472039,
-    "uw_email": "jacobbrown@uwaterloo.ca",
-    "password": "Q6bnF2gH8jV7kZ"
-  },
-  {
-    "student_ID": 85719236,
-    "uw_email": "avadavis@uwaterloo.ca",
-    "password": "2Kq3rXz1"
-  },
-  {
-    "student_ID": 49283617,
-    "uw_email": "ethanyoung@uwaterloo.ca",
-    "password": "7vP8tMf0"
-  },
-  {
-    "student_ID": 28374610,
-    "uw_email": "miachen@uwaterloo.ca",
-    "password": "9wH6sJg1"
-  },
-  {
-    "student_ID": 10293847,
-    "uw_email": "noahtaylor@uwaterloo.ca",
-    "password": "1nF2tQd8"
-  },
-  {
-    "student_ID": 37492816,
-    "uw_email": "sophiaanderson@uwaterloo.ca",
-    "password": "0hR7kNf5"
-  },
-  {
-    "student_ID": 85927361,
-    "uw_email": "michaelsmith@uwaterloo.ca",
-    "password": "3jW2dGq9"
-  },
-  {
-    "student_ID": 16273849,
-    "uw_email": "jessica3jones@uwaterloo.ca",
-    "password": "6rE7zTc8"
-  },
-  {
-    "student_ID": 39485671,
-    "uw_email": "davidrobinson@uwaterloo.ca",
-    "password": "4kY5uPv1"
-  },
-  {
-    "student_ID": 62738495,
-    "uw_email": "sarah2kim@uwaterloo.ca",
-    "password": "1bZ0sXt9"
-  },
-  {
-    "student_ID": 85719263,
-    "uw_email": "samuel5wang@uwaterloo.ca",
-    "password": "8gN9mLj2"
-  },
-  {
-    "student_ID": 29384756,
-    "uw_email": "sophia6smith@uwaterloo.ca",
-    "password": "2wH5fPc8"
-  },
-  {
-    "student_ID": 17482936,
-    "uw_email": "em34park@uwaterloo.ca",
-    "password": "9jU4dGh7"
-  },
-  {
-    "student_ID": 82917364,
-    "uw_email": "jacoblee@uwaterloo.ca",
-    "password": "1pK3qRn5"
-  },
-  {
-    "student_ID": 27384916,
-    "uw_email": "avajohnso@uwaterloo.ca",
-    "password": "0eA4uLm9"
-  },
-  {
-    "student_ID": 38491725,
-    "uw_email": "ethanbrown@uwaterloo.ca",
-    "password": "4xS5yJg2"
-  },
-  {
-    "student_ID": 72918346,
-    "uw_email": "miadavis@uwaterloo.ca",
-    "password": "6qW3zNv7"
-  },
-  {
-    "student_ID": 29384617,
-    "uw_email": "noahyoung@uwaterloo.ca",
-    "password": "8dC9hPf1"
-  },
-  {
-    "student_ID": 18473920,
-    "uw_email": "oliviachen@uwaterloo.ca",
-    "password": "5tM2bRk7"
-  },
-  {
-    "student_ID": 49283651,
-    "uw_email": "alexan3taylor@uwaterloo.ca",
-    "password": "2wJ7hPf8"
-  },
-  {
-    "student_ID": 19384762,
-    "uw_email": "emma0anderson@uwaterloo.ca",
-    "password": "0zX9uBd1"
-  },
-  {
-    "student_ID": 12345678,
-    "uw_email": "jsmith@uwaterloo.ca",
-    "password": "8cT7fKm0"
-  },
-  {
-    "student_ID": 23456789,
-    "uw_email": "jdoe@uwaterloo.ca",
-    "password": "6jG1dNt9"
-  },
-  {
-    "student_ID": 34567890,
-    "uw_email": "jjohnson@uwaterloo.ca",
-    "password": "9sD2gPc8"
-  },
-  {
-    "student_ID": 45678901,
-    "uw_email": "mmiller@uwaterloo.ca",
-    "password": "3rY4hLm7"
-  },
-  {
-    "student_ID": 56789012,
-    "uw_email": "blee@uwaterloo.ca",
-    "password": "2uV9qXz3"
-  },
-  {
-    "student_ID": 67890123,
-    "uw_email": "knguyen@uwaterloo.ca",
-    "password": "0fW8jKg5"
-  },
-  {
-    "student_ID": 78901234,
-    "uw_email": "swong@uwaterloo.ca",
-    "password": "4dM5cNt1"
-  },
-  {
-    "student_ID": 89012345,
-    "uw_email": "cchen@uwaterloo.ca",
-    "password": "1nU3qRz9"
-  },
-  {
-    "student_ID": 90123456,
-    "uw_email": "dsmith@uwaterloo.ca",
-    "password": "9pF7kGt5"
-  },
-  {
-    "student_ID": 12345677,
-    "uw_email": "mjohnson@uwaterloo.ca",
-    "password": "7sT1bJc8"
-  },
-  {
-    "student_ID": 21487654,
-    "uw_email": "rachael.scott@uwaterloo.ca",
-    "password": "5gH2mLd4"
-  },
-  {
-    "student_ID": 20928175,
-    "uw_email": "mohamed.young@uwaterloo.ca",
-    "password": "8zV4tCj0"
-  },
-  {
-    "student_ID": 21765423,
-    "uw_email": "megan.kim@uwaterloo.ca",
-    "password": "4cR9mJf2"
-  },
-  {
-    "student_ID": 20387129,
-    "uw_email": "nathan.gupta@uwaterloo.ca",
-    "password": "3qY5tPd8"
-  },
-  {
-    "student_ID": 21123456,
-    "uw_email": "jessica.lewis@uwaterloo.ca",
-    "password": "1eS0kNj4"
-  },
-  {
-    "student_ID": 21567890,
-    "uw_email": "alexander.nguyen@uwaterloo.ca",
-    "password": "9jK2xGv3"
-  },
-  {
-    "student_ID": 21987654,
-    "uw_email": "daniela.fernandez@uwaterloo.ca",
-    "password": "6wP8zCf1"
-  },
-  {
-    "student_ID": 20654321,
-    "uw_email": "jordan.patel@uwaterloo.ca",
-    "password": "7hT1mLk9"
-  },
-  {
-    "student_ID": 21345678,
-    "uw_email": "chloe.baker@uwaterloo.ca",
-    "password": "2dX4sNc5"
-  },
-  {
-    "student_ID": 11111222,
-    "uw_email": "johndoe11@uwaterloo.ca",
-    "password": "0yZ9uJf7"
-  },
-  {
-    "student_ID": 22223333,
-    "uw_email": "sarahsmith22@uwaterloo.ca",
-    "password": "5nG8bVz1"
-  },
-  {
-    "student_ID": 33334444,
-    "uw_email": "amitpatel33@uwaterloo.ca",
-    "password": "1pK0jTc5"
-  },
-  {
-    "student_ID": 44445555,
-    "uw_email": "ryannguyen44@uwaterloo.ca",
-    "password": "8wN3hLm2"
-  },
-  {
-    "student_ID": 55556666,
-    "uw_email": "ashleyparker5@uwaterloo.ca",
-    "password": "9rD5gFv1"
-  },
-  {
-    "student_ID": 66667777,
-    "uw_email": "davidbrown6@uwaterloo.ca",
-    "password": "2zC8bPf3"
-  },
-  {
-    "student_ID": 77778888,
-    "uw_email": "janetlee77@uwaterloo.ca",
-    "password": "6fM2nLc9"
-  },
-  {
-    "student_ID": 88889999,
-    "uw_email": "robertchen8@uwaterloo.ca",
-    "password": "4tJ7pVd1"
-  },
-  {
-    "student_ID": 99990000,
-    "uw_email": "christinafung9@uwaterloo.ca",
-    "password": "7kW3zTf5"
-  },
-  {
-    "student_ID": 11112222,
-    "uw_email": "jenniferliu1@uwaterloo.ca",
-    "password": "3qY9hGj1"
-  },
-  {
-    "student_ID": 22223333,
-    "uw_email": "kevinzhang2@uwaterloo.ca",
-    "password": "1eR5mNf7"
-  },
-  {
-    "student_ID": 33334444,
-    "uw_email": "jessicawong33@uwaterloo.ca",
-    "password": "0xZ4sCk9"
-  },
-  {
-    "student_ID": 13047963,
-    "uw_email": "samhill4@uwaterloo.ca",
-    "password": "9jG2vPc3"
-  },
-  {
-    "student_ID": 21479513,
-    "uw_email": "laur2powell@uwaterloo.ca",
-    "password": "6wF8mJd1"
-  },
-  {
-    "student_ID": 15702380,
-    "uw_email": "joshcoop@uwaterloo.ca",
-    "password": "4tD1hKz9"
-  },
-  {
-    "student_ID": 19073284,
-    "uw_email": "mad2fisher@uwaterloo.ca",
-    "password": "2uS7cNj0"
-  },
-  {
-    "student_ID": 16134702,
-    "uw_email": "andrewturner@uwaterloo.ca",
-    "password": "1nY5sGv6"
-  },
-  {
-    "student_ID": 17829051,
-    "uw_email": "olivia2wood@uwaterloo.ca",
-    "password": "0fT9mPc4"
-  },
-  {
-    "student_ID": 20571439,
-    "uw_email": "dansanchez@uwaterloo.ca",
-    "password": "7hK2jLd1"
-  }
+ {
+  "student_ID": 96667175,
+  "uw_email": "milsmith@uwaterloo.ca",
+  "password": "uAy2KsPmT$!vJ8Q"
+ },
+ {
+  "student_ID": 73564630,
+  "uw_email": "chrjohns@uwaterloo.ca",
+  "password": "F9B#gkXzNp7$LhWc"
+ },
+ {
+  "student_ID": 51458338,
+  "uw_email": "jeawilli@uwaterloo.ca",
+  "password": "Rf5bL2vHx8@jD9T"
+ },
+ {
+  "student_ID": 45453885,
+  "uw_email": "mawjones@uwaterloo.ca",
+  "password": "Y6t^pMhLc#7FgKwQ"
+ },
+ {
+  "student_ID": 79689206,
+  "uw_email": "asybrown@uwaterloo.ca",
+  "password": "A3r$HqWjX9pTmZ6"
+ },
+ {
+  "student_ID": 67496942,
+  "uw_email": "jerdavis@uwaterloo.ca",
+  "password": "8sR!fJyV2G@wUz7"
+ },
+ {
+  "student_ID": 40128931,
+  "uw_email": "jasmille@uwaterloo.ca",
+  "password": "D6m#nXuZcQ4qE@8y"
+ },
+ {
+  "student_ID": 19767510,
+  "uw_email": "amawilso@uwaterloo.ca",
+  "password": "S7b$wL6NpH^uG5x"
+ },
+ {
+  "student_ID": 83950021,
+  "uw_email": "dalrobin@uwaterloo.ca",
+  "password": "W4hcUk7Vz8L2yS5"
+ },
+ {
+  "student_ID": 91260560,
+  "uw_email": "dadwilli@uwaterloo.ca",
+  "password": "9xJmBtN7vF!zKg"
+ },
+ {
+  "student_ID": 60653931,
+  "uw_email": "maysmith@uwaterloo.ca",
+  "password": "P8cGtHnMkYfA!jL"
+ },
+ {
+  "student_ID": 22779613,
+  "uw_email": "alxsmith@uwaterloo.ca",
+  "password": "Z3rTqNcGjX9pV8sW"
+ },
+ {
+  "student_ID": 13336678,
+  "uw_email": "emilysmith@uwaterloo.ca",
+  "password": "6uL#QfRyA5HxS4z"
+ },
+ {
+  "student_ID": 21217676,
+  "uw_email": "johndoe@uwaterloo.ca",
+  "password": "E2g!zR9UfM6qY3v"
+ },
+ {
+  "student_ID": 34566543,
+  "uw_email": "sarahlee@uwaterloo.ca",
+  "password": "K7p^hF8bW5mVjZt"
+ },
+ {
+  "student_ID": 37486905,
+  "uw_email": "akim@uwaterloo.ca",
+  "password": "L9f$Hk2Cg5VzS6w"
+ },
+ {
+  "student_ID": 92514073,
+  "uw_email": "micjohnson@uwaterloo.ca",
+  "password": "U8jW5mD7vN#fZ9"
+ },
+ {
+  "student_ID": 10871349,
+  "uw_email": "jenche@uwaterloo.ca",
+  "password": "B5x!gHm7uJ6cL2y"
+ },
+ {
+  "student_ID": 62389417,
+  "uw_email": "davbrown@uwaterloo.ca",
+  "password": "Q4dS6jL2XcN#z9u"
+ },
+ {
+  "student_ID": 29586401,
+  "uw_email": "samrod34@uwaterloo.ca",
+  "password": "I3q!wN6hYpV7tKf"
+ },
+ {
+  "student_ID": 54173986,
+  "uw_email": "ethmart4@uwaterloo.ca",
+  "password": "O5c@rA6tPfK!wZ9"
+ },
+ {
+  "student_ID": 75628493,
+  "uw_email": "avawils@uwaterloo.ca",
+  "password": "8xZ!rV2LhQ7yKgW"
+ },
+ {
+  "student_ID": 23849065,
+  "uw_email": "benjnguyen@uwaterloo.ca",
+  "password": "D3f#qA5wRv7pH8t"
+ },
+ {
+  "student_ID": 96017348,
+  "uw_email": "ol34and@uwaterloo.ca",
+  "password": "S9u@jK6nTzW8yR4"
+ },
+ {
+  "student_ID": 18235964,
+  "uw_email": "will4thomas@uwaterloo.ca",
+  "password": "6m$NvU2jHc8fX7q"
+ },
+ {
+  "student_ID": 65971234,
+  "uw_email": "soph34jac@uwaterloo.ca",
+  "password": "Y4s@zE6tPwD7kQ2"
+ },
+ {
+  "student_ID": 48326591,
+  "uw_email": "danwhite@uwaterloo.ca",
+  "password": "W7h!bF8mS9pL6tZ"
+ },
+ {
+  "student_ID": 71420935,
+  "uw_email": "g34harris@uwaterloo.ca",
+  "password": "A6u$B4jG7yQ2wM9"
+ },
+ {
+  "student_ID": 52613498,
+  "uw_email": "lmartin@uwaterloo.ca",
+  "password": "R8fkC7pS4tV3vU"
+ },
+ {
+  "student_ID": 39827615,
+  "uw_email": "emily5thom@uwaterloo.ca",
+  "password": "P2y#wH6cT9dV7xZ"
+ },
+ {
+  "student_ID": 43334990,
+  "uw_email": "miagarcia@uwaterloo.ca",
+  "password": "Z9q!fX3vN2mW5rL"
+ },
+ {
+  "student_ID": 28349567,
+  "uw_email": "john6smith@uwaterloo.ca",
+  "password": "F6m$N7bP5cH8xR9"
+ },
+ {
+  "student_ID": 91827364,
+  "uw_email": "emmajones@uwaterloo.ca",
+  "password": "J3g#kV5uW8tL6pZ"
+ },
+ {
+  "student_ID": 72819365,
+  "uw_email": "samrobinson@uwaterloo.ca",
+  "password": "E9r@tL5xN2jV7mQ"
+ },
+ {
+  "student_ID": 37482931,
+  "uw_email": "lisakim@uwaterloo.ca",
+  "password": "K2v!wG8yF6bP3qT"
+ },
+ {
+  "student_ID": 93746281,
+  "uw_email": "maxwang@uwaterloo.ca",
+  "password": "T8c!xZ7jR9nL5gH"
+ },
+ {
+  "student_ID": 64927183,
+  "uw_email": "oliv7smith@uwaterloo.ca",
+  "password": "B6u@pH5wY4kV7dN"
+ },
+ {
+  "student_ID": 18372940,
+  "uw_email": "hannahpark@uwaterloo.ca",
+  "password": "G9t#jF2rM7vS4lP"
+ },
+ {
+  "student_ID": 52468719,
+  "uw_email": "jason0lee@uwaterloo.ca",
+  "password": "O4hcQ2fN6mS8jW"
+ },
+ {
+  "student_ID": 28374910,
+  "uw_email": "emilyjohnson@uwaterloo.ca",
+  "password": "I7x!zD3vT8yR6sU"
+ },
+ {
+  "student_ID": 18472039,
+  "uw_email": "jacobbrown@uwaterloo.ca",
+  "password": "Q6b#nF2gH8jV7kZ"
+ },
+ {
+  "student_ID": 85719236,
+  "uw_email": "avadavis@uwaterloo.ca",
+  "password": "2Kq3rXz1"
+ },
+ {
+  "student_ID": 49283617,
+  "uw_email": "ethanyoung@uwaterloo.ca",
+  "password": "7vP8tMf0"
+ },
+ {
+  "student_ID": 28374610,
+  "uw_email": "miachen@uwaterloo.ca",
+  "password": "9wH6sJg1"
+ },
+ {
+  "student_ID": 10293847,
+  "uw_email": "noahtaylor@uwaterloo.ca",
+  "password": "1nF2tQd8"
+ },
+ {
+  "student_ID": 37492816,
+  "uw_email": "sophiaanderson@uwaterloo.ca",
+  "password": "0hR7kNf5"
+ },
+ {
+  "student_ID": 85927361,
+  "uw_email": "michaelsmith@uwaterloo.ca",
+  "password": "3jW2dGq9"
+ },
+ {
+  "student_ID": 16273849,
+  "uw_email": "jessica3jones@uwaterloo.ca",
+  "password": "6rE7zTc8"
+ },
+ {
+  "student_ID": 39485671,
+  "uw_email": "davidrobinson@uwaterloo.ca",
+  "password": "4kY5uPv1"
+ },
+ {
+  "student_ID": 62738495,
+  "uw_email": "sarah2kim@uwaterloo.ca",
+  "password": "1bZ0sXt9"
+ },
+ {
+  "student_ID": 85719263,
+  "uw_email": "samuel5wang@uwaterloo.ca",
+  "password": "8gN9mLj2"
+ },
+ {
+  "student_ID": 29384756,
+  "uw_email": "sophia6smith@uwaterloo.ca",
+  "password": "2wH5fPc8"
+ },
+ {
+  "student_ID": 17482936,
+  "uw_email": "em34park@uwaterloo.ca",
+  "password": "9jU4dGh7"
+ },
+ {
+  "student_ID": 82917364,
+  "uw_email": "jacoblee@uwaterloo.ca",
+  "password": "1pK3qRn5"
+ },
+ {
+  "student_ID": 27384916,
+  "uw_email": "avajohnso@uwaterloo.ca",
+  "password": "0eA4uLm9"
+ },
+ {
+  "student_ID": 38491725,
+  "uw_email": "ethanbrown@uwaterloo.ca",
+  "password": "4xS5yJg2"
+ },
+ {
+  "student_ID": 72918346,
+  "uw_email": "miadavis@uwaterloo.ca",
+  "password": "6qW3zNv7"
+ },
+ {
+  "student_ID": 29384617,
+  "uw_email": "noahyoung@uwaterloo.ca",
+  "password": "8dC9hPf1"
+ },
+ {
+  "student_ID": 18473920,
+  "uw_email": "oliviachen@uwaterloo.ca",
+  "password": "5tM2bRk7"
+ },
+ {
+  "student_ID": 49283651,
+  "uw_email": "alexan3taylor@uwaterloo.ca",
+  "password": "2wJ7hPf8"
+ },
+ {
+  "student_ID": 19384762,
+  "uw_email": "emma0anderson@uwaterloo.ca",
+  "password": "0zX9uBd1"
+ },
+ {
+  "student_ID": 12345678,
+  "uw_email": "jsmith@uwaterloo.ca",
+  "password": "8cT7fKm0"
+ },
+ {
+  "student_ID": 23456789,
+  "uw_email": "jdoe@uwaterloo.ca",
+  "password": "6jG1dNt9"
+ },
+ {
+  "student_ID": 34567890,
+  "uw_email": "jjohnson@uwaterloo.ca",
+  "password": "9sD2gPc8"
+ },
+ {
+  "student_ID": 45678901,
+  "uw_email": "mmiller@uwaterloo.ca",
+  "password": "3rY4hLm7"
+ },
+ {
+  "student_ID": 56789012,
+  "uw_email": "blee@uwaterloo.ca",
+  "password": "2uV9qXz3"
+ },
+ {
+  "student_ID": 67890123,
+  "uw_email": "knguyen@uwaterloo.ca",
+  "password": "0fW8jKg5"
+ },
+ {
+  "student_ID": 78901234,
+  "uw_email": "swong@uwaterloo.ca",
+  "password": "4dM5cNt1"
+ },
+ {
+  "student_ID": 89012345,
+  "uw_email": "cchen@uwaterloo.ca",
+  "password": "1nU3qRz9"
+ },
+ {
+  "student_ID": 90123456,
+  "uw_email": "dsmith@uwaterloo.ca",
+  "password": "9pF7kGt5"
+ },
+ {
+  "student_ID": 12345677,
+  "uw_email": "mjohnson@uwaterloo.ca",
+  "password": "7sT1bJc8"
+ },
+ {
+  "student_ID": 21487654,
+  "uw_email": "rachael.scott@uwaterloo.ca",
+  "password": "5gH2mLd4"
+ },
+ {
+  "student_ID": 20928175,
+  "uw_email": "mohamed.young@uwaterloo.ca",
+  "password": "8zV4tCj0"
+ },
+ {
+  "student_ID": 21765423,
+  "uw_email": "megan.kim@uwaterloo.ca",
+  "password": "4cR9mJf2"
+ },
+ {
+  "student_ID": 20387129,
+  "uw_email": "nathan.gupta@uwaterloo.ca",
+  "password": "3qY5tPd8"
+ },
+ {
+  "student_ID": 21123456,
+  "uw_email": "jessica.lewis@uwaterloo.ca",
+  "password": "1eS0kNj4"
+ },
+ {
+  "student_ID": 21567890,
+  "uw_email": "alexander.nguyen@uwaterloo.ca",
+  "password": "9jK2xGv3"
+ },
+ {
+  "student_ID": 21987654,
+  "uw_email": "daniela.fernandez@uwaterloo.ca",
+  "password": "6wP8zCf1"
+ },
+ {
+  "student_ID": 20654321,
+  "uw_email": "jordan.patel@uwaterloo.ca",
+  "password": "7hT1mLk9"
+ },
+ {
+  "student_ID": 21345678,
+  "uw_email": "chloe.baker@uwaterloo.ca",
+  "password": "2dX4sNc5"
+ },
+ {
+  "student_ID": 11111222,
+  "uw_email": "johndoe11@uwaterloo.ca",
+  "password": "0yZ9uJf7"
+ },
+ {
+  "student_ID": 22223333,
+  "uw_email": "sarahsmith22@uwaterloo.ca",
+  "password": "5nG8bVz1"
+ },
+ {
+  "student_ID": 33334444,
+  "uw_email": "amitpatel33@uwaterloo.ca",
+  "password": "1pK0jTc5"
+ },
+ {
+  "student_ID": 44445555,
+  "uw_email": "ryannguyen44@uwaterloo.ca",
+  "password": "8wN3hLm2"
+ },
+ {
+  "student_ID": 55556666,
+  "uw_email": "ashleyparker5@uwaterloo.ca",
+  "password": "9rD5gFv1"
+ },
+ {
+  "student_ID": 66667777,
+  "uw_email": "davidbrown6@uwaterloo.ca",
+  "password": "2zC8bPf3"
+ },
+ {
+  "student_ID": 77778888,
+  "uw_email": "janetlee77@uwaterloo.ca",
+  "password": "6fM2nLc9"
+ },
+ {
+  "student_ID": 88889999,
+  "uw_email": "robertchen8@uwaterloo.ca",
+  "password": "4tJ7pVd1"
+ },
+ {
+  "student_ID": 99990000,
+  "uw_email": "christinafung9@uwaterloo.ca",
+  "password": "7kW3zTf5"
+ },
+ {
+  "student_ID": 11112222,
+  "uw_email": "jenniferliu1@uwaterloo.ca",
+  "password": "3qY9hGj1"
+ },
+ {
+  "student_ID": 22223333,
+  "uw_email": "kevinzhang2@uwaterloo.ca",
+  "password": "1eR5mNf7"
+ },
+ {
+  "student_ID": 33334444,
+  "uw_email": "jessicawong33@uwaterloo.ca",
+  "password": "0xZ4sCk9"
+ },
+ {
+  "student_ID": 13047963,
+  "uw_email": "samhill4@uwaterloo.ca",
+  "password": "9jG2vPc3"
+ },
+ {
+  "student_ID": 21479513,
+  "uw_email": "laur2powell@uwaterloo.ca",
+  "password": "6wF8mJd1"
+ },
+ {
+  "student_ID": 15702380,
+  "uw_email": "joshcoop@uwaterloo.ca",
+  "password": "4tD1hKz9"
+ },
+ {
+  "student_ID": 19073284,
+  "uw_email": "mad2fisher@uwaterloo.ca",
+  "password": "2uS7cNj0"
+ },
+ {
+  "student_ID": 16134702,
+  "uw_email": "andrewturner@uwaterloo.ca",
+  "password": "1nY5sGv6"
+ },
+ {
+  "student_ID": 17829051,
+  "uw_email": "olivia2wood@uwaterloo.ca",
+  "password": "0fT9mPc4"
+ },
+ {
+  "student_ID": 20571439,
+  "uw_email": "dansanchez@uwaterloo.ca",
+  "password": "7hK2jLd1"
+ }
 ]
+>>>>>>> test

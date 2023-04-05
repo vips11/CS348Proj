@@ -18,4 +18,6 @@ class Company(Resource):
         except Exception as e:
             print("Error: ", e)
 
-        return make_response(jsonify(response), 200)
+        response = jsonify(response)
+        response.headers.add('Access-Control-Allow-Origin', '*')
+        return response
