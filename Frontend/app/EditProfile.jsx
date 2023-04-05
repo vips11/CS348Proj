@@ -5,11 +5,12 @@ import {
   SafeAreaView,
   ScrollView,
   TouchableOpacity,
+  TextInput,
 } from "react-native";
 import React, { useState } from "react";
 
 import Header from "../components/Header";
-import { TextInput } from "react-native-gesture-handler";
+import EditTerms from "../components/EditTerms";
 
 const EditProfile = () => {
   const [isAddNewTermAvailable, setAddNewTermAvailable] = useState(false);
@@ -33,7 +34,7 @@ const EditProfile = () => {
           <ScrollView
             contentContainerStyle={{
               height: "100%",
-              width: "70%",
+              width: "100%",
               alignItems: "center",
               paddingVertical: 20,
               marginBottom: 20,
@@ -137,6 +138,23 @@ const EditProfile = () => {
                 <Text style={styles.buttonText}>Save</Text>
               </TouchableOpacity>
             </View>
+            <View
+              style={{
+                width: "100%",
+                height: 10,
+                marginVertical: 40,
+                backgroundColor: "red",
+              }}
+            />
+            <EditTerms />
+            <View
+              style={{
+                width: "100%",
+                height: 10,
+                marginVertical: 40,
+                backgroundColor: "red",
+              }}
+            />
           </ScrollView>
         </View>
       </SafeAreaView>
