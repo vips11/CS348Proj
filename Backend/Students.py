@@ -1,8 +1,9 @@
+import uuid
+
 from flask_restful import Resource
 from flask import jsonify, make_response, request
-import sqlite3 as sl
 
-from Backend.helper import *
+from helper import *
 
 
 def intersect(list1, list2, isFirst):
@@ -40,18 +41,12 @@ def intersect(list1, list2, isFirst):
 
 class Students(Resource):
     def get(self):
-        dto = request.json
-        firstName = lastName = term = program = company = key = ""
-        if "firstName" in dto:
-            firstName = dto["firstName"]
-        if "lastName" in dto:
-            lastName = dto["lastName"]
-        if "term" in dto:
-            term = dto["term"]
-        if "program" in dto:
-            program = dto["program"]
-        if "company" in dto:
-            company = dto["program"]
+        key = request.args.get("key")
+        firstName = request.args.get('firstName')
+        lastName = request.args.get('lastName')
+        term = request.args.get('term')
+        program = request.args.get("program")
+        company = request.args.get("company")
 
         response = {
             "students": []
@@ -89,7 +84,9 @@ class Students(Resource):
         except Exception as e:
             print("Error", e)
 
-        return make_response(jsonify(response), 200)
+        response = jsonify(response)
+        response.headers.add('Access-Control-Allow-Origin', '*')
+        return response
 
     def post(self):
         dto = request.json
@@ -130,10 +127,15 @@ class Students(Resource):
         except Exception as e:
             print("Error", e)
 
-        return make_response(jsonify(response), 200)
+        response = jsonify(response)
+        response.headers.add('Access-Control-Allow-Origin', '*')
+        return response
 
     def put(self):
         dto = request.json
+        response = {
+            "success": False
+        }
         try:
             con = sl.connect('applicationDb.db')
             cursor = con.cursor()
@@ -144,31 +146,60 @@ class Students(Resource):
 
             cursor.execute(query)
 
-            for social in dto["socials"]:
-                query = f"""INSERT OR IGNORE INTO SOCIAL VALUES 
-                                    ({social["id"]}, "{social["platform"]}", "{social["link"]}")"""
-                cursor.execute(query)
-
-            for course in dto["courses"]:
-                query = f"""INSERT OR IGNORE INTO TAKES VALUES 
-                    ({course["ID"]}, "{course["course_ID"]}", {course["section_ID"]}, "{course["semester"]}", {course["year"]}, "{course["term"]}")"""
-                cursor.execute(query)
-
-            for work in dto["works"]:
-                query = f"""INSERT OR IGNORE INTO WORKS VALUES 
-                    ("{work["term"]}", "{work["semester"]}", "{work["year"]}", {work["student_ID"]},
-                    {work["job_ID"]}, {work["company_ID"]})
+            if "username" in dto and "password" in dto:
+                query = f"""
+                    INSERT OR IGNORE INTO AUTHORISATION VALUES 
+                    ({dto["id"]}, "{dto["username"]}", "{dto["password"]}")
                 """
-                cursor.execute(query)
+                con.execute(query)
 
+            if "socials" in dto:
+                for social in dto["socials"]:
+                    query = f"""INSERT OR IGNORE INTO SOCIAL VALUES 
+                                        ({social["id"]}, "{social["platform"]}", "{social["link"]}")"""
+                    cursor.execute(query)
+
+            if "courses" in dto:
+                for course in dto["courses"]:
+                    query = f"""INSERT OR IGNORE INTO TAKES VALUES 
+                        ({course["ID"]}, "{course["course_ID"]}", {course["section_ID"]}, "{course["semester"]}", {course["year"]}, "{course["term"]}")"""
+                    cursor.execute(query)
+
+            if "works" in dto:
+                for work in dto["works"]:
+                    companyId = uuid.uuid4()
+                    jobId = uuid.uuid4()
+
+                    query = f"""
+                        INSERT OR IGNORE INTO COMPANY VALUES 
+                        ({companyId}, "{work["company"]}")
+                    """
+                    cursor.execute(query)
+
+                    query = f"""
+                        INSERT OR IGNORE INTO JOB VALUES 
+                        ({jobId}, "{work["position"]}", "{work["isFullTime"]}", {companyId})
+                    """
+                    con.execute(query)
+
+                    query = f"""INSERT OR IGNORE INTO WORKS VALUES 
+                        ("{work["term"]}", "{work["semester"]}", "{work["year"]}", {work["student_ID"]},
+                        {jobId}, {companyId})
+                    """
+                    cursor.execute(query)
+
+            response["success"] = True
         except Exception as e:
             print("Error: ", e)
+
+        response = jsonify(response)
+        response.headers.add('Access-Control-Allow-Origin', '*')
+        return response
 
 
 class DetailedStudent(Resource):
     def get(self):
-        dto = request.json
-        key = dto["key"]
+        key = request.args.get("key")
         student = {}
 
         try:
@@ -213,15 +244,16 @@ class DetailedStudent(Resource):
         except Exception as e:
             print("Error: ", e)
 
-        return make_response(jsonify(student), 200)
+        response = jsonify(student)
+        response.headers.add('Access-Control-Allow-Origin', '*')
+        return response
 
 
 class FindAMentor(Resource):
     def get(self):
-        dto = request.json
-        courseName = dto["course"]
-        year = dto["year"]
-        sem = dto["semester"]
+        courseName = request.args.get("courseName")
+        year = request.args.get("year")
+        sem = request.args.get("year")
 
         response = []
         try:
@@ -247,13 +279,14 @@ class FindAMentor(Resource):
         except Exception as e:
             print("Error", e)
 
-        return make_response(jsonify(response), 200)
+        response = jsonify(response)
+        response.headers.add('Access-Control-Allow-Origin', '*')
+        return response
 
 
 class FindAStudyGroup(Resource):
     def get(self):
-        dto = request.json
-        key = dto["key"]
+        key = request.args.get("key")
 
         response = {
             "students": []
@@ -289,7 +322,9 @@ class FindAStudyGroup(Resource):
         except Exception as e:
             print("Error", e)
 
-        return make_response(jsonify(response), 200)
+        response = jsonify(response)
+        response.headers.add('Access-Control-Allow-Origin', '*')
+        return response
 
 
 class FindAFriend(Resource):
@@ -317,7 +352,9 @@ class FindAFriend(Resource):
         except Exception as e:
             print("Error", e)
 
-        return make_response(jsonify(response), 200)
+        response = jsonify(response)
+        response.headers.add('Access-Control-Allow-Origin', '*')
+        return response
 
 
 class Authorize(Resource):
@@ -327,11 +364,12 @@ class Authorize(Resource):
         }
 
         try:
-            username = request.args.get('user')
-            password = request.args.get("pwd")
+            username = request.args.get("username")
+            password = request.args.get("password")
 
             con = sl.connect('applicationDb.db')
             query = f"SELECT * from AUTHORISATION WHERE uw_email = '{username}' and password = '{password}'"
+            #print(query)
 
             cursor = con.cursor()
             cursor.execute(query)
@@ -342,4 +380,6 @@ class Authorize(Resource):
         except Exception as e:
             print("Error: ", e)
 
-        return make_response(jsonify(response), 200)
+        response = jsonify(response)
+        response.headers.add('Access-Control-Allow-Origin', '*')
+        return response
