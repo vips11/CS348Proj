@@ -26,21 +26,21 @@ export default function SignupScreen() {
 
   const handleSignup = () => {
     // Check if any fields are empty
-    if (!firstName || !lastName || !email || !password || !confirmPassword) {
-      setError("Please fill in all fields");
-      return;
-    }
+    // if (!firstName || !lastName || !email || !password || !confirmPassword) {
+    //   setError("Please fill in all fields");
+    //   return;
+    // }
 
-    // Check if passwords match
-    if (password !== confirmPassword) {
-      setError("Passwords do not match");
-      return;
-    }
+    // // Check if passwords match
+    // if (password !== confirmPassword) {
+    //   setError("Passwords do not match");
+    //   return;
+    // }
 
-    if (email === "v56gupta@uwaterloo.ca") {
-      setError("User already exists");
-      return;
-    }
+    // if (email === "v56gupta@uwaterloo.ca") {
+    //   setError("User already exists");
+    //   return;
+    // }
 
     setError("");
 
@@ -54,7 +54,7 @@ export default function SignupScreen() {
       password: "pass",
       currentTerm: "",
       semester: "",
-      year: "",
+      year: 2023,
       description: "",
     };
 

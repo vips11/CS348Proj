@@ -97,8 +97,15 @@ export const updateStudent = (request, callback) => {
   executePost(student, request, callback);
 };
 
-export const createStudent = (request, callback) => {
-  executePut(student, request, callback);
+export const createStudent = async (request, callback) => {
+    try {
+    const response = await axios.put(
+        host + `/student`, request
+    );
+    callback(response);
+    } catch (error) {
+    console.log(error);
+    }
 };
 
 export const getStudentDetail = (request, callback) => {
@@ -119,9 +126,9 @@ export const findAMentor = (request, callback) => {
 
 export const verifyLogin = async (credentials, callback) => {
   try {
-    const qs = require('qs');
     const response = await axios.get(
-      host + `/authorize`, qs.stringify(credentials)
+      host +
+        `/authorize?username=${credentials.username}&password=${credentials.password}`
     );
     callback(response);
   } catch (error) {
