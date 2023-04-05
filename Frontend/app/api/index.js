@@ -99,12 +99,12 @@ export const updateStudent = (request, callback) => {
 
 export const createStudent = async (request, callback) => {
     try {
-    const response = await axios.put(
-        host + `/student`, request
-    );
-    callback(response);
+        const response = await axios.put(
+            host + `/student`, request
+        );
+        callback(response);
     } catch (error) {
-    console.log(error);
+        console.log(error);
     }
 };
 

@@ -4,22 +4,23 @@ from flask import jsonify, make_response, request
 from helper import *
 
 
-class Courses(Resource):
-    def get(self):
-        name = request.args.get("courseId")
-        liked = request.args.get("liked")
-        useful = request.args.get("useful")
-        alpha = request.args.get("alpha")
+class GetCourses(Resource):
+    def post(self):
+        dto = request.json
+        name = dto["courseId"]
+        liked = dto["liked"]
+        useful = dto["useful"]
+        alpha = dto["alpha"]
         response = []
 
         try:
             query = f"select course_ID, course_description from RATES R natural join COURSE C where course_ID LIKE '%{name}%'"
-            if liked != "none":
+            if liked != "":
                 query += " order by liked_rating " + liked
-            if useful != "none":
+            if useful != "":
                 query += " order by useful_rating " + useful
-            if alpha != "none":
-                query += " order by course_ID " + name
+            if alpha != "":
+                query += " order by course_ID " + alpha
             rows = executeQuery(query)
 
             print(query)
@@ -28,10 +29,7 @@ class Courses(Resource):
             for row in rows:
                 result[row[0]] = {
                     "courseId": row[0],
-                    "sectionId": row[1],
-                    "semester": row[2],
-                    "year": row[3],
-                    "description": row[4]
+                    "description": row[1]
                 }
 
             actResult = []
@@ -45,6 +43,8 @@ class Courses(Resource):
         response.headers.add('Access-Control-Allow-Origin', '*')
         return response
 
+
+class RateCourse(Resource):
     def post(self):
         dto = request.json
         liked = dto["liked"]
@@ -59,6 +59,8 @@ class Courses(Resource):
         try:
             query = f"""INSERT OR IGNORE INTO RATES VALUES 
                     ({liked}, {useful}, "{course}", {studentId})"""
+
+            print(query)
 
             con = sl.connect('applicationDb.db')
             cursor = con.cursor()

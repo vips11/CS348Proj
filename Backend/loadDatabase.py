@@ -150,7 +150,7 @@ def createTables():
             useful_rating INTEGER,
             course_id varchar(6),
             student_id INTEGER,
-            PRIMARY KEY(liked_rating, useful_rating, course_id),
+            PRIMARY KEY(liked_rating, useful_rating, course_id, student_id),
             FOREIGN KEY (student_id) REFERENCES STUDENT(id),
             FOREIGN KEY (course_id) REFERENCES COURSE(course_id)
         )

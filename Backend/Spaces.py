@@ -4,12 +4,15 @@ import sqlite3 as sl
 
 
 class SpacesFilter(Resource):
-    def get(self):
+    def post(self):
+        dto = request.json
+        name = dto["name"]
         response = []
 
         try:
             con = sl.connect('applicationDb.db')
-            query = f"select * from SPACES"
+            query = f"select * from SPACES where name like '%{name}%'"
+            print(query)
             cursor = con.cursor()
             cursor.execute(query)
             rows = cursor.fetchall()
@@ -33,27 +36,31 @@ class SpacesFilter(Resource):
 
 
 class SpacesDetail(Resource):
-    def get(self):
+    def post(self):
         dto = request.json
-        key = request.args.get("key")
+        key = dto["key"]
         response = {}
 
         try:
             con = sl.connect('applicationDb.db')
-            query = f"select SPACES.id, name, description, post from SPACES join POST on SPACES.id = POST.id where SPACE.id = '{key}'"
+            query = f"select S.space_id, S.name, S.description, P.title, P.description from SPACES S join POSTS P on S.space_id = P.space_id where S.space_id = {key}"
+            print(query)
             cursor = con.cursor()
             cursor.execute(query)
             rows = cursor.fetchall()
 
             result = {
-                "id": rows[0][0],
+                "spaceId": rows[0][0],
                 "name": rows[0][1],
                 "description": rows[0][2],
                 "posts": []
             }
 
             for row in rows:
-                result["posts"].append(row[3])
+                result["posts"].append({
+                    "title": row[3],
+                    "description": row[4]
+                })
 
             response = result
         except Exception as e:
