@@ -1,5 +1,5 @@
 /* Query 1 */
-/* Sample query with "Williams" as the search string*/
+/* Sample query with "Smith" as the search string*/
 /* Primarily for spaces(name) and people(name) */
 SELECT *
 from STUDENT
@@ -125,18 +125,27 @@ where course_ID LIKE '%CS%' order by liked_rating desc
 /* Finding spaces */
 select *
 from SPACES
-where name like '%Music%'
+where name like '%Music%';
 
 /* Query 16 */
 /* Authorisation for login/logout */
 SELECT * from AUTHORISATION WHERE
-    uw_email = "milsmith@uwaterloo.ca" and
-    password = "uA&y2KsPmT$!vJ8Q"
+    uw_email = 'milsmith@uwaterloo.ca' and
+    password = 'uAy2KsPmT$!vJ8Q';
 
-select SPACES.space_id, name, Spaces.description, Posts.description
+/* Query 17
+   Retrieving posts data from spaces
+ */
+
+select Posts.title, Posts.description
 from SPACES join POSTS on SPACES.space_id = Posts.space_id
-where SPACES.space_id = 1
+where SPACES.space_id = 1;
 
-select *
-from POSTS
+/* Query 18
+   Adding a new course rating
+ */
 
+INSERT INTO RATES VALUES
+                    (5, 2, 'ASL 101', 96667175);
+SELECT *
+FROM RATES

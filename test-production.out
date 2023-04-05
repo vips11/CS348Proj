@@ -620,7 +620,34 @@
     "term": "4B"
   }
 ]
-
+/* Query 7 */
+[
+  {
+    "id": 67496942,
+    "first_name": "Jen",
+    "last_name": "Davis",
+    "term": "3A",
+    "semester": "Fall",
+    "year": 2021,
+    "uw_email": "jerdavis@uwaterloo.ca",
+    "program": "Math",
+    "description": "Todo"
+  }
+]
+/* Query 8 */
+[
+  {
+    "id": 51458338,
+    "first_name": "Jessica",
+    "last_name": "Smith",
+    "term": "2A",
+    "semester": "Fall",
+    "year": 2022,
+    "uw_email": "jeawilli@uwaterloo.ca",
+    "program": "Biology",
+    "description": "Todo"
+  }
+]
 /* Query 9 */
 [
   {
@@ -834,7 +861,6 @@
     "course_id": "STAT 330"
   }
 ]
-
 /* Query 14 */
 [
   {
@@ -842,4 +868,78 @@
     "name": "Musical Fridays",
     "description": "Every friday, we gather together and do some karoke"
   }
+]
+
+/* Query 15 */
+[
+  {
+    "space_id": 1,
+    "name": "Musical Fridays",
+    "description": "Every friday, we gather together and do some karoke"
+  }
+]
+
+/* Query 16 */
+[
+  {
+    "student_id": 96667175,
+    "uw_email": "milsmith@uwaterloo.ca",
+    "password": "uAy2KsPmT$!vJ8Q"
+  }
+]
+
+/* Query 17 */
+[
+  {
+    "title": "Musical Fridays Announcement",
+    "description": "Don't miss out on this week's Musical Fridays! We'll be featuring some new songs and special guest performers."
+  },
+  {
+    "title": "Photos from Last Week's Musical Fridays",
+    "description": "Check out these pictures from our last Musical Fridays event! Thanks to everyone who came out and made it a great night."
+  },
+  {
+    "title": "Karaoke Competition",
+    "description": "We're hosting a karaoke competition at Musical Fridays next week. Come show off your skills and compete for a prize!"
+  },
+  {
+    "title": "Musical Fridays Cancelled",
+    "description": "Unfortunately, we have to cancel this week's Musical Fridays due to unforeseen circumstances. Stay tuned for updates on when we'll be back up and running!"
+  },
+  {
+    "title": "Reminder: Musical Fridays Tonight!",
+    "description": "Just a friendly reminder that Musical Fridays is happening tonight. Come join us for some great music and good times!"
+  },
+  {
+    "title": "Musical Fridays Playlist Update",
+    "description": "We've updated the Musical Fridays playlist with some new songs and old favorites. Check it out and let us know what you think!"
+  },
+  {
+    "title": "Volunteers Needed for Musical Fridays",
+    "description": "We're looking for volunteers to help out with Musical Fridays. If you're interested in helping set up or run the event, please let us know!"
+  },
+  {
+    "title": "Recap: Last Month's Musical Fridays",
+    "description": "In case you missed it, here's a recap of last month's Musical Fridays event. We had a great turnout and some amazing performances!"
+  },
+  {
+    "title": "Musical Fridays Moving to New Location",
+    "description": "Starting next month, Musical Fridays will be moving to a new location. Stay tuned for more details and directions!"
+  }
+]
+
+/* Query 18 */
+[
+  {
+    "liked_rating": 5,
+    "useful_rating": 2,
+    "course_id": "ASL 101",
+    "student_id": 96667175
+  },
+  {
+    "liked_rating": 5,
+    "useful_rating": 4,
+    "course_id": "BIOL 130",
+    "student_id": 21217676
+  },
 ]
