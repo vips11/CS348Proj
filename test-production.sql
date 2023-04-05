@@ -70,11 +70,14 @@ Where ID = 51458338;
 
 /* Query 9 */
 /* Find a study group */
-select distinct first_name, last_name
-from TAKES as T2, (select distinct course_id, first_name, last_name
-            from STUDENT as S, TAKES as T
-            where T.student_id = 96667175) as Temp
-where T2.course_id =  Temp.course_id and T2.student_id != 96667175;
+SELECT DISTINCT s2.first_name, s2.last_name
+FROM Student s1
+JOIN Takes t1 ON s1.ID = t1.student_ID
+JOIN Takes t2 ON t1.course_ID = t2.course_ID AND t1.section_ID = t2.section_ID AND t1.semester = t2.semester AND t1.year = t2.year
+JOIN Student s2 ON t2.student_ID = s2.ID
+WHERE s1.ID = 29384617 AND s1.program = s2.program AND s2.ID <> 29384617
+GROUP BY s2.ID
+HAVING COUNT(DISTINCT t2.course_ID) >= 3;
 
 
 /* Query 10 */
@@ -110,12 +113,30 @@ from (select max(useful_rating) as maxUsefulRating, max(liked_rating) as maxLike
 where RATES.useful_rating = maxUsefulRating
     and RATES.liked_rating = maxLikedRating;
 
-
 /* Query 14 */
+/* find the CS courses with the highest liked rating */
+select distinct course_ID, course_description
+from RATES R natural join COURSE C
+natural join SECTION
+where course_ID LIKE '%CS%' order by liked_rating desc
+
+
+/* Query 15 */
 /* Finding spaces */
 select *
 from SPACES
 where name like '%Music%'
 
-/* Query 15 */
+/* Query 16 */
 /* Authorisation for login/logout */
+SELECT * from AUTHORISATION WHERE
+    uw_email = "milsmith@uwaterloo.ca" and
+    password = "uA&y2KsPmT$!vJ8Q"
+
+select SPACES.space_id, name, Spaces.description, Posts.description
+from SPACES join POSTS on SPACES.space_id = Posts.space_id
+where SPACES.space_id = 1
+
+select *
+from POSTS
+
