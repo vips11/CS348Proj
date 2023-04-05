@@ -9,6 +9,7 @@ import { Link } from "expo-router";
 import React, { useState, useEffect } from "react";
 
 import Header from "../components/Header";
+import { ScrollView } from "react-native-gesture-handler";
 
 const Field = ({ label }) => {
   return (
@@ -57,7 +58,10 @@ const Courses = () => {
         <Header pageNum={4} />
       </View>
 
-      <View style={styles.body}>
+      <ScrollView
+        style={styles.body}
+        contentContainerStyle={{ paddingBottom: 40, minHeight: 1000 }}
+      >
         <View style={styles.contentBody}>
           <View style={styles.sort}>
             <TouchableOpacity onPress={toggleMenu} style={styles.filterButton}>
@@ -114,7 +118,7 @@ const Courses = () => {
             </View>
           </View>
         </View>
-      </View>
+      </ScrollView>
     </View>
   );
 };

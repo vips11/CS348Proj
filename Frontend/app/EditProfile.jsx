@@ -138,23 +138,7 @@ const EditProfile = () => {
                 <Text style={styles.buttonText}>Save</Text>
               </TouchableOpacity>
             </View>
-            <View
-              style={{
-                width: "100%",
-                height: 10,
-                marginVertical: 40,
-                backgroundColor: "red",
-              }}
-            />
             <EditTerms />
-            <View
-              style={{
-                width: "100%",
-                height: 10,
-                marginVertical: 40,
-                backgroundColor: "red",
-              }}
-            />
           </ScrollView>
         </View>
       </SafeAreaView>
@@ -172,7 +156,7 @@ const styles = StyleSheet.create({
   },
   headerContainer: {
     width: "100%",
-    height: "10%",
+    paddingVertical: 10,
   },
   body: {
     width: "100%",
