@@ -193,10 +193,10 @@ def createTables():
     tableQueries.append("""
             CREATE TABLE IF NOT EXISTS POSTS (
                 space_id INTEGER,
-                post_id INTEGER,
+                ID INTEGER,
                 title varchar(255),
                 description varchar(255),
-                PRIMARY KEY (post_id),
+                PRIMARY KEY (ID),
                 FOREIGN KEY (space_id) REFERENCES SPACES(space_id)
             )
         """)
@@ -422,7 +422,7 @@ def loadPostsData():
         for data in tableData:
             query = f"""
                     INSERT OR IGNORE INTO POSTS VALUES 
-                    ({data["space_ID"]}, "{data["ID"]}", "{data["title"]}", "{data["description"]}")
+                    ({data["space_ID"]}, {data["ID"]}, "{data["title"]}", "{data["description"]}")
                 """
             con.execute(query)
 

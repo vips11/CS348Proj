@@ -878,50 +878,50 @@
  {
   "ID": 147,
   "space_ID": 18,
-  "title": "Our Latest Club Meeting",
-  "description": "We just had our latest cheese club meeting last night."
+  "title": "this is a movie",
+  "description": " We just had our latest cheese club meeting last night. "
  },
  {
   "ID": 148,
   "space_ID": 18,
-  "title": "New Cheese Recommendations",
-  "description": "Do you have any new cheese recommendations to share?"
+  "title": " New Cheese Recommendations ",
+  "description": " Do you have any new cheese recommendations to share? "
  },
  {
   "ID": 149,
   "space_ID": 18,
-  "title": "Upcoming Tasting Event",
-  "description": "Don't miss our upcoming cheese tasting event!"
+  "title": " Upcoming Tasting Event ",
+  "description": " Don't miss our upcoming cheese tasting event! "
  },
  {
   "ID": 150,
   "space_ID": 18,
-  "title": "Cheese of the Week",
-  "description": "This week's featured cheese is a delicious brie."
+  "title": " Cheese of the Week ",
+  "description": " This week's featured cheese is a delicious brie. "
  },
  {
   "ID": 151,
   "space_ID": 18,
-  "title": "Cheese Board Inspiration",
-  "description": "Share your favorite cheese board ideas and tips here."
+  "title": " Cheese Board Inspiration ",
+  "description": " Share your favorite cheese board ideas and tips here. "
  },
  {
   "ID": 152,
   "space_ID": 18,
-  "title": "Favorite Cheese Pairings",
-  "description": "What are your favorite cheese and wine pairings?"
+  "title": " Favorite Cheese Pairings ",
+  "description": " What are your favorite cheese and wine pairings? "
  },
  {
   "ID": 153,
   "space_ID": 18,
-  "title": "Cheese Trivia Night",
-  "description": "Get ready for our upcoming cheese-themed trivia night!"
+  "title": " Cheese Trivia Night ",
+  "description": " Get ready for our upcoming cheese-themed trivia night! "
  },
  {
   "ID": 154,
   "space_ID": 18,
-  "title": "Cheese-making Workshop Recap",
-  "description": "Here's a recap of our recent cheese-making workshop."
+  "title": " Cheese-making Workshop Recap ",
+  "description": " Here's a recap of our recent cheese-making workshop. "
  },
  {
   "ID": 155,
@@ -1022,38 +1022,37 @@
  {
   "ID": 171,
   "space_ID": 21,
-  "title": "Welcome Grad Students!",
-  "description": "Introduce yourself and meet other grad students in this space"
+  "title": " Welcome Grad Students! ",
  },
  {
   "ID": 172,
   "space_ID": 21,
-  "title": "Advice on Choosing a Supervisor",
+  "title": " Advice on Choosing a Supervisor ",
   "description": "Looking for advice on how to choose the right supervisor? Share your experiences and ask for advice in this space"
  },
  {
   "ID": 173,
   "space_ID": 21,
-  "title": "Conference Opportunities",
+  "title": " Conference Opportunities ",
   "description": "Share upcoming conference opportunities and discuss potential collaborations with other grad students in this space"
  },
  {
   "ID": 174,
   "space_ID": 21,
-  "title": "Strategies for Time Management",
+  "title": " Strategies for Time Management ",
   "description": "Discuss strategies and tips for managing your time effectively as a grad student in this space"
  },
  {
   "ID": 175,
   "space_ID": 21,
-  "title": "Publishing in Academic Journals",
+  "title": " Publishing in Academic Journals ",
   "description": "Share tips and experiences about publishing in academic journals and discuss potential collaborations with other grad students in this space"
  },
  {
   "ID": 176,
   "space_ID": 21,
-  "title": "Navigating the Thesis\/Dissertation Process",
-  "description": "Share experiences and ask for advice on navigating the thesis\/dissertation process in this space"
+  "title": "Navigating thesis",
+  "description": "Share experiences and ask for advice on navigating dissertation process in this space"
  },
  {
   "ID": 177,
@@ -1070,13 +1069,13 @@
  {
   "ID": 179,
   "space_ID": 22,
-  "title": "Just finished 1984",
+  "title": "Just finished  1984 ",
   "description": "What's your opinion on the book?"
  },
  {
   "ID": 180,
   "space_ID": 22,
-  "title": "The Alchemist",
+  "title": " The Alchemist ",
   "description": "Can anyone give me a brief summary of this book?"
  },
  {
