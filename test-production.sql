@@ -78,12 +78,11 @@ WHERE sec.semester = 'Fall' -- Replace with the current semester
 AND sec.year = 2020 -- Replace with the current year
 AND t.student_ID <> 29384617 -- Exclude the given student
 AND t.course_ID IN (
-    SELECT t2.course_ID
-    FROM Takes t2
-    WHERE t2.student_ID = 29384617-- Replace with the given student ID
+SELECT t2.course_ID FROM Takes t2 WHERE t2.student_ID = 29384617
 )
 GROUP BY s.ID
 HAVING COUNT(DISTINCT t.course_ID) >= 3
+
 
 
 /* Query 10 */
