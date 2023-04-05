@@ -10,53 +10,26 @@ import { Link, useRouter } from "expo-router";
 import Header from "../components/Header";
 import SpaceItem from "../components/SpaceItem";
 import { SafeAreaView } from "react-native-safe-area-context";
+import { useEffect, useState } from "react";
 
-const data = [
-  {
-    space_ID: 1,
-    name: "Musical Fridays",
-    description: "Every friday, we gather together and do some karoke",
-  },
-  {
-    space_ID: 2,
-    name: "Cooking Classes",
-    description:
-      "Want to learn how to cook? We make everything from cookies to pasta to bread.",
-  },
-  {
-    space_ID: 3,
-    name: "Computer Science Students",
-    description: "For anyone taking any computer science or related courses",
-  },
-  {
-    space_ID: 4,
-    name: "Residence first years",
-    description:
-      "A space for all first years living in a University of Waterloo residence",
-  },
-  {
-    space_ID: 28,
-    name: "Umemployed",
-    description: "for students currently looking for a coop",
-  },
-  {
-    space_ID: 29,
-    name: "business enthusiasts",
-    description: "we talk about various talks relating to business",
-  },
-  {
-    space_ID: 30,
-    name: "movie lovers",
-    description:
-      "get recommendations on the latest and old movies that are a must watch",
-  },
-];
+import { getSpaces } from "./api";
 
 const Spaces = () => {
   const router = useRouter();
 
-  const handleClickOnSpace = () => {
-    router.push("ViewSpace");
+  const [data, setData] = useState([]);
+
+  useEffect(async () => {
+    const result = await getSpaces("");
+    setData(result);
+  }, []);
+
+  const handleClickOnSpace = (index) => {
+    const params = new URLSearchParams({
+      key: data[index].space_ID,
+    });
+
+    router.push(`/ViewSpace?${params.toString()}`);
   };
 
   return (
@@ -67,18 +40,19 @@ const Spaces = () => {
 
       <SafeAreaView style={styles.body}>
         <ScrollView style={styles.contentBody}>
-          {data.map((space, index) => (
-            <TouchableOpacity
-              onPress={() => handleClickOnSpace()}
-              style={{
-                width: "60%",
-                marginVertical: 10,
-                alignSelf: "center",
-              }}
-            >
-              <SpaceItem spaceName={space.name} key={space.space_ID} />
-            </TouchableOpacity>
-          ))}
+          {data &&
+            data.map((space, index) => (
+              <TouchableOpacity
+                onPress={() => handleClickOnSpace(index)}
+                style={{
+                  width: "60%",
+                  marginVertical: 10,
+                  alignSelf: "center",
+                }}
+              >
+                <SpaceItem spaceName={space.name} key={space.space_ID} />
+              </TouchableOpacity>
+            ))}
         </ScrollView>
       </SafeAreaView>
     </View>

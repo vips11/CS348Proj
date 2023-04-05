@@ -7,10 +7,9 @@ import {
   TouchableOpacity,
 } from "react-native";
 import { Link, useRouter } from "expo-router";
-import AsyncStorage from "@react-native-async-storage/async-storage";
-import axios from "axios";
 
 import { verifyLogin } from "./api";
+import { saveUserEmail } from "./asyncStore";
 
 const LoginScreen = () => {
   const router = useRouter();
@@ -19,21 +18,16 @@ const LoginScreen = () => {
   const [password, setPassword] = useState("");
   const [errorMsg, setErrorMsg] = useState("");
 
-  const handleLogin = () => {
-    const credentials = {
-      username: username,
-      password: password,
-    };
+  const handleLogin = async () => {
+    const loginResult = await verifyLogin(username, password);
 
-    verifyLogin(credentials, (res) => {
-      console.log(res);
-      if (res.data.authorize == true) {
-        setErrorMsg("");
-        router.push("/Home");
-      } else {
-        setErrorMsg("Username or Password Incorrect");
-      }
-    });
+    if (loginResult) {
+      await saveUserEmail(username);
+      setErrorMsg("");
+      router.push("/Home");
+    } else {
+      setErrorMsg("Username or Password Incorrect");
+    }
   };
 
   return (
