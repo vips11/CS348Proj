@@ -8,8 +8,10 @@ import {
   TextInput,
 } from "react-native";
 import React, { useEffect, useState } from "react";
+import { Link, useSearchParams, useRouter } from "expo-router";
 
 import Header from "../components/Header";
+import { editProfile } from "./api";
 
 const RenderStudyTerm = (year, term, courses) => {
   return (
@@ -363,45 +365,47 @@ const RenderNewOffTerm = (year, term, courses, index) => {
 };
 
 const prevStudyTerms = [
-  {
-    term: "1A",
-    year: "F22",
-    courses: ["Course 1", "Course 2", "Course 3"],
-  },
-  {
-    term: "1B",
-    year: "W23",
-    courses: ["Course 1", "Course 2", "Course 3"],
-  },
-  {
-    term: "2A",
-    year: "F34",
-    courses: ["Course 1", "Course 2", "Course 3"],
-  },
+  // {
+  //   term: "1A",
+  //   year: "F22",
+  //   courses: ["Course 1", "Course 2", "Course 3"],
+  // },
+  // {
+  //   term: "1B",
+  //   year: "W23",
+  //   courses: ["Course 1", "Course 2", "Course 3"],
+  // },
+  // {
+  //   term: "2A",
+  //   year: "F34",
+  //   courses: ["Course 1", "Course 2", "Course 3"],
+  // },
 ];
 
 const prevWorkTerms = [
-  {
-    term: "Coop1",
-    year: "F22",
-    company: "Company 1",
-    position: "Position 1",
-  },
-  {
-    term: "Coop2",
-    year: "W23",
-    company: "Company 2",
-    position: "Position 2",
-  },
-  {
-    term: "Coop3",
-    year: "F34",
-    company: "Company 3",
-    position: "Position 3",
-  },
+  // {
+  //   term: "Coop1",
+  //   year: "F22",
+  //   company: "Company 1",
+  //   position: "Position 1",
+  // },
+  // {
+  //   term: "Coop2",
+  //   year: "W23",
+  //   company: "Company 2",
+  //   position: "Position 2",
+  // },
+  // {
+  //   term: "Coop3",
+  //   year: "F34",
+  //   company: "Company 3",
+  //   position: "Position 3",
+  // },
 ];
 
-const prevOffTerms = [{ year: "F22", description: "I took a break!" }];
+const prevOffTerms = [
+  // { year: "F22", description: "I took a break!" }
+];
 
 const Field = ({ label, value, onChange }) => {
   return (
@@ -417,16 +421,19 @@ const Field = ({ label, value, onChange }) => {
 };
 
 const EditProfile = () => {
-  const [firstName, setFirstName] = useState("");
-  const [lastName, setLastName] = useState("");
-  const [program, setProgram] = useState("");
+  const router = useRouter();
+  const { email1, firstName1, lastName1, program1, description1, term1 } =
+    useSearchParams();
+  const [firstName, setFirstName] = useState(firstName1);
+  const [lastName, setLastName] = useState(lastName1);
+  const [program, setProgram] = useState(program1);
   const [newStudyTerms, setNewStudyTerms] = useState([]);
   const [updatedStudyInfo, setUpdatedStudyInfo] = useState([]);
   const [newWorkTerms, setNewWorkTerms] = useState([]);
   const [newOffTerms, setNewOffTerms] = useState([]);
   const [year, setYear] = useState("");
-  const [term, setTerm] = useState("");
-  const [description, setDescription] = useState("");
+  const [term, setTerm] = useState(term1);
+  const [description, setDescription] = useState(description1);
   const [courses, setCourses] = useState("");
   const [company, setCompany] = useState("");
   const [updatedWorkInfo, setUpdatedWorkInfo] = useState([]);
@@ -564,7 +571,7 @@ const EditProfile = () => {
     // add api call here
   };
 
-  const handleSave = () => {
+  const handleSave = async () => {
     // add api call here
     const courses = [];
     const works = [];
@@ -607,7 +614,7 @@ const EditProfile = () => {
         var c = workTerm.company.length > 0 ? workTerm.company.split("@") : [];
         works.push({
           semester: semester,
-          year: year,
+          year: parseInt(year),
           term: workTerm.term,
           company: c[0],
           position: c[1],
@@ -615,6 +622,23 @@ const EditProfile = () => {
         });
       });
     }
+
+    const params = {
+      key: email1,
+      firstName: firstName1,
+      lastName: lastName1,
+      program: program1,
+      term: term1,
+      description: description1,
+      courses: courses,
+      works: works,
+    };
+
+    // API CALL HERE
+    await editProfile(params, (response) => {
+      console.log(response);
+      router.push("/ViewSelfProfile");
+    });
   };
 
   const renderInput = (idx) => (

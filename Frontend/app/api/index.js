@@ -72,7 +72,8 @@ export const createStudent = async (
   email,
   password,
   studentID,
-  program
+  program,
+  callback
 ) => {
   const params = {
     firstName: firstName,
@@ -88,11 +89,7 @@ export const createStudent = async (
     year: 2023,
   };
 
-  const result = await executePut("", params, (response) => {
-    return response.data.created;
-  });
-
-  return result;
+  await executeGet("/create-student", params, callback);
 };
 
 // This API is to get all the students after applying the
@@ -308,4 +305,10 @@ export const saveCourseRating = async (name, liked, used, callback) => {
   };
 
   await executeGet("/course/rate", params, callback);
+};
+
+export const editProfile = async (params, callback) => {
+  console.log("PARAMS: ");
+  console.log(params);
+  await executeGet("/update-student", params, callback);
 };

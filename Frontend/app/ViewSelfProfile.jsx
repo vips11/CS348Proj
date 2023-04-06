@@ -66,12 +66,12 @@ const ViewSelfProfile = () => {
               style={{ marginVertical: 20 }}
               onPress={() => {
                 const params = new URLSearchParams({
-                  key: localStorage.getItem("userEmail"),
-                  firstName: data.firstName,
-                  lastName: data.lastName,
-                  program: data.program,
-                  description: data.description,
-                  term: data.currentTerm,
+                  email1: localStorage.getItem("userEmail"),
+                  firstName1: data.firstName,
+                  lastName1: data.lastName,
+                  program1: data.program,
+                  description1: data.description,
+                  term1: data.currentTerm,
                 });
 
                 router.push(`/EditProfile?${params.toString()}`);

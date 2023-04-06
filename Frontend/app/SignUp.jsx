@@ -37,22 +37,22 @@ export default function SignupScreen() {
 
     setError("");
 
-    const result = await createStudent(
+    await createStudent(
       firstName,
       lastName,
       email,
       password,
       studentID,
-      program
+      program,
+      (response) => {
+        if (response.data.success) {
+          localStorage.setItem("userEmail", email);
+          router.push("/Home");
+        } else {
+          setError("Something Wrong. Contact Site Admin.");
+        }
+      }
     );
-
-    if (result) {
-      // ADD EMAIL TO ASYNC STORE HERE
-      await saveUserEmail(email);
-      router.push("/Home");
-    } else {
-      setError("Something Wrong. Contact Site Admin.");
-    }
   };
 
   return (
