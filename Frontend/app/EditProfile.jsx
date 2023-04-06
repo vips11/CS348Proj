@@ -475,16 +475,7 @@ const EditProfile = () => {
                 {prevStudyTerms.map((x) =>
                   RenderStudyTerm(x.year, x.term, x.courses)
                 )}
-                {newStudyTerms.map(
-                  (x, index) => (
-                    RenderNewStudyTerm(),
-                    newStudyTerms.push({
-                      year: year,
-                      term: term,
-                      courses: courses,
-                    })
-                  )
-                )}
+                {newStudyTerms.map((x, index) => RenderNewStudyTerm())}
                 <TouchableOpacity
                   style={styles.button}
                   onPress={() => {
@@ -732,3 +723,5 @@ const styles = StyleSheet.create({
     marginRight: 20,
   },
 });
+
+const Course = () => {};
