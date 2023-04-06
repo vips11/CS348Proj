@@ -211,7 +211,7 @@ const styles = StyleSheet.create({
   },
   headerContainer: {
     width: "100%",
-    height: "10%",
+    paddingBottom: 10,
   },
   body: {
     width: "100%",

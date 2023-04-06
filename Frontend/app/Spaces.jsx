@@ -71,7 +71,7 @@ const styles = StyleSheet.create({
   },
   headerContainer: {
     width: "100%",
-    height: "10%",
+    paddingVertical: 10,
     maxHeight: "10%",
   },
   body: {

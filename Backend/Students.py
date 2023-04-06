@@ -161,8 +161,8 @@ class UpdateStudent(Resource):
                     con.execute(query)
 
                     query = f"""INSERT OR IGNORE INTO WORKS VALUES 
-                        ("{work["term"]}", "{work["semester"]}", "{work["year"]}", {studentId},
-                        {jobId}, {companyId})
+                        ({studentId}, {companyId}, {jobId}, '{work["term"]}',
+                        '{work["semester"]}', '{work["year"]}')
                     """
                     cursor.execute(query)
 
