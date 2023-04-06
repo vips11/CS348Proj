@@ -368,9 +368,7 @@ const EditTerms = () => {
   const [newOffTerms, setNewOffTerms] = useState([]);
   console.log(newStudyTerms);
   return (
-    <View style={styles.container}>
-      <Text style={styles.title}>Edit Terms</Text>
-
+    <View style={{ width: "98%" }}>
       <View style={styles.section}>
         <Text style={styles.subTitle}>Study Terms</Text>
         {prevStudyTerms.map((x) => RenderStudyTerm(x.year, x.term, x.courses))}
