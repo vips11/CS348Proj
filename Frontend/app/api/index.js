@@ -14,7 +14,7 @@ const executeGet = async (endpoint, params, callback = null) => {
     //   base_URL + endpoint + "?" + paramsLst.join("&")
     // );
 
-    const response = await axios.get(base_URL + endpoint, { params });
+    const response = await axios.post(base_URL + endpoint, { params });
 
     if (callback) {
       callback(response);
@@ -27,14 +27,15 @@ const executeGet = async (endpoint, params, callback = null) => {
 
 const executePost = async (endpoint, params, callback = null) => {
   try {
-    const response = await axios.post(base_URL + endpoint, params);
+    console.log("Posting");
+    const response = await axios.post("http://127.0.0.1:5000/spaces", params);
 
     if (callback) {
       callback(response);
     }
   } catch (error) {
     console.log("ERROR IN POST REQUEST:");
-    console.log(err);
+    console.log(error);
   }
 };
 
@@ -54,6 +55,7 @@ const executePut = async (endpoint, params, callback = null) => {
 // Accepts username and password as strings
 // returns true or false for if verification was succesful or not
 export const verifyLogin = async (username, password) => {
+  console.log("Verifying");
   const params = {
     username: username,
     password: password,

@@ -19,6 +19,7 @@ const LoginScreen = () => {
   const [errorMsg, setErrorMsg] = useState("");
 
   const handleLogin = async () => {
+    console.log("Printing");
     const loginResult = await verifyLogin(username, password);
 
     if (loginResult) {
@@ -29,6 +30,8 @@ const LoginScreen = () => {
       setErrorMsg("Username or Password Incorrect");
     }
   };
+
+  console.log("Printing");
 
   return (
     <View style={styles.container}>
