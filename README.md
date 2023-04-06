@@ -31,10 +31,10 @@ The frontend is written in React. The commands to run the program are given belo
 The first line is to get to the directory with the code for the application. <br>
 The second line is to run the application.
 
-The backend is written in python. To run the backend cd into the Backend directory and run the following:
-pip3 install flask
-pip3 install flask_restful
-pip3 install flask_cors
+The backend is written in python. To run the backend cd into the Backend directory and run the following: <br>
+pip3 install flask <br>
+pip3 install flask_restful <br>
+pip3 install flask_cors <br>
 python3 api.py
 
 ## Features
