@@ -14,13 +14,23 @@ class GetCourses(Resource):
         response = []
 
         try:
+            isFirst = True
             query = f"select course_ID, course_description from RATES R natural join COURSE C where course_ID LIKE '%{name}%'"
             if liked != "":
                 query += " order by liked_rating " + liked
+                isFirst = False
             if useful != "":
-                query += " order by useful_rating " + useful
+                if isFirst:
+                    query += " order by useful_rating " + useful
+                else:
+                    query += ", useful_rating " + useful
+
+                isFirst = False
             if alpha != "":
-                query += " order by course_ID " + alpha
+                if isFirst:
+                    query += " order by course_ID " + alpha
+                else:
+                    query += ", course_ID " + alpha
             rows = executeQuery(query)
 
             print(query)
@@ -49,7 +59,7 @@ class RateCourse(Resource):
         dto = request.json
         liked = dto["liked"]
         useful = dto["useful"]
-        studentId = dto["studentId"]
+        email = dto["email"]
         course = dto["courseId"]
 
         response = {
@@ -57,6 +67,9 @@ class RateCourse(Resource):
         }
 
         try:
+            query = f"select id from student where uw_email = '{email}'"
+            studentId = executeQuery(query)[0][0]
+
             query = f"""INSERT OR IGNORE INTO RATES VALUES 
                     ({liked}, {useful}, "{course}", {studentId})"""
 

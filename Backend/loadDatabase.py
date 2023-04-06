@@ -131,12 +131,12 @@ def createTables():
     # Works
     tableQueries.append("""
         CREATE TABLE IF NOT EXISTS WORKS (
+            student_id INTEGER,
+            company_id INTEGER,
+            job_id INTEGER,
             term varchar(2),
             semester varchar(255),
             year INTEGER,
-            student_id INTEGER,
-            job_id INTEGER,
-            company_id INTEGER,
             PRIMARY KEY (student_id, job_id),
             FOREIGN KEY (student_id) REFERENCES STUDENT(id),
             FOREIGN KEY (job_id) REFERENCES JOB(job_id)

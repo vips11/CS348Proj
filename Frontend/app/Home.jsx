@@ -5,94 +5,70 @@ import React, { useState, useEffect } from "react";
 import Header from "../components/Header";
 import ProfilesListItem from "../components/ProfileListItem";
 import { ScrollView } from "react-native-gesture-handler";
-import allPeople from "./data";
+import { getUserEmail } from "./asyncStore";
+import { findMentor, findStudyGroup } from "./api";
 
 const FindGroup = () => {
-  const [data, setData] = useState([]);
+  const [key, setKey] = useState(null);
 
-  const [currentMentor, setCurrentMentor] = useState(-1);
+  const [currentMentor, setCurrentMentor] = useState(null);
   const [studyGroup, setStudyGroup] = useState([]);
 
-  const handleFindMentor = () => {
-    setCurrentMentor(Math.floor(Math.random() * allPeople.length));
-  };
-
-  const handleFindStudyGroup = () => {
-    const n = Math.floor(Math.random() * 5) + 2;
-    const randomIndices = [];
-
-    for (var i = 0; i < n; i++) {
-      const index = Math.floor(Math.random() * allPeople.length);
-
-      if (randomIndices.includes(index)) {
-        i -= 1;
-      } else {
-        randomIndices.push(index);
-      }
-    }
-
-    setStudyGroup(randomIndices);
-  };
-
-  const getTermInfo = (index) => {
-    if (allPeople[index].currentTerm.startsWith("Coop") === false) {
-      return allPeople[index].currentTerm + " " + allPeople[index].program;
-    }
-    var temp = null;
-    for (var i = 0; i < allPeople[index].timeLine.length; i++) {
-      if (allPeople[index].timeLine[i].term === allPeople[index].currentTerm) {
-        temp = allPeople[index].timeLine[i];
-        break;
-      }
-    }
-    if (temp == null) {
-      temp = {
-        type: "work",
-        term: "Coop 1",
-        termDescription: "Testing and QA @ XYZ Inc.",
-        startDate: "May 2021",
-        endDate: "Aug 2021",
-      };
-    }
-    return temp.termDescription;
-  };
-
   useEffect(() => {
-    const t = [];
-    allPeople.map((person, index) =>
-      t.push({
-        key: person.email,
-        firstName: person.firstName,
-        lastName: person.lastName,
-        termInfo: getTermInfo(index),
-      })
-    );
-    console.log(data);
-    setData(t);
+    const res = getUserEmail();
+    setKey(res);
   }, []);
 
-  const handleProfileClick = (index) => {
-    router.push("ViewOtherProfile?index=" + index);
+  const handleFindMentor = async () => {
+    await findMentor(key, (response) => {
+      if (response.data.length > 0) {
+        setCurrentMentor(
+          response.data[Math.floor(Math.random() * response.data.length)]
+        );
+      } else {
+        setCurrentMentor(null);
+      }
+    });
+  };
+
+  const handleFindStudyGroup = async () => {
+    await findStudyGroup(key, (response) => {
+      setStudyGroup(response.data.students);
+    });
+  };
+
+  const handleCurrentMentorClick = () => {
+    const params = new URLSearchParams({
+      key: currentMentor.key,
+    });
+
+    router.push(`/ViewOtherProfile?${params.toString()}`);
+  };
+
+  const handleStudyGroupProfileClick = (index) => {
+    const params = new URLSearchParams({
+      key: data[index].key,
+    });
+
+    router.push(`/ViewOtherProfile?${params.toString()}`);
   };
 
   return (
     <ScrollView>
       <View style={{ justifyContent: "center", alignItems: "center" }}>
-        {currentMentor !== -1 ? (
+        {currentMentor ? (
           <>
             <Text style={{ color: "white", marginVertical: 15, fontSize: 24 }}>
               Current Mentor:{" "}
             </Text>
             <TouchableOpacity
-              onPress={() => {
-                handleProfileClick(currentMentor);
-              }}
+              onPress={() => handleCurrentMentorClick()}
               style={{ width: "100%" }}
             >
               <ProfilesListItem
-                FirstName={data[currentMentor].firstName}
-                LastName={data[currentMentor].lastName}
-                TermInfo={data[currentMentor].termInfo}
+                FirstName={currentMentor.firstName}
+                LastName={currentMentor.lastName}
+                TermInfo={currentMentor.termInfo}
               />
             </TouchableOpacity>
           </>
@@ -119,26 +95,27 @@ const FindGroup = () => {
       </View>
       <View style={{ marginVertical: 10 }}></View>
       <View style={{ justifyContent: "center", alignItems: "center" }}>
-        {currentMentor ? (
+        {studyGroup.length > 0 ? (
           <>
             <Text style={{ color: "white", marginVertical: 15, fontSize: 24 }}>
               Current Study Group:{" "}
             </Text>
-            {studyGroup.map((index) => (
-              <TouchableOpacity
-                onPress={() => {
-                  handleProfileClick(index);
-                }}
-                style={{ width: "100%" }}
-              >
-                <ProfilesListItem
-                  FirstName={data[index].firstName}
-                  LastName={data[index].lastName}
-                  TermInfo={data[index].termInfo}
-                  key={index}
-                />
-              </TouchableOpacity>
-            ))}
+            {studyGroup &&
+              studyGroup.map((person, index) => (
+                <TouchableOpacity
+                  onPress={() => {
+                    handleProfileClick(index);
+                  }}
+                  style={{ width: "100%" }}
+                >
+                  <ProfilesListItem
+                    FirstName={person.firstName}
+                    LastName={person.lastName}
+                    TermInfo={person.termInfo}
+                    key={index}
+                  />
+                </TouchableOpacity>
+              ))}
           </>
         ) : (
           <Text style={{ color: "white", marginVertical: 15, fontSize: 24 }}>

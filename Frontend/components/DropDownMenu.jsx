@@ -7,6 +7,8 @@ import {
   StyleSheet,
 } from "react-native";
 
+import { getStudents } from "../app/api";
+
 const Field = ({ label, value, onChange }) => {
   return (
     <View style={styles.filterField}>
@@ -20,21 +22,29 @@ const Field = ({ label, value, onChange }) => {
   );
 };
 
-const DropDownMenu = () => {
+const DropDownMenu = ({ data, setData }) => {
   const [isOpen, setIsOpen] = useState(false);
   const [firstName, setFirstName] = useState("");
   const [lastName, setLastName] = useState("");
   const [program, setProgram] = useState("");
   const [term, setTerm] = useState("");
   const [companies, setCompanies] = useState("");
-  const [courses, setCourses] = useState("");
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
 
-  const applyFilters = () => {
-    // Implement filter functionality here
+  const applyFilters = async () => {
+    await getStudents(
+      firstName,
+      lastName,
+      program,
+      term,
+      companies,
+      (response) => {
+        setData(response.data.students);
+      }
+    );
     setIsOpen(false);
   };
 
@@ -54,7 +64,6 @@ const DropDownMenu = () => {
           <Field label="Program" value={program} onChange={setProgram} />
           <Field label="Term" value={term} onChange={setTerm} />
           <Field label="Companies" value={companies} onChange={setCompanies} />
-          <Field label="Courses" value={courses} onChange={setCourses} />
 
           <TouchableOpacity onPress={applyFilters} style={styles.applyButton}>
             <Text style={styles.applyButtonText}>Apply Filters</Text>

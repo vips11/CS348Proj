@@ -79,7 +79,7 @@ class GetStudents(Resource):
                 rows = intersect(rows, executeQuery(query), isFirst)
                 isFirst = False
             if company != "":
-                query = f"select * from STUDENT, COMPANY natural join WORKS where COMPANY.name like '%{company}%';"
+                query = f"select * from STUDENT S join (select * from COMPANY natural join WORKS W where COMPANY.name like '%{company}%') on S.id = student_id;"
                 rows = intersect(rows, executeQuery(query), isFirst)
 
             response["students"] = rows
@@ -161,8 +161,8 @@ class UpdateStudent(Resource):
                     con.execute(query)
 
                     query = f"""INSERT OR IGNORE INTO WORKS VALUES 
-                        ("{work["term"]}", "{work["semester"]}", "{work["year"]}", {studentId},
-                        {jobId}, {companyId})
+                        ({studentId}, {companyId}, {jobId}, '{work["term"]}',
+                        '{work["semester"]}', '{work["year"]}')
                     """
                     cursor.execute(query)
 
@@ -396,6 +396,7 @@ class Authorize(Resource):
         response = {
             "authorize": False
         }
+        print(dto)
 
         try:
             username = dto["username"]

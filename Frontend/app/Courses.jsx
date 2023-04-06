@@ -9,22 +9,38 @@ import { Link } from "expo-router";
 import React, { useState, useEffect } from "react";
 
 import Header from "../components/Header";
+import { getCourseList, saveCourseRating } from "./api";
 
-const Field = ({ label }) => {
+const Field = ({ label, state, setState }) => {
+  const click1 = () => (state === "asc" ? setState("") : setState("asc"));
+  const click2 = () => (state === "desc" ? setState("") : setState("desc"));
+
   return (
     <View style={styles.filterField}>
       <Text style={[styles.filterLabel, styles.labelWidth]}>{label}:</Text>
-      <TouchableOpacity style={styles.buttonContainer}>
+      <TouchableOpacity
+        style={[
+          styles.buttonContainer,
+          { backgroundColor: state === "asc" ? "#2222aa" : null },
+        ]}
+        onPress={click1}
+      >
         <Text style={styles.buttonText}>Ascending</Text>
       </TouchableOpacity>
-      <TouchableOpacity style={styles.buttonContainer}>
+      <TouchableOpacity
+        style={[
+          styles.buttonContainer,
+          { backgroundColor: state === "desc" ? "#2222aa" : null },
+        ]}
+        onPress={click2}
+      >
         <Text style={styles.buttonText}>Descending</Text>
       </TouchableOpacity>
     </View>
   );
 };
 
-const CourseRatingInput = ({ label }) => {
+const CourseRatingInput = ({ label, state, setState }) => {
   return (
     <View
       style={{
@@ -34,7 +50,11 @@ const CourseRatingInput = ({ label }) => {
       }}
     >
       <Text style={styles.filterLabel}>{label}:</Text>
-      <TextInput style={[styles.filterInput, styles.inputWidth]} />
+      <TextInput
+        value={state}
+        onChangeText={setState}
+        style={[styles.filterInput, styles.inputWidth]}
+      />
     </View>
   );
 };
@@ -43,12 +63,40 @@ const Courses = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [isAddingCourse, setIsAddingCourse] = useState(false);
 
+  const [data, setData] = useState([]);
+  const [sortByName, setSortByName] = useState("");
+  const [sortByLiked, setSortByLiked] = useState("");
+  const [sortByUsed, setSortByUsed] = useState("");
+
+  const [newName, setNewName] = useState("");
+  const [newLiked, setNewLiked] = useState("");
+  const [newUsed, setNewUsed] = useState("");
+
+  const refrestCourseList = () => {
+    getCourseList(sortByName, sortByLiked, sortByUsed, (response) => {
+      setData(response.data);
+    });
+  };
+
+  useEffect(() => {
+    refrestCourseList();
+  }, []);
+
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
 
   const handleAddCourse = () => {
     setIsAddingCourse(true);
+  };
+
+  const handleSave = async () => {
+    await saveCourseRating(newName, newLiked, newUsed, (response) => {
+      setNewName("");
+      setNewLiked("");
+      setNewUsed("");
+      setIsAddingCourse(false);
+    });
   };
 
   return (
@@ -68,24 +116,39 @@ const Courses = () => {
             </TouchableOpacity>
             {isOpen ? (
               <View>
-                <Field label="Course name" />
-                <Field label="Liked rating" />
-                <Field label="Used rating" />
+                <Field
+                  label="Course name"
+                  state={sortByName}
+                  setState={setSortByName}
+                />
+                <Field
+                  label="Liked rating"
+                  state={sortByLiked}
+                  setState={setSortByLiked}
+                />
+                <Field
+                  label="Used rating"
+                  state={sortByUsed}
+                  setState={setSortByUsed}
+                />
+                <TouchableOpacity
+                  style={{
+                    alignSelf: "center",
+                    paddingVertical: 10,
+                    marginBottom: 15,
+                    paddingHorizontal: 40,
+                    borderRadius: 5,
+                    borderWidth: 1,
+                    borderColor: "white",
+                  }}
+                  onPress={async () => {
+                    await refrestCourseList();
+                  }}
+                >
+                  <Text style={{ color: "white" }}>SORT</Text>
+                </TouchableOpacity>
               </View>
             ) : null}
-          </View>
-          <View style={styles.searchButtonContainer}>
-            <TouchableOpacity style={styles.searchButton}>
-              <Text style={styles.buttonText}>Find most liked course</Text>
-            </TouchableOpacity>
-            <TouchableOpacity style={styles.searchButton}>
-              <Text style={styles.buttonText}>Find most useful course</Text>
-            </TouchableOpacity>
-            <TouchableOpacity style={styles.searchButton}>
-              <Text style={styles.buttonText}>
-                Find most liked and useful course
-              </Text>
-            </TouchableOpacity>
           </View>
           <TouchableOpacity
             style={styles.searchButton}
@@ -95,24 +158,43 @@ const Courses = () => {
           </TouchableOpacity>
           {isAddingCourse ? (
             <View style={styles.addCourseContainer}>
-              <CourseRatingInput label="Course name" />
-              <CourseRatingInput label="Liked Rating" />
-              <CourseRatingInput label="Useful Rating" />
-              <TouchableOpacity
-                style={styles.saveButton}
-                onPress={() => setIsAddingCourse(false)}
-              >
+              <CourseRatingInput
+                label="Course name"
+                state={newName}
+                setState={setNewName}
+              />
+              <CourseRatingInput
+                label="Liked Rating"
+                state={newLiked}
+                setState={setNewLiked}
+              />
+              <CourseRatingInput
+                label="Useful Rating"
+                state={newUsed}
+                setState={setNewUsed}
+              />
+              <TouchableOpacity style={styles.saveButton} onPress={handleSave}>
                 <Text style={styles.buttonText}>Save</Text>
               </TouchableOpacity>
             </View>
           ) : null}
-          <View style={styles.textContainer}>
-            <Text style={styles.nameText}>CS246</Text>
-            <View style={styles.ratingContainer}>
-              <Text style={styles.nameText}>Liked Rating: 4</Text>
-              <Text style={styles.nameText}>Useful Rating: 5</Text>
-            </View>
-          </View>
+          {data &&
+            data.map((course) => {
+              //console.log(course);
+              return (
+                <View style={styles.textContainer}>
+                  <Text style={styles.nameText}>{course.courseId}</Text>
+                  {/* <View style={styles.ratingContainer}>
+                  <Text style={styles.nameText}>
+                    {"Liked Rating: " + course.liked}
+                  </Text>
+                  <Text style={styles.nameText}>
+                    {"Useful Rating: " + course.useful}
+                  </Text>
+                </View> */}
+                </View>
+              );
+            })}
         </View>
       </View>
     </View>
@@ -129,7 +211,7 @@ const styles = StyleSheet.create({
   },
   headerContainer: {
     width: "100%",
-    height: "10%",
+    paddingBottom: 10,
   },
   body: {
     width: "100%",

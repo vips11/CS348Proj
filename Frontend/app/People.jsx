@@ -1,58 +1,51 @@
 import { StyleSheet, Text, View, TouchableOpacity } from "react-native";
-import { Link, useRouter } from "expo-router";
+import { Link, useRouter, useSearchParams } from "expo-router";
+import { useEffect, useState } from "react";
 
 import Header from "../components/Header";
 import DropDownMenu from "../components/DropDownMenu";
 import ProfilesListItem from "../components/ProfileListItem";
-import allPeople from "./data";
-import { useEffect, useState } from "react";
 import { ScrollView } from "react-native-gesture-handler";
 
+import { getStudents } from "./api";
+
 const Page = () => {
-  const [data, setData] = useState([]);
-
   const router = useRouter();
-  const handleProfileClick = (index) => {
-    router.push("ViewOtherProfile?index=" + index);
-  };
 
-  const getTermInfo = (index) => {
-    if (allPeople[index].currentTerm.startsWith("Coop") === false) {
-      return allPeople[index].currentTerm + " " + allPeople[index].program;
-    }
-    var temp = null;
-    for (var i = 0; i < allPeople[index].timeLine.length; i++) {
-      if (allPeople[index].timeLine[i].term === allPeople[index].currentTerm) {
-        temp = allPeople[index].timeLine[i];
-        break;
-      }
-    }
-    if (temp == null) {
-      temp = {
-        type: "work",
-        term: "Coop 1",
-        termDescription: "Testing and QA @ XYZ Inc.",
-        startDate: "May 2021",
-        endDate: "Aug 2021",
-      };
-    }
-    return temp.termDescription;
-  };
+  const [data, setData] = useState([
+    {
+      firstName: "fn1",
+      lastName: "ln1",
+      termInfo: "termInfo1",
+      key: "__key1__",
+    },
+    {
+      firstName: "fn2",
+      lastName: "ln2",
+      termInfo: "termInfo2",
+      key: "__key2__",
+    },
+    {
+      firstName: "fn3",
+      lastName: "ln3",
+      termInfo: "termInfo3",
+      key: "__key3__",
+    },
+  ]);
 
   useEffect(() => {
-    const t = [];
-    console.log(allPeople);
-    allPeople.map((person, index) =>
-      t.push({
-        key: person.email,
-        firstName: person.firstName,
-        lastName: person.lastName,
-        termInfo: getTermInfo(index),
-      })
-    );
-    console.log(data);
-    setData(t);
+    getStudents("", "", "", "", "", (response) => {
+      setData(response.data.students);
+    });
   }, []);
+
+  const handleProfileClick = (index) => {
+    const params = new URLSearchParams({
+      key: data[index].key,
+    });
+
+    router.push(`/ViewOtherProfile?${params.toString()}`);
+  };
 
   return (
     <View style={styles.container}>
@@ -62,20 +55,21 @@ const Page = () => {
 
       <ScrollView style={styles.body}>
         <View style={styles.contentBody}>
-          <DropDownMenu />
-          {data.map((person, index) => (
-            <TouchableOpacity
-              onPress={() => {
-                handleProfileClick(index);
-              }}
-            >
-              <ProfilesListItem
-                FirstName={person.firstName}
-                LastName={person.lastName}
-                TermInfo={person.termInfo}
-              />
-            </TouchableOpacity>
-          ))}
+          <DropDownMenu data={data} setData={setData} />
+          {data &&
+            data.map((person, index) => (
+              <TouchableOpacity
+                onPress={() => {
+                  handleProfileClick(index);
+                }}
+              >
+                <ProfilesListItem
+                  FirstName={person.firstName}
+                  LastName={person.lastName}
+                  TermInfo={person.termInfo}
+                />
+              </TouchableOpacity>
+            ))}
         </View>
       </ScrollView>
     </View>
@@ -92,7 +86,8 @@ const styles = StyleSheet.create({
   },
   headerContainer: {
     width: "100%",
-    height: "10%",
+    paddingVertical: 10,
+    // height: "10%",
   },
   body: {
     width: "100%",

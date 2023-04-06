@@ -16,7 +16,13 @@ const SearchBar = () => {
         placeholderTextColor="gray"
         value={text}
         onChangeText={(value) => setText(value)}
-        onSubmitEditing={() => router.push("/SearchResults")}
+        onSubmitEditing={() => {
+          const params = new URLSearchParams({
+            search: text,
+          });
+
+          router.push(`/SearchResults?${params.toString()}`);
+        }}
       />
     </View>
   );

@@ -7,10 +7,9 @@ import {
   TouchableOpacity,
 } from "react-native";
 import { Link, useRouter } from "expo-router";
-import AsyncStorage from "@react-native-async-storage/async-storage";
-import axios from "axios";
 
 import { verifyLogin } from "./api";
+import { saveUserEmail } from "./asyncStore";
 
 const LoginScreen = () => {
   const router = useRouter();
@@ -19,15 +18,10 @@ const LoginScreen = () => {
   const [password, setPassword] = useState("");
   const [errorMsg, setErrorMsg] = useState("");
 
-  const handleLogin = () => {
-    const credentials = {
-      username: username,
-      password: password,
-    };
-
-    verifyLogin(credentials, (res) => {
-      console.log(res);
-      if (res.data.authorize == true) {
+  const handleLogin = async () => {
+    verifyLogin(username, password, async (response) => {
+      if (response.data.authorize) {
+        saveUserEmail(username);
         setErrorMsg("");
         router.push("/Home");
       } else {
