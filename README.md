@@ -25,13 +25,13 @@ Users will be able to make profiles and include details such as their program, a
 NOTE: The production database is loaded the same way. We just added additional queries for the new tables.
 
 ## Running the application
-The frontend is written in React. The commands to run the program are given below: <br><br>
-` cd frontend && npm install
-  npm start ` <br> <br>
-The first line is to get to the directory with the code for the application. <br>
-The second line is to run the application.
+The frontend is written in React. To run the front end, run the following: <br>
+cd Frontend <br>
+npm start <br> 
+npm install
 
-The backend is written in python. To run the backend cd into the Backend directory and run the following: <br>
+The backend is written in python. To run the backend, run the following: <br>
+cd Backend <br>
 pip3 install flask <br>
 pip3 install flask_restful <br>
 pip3 install flask_cors <br>
