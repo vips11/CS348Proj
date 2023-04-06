@@ -1,11 +1,14 @@
 import React from "react";
 import { StyleSheet, View, Text, TouchableOpacity } from "react-native";
+import { Link, useRouter } from "expo-router";
 
 import Header from "../components/Header";
 
 const Settings = () => {
+  const router = useRouter();
   const handleLogout = () => {
-    // Handle logout logic here
+    localStorage.removeItem("userEmail");
+    router.push("/Login");
   };
 
   const handleDeleteAccount = () => {

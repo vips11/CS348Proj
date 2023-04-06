@@ -19,19 +19,16 @@ const LoginScreen = () => {
   const [errorMsg, setErrorMsg] = useState("");
 
   const handleLogin = async () => {
-    console.log("Printing");
-    const loginResult = await verifyLogin(username, password);
-
-    if (loginResult) {
-      await saveUserEmail(username);
-      setErrorMsg("");
-      router.push("/Home");
-    } else {
-      setErrorMsg("Username or Password Incorrect");
-    }
+    verifyLogin(username, password, async (response) => {
+      if (response.data.authorize) {
+        saveUserEmail(username);
+        setErrorMsg("");
+        router.push("/Home");
+      } else {
+        setErrorMsg("Username or Password Incorrect");
+      }
+    });
   };
-
-  console.log("Printing");
 
   return (
     <View style={styles.container}>

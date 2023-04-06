@@ -33,9 +33,10 @@ const Page = () => {
     },
   ]);
 
-  useEffect(async () => {
-    const result = await getStudents("", "", "", "", "", "");
-    setData(result);
+  useEffect(() => {
+    getStudents("", "", "", "", "", (response) => {
+      setData(response.data.students);
+    });
   }, []);
 
   const handleProfileClick = (index) => {
@@ -85,7 +86,8 @@ const styles = StyleSheet.create({
   },
   headerContainer: {
     width: "100%",
-    height: "10%",
+    paddingVertical: 10,
+    // height: "10%",
   },
   body: {
     width: "100%",

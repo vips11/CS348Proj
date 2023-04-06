@@ -4,15 +4,18 @@ import { useRouter, useSearchParams } from "expo-router";
 
 import Header from "../components/Header";
 import Post from "../components/Post";
-import { useState } from "react";
+import { useState, useEffect } from "react";
+
+import { getSpaceInfo } from "./api";
 
 const ViewSpace = () => {
-  const { spaceID } = useSearchParams();
+  const { key } = useSearchParams();
   const [data, setData] = useState(null);
 
-  useEffect(async () => {
-    const result = await getSpaceInfo(spaceID);
-    setData(result);
+  useEffect(() => {
+    getSpaceInfo(key, (response) => {
+      setData(response.data);
+    });
   }, []);
 
   return (

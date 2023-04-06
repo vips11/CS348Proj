@@ -14,19 +14,27 @@ const FindGroup = () => {
   const [currentMentor, setCurrentMentor] = useState(null);
   const [studyGroup, setStudyGroup] = useState([]);
 
-  useEffect(async () => {
-    const res = await getUserEmail();
+  useEffect(() => {
+    const res = getUserEmail();
     setKey(res);
   }, []);
 
   const handleFindMentor = async () => {
-    const result = await findMentor(key);
-    setCurrentMentor(result);
+    await findMentor(key, (response) => {
+      if (response.data.length > 0) {
+        setCurrentMentor(
+          response.data[Math.floor(Math.random() * response.data.length)]
+        );
+      } else {
+        setCurrentMentor(null);
+      }
+    });
   };
 
   const handleFindStudyGroup = async () => {
-    const result = await findStudyGroup(key);
-    setStudyGroup(result);
+    await findStudyGroup(key, (response) => {
+      setStudyGroup(response.data.students);
+    });
   };
 
   const handleCurrentMentorClick = () => {

@@ -18,9 +18,11 @@ const ViewOtherProfile = () => {
   const { key } = useSearchParams();
   const [data, setData] = useState(null);
 
-  useEffect(async () => {
-    const result = await getStudentProfile(key);
-    setData(result);
+  useEffect(() => {
+    getStudentProfile(key, (response) => {
+      console.log(response.data);
+      setData(response.data);
+    });
   }, []);
 
   return (
@@ -46,7 +48,7 @@ const ViewOtherProfile = () => {
               </Text>
               <Text style={styles.subtitle}>{data.description}</Text>
 
-              <TimeLine data={data.timeLine} />
+              <TimeLine data={data.timeline} />
 
               <View style={styles.linksContainer}>
                 {data.links.map((linkInfo, index) => (

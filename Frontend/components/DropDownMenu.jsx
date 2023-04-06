@@ -35,16 +35,16 @@ const DropDownMenu = ({ data, setData }) => {
   };
 
   const applyFilters = async () => {
-    const result = await getStudents(
+    await getStudents(
       firstName,
       lastName,
       program,
       term,
       companies,
-      courses
+      (response) => {
+        setData(response.data.students);
+      }
     );
-
-    setData(result);
     setIsOpen(false);
   };
 

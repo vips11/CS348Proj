@@ -396,6 +396,7 @@ class Authorize(Resource):
         response = {
             "authorize": False
         }
+        print(dto)
 
         try:
             username = dto["username"]

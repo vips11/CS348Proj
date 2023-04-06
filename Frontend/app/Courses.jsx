@@ -13,7 +13,7 @@ import { getCourseList, saveCourseRating } from "./api";
 
 const Field = ({ label, state, setState }) => {
   const click1 = () => (state === "asc" ? setState("") : setState("asc"));
-  const click2 = () => (state === "des" ? setState("") : setState("des"));
+  const click2 = () => (state === "desc" ? setState("") : setState("desc"));
 
   return (
     <View style={styles.filterField}>
@@ -30,7 +30,7 @@ const Field = ({ label, state, setState }) => {
       <TouchableOpacity
         style={[
           styles.buttonContainer,
-          { backgroundColor: state === "des" ? "#2222aa" : null },
+          { backgroundColor: state === "desc" ? "#2222aa" : null },
         ]}
         onPress={click2}
       >
@@ -72,13 +72,14 @@ const Courses = () => {
   const [newLiked, setNewLiked] = useState("");
   const [newUsed, setNewUsed] = useState("");
 
-  const refrestCourseList = async () => {
-    const res = await getCourseList(sortByName, sortByLiked, sortByUsed);
-    setData(res);
+  const refrestCourseList = () => {
+    getCourseList(sortByName, sortByLiked, sortByUsed, (response) => {
+      setData(response.data);
+    });
   };
 
-  useEffect(async () => {
-    await refrestCourseList();
+  useEffect(() => {
+    refrestCourseList();
   }, []);
 
   const toggleMenu = () => {
@@ -90,10 +91,12 @@ const Courses = () => {
   };
 
   const handleSave = async () => {
-    //console.log({ newName, newLiked, newUsed });
-    const result = await saveCourseRating(newName, newLiked, newUsed);
-    console.log("COURSE UPLOAD RESULT: " + result);
-    setIsAddingCourse(false);
+    await saveCourseRating(newName, newLiked, newUsed, (response) => {
+      setNewName("");
+      setNewLiked("");
+      setNewUsed("");
+      setIsAddingCourse(false);
+    });
   };
 
   return (
@@ -142,7 +145,7 @@ const Courses = () => {
                     await refrestCourseList();
                   }}
                 >
-                  <Text style={{ color: "white" }}>APPLY FILTER</Text>
+                  <Text style={{ color: "white" }}>SORT</Text>
                 </TouchableOpacity>
               </View>
             ) : null}
@@ -177,17 +180,20 @@ const Courses = () => {
           ) : null}
           {data &&
             data.map((course) => {
-              <View style={styles.textContainer}>
-                <Text style={styles.nameText}>{course.name}</Text>
-                <View style={styles.ratingContainer}>
+              //console.log(course);
+              return (
+                <View style={styles.textContainer}>
+                  <Text style={styles.nameText}>{course.courseId}</Text>
+                  {/* <View style={styles.ratingContainer}>
                   <Text style={styles.nameText}>
                     {"Liked Rating: " + course.liked}
                   </Text>
                   <Text style={styles.nameText}>
                     {"Useful Rating: " + course.useful}
                   </Text>
+                </View> */}
                 </View>
-              </View>;
+              );
             })}
         </View>
       </View>

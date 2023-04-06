@@ -19,9 +19,10 @@ const Spaces = () => {
 
   const [data, setData] = useState([]);
 
-  useEffect(async () => {
-    const result = await getSpaces("");
-    setData(result);
+  useEffect(() => {
+    getSpaces("", (response) => {
+      setData(response.data);
+    });
   }, []);
 
   const handleClickOnSpace = (index) => {

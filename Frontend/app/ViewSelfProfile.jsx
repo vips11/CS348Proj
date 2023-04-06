@@ -19,10 +19,12 @@ const ViewSelfProfile = () => {
   const router = useRouter();
   const [data, setData] = useState(null);
 
-  useEffect(async () => {
-    const key = getUserEmail();
-    const result = await getStudentProfile(key);
-    setData(result);
+  useEffect(() => {
+    console.log(localStorage.getItem("userEmail"));
+    getStudentProfile(localStorage.getItem("userEmail"), (response) => {
+      console.log(response);
+      setData(response.data);
+    });
   }, []);
 
   return (
@@ -47,7 +49,7 @@ const ViewSelfProfile = () => {
             </Text>
             <Text style={styles.subtitle}>{data && data.description}</Text>
 
-            <TimeLine data={data.timeLine} />
+            {data && <TimeLine data={data.timeline} />}
 
             <View style={styles.linksContainer}>
               {data &&
@@ -62,7 +64,18 @@ const ViewSelfProfile = () => {
             </View>
             <TouchableOpacity
               style={{ marginVertical: 20 }}
-              onPress={() => router.push("EditProfile")}
+              onPress={() => {
+                const params = new URLSearchParams({
+                  key: localStorage.getItem("userEmail"),
+                  firstName: data.firstName,
+                  lastName: data.lastName,
+                  program: data.program,
+                  description: data.description,
+                  term: data.currentTerm,
+                });
+
+                router.push(`/EditProfile?${params.toString()}`);
+              }}
             >
               <Text style={{ color: "white" }}>EDIT PROFILE</Text>
             </TouchableOpacity>
