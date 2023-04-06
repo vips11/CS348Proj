@@ -1,5 +1,7 @@
 from flask import Flask
 from flask_restful import Api
+from flask_cors import CORS
+
 import loadDatabase
 from Students import *
 from Spaces import *
@@ -7,6 +9,8 @@ from Company import *
 from Courses import *
 
 app = Flask(__name__)
+CORS(app)
+
 api = Api(app)
 
 
