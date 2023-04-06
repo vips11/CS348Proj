@@ -79,7 +79,7 @@ class GetStudents(Resource):
                 rows = intersect(rows, executeQuery(query), isFirst)
                 isFirst = False
             if company != "":
-                query = f"select * from STUDENT, COMPANY natural join WORKS where COMPANY.name like '%{company}%';"
+                query = f"select * from STUDENT S join (select * from COMPANY natural join WORKS W where COMPANY.name like '%{company}%') on S.id = student_id;"
                 rows = intersect(rows, executeQuery(query), isFirst)
 
             response["students"] = rows
